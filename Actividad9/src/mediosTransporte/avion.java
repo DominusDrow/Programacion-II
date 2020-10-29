@@ -35,7 +35,7 @@ public class avion extends transporte_aereo implements Comunicacion {
     
 
     public String comunicaTorreControl() {
-    	return"Heathrow Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
+    	return"Heathrow .Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
     }
 
     public String msgHumano() {
