@@ -2,13 +2,15 @@ package mediosTransporte;
 
 public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 
-    private boolean Caniones;
+	private boolean Caniones;
 	private boolean Escudos;
-	
-	
-	private naveEspacial() {
-    }
 
+	
+	public naveEspacial(int propulsores) {
+		super(propulsores);
+
+	}
+	
     public void maneobrar() {
 
     }

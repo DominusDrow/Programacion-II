@@ -21,5 +21,13 @@ class mensajes_excepciones{
 		}
 	}
 	
-	
+	public void validar_cargar(boolean en_tierra) throws Excepcion_personalizada{
+		
+		if(en_tierra) {
+			
+			throw new Excepcion_personalizada("La nave no puede cargarse mientras no este en tierra");
+		}
+		
+	}
+
 }

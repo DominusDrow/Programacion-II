@@ -7,11 +7,11 @@ public abstract class Medios_Transporte {
     private int kilometraje;
     private int combustible;
     
-    public Medios_Transporte() {
+    public Medios_Transporte(int combustible) {
     	
     	modelo="";
-    	capacidad_pasajeros=0;
-    	combustible=0;
+    	capacidad_pasajeros=-1;
+    	this.combustible=combustible;
     	kilometraje=0;
     }
     
@@ -23,7 +23,6 @@ public abstract class Medios_Transporte {
     	
     }
 
-    
     public void setModelo(String mod) {
     	modelo=mod;
     }
@@ -31,6 +30,7 @@ public abstract class Medios_Transporte {
     public String getModelo() {
     	return modelo;
     }
+    
     public void setCapacidad(int capas) {
     	capacidad_pasajeros=capas;
     }
@@ -53,11 +53,21 @@ public abstract class Medios_Transporte {
     public int getCombustible() {
     	return combustible;
     }
+    
+    public void uso_gas(int gasto) {
+    	combustible-=gasto;
+    }
+    
+    public void uso_kilometraje(int recorrido) {
+    	kilometraje+=recorrido;
+    }
 
-    public abstract String cMueve();
+    public abstract String Despegar();
     
     public abstract String info();
     
-    public abstract String cDetiene();
+    public abstract String Aterrizar();
 
 }
+
+
