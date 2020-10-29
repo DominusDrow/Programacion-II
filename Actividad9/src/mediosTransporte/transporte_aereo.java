@@ -2,23 +2,29 @@ package mediosTransporte;
 
 public class transporte_aereo extends Medios_Transporte {
 
-    public transporte_aereo() {
+    private int alas;
+    private int alerones;
+    
+    public transporte_aereo(String modelo,int capacidad,int kilometraje,int combustible) {
+    	super(modelo,capacidad,kilometraje,combustible);
     }
-
-    //private void alas;
-
-    //private void alerones;
-
+    
+    public transporte_aereo(String modelo,int capacidad,int kilometraje,int combustible,int alas, int alerones) {
+    	super(modelo,capacidad,kilometraje,combustible);
+    	this.alas=alas;
+    	this.alerones=alerones;
+    }
+    
     public String ascender() {
-    	return "";
+    	return "Ascendiendo";
     }
 
     public String descender() {
-    	return "";
+    	return "Descendiendo";
     }
 
     public String aterrizar() {
-        return "";
+        return "Aterrizando, ojo cuidado";
     }
 
     public  void cMueve() {
@@ -29,7 +35,5 @@ public class transporte_aereo extends Medios_Transporte {
     	return "";
     }
 
-    public enum Enumeration1 {
-    }
 
 }

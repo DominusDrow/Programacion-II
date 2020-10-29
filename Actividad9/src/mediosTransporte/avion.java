@@ -7,7 +7,12 @@ public class avion extends transporte_aereo implements Comunicacion {
     private int numVuelo;
     private String aerolinea;
 
-    public avion(String aero, int numVuelo) {
+    public avion(String modelo,int capacidad,int kilometraje,int combustible) {
+    	super(modelo,capacidad,kilometraje,combustible);
+    }
+    
+    public avion(String modelo,int capacidad,int kilometraje,int combustible,String aero, int numVuelo) {
+    	super(modelo,capacidad,kilometraje,combustible);
     	this.aerolinea=aero;
     	this.numVuelo=numVuelo;
     }
@@ -30,7 +35,6 @@ public class avion extends transporte_aereo implements Comunicacion {
     
 
     public String comunicaTorreControl() {
-      
     	return"Heathrow Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
     }
 
