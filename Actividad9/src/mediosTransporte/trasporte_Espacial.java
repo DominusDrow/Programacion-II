@@ -16,7 +16,7 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     public abstract void Orbitando();
 
 
-    public abstract void cMueve();
+    public abstract String cMueve();
 
   
     public abstract String info();

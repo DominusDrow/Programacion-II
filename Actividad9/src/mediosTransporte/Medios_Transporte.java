@@ -18,8 +18,38 @@ public abstract class Medios_Transporte {
     	this.kilometraje=kilometraje;
     	this.combustible=combustible;
     }
+    
+    public void setModelo(String mod) {
+    	modelo=mod;
+    }
+    
+    public String getModelo() {
+    	return modelo;
+    }
+    public void setCapacidad(int capas) {
+    	capacidad=capas;
+    }
+    
+    public int getCapacidad() {
+    	return capacidad;
+    }
+    public void setKilometraje(int kil) {
+    	kilometraje=kil;
+    }
+    
+    public int getKilometraje() {
+    	return kilometraje;
+    }
 
-    public abstract void cMueve();
+    public void setCombustible(int com) {
+    	combustible=com;
+    }
+    
+    public int getCombustible() {
+    	return combustible;
+    }
+
+    public abstract String cMueve();
     
     public abstract String info();
 

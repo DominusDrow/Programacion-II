@@ -43,11 +43,12 @@ public class avion extends transporte_aereo implements Comunicacion {
     	return "Hola, soy tu avion, a donde quieres ir";
     }
 
+    public String cMueve() {
+    	return "El vuelo "+numVuelo+" de "+aerolinea+" se esta moviendo.";
+    }
 
-	
-	public void cMueve() {
-		
-		
-	}
+    public String info() {
+    	return "El avion "+getModelo()+" pertenece a la aerolinea"+aerolinea;
+    }
 
 }

@@ -1,6 +1,6 @@
 package mediosTransporte;
 
-public class transporte_aereo extends Medios_Transporte {
+public abstract class transporte_aereo extends Medios_Transporte {
 
     private int alas;
     private int alerones;
@@ -27,13 +27,8 @@ public class transporte_aereo extends Medios_Transporte {
         return "Aterrizando, ojo cuidado";
     }
 
-    public  void cMueve() {
-    	
-    }
+	public abstract String cMueve();
 
-    public String info() {
-    	return "";
-    }
-
+	public abstract String info();
 
 }
