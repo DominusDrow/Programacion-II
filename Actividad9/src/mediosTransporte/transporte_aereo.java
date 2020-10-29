@@ -4,7 +4,7 @@ public abstract class transporte_aereo extends Medios_Transporte {
 
     private int alas;
     private int alerones;
-    
+    /*
     public transporte_aereo(String modelo,int capacidad,int kilometraje,int combustible) {
     	super(modelo,capacidad,kilometraje,combustible);
     }
@@ -14,7 +14,7 @@ public abstract class transporte_aereo extends Medios_Transporte {
     	this.alas=alas;
     	this.alerones=alerones;
     }
-    
+    */
     public String ascender() {
     	return "Ascendiendo";
     }

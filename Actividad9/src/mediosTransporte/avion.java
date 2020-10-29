@@ -6,7 +6,7 @@ public class avion extends transporte_aereo implements Comunicacion {
 
     private int numVuelo;
     private String aerolinea;
-
+    /*
     public avion(String modelo,int capacidad,int kilometraje,int combustible) {
     	super(modelo,capacidad,kilometraje,combustible);
     }
@@ -16,7 +16,7 @@ public class avion extends transporte_aereo implements Comunicacion {
     	this.aerolinea=aero;
     	this.numVuelo=numVuelo;
     }
-
+	*/
     public void setNumvuelo(int num) {
     	numVuelo=num;
     }
@@ -50,5 +50,11 @@ public class avion extends transporte_aereo implements Comunicacion {
     public String info() {
     	return "El avion "+getModelo()+" pertenece a la aerolinea"+aerolinea;
     }
+
+	@Override
+	public String cDetiene() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

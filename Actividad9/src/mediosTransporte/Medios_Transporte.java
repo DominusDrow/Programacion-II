@@ -4,8 +4,8 @@ public abstract class Medios_Transporte {
   
     private String modelo;
     private int capacidad_pasajeros;
-    protected int kilometraje;
-    protected int combustible;
+    private int kilometraje;
+    private int combustible;
     
     public Medios_Transporte() {
     	
@@ -15,19 +15,14 @@ public abstract class Medios_Transporte {
     	kilometraje=0;
     }
     
-    public Medios_Transporte(String modelo,int capacidad) {
+    public Medios_Transporte(String modelo,int capacidad, int combustible) {
     	this.modelo=modelo;
     	this.capacidad_pasajeros=capacidad;
-    	combustible=0;
-    	kilometraje=0;
-    }
-    
-    public Medios_Transporte(String modelo,int capacidad,int kilometraje,int combustible) {
-    	this.modelo=modelo;
-    	this.capacidad_pasajeros=capacidad;
-    	this.kilometraje=kilometraje;
     	this.combustible=combustible;
+    	kilometraje=0;
+    	
     }
+
     
     public void setModelo(String mod) {
     	modelo=mod;

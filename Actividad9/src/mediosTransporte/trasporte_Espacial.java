@@ -1,35 +1,67 @@
 package mediosTransporte;
 
-public abstract class trasporte_Espacial extends Medios_Transporte {
+public class trasporte_Espacial extends Medios_Transporte {
 
 	private int NumPropulsores;
-    private boolean SaltoInterestelar;
+	private String Orbitando;
+    private boolean Orbita;
 
     public trasporte_Espacial() {
-    	super();
+    	
     }
     
-    public trasporte_Espacial(int propulsores, boolean salto) {
+    public trasporte_Espacial(int propulsores) {
     	super();
     	NumPropulsores=propulsores;
-    	SaltoInterestelar=salto;
+    	super.setCombustible(1000);
     }
     
-    public trasporte_Espacial(String modelo,int capacidad,int propulsores, boolean salto ) {
-    	super(modelo,capacidad);
+    public trasporte_Espacial(String modelo,int capacidad,int com,int propulsores) {
+    	super(modelo,capacidad,com);
     	NumPropulsores=propulsores;
-    	SaltoInterestelar=salto;
     }
     
-
+    public String getPropulsores() {
+    	
+    	return NumPropulsores+"";
+    }
+    
     public String Despegar() {
-       return "";
+    	
+    	if(Orbita) {
+    		
+    		return "La nave ya despejo y esta orbitando";
+    	}else {
+    		
+    		return "La nave despejo con exito";
+    	}
+    
     }
 
-    public abstract void Orbitando();
+    public void Orbitando() {
+    	
+    	
+    }
     
-    public abstract String cMueve();
+    public String cMueve() {
+    	
+    	if(NumPropulsores>1) {
+    		
+    		return "la nave se movio";
+    		
+    	}else {
+    		return "No se cuenta cn los suficientes propulsores";
+    	}
+    	
+    }
 
-    public abstract String info();
+    public String info() {
+    	return "";
+    }
+
+	public String cDetiene() {
+
+		return null;
+	}
 
 }
