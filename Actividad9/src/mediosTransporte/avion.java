@@ -6,7 +6,6 @@ public class avion extends transporte_aereo implements Comunicacion {
 
     private int motores;
     private int azafatas;
-    private int combustible;
 
     public avion() {
     }

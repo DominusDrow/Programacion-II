@@ -10,6 +10,7 @@ public abstract class Medios_Transporte {
     private String modelo;
     private int capacidad;
     protected int kilometraje;
+    protected int combustible;
 
     public abstract void cMueve();
     
