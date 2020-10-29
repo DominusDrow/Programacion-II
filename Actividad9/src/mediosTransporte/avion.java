@@ -1,6 +1,5 @@
 package mediosTransporte;
 
-import java.util.*;
 
 public class avion extends transporte_aereo implements Comunicacion {
 
@@ -35,7 +34,7 @@ public class avion extends transporte_aereo implements Comunicacion {
     
 
     public String comunicaTorreControl() {
-    	return"Heathrow .Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
+    	return"Heathrow Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
     }
 
     public String msgHumano() {
@@ -51,7 +50,6 @@ public class avion extends transporte_aereo implements Comunicacion {
     	return "El avion "+getModelo()+" pertenece a la aerolinea "+aerolinea;
     }
 
-	@Override
 	public String cDetiene() {
 		return "El vuelo "+numVuelo+" de la aerolinea "+aerolinea+" se está deteniendo";
 	}
