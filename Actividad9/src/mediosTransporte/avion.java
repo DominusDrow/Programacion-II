@@ -6,17 +6,17 @@ public class avion extends transporte_aereo implements Comunicacion {
 
     private int numVuelo;
     private String aerolinea;
-    /*
-    public avion(String modelo,int capacidad,int kilometraje,int combustible) {
-    	super(modelo,capacidad,kilometraje,combustible);
+  
+    public avion(String modelo,int capacidad,int combustible) {
+    	super(modelo,capacidad,combustible);
     }
     
-    public avion(String modelo,int capacidad,int kilometraje,int combustible,String aero, int numVuelo) {
-    	super(modelo,capacidad,kilometraje,combustible);
+    public avion(String modelo,int capacidad,int combustible,String aero, int numVuelo) {
+    	super(modelo,capacidad,combustible);
     	this.aerolinea=aero;
     	this.numVuelo=numVuelo;
     }
-	*/
+    
     public void setNumvuelo(int num) {
     	numVuelo=num;
     }
@@ -48,13 +48,12 @@ public class avion extends transporte_aereo implements Comunicacion {
     }
 
     public String info() {
-    	return "El avion "+getModelo()+" pertenece a la aerolinea"+aerolinea;
+    	return "El avion "+getModelo()+" pertenece a la aerolinea "+aerolinea;
     }
 
 	@Override
 	public String cDetiene() {
-		// TODO Auto-generated method stub
-		return null;
+		return "El vuelo "+numVuelo+" de la aerolinea "+aerolinea+" se está deteniendo";
 	}
 
 }
