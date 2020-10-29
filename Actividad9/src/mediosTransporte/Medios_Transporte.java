@@ -1,20 +1,30 @@
 package mediosTransporte;
 
 public abstract class Medios_Transporte {
-
-
-    public Medios_Transporte() {
-    }
-
   
     private String modelo;
-    private int capacidad;
+    private int capacidad_pasajeros;
     protected int kilometraje;
     protected int combustible;
     
+    public Medios_Transporte() {
+    	
+    	modelo="";
+    	capacidad_pasajeros=0;
+    	combustible=0;
+    	kilometraje=0;
+    }
+    
+    public Medios_Transporte(String modelo,int capacidad) {
+    	this.modelo=modelo;
+    	this.capacidad_pasajeros=capacidad;
+    	combustible=0;
+    	kilometraje=0;
+    }
+    
     public Medios_Transporte(String modelo,int capacidad,int kilometraje,int combustible) {
     	this.modelo=modelo;
-    	this.capacidad=capacidad;
+    	this.capacidad_pasajeros=capacidad;
     	this.kilometraje=kilometraje;
     	this.combustible=combustible;
     }
@@ -27,11 +37,11 @@ public abstract class Medios_Transporte {
     	return modelo;
     }
     public void setCapacidad(int capas) {
-    	capacidad=capas;
+    	capacidad_pasajeros=capas;
     }
     
     public int getCapacidad() {
-    	return capacidad;
+    	return capacidad_pasajeros;
     }
     public void setKilometraje(int kil) {
     	kilometraje=kil;
@@ -52,5 +62,7 @@ public abstract class Medios_Transporte {
     public abstract String cMueve();
     
     public abstract String info();
+    
+    public abstract String cDetiene();
 
 }

@@ -21,12 +21,18 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
         return "";
     }
 
-	public void cMueve() {
-		
-	}
 
 	public String info() {
 		return "";
+	}
+
+	public String cMueve() {
+		return "";
+	}
+
+	public String cDetiene() {
+		
+		return null;
 	}
 
 }
