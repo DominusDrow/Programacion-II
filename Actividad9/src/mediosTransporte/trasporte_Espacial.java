@@ -1,45 +1,24 @@
 package mediosTransporte;
 
-import java.util.*;
-
 public abstract class trasporte_Espacial extends Medios_Transporte {
 
-    /**
-     * Default constructor
-     */
+
     public trasporte_Espacial() {
     }
 
-    /**
-     * 
-     */
-    private void int NumPropulsores;
+    private int NumPropulsores;
+    private boolean SaltoInterestelar;
 
-    /**
-     * 
-     */
-    private void boolean SaltoInterestelar;
-
-    /**
-     * 
-     */
-    public void String Despegar() {
-        // TODO implement here
+    public String Despegar() {
+       return "";
     }
 
-    /**
-     * 
-     */
     public abstract void Orbitando();
 
-    /**
-     * 
-     */
+
     public abstract void cMueve();
 
-    /**
-     * 
-     */
-    public abstract void String info();
+  
+    public abstract String info();
 
 }

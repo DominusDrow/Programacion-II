@@ -1,62 +1,34 @@
 package mediosTransporte;
 
-import java.util.*;
-
-/**
- * 
- */
 public class transporte_aereo extends Medios_Transporte {
 
-    /**
-     * Default constructor
-     */
     public transporte_aereo() {
     }
 
-    /**
-     * 
-     */
-    private void alas;
+    //private void alas;
 
-    /**
-     * 
-     */
-    private void alerones;
+    //private void alerones;
 
-    /**
-     * 
-     */
-    public void String ascender() {
-        // TODO implement here
+    public String ascender() {
+    	return "";
     }
 
-    /**
-     * 
-     */
-    public void String descender() {
-        // TODO implement here
+    public String descender() {
+    	return "";
     }
 
-    /**
-     * 
-     */
-    public void String aterrizar() {
-        // TODO implement here
+    public String aterrizar() {
+        return "";
     }
 
-    /**
-     * 
-     */
-    public abstract void cMueve();
+    public  void cMueve() {
+    	
+    }
 
-    /**
-     * 
-     */
-    public abstract void String info();
+    public String info() {
+    	return "";
+    }
 
-    /**
-     * 
-     */
     public enum Enumeration1 {
     }
 
