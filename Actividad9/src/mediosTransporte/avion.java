@@ -1,44 +1,32 @@
+package mediosTransporte;
 
 import java.util.*;
 
-/**
- * 
- */
 public class avion extends transporte_aereo implements Comunicacion {
 
-    /**
-     * Default constructor
-     */
+    private int motores;
+    private int azafatas;
+    private int combustible;
+
     public avion() {
     }
 
-    /**
-     * 
-     */
-    private void int motores;
 
-    /**
-     * 
-     */
-    private void int azafatas;
-
-    /**
-     * 
-     */
-    private void int combustible;
-
-    /**
-     * 
-     */
-    public void string comunicaTorreControl() {
-        // TODO implement here
+    public String comunicaTorreControl() {
+      
+    	return"";
     }
 
-    /**
-     * 
-     */
-    public void String msgHumano() {
-        // TODO implement here
+    public String msgHumano() {
+        
+    	return "";
     }
+
+
+	
+	public void cMueve() {
+		
+		
+	}
 
 }

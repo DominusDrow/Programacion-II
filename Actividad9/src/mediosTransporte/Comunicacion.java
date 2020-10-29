@@ -1,19 +1,12 @@
+package mediosTransporte;
 
-import java.util.*;
-
-/**
- * 
- */
 public interface Comunicacion {
 
-    /**
-     * 
-     */
-    private void String msg;
+ 
+    public static final String msg = "";
 
-    /**
-     * 
-     */
-    public void String msgHumano();
+    String msgHumano();
+    
+    
 
 }

@@ -1,10 +1,11 @@
+package mediosTransporte;
 
 import java.util.*;
 
 /**
  * 
  */
-private class naveEspacial extends trasporte_Espacial implements Comunicacion {
+public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 
     /**
      * Default constructor
@@ -45,5 +46,17 @@ private class naveEspacial extends trasporte_Espacial implements Comunicacion {
     public void String msgHumano() {
         // TODO implement here
     }
+
+	@Override
+	public String msgHumano() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void cMueve() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
