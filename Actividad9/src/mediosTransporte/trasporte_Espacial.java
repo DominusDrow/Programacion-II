@@ -34,9 +34,12 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     }
     
     public String info() {
-    	return "Modelo:"+super.getModelo()+", Capacidad:"+super.getCapacidad()+"Pasajeros, Propulsores:"+NumPropulsores+
+    	
+    	String info ="Modelo:"+super.getModelo()+", Capacidad:"+super.getCapacidad()+"Pasajeros, Propulsores:"+NumPropulsores+
     			" \n"+super.getKilometraje()+"Kilometros recorridos, "+super.getCombustible()+" Unidades de combustible"+
     			" \nSe encuentra orbitando a:"+Orbitando;
+    		
+    	return info;
     }
    
     public abstract String mover();

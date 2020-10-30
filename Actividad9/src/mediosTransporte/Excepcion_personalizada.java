@@ -17,7 +17,7 @@ class mensajes_excepciones{
 		
 		if(gas<50) {
 			
-			throw new Excepcion_personalizada("La nave se quedo sin combustible");
+			throw new Excepcion_personalizada("El vehiculo se quedo sin combustible");
 		}
 	}
 	
@@ -25,7 +25,7 @@ class mensajes_excepciones{
 		
 		if(fuera) {
 			
-			throw new Excepcion_personalizada("La nave no puede cargarse mientras no este en tierra");
+			throw new Excepcion_personalizada("El vehiculo no puede cargarse mientras no este en tierra");
 		}
 		
 	}
