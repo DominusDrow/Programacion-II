@@ -15,8 +15,14 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		Escudos=true;
 	}
 	
-    public naveEspacial(String modelo,int capacidad,int combustible) {
-    	super(modelo,capacidad,combustible);
+    public naveEspacial(int capacidad,int combustible) {
+    	super("SpaceX",capacidad,CapacidadCOM);
+    }
+    
+    public naveEspacial(boolean Caniones, int capacidad ) {
+    	super("SpaceX",capacidad,CapacidadCOM);
+		this.Caniones=Caniones;
+		Escudos=true;
     }
 	
 	public naveEspacial(int propulsores, boolean Caniones) {
@@ -28,11 +34,13 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	public String Despegar() {
 	    	
 	    if(super.getOrbita()) {
+	    	
 	    		
 	    	return "La nave ya despego y esta orbitando";
 	    }else {
-	    		
+	    	super.setOrbita(true);
 	    	return super.uso_gas(GastoAT, DistanciaAT, "La nave despego con exito",CapacidadCOM);	
+	    	
 	    }
 		    	
 	}
@@ -55,7 +63,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
     		
     		return "La nave ya esta en tierra";
     	}else {
-    		
+	    	super.setOrbita(false);
     		return super.uso_gas(GastoAT, DistanciaAT, "La nave aterrizo con exito",CapacidadCOM);	
     	}
 	

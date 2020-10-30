@@ -14,6 +14,7 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     	Orbita=false;
     }
     
+    
     public trasporte_Espacial(String modelo,int capacidad,int combustible) {
     	super(modelo,capacidad,combustible);
 
@@ -23,6 +24,10 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     	super(modelo,capacidad,com);
     	NumPropulsores=propulsores;
     	Orbita=false;
+    }
+    
+    public void setOrbita(boolean orbits) {
+    	Orbita=orbits;
     }
     
     public boolean getOrbita() {
