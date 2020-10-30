@@ -8,7 +8,8 @@ public class avion extends transporte_aereo implements Comunicacion {
 	public static final int capaCombus=750;
   
     public avion(String modelo,int capacidad,int combustible) {
-    	super(modelo,capacidad,combustible);
+    	super(modelo,capacidad,capaCombus);
+
     }
     
     public avion(String modelo,int capacidad,int combustible,String aero, int numVuelo) {
