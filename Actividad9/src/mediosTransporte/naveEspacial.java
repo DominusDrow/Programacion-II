@@ -84,7 +84,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		}
 	}
 	
-	public String info() {		//sobreEscribimos el metodo de info
+	public String info() {		//sobreEscribimos el metodos de info
 		
 		return super.info()+", Caniones:"+Caniones+", Escudos:"+Escudos;
 	}

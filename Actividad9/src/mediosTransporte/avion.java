@@ -52,7 +52,7 @@ public class avion extends transporte_aereo implements Comunicacion {
 	public String descender() {
 		return "Descendiendo 250 pies";
 	}
-	//estos vienen de medios_transporte
+	//estos vienen de medios_transportes
 	public String Despegar() {
 	    if(super.getVolando()) {
     		

@@ -9,7 +9,7 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     private boolean Orbita;
     
     public trasporte_Espacial(int propulsores) {
-    	super(1000);						//por defecto una nave espacial tiene 1000 unidades de combustible
+    	super(1000);						//por defecto una nave espacial tiene 1000 unidades de combustible.
     	NumPropulsores=propulsores;
     	Orbita=false;
     }

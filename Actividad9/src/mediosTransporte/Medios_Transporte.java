@@ -54,7 +54,7 @@ public abstract class Medios_Transporte {
     	return combustible;
     }
     
-    public String uso_gas(int gasto,int kilometros, String mensaje, int capaComb) {			//implementamos excepciones personalizadas
+    public String uso_gas(int gasto,int kilometros, String mensaje, int capaComb) {			//implementamos excepciones personalizadas.
     	
     	mensajes_excepciones msg = new mensajes_excepciones();
     	

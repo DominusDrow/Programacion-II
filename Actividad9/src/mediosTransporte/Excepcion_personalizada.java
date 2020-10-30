@@ -17,7 +17,7 @@ class mensajes_excepciones{
 		
 		if(gas<comb/4) {
 			
-			throw new Excepcion_personalizada("El vehiculo se quedo sin combustible");
+			throw new Excepcion_personalizada("El vehiculo se quedo sin combustible ");
 		}
 	}
 	

@@ -27,7 +27,7 @@ public abstract class transporte_aereo extends Medios_Transporte {
     }
     
     public String info() {
-    	return "Modelo:"+super.getModelo()+",\n"+super.getKilometraje()+"Kilometros recorridos, "+super.getCombustible()+" Unidades de combustible";
+    	return "Modelo:"+super.getModelo()+",\n"+super.getKilometraje()+"Kilometros recorridos,  "+super.getCombustible()+" Unidades de combustible";
     }
  
     public abstract String ascender();
