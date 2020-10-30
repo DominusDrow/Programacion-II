@@ -73,6 +73,18 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		
 	}
 	
+	public String Atacar(String Objetivo){  //metodo de sobre carga 
+		
+		if(Caniones) {
+			
+			return super.uso_gas(GastoATACK,0,"Impactaron conta: "+Objetivo,CapacidadCOM);
+			
+		}else {
+			return"La nave no cuenta con caniones";
+		}
+		
+	}
+	
 	public String Cargar() {
 		
 		if(super.getCombustible()<CapacidadCOM-150) {
