@@ -11,7 +11,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	
 	public naveEspacial(int propulsores) {
 		super(propulsores);
-		Caniones=false;
+		Caniones=true;
 		Escudos=true;
 	}
 	
@@ -35,7 +35,6 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	    	
 	    if(super.getOrbita()) {
 	    	
-	    		
 	    	return "La nave ya despego y esta orbitando";
 	    }else {
 	    	super.setOrbita(true);

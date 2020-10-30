@@ -15,9 +15,9 @@ class mensajes_excepciones{
 	
 	public void validar_gas(int gas,int comb) throws Excepcion_personalizada{
 		
-		if(gas<comb/4) {
+		if(gas<comb/6) {
 			
-			throw new Excepcion_personalizada("El vehiculo se quedo sin combustible ");
+			throw new Excepcion_personalizada("El vehiculo no tiene suficiente combustble ");
 		}
 	}
 	
