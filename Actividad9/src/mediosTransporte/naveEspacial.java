@@ -32,7 +32,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	    	return "La nave ya despego y esta orbitando";
 	    }else {
 	    		
-	    	return super.uso_gas(GastoAT, DistanciaAT, "La nave despego con exito");	
+	    	return super.uso_gas(GastoAT, DistanciaAT, "La nave despego con exito",CapacidadCOM);	
 	    }
 		    	
 	}
@@ -41,7 +41,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
     	
     	if(super.getPropulsores()>1) {
 
-    		return super.uso_gas(GastoMOV, DistanciaMOV, "la nave se movio 300 km");	
+    		return super.uso_gas(GastoMOV, DistanciaMOV, "la nave se movio 300 km",CapacidadCOM);	
     		
     	}else {
     		return "No se cuenta cn los suficientes propulsores";
@@ -56,7 +56,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
     		return "La nave ya esta en tierra";
     	}else {
     		
-    		return super.uso_gas(GastoAT, DistanciaAT, "La nave aterrizo con exito");	
+    		return super.uso_gas(GastoAT, DistanciaAT, "La nave aterrizo con exito",CapacidadCOM);	
     	}
 	
 	}
@@ -65,7 +65,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		
 		if(Caniones) {
 			
-			return super.uso_gas(GastoATACK,0,"Se dispararon los caniones");
+			return super.uso_gas(GastoATACK,0,"Se dispararon los caniones",CapacidadCOM);
 			
 		}else {
 			return"La nave no cuenta con caniones";

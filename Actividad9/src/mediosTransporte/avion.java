@@ -5,6 +5,7 @@ public class avion extends transporte_aereo implements Comunicacion {
 
     private int numVuelo;
     private String aerolinea;
+	public static final int capaCombus=750;
   
     public avion(String modelo,int capacidad,int combustible) {
     	super(modelo,capacidad,combustible);
@@ -57,7 +58,7 @@ public class avion extends transporte_aereo implements Comunicacion {
 	    	return "El vuelo "+numVuelo+" despego y esta en camino";
 	    }else {
 	    		
-	    	return super.uso_gas(gastoV, distanciaK, "El vuelo despego con exito");	
+	    	return super.uso_gas(gastoV, distanciaK, "El vuelo despego con exito",capaCombus);	
 	    }
 	}
 
@@ -67,8 +68,19 @@ public class avion extends transporte_aereo implements Comunicacion {
 	    	return "El avion esta en tierra";
 	    }else {
 	    		
-	    	return super.uso_gas(gastoV, distanciaK, "El vuelo aterrizo con exito");	
+	    	return super.uso_gas(gastoV, distanciaK, "El vuelo aterrizo con exito",capaCombus);	
 	    }
+	}
+	
+	public String Cargar() {
+		
+		if(super.getCombustible()<capaCombus-150) {
+			
+			return super.uso_cargar(getVolando(), capaCombus, "El avion se cargo correctamente");
+		}else {
+			
+			return "Su tanque esta practicamente lleno ";
+		}
 	}
 	
     public String info() {

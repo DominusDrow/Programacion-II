@@ -13,9 +13,9 @@ public class Excepcion_personalizada extends Exception{		//la clase de todas las
 
 class mensajes_excepciones{
 	
-	public void validar_gas(int gas) throws Excepcion_personalizada{
+	public void validar_gas(int gas,int comb) throws Excepcion_personalizada{
 		
-		if(gas<50) {
+		if(gas<comb/4) {
 			
 			throw new Excepcion_personalizada("El vehiculo se quedo sin combustible");
 		}
