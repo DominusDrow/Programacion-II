@@ -3,32 +3,37 @@ package mediosTransporte;
 public abstract class transporte_aereo extends Medios_Transporte {
 
     private int alas;
-    private int alerones;
+    private boolean volando;
+    private boolean tren_aterrizaje;
+	public final static int distanciaK=400;
+	public final static int gastoV=200;
   
     public transporte_aereo(String modelo,int capacidad,int combustible) {
     	super(modelo,capacidad,combustible);
     }
     
-    public transporte_aereo(String modelo,int capacidad,int combustible,int alas, int alerones) {
-    	super(modelo,capacidad,combustible);
-    	this.alas=alas;
-    	this.alerones=alerones;
+    public transporte_aereo(String modelo,int capacidad,int com,int propulsores) {
+    	super(modelo,capacidad,com);
+    	volando=false;
+    	tren_aterrizaje=true;
+    }
+    
+    public boolean getVolando() {
+    	return volando;
+    }
+    
+    public boolean getTren_aterrizaje() {
+    	return tren_aterrizaje;
+    }
+    
+    public String info() {
+    	return "Modelo:"+super.getModelo()+",\n"+super.getKilometraje()+"Kilometros recorridos, "+super.getCombustible()+" Unidades de combustible";
     }
  
-    public String ascender() {
-    	return "Ascendiendo";
-    }
+    public abstract String ascender();
 
-    public String descender() {
-    	return "Descendiendo";
-    }
-
-    public String aterrizar() {
-        return "Aterrizando, ojo cuidado";
-    }
-
-	public abstract String cMueve();
-
-	public abstract String info();
+    public abstract String descender();
+    
+    
 
 }

@@ -42,28 +42,38 @@ public class avion extends transporte_aereo implements Comunicacion {
     	return "Hola, soy tu avion, a donde quieres ir";
     }
 
-    public String cMueve() {
-    	return "El vuelo "+numVuelo+" de "+aerolinea+" se esta moviendo.";
-    }
-
-    public String info() {
-    	return "El avion "+getModelo()+" pertenece a la aerolinea "+aerolinea;
-    }
-
-	public String cDetiene() {
-		return "El vuelo "+numVuelo+" de la aerolinea "+aerolinea+" se est� deteniendo";
+    //estos vienen de transporte_aereo
+	public String ascender() {
+		return "Ascendiendo 550 pies";
 	}
 
-	@Override
+	public String descender() {
+		return "Descendiendo 250 pies";
+	}
+	//estos vienen de medios_transporte
 	public String Despegar() {
-		// TODO Auto-generated method stub
-		return null;
+	    if(super.getVolando()) {
+    		
+	    	return "El vuelo "+numVuelo+" despego y esta en camino";
+	    }else {
+	    		
+	    	return super.uso_gas(gastoV, distanciaK, "El vuelo despego con exito");	
+	    }
 	}
 
-	@Override
 	public String Aterrizar() {
-		// TODO Auto-generated method stub
-		return null;
+	    if(super.getTren_aterrizaje()) {
+    		
+	    	return "El avion esta en tierra";
+	    }else {
+	    		
+	    	return super.uso_gas(gastoV, distanciaK, "El vuelo aterrizo con exito");	
+	    }
 	}
+	
+    public String info() {
+    	String si= super.info();
+    	return si+"El avion con vuelo "+numVuelo+" pertenece a la aerolinea "+aerolinea;
+    }
 
 }

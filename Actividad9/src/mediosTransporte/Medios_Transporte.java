@@ -10,7 +10,7 @@ public abstract class Medios_Transporte {
     public Medios_Transporte(int combustible) {
     	
     	modelo="";
-    	capacidad_pasajeros=-1;
+    	capacidad_pasajeros=0;
     	this.combustible=combustible;
     	kilometraje=0;
     }

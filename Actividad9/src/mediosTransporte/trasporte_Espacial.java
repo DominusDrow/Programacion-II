@@ -14,6 +14,11 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     	Orbita=false;
     }
     
+    public trasporte_Espacial(String modelo,int capacidad,int combustible) {
+    	super(modelo,capacidad,combustible);
+
+    }
+    
     public trasporte_Espacial(String modelo,int capacidad,int com,int propulsores) {
     	super(modelo,capacidad,com);
     	NumPropulsores=propulsores;
