@@ -9,15 +9,18 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	private boolean Caniones;
 	private boolean Escudos;	
 	
+    public naveEspacial(String modelo) {
+    	super(modelo,CapacidadCOM);
+		Caniones=true;
+		Escudos=true;
+    }
+	
 	public naveEspacial(int propulsores) {
 		super(propulsores);
 		Caniones=true;
 		Escudos=true;
 	}
 	
-    public naveEspacial(int capacidad,int combustible) {
-    	super("SpaceX",capacidad,CapacidadCOM);
-    }
     
     public naveEspacial(boolean Caniones, int capacidad ) {
     	super("SpaceX",capacidad,CapacidadCOM);

@@ -8,16 +8,21 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
 	private String Orbitando;
     private boolean Orbita;
     
+    
+    public trasporte_Espacial(String modelo,int combustible) {
+    	super(modelo,combustible);
+    	Orbita=false;
+    }
+    
+    public trasporte_Espacial(String modelo,int capacidad,int combustible) {
+    	super(modelo,capacidad,combustible);
+    	Orbita=false;
+    }
+    
     public trasporte_Espacial(int propulsores) {
     	super(1000);						//por defecto una nave espacial tiene 1000 unidades de combustible.
     	NumPropulsores=propulsores;
     	Orbita=false;
-    }
-    
-    
-    public trasporte_Espacial(String modelo,int capacidad,int combustible) {
-    	super(modelo,capacidad,combustible);
-
     }
     
     public trasporte_Espacial(String modelo,int capacidad,int com,int propulsores) {
@@ -32,6 +37,10 @@ public abstract class trasporte_Espacial extends Medios_Transporte {
     
     public boolean getOrbita() {
     	return Orbita;
+    }
+    
+    public void setPropulsores(int pro) {
+    	NumPropulsores=pro;
     }
     
     public int getPropulsores() {

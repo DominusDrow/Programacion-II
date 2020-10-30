@@ -15,6 +15,11 @@ public abstract class Medios_Transporte {
     	kilometraje=0;
     }
     
+    public Medios_Transporte(String modelo, int combustible) {
+    	this.modelo=modelo;
+    	this.combustible=combustible;
+    }
+    
     public Medios_Transporte(String modelo,int capacidad, int combustible) {
     	this.modelo=modelo;
     	this.capacidad_pasajeros=capacidad;

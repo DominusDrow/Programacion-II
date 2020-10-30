@@ -7,13 +7,19 @@ public class avion extends transporte_aereo implements Comunicacion {
     private String aerolinea;
 	public static final int capaCombus=750;
   
-    public avion(String modelo,int capacidad) {
-    	super(modelo,capacidad,capaCombus);
+    public avion(String modelo) {
+    	super(modelo,capaCombus);
 
     }
     
-    public avion(String modelo,int capacidad,int combustible,String aero, int numVuelo) {
-    	super(modelo,capacidad,combustible);
+    public avion(String modelo,String aero, int numVuelo) {
+    	super(modelo,capaCombus);
+    	this.aerolinea=aero;
+    	this.numVuelo=numVuelo;
+    }
+    
+    public avion(String modelo,int capacidad,String aero, int numVuelo) {
+    	super(modelo,capacidad,capaCombus);
     	this.aerolinea=aero;
     	this.numVuelo=numVuelo;
     }
@@ -36,6 +42,10 @@ public class avion extends transporte_aereo implements Comunicacion {
     
 
     public String comunicaTorreControl() {
+    	return"Heathrow Control, "+aerolinea+" Vuelo "+numVuelo+" : Hoy hace un excelente dia";
+    }
+    
+    public String comunicaTorreControl(String emergencia) {//SOBRECARGA DE METODO
     	return"Heathrow Control, "+aerolinea+" Vuelo "+numVuelo+", mi mensaje es como sigue: Mayday, Mayday, Mayday ....";
     }
 
@@ -58,7 +68,8 @@ public class avion extends transporte_aereo implements Comunicacion {
     		
 	    	return "El vuelo "+numVuelo+" despego y esta en camino";
 	    }else {
-	    		
+	    	super.setTren_aterrizaje(false);	
+	    	super.setVolando(true);
 	    	return super.uso_gas(gastoV, distanciaK, "El vuelo despego con exito",capaCombus);	
 	    }
 	}
@@ -68,7 +79,8 @@ public class avion extends transporte_aereo implements Comunicacion {
     		
 	    	return "El avion esta en tierra";
 	    }else {
-	    		
+	    	super.setTren_aterrizaje(true);	
+	    	super.setVolando(false);
 	    	return super.uso_gas(gastoV, distanciaK, "El vuelo aterrizo con exito",capaCombus);	
 	    }
 	}
