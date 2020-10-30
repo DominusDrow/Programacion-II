@@ -54,14 +54,40 @@ public abstract class Medios_Transporte {
     	return combustible;
     }
     
-    public void uso_gas(int gasto) {
-    	combustible-=gasto;
+    public String uso_gas(int gasto,int kilometros, String mensaje) {			//implementamos excepciones personalizadas
+    	
+    	mensajes_excepciones msg = new mensajes_excepciones();
+    	
+    	try {
+    		combustible-=gasto;
+    		kilometraje+=kilometros;
+    		
+    		msg.validar_gas(combustible);    	
+    		
+    		return mensaje;
+    		
+    	}catch(Excepcion_personalizada e) {
+    		
+    		return e.getMessage();
+    	}
+    	
     }
     
-    public void uso_kilometraje(int recorrido) {
-    	kilometraje+=recorrido;
+    public String uso_cargar(boolean fuera, int Capacidad,String mensaje) {
+    	
+    	mensajes_excepciones msg = new mensajes_excepciones();
+    	
+    	try {
+    		combustible=Capacidad;
+    		msg.validar_cargar(fuera);
+    		return mensaje;
+    	}catch(Excepcion_personalizada e) {
+    		
+    		return e.getMessage();
+    	}
+    	
     }
-
+   
     public abstract String Despegar();
     
     public abstract String info();

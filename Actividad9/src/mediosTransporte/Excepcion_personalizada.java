@@ -15,15 +15,15 @@ class mensajes_excepciones{
 	
 	public void validar_gas(int gas) throws Excepcion_personalizada{
 		
-		if(gas<100) {
+		if(gas<50) {
 			
 			throw new Excepcion_personalizada("La nave se quedo sin combustible");
 		}
 	}
 	
-	public void validar_cargar(boolean en_tierra) throws Excepcion_personalizada{
+	public void validar_cargar(boolean fuera) throws Excepcion_personalizada{
 		
-		if(en_tierra) {
+		if(fuera) {
 			
 			throw new Excepcion_personalizada("La nave no puede cargarse mientras no este en tierra");
 		}

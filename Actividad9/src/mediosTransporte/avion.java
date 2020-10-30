@@ -51,7 +51,19 @@ public class avion extends transporte_aereo implements Comunicacion {
     }
 
 	public String cDetiene() {
-		return "El vuelo "+numVuelo+" de la aerolinea "+aerolinea+" se está deteniendo";
+		return "El vuelo "+numVuelo+" de la aerolinea "+aerolinea+" se estï¿½ deteniendo";
+	}
+
+	@Override
+	public String Despegar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Aterrizar() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
