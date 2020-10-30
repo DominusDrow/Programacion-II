@@ -5,6 +5,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	public static final int GastoMOV=300;
 	public static final int DistanciaMOV=300;
 	public static final int GastoATACK=100;
+	public static final int CapacidadCOM=1000;
 	private boolean Caniones;
 	private boolean Escudos;	
 	
@@ -66,6 +67,17 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 			return"La nave no cuenta con caniones";
 		}
 		
+	}
+	
+	public String Cargar() {
+		
+		if(super.getCombustible()<CapacidadCOM-150) {
+			
+			return super.uso_cargar(getOrbita(), CapacidadCOM, "LA nave se cargo correctamente");
+		}else {
+			
+			return "Su tanque esta practicamente lleno ";
+		}
 	}
 	
 	public String info() {		//sobreEscribimos el metodo de info

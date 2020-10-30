@@ -59,7 +59,7 @@ public abstract class Medios_Transporte {
     	mensajes_excepciones msg = new mensajes_excepciones();
     	
     	try {
-    		combustible-=gasto;
+    		combustible-=gasto;	
     		kilometraje+=kilometros;
     		
     		msg.validar_gas(combustible);    	
