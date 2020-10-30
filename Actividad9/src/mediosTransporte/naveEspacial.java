@@ -1,5 +1,10 @@
 package mediosTransporte;
 
+/*
+Vásquez López Alfredo Omar 201957903
+Avendaño Avalos Luis Ángel   201933893
+*/
+
 public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	
 	public static final int GastoMOV=300;
@@ -112,7 +117,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	}
 	
 	public String msgHumano() {
-        return "HOLa mumanos";
+        return Comunicacion.msg+" Estan abordo de una nave espacial";
     }
 
 

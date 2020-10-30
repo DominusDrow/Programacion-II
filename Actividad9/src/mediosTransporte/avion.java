@@ -1,5 +1,9 @@
 package mediosTransporte;
 
+/*
+Vásquez López Alfredo Omar 201957903
+Avendaño Avalos Luis Ángel   201933893
+*/
 
 public class avion extends transporte_aereo implements Comunicacion {
 
@@ -51,7 +55,7 @@ public class avion extends transporte_aereo implements Comunicacion {
 
     public String msgHumano() {
         
-    	return "Hola, soy tu avion, a donde quieres ir";
+    	return Comunicacion.msg+" soy tu avion, a donde quieres ir";
     }
 
     //estos vienen de transporte_aereo

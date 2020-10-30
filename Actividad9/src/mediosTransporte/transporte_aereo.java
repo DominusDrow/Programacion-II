@@ -1,5 +1,10 @@
 package mediosTransporte;
 
+/*
+Vásquez López Alfredo Omar 201957903
+Avendaño Avalos Luis Ángel   201933893
+*/
+
 public abstract class transporte_aereo extends Medios_Transporte {
 
     private boolean volando;
