@@ -13,6 +13,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	public static final int CapacidadCOM=1000;
 	private boolean Caniones;
 	private boolean Escudos;	
+	private int precio;
 	
     public naveEspacial(String modelo) {
     	super(modelo,CapacidadCOM);

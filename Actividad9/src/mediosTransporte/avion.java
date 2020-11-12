@@ -6,7 +6,8 @@ Avendaño Avalos Luis Ángel   201933893
 */
 
 public class avion extends transporte_aereo implements Comunicacion {
-
+	
+	private int precio;
     private int numVuelo;
     private String aerolinea;
 	public static final int capaCombus=750;
