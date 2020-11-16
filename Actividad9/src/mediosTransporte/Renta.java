@@ -15,7 +15,7 @@ public class Renta {
 	public void Renta(Medios_Transporte vehiculo) {
 		
 		this.vehiculo=vehiculo;
-	}
+	} 
 	
 	public void rentar() {
 		
