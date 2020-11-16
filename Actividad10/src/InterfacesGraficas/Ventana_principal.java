@@ -44,6 +44,7 @@ public class Ventana_principal extends JFrame{
 	private JTextField textField_3;
 	private JTextField textField_4;
 	private JTextField textField_5;
+	private JTextField textFielPrecio;
 	
 	private JToggleButton tglbtnInicio;
 	private JToggleButton tglbtnRentasAnteriores;
@@ -256,12 +257,12 @@ public class Ventana_principal extends JFrame{
 		
 		JLabel lblFechaInicioDe = new JLabel("Fecha inicio de renta:");
 		lblFechaInicioDe.setFont(new Font("Dialog", Font.BOLD, 15));
-		lblFechaInicioDe.setBounds(140, 71, 169, 23);
+		lblFechaInicioDe.setBounds(139, 71, 169, 23);
 		panel4.add(lblFechaInicioDe);
 		
 		JLabel lblFechaFinDe = new JLabel("Fecha fin de renta:");
 		lblFechaFinDe.setFont(new Font("Dialog", Font.BOLD, 15));
-		lblFechaFinDe.setBounds(140, 149, 169, 23);
+		lblFechaFinDe.setBounds(149, 147, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
 		textField = new JTextField();
@@ -293,6 +294,28 @@ public class Ventana_principal extends JFrame{
 		textField_5.setColumns(10);
 		textField_5.setBounds(248, 174, 50, 29);
 		panel4.add(textField_5);
+		
+		textFielPrecio = new JTextField();
+		textFielPrecio.setText("1823");
+		textFielPrecio.setEditable(false);
+		textFielPrecio.setBounds(184, 224, 86, 29);
+		panel4.add(textFielPrecio);
+		textFielPrecio.setColumns(10);
+		
+		JLabel lblPrecio = new JLabel("$");
+		lblPrecio.setFont(new Font("Dialog", Font.BOLD, 17));
+		lblPrecio.setBounds(166, 225, 23, 23);
+		panel4.add(lblPrecio);
+		
+		JButton btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta.setFont(new Font("Dialog", Font.BOLD, 13));
+		btnPagoConTargeta.setBounds(40, 284, 149, 27);
+		panel4.add(btnPagoConTargeta);
+		
+		JButton btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
+		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
+		panel4.add(btnPagoConEfectivo);
 		
 		
 	}
