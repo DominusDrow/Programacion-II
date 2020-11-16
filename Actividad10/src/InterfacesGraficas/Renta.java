@@ -20,6 +20,38 @@ public class Renta {
 		this.vehiculo=vehiculo;
 	} 
 	
+	public void setNombreC(String nombre) {
+		NomCliente=nombre;
+	}
+	
+	public String getNombreC() {
+		return NomCliente;
+	}
+	
+	public void setDateInicio(Date fecha) {
+		fechaInicio=fecha;
+	}
+	
+	public Date getDateInicio() {
+		return fechaInicio;
+	}
+	
+	public void setDateFin(Date fecha) {
+		fechaFin=fecha;
+	}
+	
+	public Date getDateFin() {
+		return fechaFin;
+	}
+	
+	public void setTarjeta(boolean tarj) {
+		tarjetaCredito=tarj;
+	}
+	
+	public boolean getTarjeta() {
+		return tarjetaCredito;
+	}
+	
 	public void rentar() {
 		
 		try {
