@@ -66,6 +66,11 @@ public class Renta {
 		return fechaFin;
 	}
 	
+	public void calculaHoras(Date inicio,Date fin) {
+		
+		
+	}
+	
 	public void setTarjeta(boolean tarj) {
 		tarjetaCredito=tarj;
 	}
