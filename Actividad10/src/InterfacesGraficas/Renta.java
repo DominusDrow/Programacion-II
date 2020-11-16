@@ -10,6 +10,8 @@ import java.util.GregorianCalendar;
 public class Renta {
 	
 	private Medios_Transporte vehiculo;
+	private int horas;
+	private int precioHora;	
 	private int horasRenta;
 	private String NomCliente;
 

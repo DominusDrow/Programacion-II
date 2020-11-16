@@ -11,6 +11,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
+
+import com.toedter.calendar.JDateChooser;
+
 import javax.swing.AbstractButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -38,16 +41,14 @@ public class Ventana_principal extends JFrame{
 	private JButton btnAceptar;
 	
 	
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
-	private JTextField textField_4;
-	private JTextField textField_5;
 	private JTextField textFielPrecio;
 	
 	private JToggleButton tglbtnInicio;
 	private JToggleButton tglbtnRentasAnteriores;
+	
+	
+	private JButton btnPagoConTargeta;
+	private JButton btnPagoConEfectivo;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -89,6 +90,7 @@ public class Ventana_principal extends JFrame{
 		btnRentar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				renta= new Renta();
 				CambiaPanel(panel1,panel2);
 			}
 		});
@@ -265,38 +267,23 @@ public class Ventana_principal extends JFrame{
 		lblFechaFinDe.setBounds(149, 147, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
-		textField = new JTextField();
-		textField.setBounds(139, 106, 50, 29);
-		panel4.add(textField);
-		textField.setColumns(10);
+		JDateChooser dateChooserInicio = new JDateChooser();
+		dateChooserInicio.setBounds(166, 106, 114, 23);
+		panel4.add(dateChooserInicio);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		textField_1.setBounds(192, 106, 50, 29);
-		panel4.add(textField_1);
-		
-		textField_2 = new JTextField();
-		textField_2.setColumns(10);
-		textField_2.setBounds(248, 106, 50, 29);
-		panel4.add(textField_2);
-		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
-		textField_3.setBounds(139, 174, 50, 29);
-		panel4.add(textField_3);
-		
-		textField_4 = new JTextField();
-		textField_4.setColumns(10);
-		textField_4.setBounds(192, 174, 50, 29);
-		panel4.add(textField_4);
-		
-		textField_5 = new JTextField();
-		textField_5.setColumns(10);
-		textField_5.setBounds(248, 174, 50, 29);
-		panel4.add(textField_5);
+		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				btnPagoConTargeta.setEnabled(true);
+				btnPagoConEfectivo.setEnabled(true);
+			}
+		});
+		dateChooserfin.setBounds(166, 177, 114, 23);
+		panel4.add(dateChooserfin);
 		
 		textFielPrecio = new JTextField();
-		textFielPrecio.setText("1823");
+		//textFielPrecio.setText("1823");
 		textFielPrecio.setEditable(false);
 		textFielPrecio.setBounds(184, 224, 86, 29);
 		panel4.add(textFielPrecio);
@@ -307,12 +294,14 @@ public class Ventana_principal extends JFrame{
 		lblPrecio.setBounds(166, 225, 23, 23);
 		panel4.add(lblPrecio);
 		
-		JButton btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta.setEnabled(false);
 		btnPagoConTargeta.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConTargeta.setBounds(40, 284, 149, 27);
 		panel4.add(btnPagoConTargeta);
 		
-		JButton btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo.setEnabled(false);
 		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
 		panel4.add(btnPagoConEfectivo);
@@ -336,6 +325,11 @@ public class Ventana_principal extends JFrame{
 		}else {
 			c.setEnabled(false);
 		}
+		
+	}
+	
+	private void ValidarFecha() {
+		
 		
 	}
 	
