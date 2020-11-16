@@ -9,7 +9,7 @@ public class Renta {
 	
 	private Medios_Transporte vehiculo;
 	private int horas;
-	private int precioHora;
+	private int precioHora;	
 	private String NomCliente;
 	private Date fechaInicio;
 	private Date fechaFin;

@@ -15,6 +15,8 @@ import javax.swing.ImageIcon;
 import javax.swing.UIManager;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
+import javax.swing.Box;
+import java.awt.Component;
 
 public class PruebaPre extends JPanel {
 	

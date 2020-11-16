@@ -38,12 +38,12 @@ public class Ventana_principal extends JFrame{
 	private JButton btnAceptar;
 	
 	
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
-	private JTextField textField_4;
-	private JTextField textField_5;
+	private JTextField textFieldDia;
+	private JTextField textFieldMes;
+	private JTextField textFieldAno;
+	private JTextField textFieldDia1;
+	private JTextField textFieldMes2;
+	private JTextField textFieldAno2;
 	private JTextField textFielPrecio;
 	
 	private JToggleButton tglbtnInicio;
@@ -265,38 +265,44 @@ public class Ventana_principal extends JFrame{
 		lblFechaFinDe.setBounds(149, 147, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
-		textField = new JTextField();
-		textField.setBounds(139, 106, 50, 29);
-		panel4.add(textField);
-		textField.setColumns(10);
+		textFieldDia = new JTextField();
+		textFieldDia.setText("DD");
+		textFieldDia.setBounds(139, 106, 50, 29);
+		panel4.add(textFieldDia);
+		textFieldDia.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		textField_1.setBounds(192, 106, 50, 29);
-		panel4.add(textField_1);
+		textFieldMes = new JTextField();
+		textFieldMes.setText("MM");
+		textFieldMes.setColumns(10);
+		textFieldMes.setBounds(192, 106, 50, 29);
+		panel4.add(textFieldMes);
 		
-		textField_2 = new JTextField();
-		textField_2.setColumns(10);
-		textField_2.setBounds(248, 106, 50, 29);
-		panel4.add(textField_2);
+		textFieldAno = new JTextField();
+		textFieldAno.setText("AA");
+		textFieldAno.setColumns(10);
+		textFieldAno.setBounds(248, 106, 50, 29);
+		panel4.add(textFieldAno);
 		
-		textField_3 = new JTextField();
-		textField_3.setColumns(10);
-		textField_3.setBounds(139, 174, 50, 29);
-		panel4.add(textField_3);
+		textFieldDia1 = new JTextField();
+		textFieldDia1.setText("DD");
+		textFieldDia1.setColumns(10);
+		textFieldDia1.setBounds(139, 174, 50, 29);
+		panel4.add(textFieldDia1);
 		
-		textField_4 = new JTextField();
-		textField_4.setColumns(10);
-		textField_4.setBounds(192, 174, 50, 29);
-		panel4.add(textField_4);
+		textFieldMes2 = new JTextField();
+		textFieldMes2.setText("MM");
+		textFieldMes2.setColumns(10);
+		textFieldMes2.setBounds(192, 174, 50, 29);
+		panel4.add(textFieldMes2);
 		
-		textField_5 = new JTextField();
-		textField_5.setColumns(10);
-		textField_5.setBounds(248, 174, 50, 29);
-		panel4.add(textField_5);
+		textFieldAno2 = new JTextField();
+		textFieldAno2.setText("AA");
+		textFieldAno2.setColumns(10);
+		textFieldAno2.setBounds(248, 174, 50, 29);
+		panel4.add(textFieldAno2);
 		
 		textFielPrecio = new JTextField();
-		textFielPrecio.setText("1823");
+		//textFielPrecio.setText("1823");
 		textFielPrecio.setEditable(false);
 		textFielPrecio.setBounds(184, 224, 86, 29);
 		panel4.add(textFielPrecio);
