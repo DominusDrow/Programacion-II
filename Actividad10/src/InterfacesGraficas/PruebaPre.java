@@ -6,6 +6,8 @@ import java.awt.Font;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import com.toedter.calendar.JDateChooser;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class PruebaPre extends JPanel {
 	private JTextField textFielPrecio;
@@ -44,11 +46,13 @@ public class PruebaPre extends JPanel {
 		add(lblPrecio);
 		
 		JButton btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta.setEnabled(false);
 		btnPagoConTargeta.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConTargeta.setBounds(40, 284, 149, 27);
 		add(btnPagoConTargeta);
 		
 		JButton btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo.setEnabled(true);
 		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
 		add(btnPagoConEfectivo);
@@ -58,11 +62,14 @@ public class PruebaPre extends JPanel {
 		add(dateChooserInicio);
 		
 		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+			}
+		});
 		dateChooserfin.setBounds(166, 177, 114, 23);
 		add(dateChooserfin);
-		
-		
-		
 		
 		
 

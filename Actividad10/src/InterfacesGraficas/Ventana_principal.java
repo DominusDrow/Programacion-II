@@ -46,6 +46,10 @@ public class Ventana_principal extends JFrame{
 	private JToggleButton tglbtnInicio;
 	private JToggleButton tglbtnRentasAnteriores;
 	
+	
+	private JButton btnPagoConTargeta;
+	private JButton btnPagoConEfectivo;
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -86,6 +90,7 @@ public class Ventana_principal extends JFrame{
 		btnRentar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				renta= new Renta();
 				CambiaPanel(panel1,panel2);
 			}
 		});
@@ -267,6 +272,13 @@ public class Ventana_principal extends JFrame{
 		panel4.add(dateChooserInicio);
 		
 		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				btnPagoConTargeta.setEnabled(true);
+				btnPagoConEfectivo.setEnabled(true);
+			}
+		});
 		dateChooserfin.setBounds(166, 177, 114, 23);
 		panel4.add(dateChooserfin);
 		
@@ -282,12 +294,14 @@ public class Ventana_principal extends JFrame{
 		lblPrecio.setBounds(166, 225, 23, 23);
 		panel4.add(lblPrecio);
 		
-		JButton btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta.setEnabled(false);
 		btnPagoConTargeta.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConTargeta.setBounds(40, 284, 149, 27);
 		panel4.add(btnPagoConTargeta);
 		
-		JButton btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo.setEnabled(false);
 		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
 		panel4.add(btnPagoConEfectivo);
@@ -311,6 +325,11 @@ public class Ventana_principal extends JFrame{
 		}else {
 			c.setEnabled(false);
 		}
+		
+	}
+	
+	private void ValidarFecha() {
+		
 		
 	}
 	
