@@ -28,6 +28,7 @@ public class PruebaPre extends JPanel {
 	private JTextField textField_3;
 	private JTextField textField_4;
 	private JTextField textField_5;
+	private JTextField textFielPrecio;
 	
 	public PruebaPre() {
 		
@@ -81,6 +82,16 @@ public class PruebaPre extends JPanel {
 		textField_5.setColumns(10);
 		textField_5.setBounds(248, 174, 50, 29);
 		add(textField_5);
+		
+		textFielPrecio = new JTextField();
+		textFielPrecio.setBounds(184, 224, 86, 29);
+		add(textFielPrecio);
+		textFielPrecio.setColumns(10);
+		
+		JLabel lblPrecio = new JLabel("$");
+		lblPrecio.setFont(new Font("Dialog", Font.BOLD, 17));
+		lblPrecio.setBounds(166, 225, 23, 23);
+		add(lblPrecio);
 		
 		
 		

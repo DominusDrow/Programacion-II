@@ -23,6 +23,9 @@ import javax.swing.UIManager;
 	
 public class Ventana_principal extends JFrame{
 
+	private Renta renta;
+	
+	
 	private JPanel Contenedor;
 	private JPanel panel1; 
 	private JPanel panel2; 
