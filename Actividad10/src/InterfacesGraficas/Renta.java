@@ -3,14 +3,16 @@ package InterfacesGraficas;
 import Transportes.*;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class Renta {
 	
 	private Medios_Transporte vehiculo;
-	private int horas;
-	private int precioHora;
+	private int horasRenta;
 	private String NomCliente;
+
 	private Date fechaInicio;
 	private Date fechaFin;
 	private boolean tarjetaCredito;
@@ -20,6 +22,22 @@ public class Renta {
 		this.vehiculo=vehiculo;
 	} 
 	
+	public void setVehiculo(Medios_Transporte Mvehiculo) {
+		vehiculo=Mvehiculo;
+	}
+	
+	public Medios_Transporte getVehiculo() {
+		return vehiculo;
+	}
+	
+	public void setHoraR(int horas) {
+		horasRenta=horas;
+	}
+	
+	public int getHoraR() {
+		return horasRenta;
+	}
+	
 	public void setNombreC(String nombre) {
 		NomCliente=nombre;
 	}
@@ -28,16 +46,20 @@ public class Renta {
 		return NomCliente;
 	}
 	
-	public void setDateInicio(Date fecha) {
-		fechaInicio=fecha;
+	public void setDateInicio(int dia,int mes, int anio) {
+		Calendar calendar=new GregorianCalendar();
+		calendar.set(anio,mes, dia);
+		fechaInicio=calendar.getTime();
 	}
 	
 	public Date getDateInicio() {
 		return fechaInicio;
 	}
 	
-	public void setDateFin(Date fecha) {
-		fechaFin=fecha;
+	public void getDateFin(int dia,int mes, int anio) {
+		Calendar calendar=new GregorianCalendar();
+		calendar.set(anio,mes, dia);
+		fechaFin=calendar.getTime();
 	}
 	
 	public Date getDateFin() {
