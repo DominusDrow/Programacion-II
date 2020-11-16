@@ -11,6 +11,9 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
+
+import com.toedter.calendar.JDateChooser;
+
 import javax.swing.AbstractButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -38,12 +41,6 @@ public class Ventana_principal extends JFrame{
 	private JButton btnAceptar;
 	
 	
-	private JTextField textFieldDia;
-	private JTextField textFieldMes;
-	private JTextField textFieldAno;
-	private JTextField textFieldDia1;
-	private JTextField textFieldMes2;
-	private JTextField textFieldAno2;
 	private JTextField textFielPrecio;
 	
 	private JToggleButton tglbtnInicio;
@@ -265,41 +262,13 @@ public class Ventana_principal extends JFrame{
 		lblFechaFinDe.setBounds(149, 147, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
-		textFieldDia = new JTextField();
-		textFieldDia.setText("DD");
-		textFieldDia.setBounds(139, 106, 50, 29);
-		panel4.add(textFieldDia);
-		textFieldDia.setColumns(10);
+		JDateChooser dateChooserInicio = new JDateChooser();
+		dateChooserInicio.setBounds(166, 106, 114, 23);
+		panel4.add(dateChooserInicio);
 		
-		textFieldMes = new JTextField();
-		textFieldMes.setText("MM");
-		textFieldMes.setColumns(10);
-		textFieldMes.setBounds(192, 106, 50, 29);
-		panel4.add(textFieldMes);
-		
-		textFieldAno = new JTextField();
-		textFieldAno.setText("AA");
-		textFieldAno.setColumns(10);
-		textFieldAno.setBounds(248, 106, 50, 29);
-		panel4.add(textFieldAno);
-		
-		textFieldDia1 = new JTextField();
-		textFieldDia1.setText("DD");
-		textFieldDia1.setColumns(10);
-		textFieldDia1.setBounds(139, 174, 50, 29);
-		panel4.add(textFieldDia1);
-		
-		textFieldMes2 = new JTextField();
-		textFieldMes2.setText("MM");
-		textFieldMes2.setColumns(10);
-		textFieldMes2.setBounds(192, 174, 50, 29);
-		panel4.add(textFieldMes2);
-		
-		textFieldAno2 = new JTextField();
-		textFieldAno2.setText("AA");
-		textFieldAno2.setColumns(10);
-		textFieldAno2.setBounds(248, 174, 50, 29);
-		panel4.add(textFieldAno2);
+		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin.setBounds(166, 177, 114, 23);
+		panel4.add(dateChooserfin);
 		
 		textFielPrecio = new JTextField();
 		//textFielPrecio.setText("1823");
