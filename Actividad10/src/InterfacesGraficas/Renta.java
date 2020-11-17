@@ -78,6 +78,14 @@ public class Renta {
 		return tarjetaCredito;
 	}
 	
+	public static boolean soniguales(Date fecha1,Date fecha2) {
+		
+		if(fecha1.equals(fecha2)) {
+			return true;
+		}
+		return false;
+	}
+	
 	public void rentar() {
 		
 		try {
