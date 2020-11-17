@@ -7,6 +7,7 @@ import java.awt.Image;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
@@ -23,7 +24,6 @@ import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
 import javax.swing.UIManager;
 
-	
 public class Ventana_principal extends JFrame{
 
 	private Renta renta;
@@ -33,6 +33,7 @@ public class Ventana_principal extends JFrame{
 	private JPanel panel2; 
 	private JPanel panel3; 
 	private JPanel panel4; 
+	private JPanel panel5; 
 	
 	private JRadioButton rdbtnNaveEspacial;
 	private JRadioButton rdbtnAvion;
@@ -51,6 +52,10 @@ public class Ventana_principal extends JFrame{
 	
 	private JDateChooser dateChooserfin;
 	private JDateChooser dateChooserInicio;
+	
+	private JTextField textFieldcel;
+	private JTextField textFieldnom;
+	private JTextField textField;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -136,6 +141,7 @@ public class Ventana_principal extends JFrame{
 		btnSi.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				renta.setTarjeta(true);
 				CambiaPanel(panel2,panel3);
 			}
 		});
@@ -147,6 +153,7 @@ public class Ventana_principal extends JFrame{
 		btnNo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				renta.setTarjeta(false);
 				//CambiaPanel(panel2,panel3);
 			}
 		});
@@ -301,7 +308,8 @@ public class Ventana_principal extends JFrame{
 		btnPagoConEfectivo = new JButton("Pago con efectivo");
 		btnPagoConEfectivo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+					
+					CambiaPanel(panel4,panel5);
 				
 			}
 		});
@@ -311,13 +319,68 @@ public class Ventana_principal extends JFrame{
 		panel4.add(btnPagoConEfectivo);
 		
 		
+	
+		//PANEL5:............................................................................
+	
+		panel5 = new JPanel();
+		panel5.setBounds(5, 15, 440, 340);
+		panel5.setLayout(null);
+		panel5.setVisible(false);
+		
+		JLabel lblNewLabel = new JLabel("Pago en efectivo");
+		lblNewLabel.setFont(new Font("Dialog", Font.BOLD, 25));
+		lblNewLabel.setBounds(109, 12, 218, 53);
+		panel5.add(lblNewLabel);
+		
+		JLabel lblDatosDelCliente = new JLabel("Datos del cliente");
+		lblDatosDelCliente.setFont(new Font("Dialog", Font.BOLD, 14));
+		lblDatosDelCliente.setBounds(157, 62, 115, 17);
+		panel5.add(lblDatosDelCliente);
+		
+		JLabel lblNombre = new JLabel("Nombre:");
+		lblNombre.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNombre.setBounds(39, 102, 60, 17);
+		panel5.add(lblNombre);
+		
+		JLabel lblCelular = new JLabel("Celular:");
+		lblCelular.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblCelular.setBounds(39, 146, 60, 17);
+		panel5.add(lblCelular);
+		
+		textFieldcel = new JTextField();
+		textFieldcel.setBounds(134, 144, 164, 21);
+		panel5.add(textFieldcel);
+		textFieldcel.setColumns(10);
+		
+		textFieldnom = new JTextField();
+		textFieldnom.setColumns(10);
+		textFieldnom.setBounds(134, 100, 164, 21);
+		panel5.add(textFieldnom);
+		
+		JLabel lblSeGeneroEl = new JLabel("Se genero el siguiente folio");
+		lblSeGeneroEl.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblSeGeneroEl.setBounds(127, 179, 189, 17);
+		panel5.add(lblSeGeneroEl);
+		
+		textField = new JTextField();
+		textField.setBounds(158, 208, 115, 21);
+		panel5.add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblDebidoASu = new JLabel("Debido a su metodo de pago no se generara comprobante");
+		lblDebidoASu.setBounds(43, 241, 358, 17);
+		panel5.add(lblDebidoASu);
+		
+		JLabel lblGuardeEsteFolio = new JLabel("guarde este folio para alcaraciones y reclamos");
+		lblGuardeEsteFolio.setBounds(85, 261, 286, 17);
+		panel5.add(lblGuardeEsteFolio);
+		
+		JButton btnAceptar = new JButton("Aceptar");
+		btnAceptar.setFont(new Font("Dialog", Font.BOLD, 14));
+		btnAceptar.setBounds(167, 290, 105, 27);
+		panel5.add(btnAceptar);
+		
 	}
-	
-	
-	
-	
-	
-	
 	
 	
 	
