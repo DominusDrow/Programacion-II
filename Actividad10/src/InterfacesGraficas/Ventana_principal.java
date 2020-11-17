@@ -34,6 +34,9 @@ public class Ventana_principal extends JFrame{
 	private JPanel panel3; 
 	private JPanel panel4; 
 	private JPanel panel5; 
+	private JPanel panel6; 
+	private JPanel panel7; 
+
 	
 	private JRadioButton rdbtnNaveEspacial;
 	private JRadioButton rdbtnAvion;
@@ -56,6 +59,8 @@ public class Ventana_principal extends JFrame{
 	private JTextField textFieldcel;
 	private JTextField textFieldnom;
 	private JTextField textField;
+	private JTextField textFieldTarjeta;
+	private JTextField textFieldCVV;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -300,6 +305,13 @@ public class Ventana_principal extends JFrame{
 		panel4.add(lblPrecio);
 		
 		btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+					
+					CambiaPanel(panel4,panel6);
+				
+			}
+		});
 		btnPagoConTargeta.setEnabled(false);
 		btnPagoConTargeta.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConTargeta.setBounds(40, 284, 149, 27);
@@ -379,6 +391,162 @@ public class Ventana_principal extends JFrame{
 		btnAceptar.setFont(new Font("Dialog", Font.BOLD, 14));
 		btnAceptar.setBounds(167, 290, 105, 27);
 		panel5.add(btnAceptar);
+		
+		//PANEL6:............................................................................
+		
+		panel6 = new JPanel();
+		panel6.setBounds(5, 15, 440, 340);
+		panel6.setLayout(null);
+		panel6.setVisible(false);
+		
+		JLabel lbldatos = new JLabel("Datos personales y bancarios");
+		lbldatos.setFont(new Font("Dialog", Font.BOLD, 20));
+		lbldatos.setBounds(77, 12, 302, 34);
+		panel6.add(lbldatos);
+		
+	
+		//ya existen:
+		panel6.add(lblDatosDelCliente);
+		panel6.add(lblNombre);
+		panel6.add(lblCelular);
+		
+		JTextField textFieldcel = new JTextField();
+		textFieldcel.setBounds(134, 144, 164, 21);
+		panel6.add(textFieldcel);
+		textFieldcel.setColumns(10);
+		
+		JTextField textFieldnom = new JTextField();
+		textFieldnom.setColumns(10);
+		textFieldnom.setBounds(134, 100, 164, 21);
+		panel6.add(textFieldnom);
+		
+		JLabel lblNoDeTarjeta = new JLabel("No. tarjeta");
+		lblNoDeTarjeta.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNoDeTarjeta.setBounds(39, 187, 96, 17);
+		panel6.add(lblNoDeTarjeta);
+		
+		textFieldTarjeta = new JTextField();
+		textFieldTarjeta.setColumns(10);
+		textFieldTarjeta.setBounds(134, 185, 164, 21);
+		panel6.add(textFieldTarjeta);
+		
+		JLabel lblFechaDeExpiracion = new JLabel("Fecha de expiracion");
+		lblFechaDeExpiracion.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblFechaDeExpiracion.setBounds(39, 229, 136, 17);
+		panel6.add(lblFechaDeExpiracion);
+		
+		JDateChooser dateChooserEXp = new JDateChooser();
+		dateChooserEXp.setBounds(176, 229, 79, 21);
+		panel6.add(dateChooserEXp);
+		
+		JLabel lblCvv = new JLabel("CVV");
+		lblCvv.setBounds(277, 229, 34, 17);
+		panel6.add(lblCvv);
+		
+		textFieldCVV = new JTextField();
+		textFieldCVV.setBounds(314, 227, 65, 21);
+		panel6.add(textFieldCVV);
+		textFieldCVV.setColumns(10);
+		
+		JButton btnAceptar1 = new JButton("Aceptar");
+		btnAceptar1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+					
+					CambiaPanel(panel6,panel7);
+				
+			}
+		});
+		btnAceptar1.setFont(new Font("Dialog", Font.BOLD, 14));
+		btnAceptar1.setBounds(167, 279, 105, 27);
+		panel6.add(btnAceptar1);
+		
+
+		
+		//PANEL7:............................................................................
+		
+		panel7 = new JPanel();
+		panel7.setBounds(5, 15, 440, 340);
+		panel7.setLayout(null);
+		panel7.setVisible(false);
+		
+		JLabel lbldatos1 = new JLabel("Datos personales y bancarios");
+		lbldatos1.setFont(new Font("Dialog", Font.BOLD, 20));
+		lbldatos1.setBounds(77, 12, 302, 34);
+		panel7.add(lbldatos1);
+		
+		JLabel lblDatosDelCliente1 = new JLabel("Datos del cliente");
+		lblDatosDelCliente1.setFont(new Font("Dialog", Font.BOLD, 14));
+		lblDatosDelCliente1.setBounds(157, 62, 115, 17);
+		panel7.add(lblDatosDelCliente1);
+		
+		JLabel lblNombre1 = new JLabel("Nombre:");
+		lblNombre1.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNombre1.setBounds(39, 102, 60, 17);
+		panel7.add(lblNombre1);
+		
+		JLabel lblCelular1 = new JLabel("Celular:");
+		lblCelular1.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblCelular1.setBounds(39, 146, 60, 17);
+		panel7.add(lblCelular1);
+		
+		JTextField textFieldcel1 = new JTextField();
+		textFieldcel1.setBounds(134, 144, 164, 21);
+		panel7.add(textFieldcel1);
+		textFieldcel1.setColumns(10);
+		
+		JTextField textFieldnom1 = new JTextField();
+		textFieldnom1.setColumns(10);
+		textFieldnom1.setBounds(134, 100, 164, 21);
+		panel7.add(textFieldnom1);
+		
+		JLabel lblNoDeTarjeta1 = new JLabel("No. tarjeta");
+		lblNoDeTarjeta1.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNoDeTarjeta1.setBounds(39, 187, 96, 17);
+		panel7.add(lblNoDeTarjeta1);
+		
+		textFieldTarjeta = new JTextField();
+		textFieldTarjeta.setColumns(10);
+		textFieldTarjeta.setBounds(134, 185, 164, 21);
+		panel7.add(textFieldTarjeta);
+		
+		JButton btnContinuar = new JButton("Continuar");
+		btnContinuar.setFont(new Font("Dialog", Font.BOLD, 14));
+		btnContinuar.setBounds(167, 301, 105, 27);
+		panel7.add(btnContinuar);
+		
+		JLabel lblVehiculo = new JLabel("Vehiculo");
+		lblVehiculo.setBounds(341, 76, 60, 17);
+		panel7.add(lblVehiculo);
+		
+		JLabel lblVehiculoIco = new JLabel("");
+		lblVehiculoIco.setBounds(319, 107, 95, 84);
+		panel7.add(lblVehiculoIco);
+		
+		JLabel lblInicio = new JLabel("Inicio:");
+		lblInicio.setBounds(39, 230, 60, 17);
+		panel7.add(lblInicio);
+		
+		JDateChooser dateChooserInicio = new JDateChooser();
+		dateChooserInicio.setBounds(94, 230, 79, 21);
+		panel7.add(dateChooserInicio);
+		
+		JLabel lblFinal = new JLabel("final:");
+		lblFinal.setBounds(39, 259, 60, 17);
+		panel7.add(lblFinal);
+		
+		JDateChooser dateChooserfinal = new JDateChooser();
+		dateChooserfinal.setBounds(94, 259, 79, 21);
+		panel7.add(dateChooserfinal);
+		
+		JLabel lblPrecio1 = new JLabel("Precio:");
+		lblPrecio1.setBounds(224, 250, 60, 17);
+		panel7.add(lblPrecio1);
+		
+		textField = new JTextField();
+		textField.setBounds(287, 245, 85, 27);
+		panel7.add(textField);
+		textField.setColumns(10);
+		
 		
 	}
 	
