@@ -12,6 +12,9 @@ import java.awt.event.ActionEvent;
 public class PruebaPre extends JPanel {
 	private JTextField textFielPrecio;
 	
+	JDateChooser dateChooserInicio;
+	JDateChooser dateChooserfin;
+	
 	public PruebaPre() {
 		
 	
@@ -52,20 +55,28 @@ public class PruebaPre extends JPanel {
 		add(btnPagoConTargeta);
 		
 		JButton btnPagoConEfectivo = new JButton("Pago con efectivo");
-		btnPagoConEfectivo.setEnabled(true);
+		btnPagoConEfectivo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+			}
+		});
 		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
 		add(btnPagoConEfectivo);
 		
-		JDateChooser dateChooserInicio = new JDateChooser();
+		dateChooserInicio = new JDateChooser();
 		dateChooserInicio.setBounds(166, 106, 114, 23);
 		add(dateChooserInicio);
 		
-		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin = new JDateChooser();
 		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				
+				if(dateChooserInicio.isVisible()) {
+					
+					textFielPrecio.setText("3000");
+				}
 			}
 		});
 		dateChooserfin.setBounds(166, 177, 114, 23);
