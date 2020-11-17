@@ -28,7 +28,6 @@ public class Ventana_principal extends JFrame{
 
 	private Renta renta;
 	
-	
 	private JPanel Contenedor;
 	private JPanel panel1; 
 	private JPanel panel2; 
@@ -49,6 +48,9 @@ public class Ventana_principal extends JFrame{
 	
 	private JButton btnPagoConTargeta;
 	private JButton btnPagoConEfectivo;
+	
+	private JDateChooser dateChooserfin;
+	private JDateChooser dateChooserInicio;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -118,6 +120,57 @@ public class Ventana_principal extends JFrame{
 		panel1.add(tglbtnRentasAnteriores);
 		
 		
+		
+		//PANEL2:............................................................................
+		panel2 = new JPanel();
+		panel2.setBounds(5, 15, 440, 340);
+		panel2.setLayout(null);
+		panel2.setVisible(false);
+		
+		JLabel lblPregunta = new JLabel("¿Cuentas con targeta de credito?");
+		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
+		lblPregunta.setBounds(44, 90, 365, 41);
+		panel2.add(lblPregunta);
+		
+		JButton btnSi = new JButton("SI");
+		btnSi.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				CambiaPanel(panel2,panel3);
+			}
+		});
+		btnSi.setFont(new Font("Dialog", Font.BOLD, 12));
+		btnSi.setBounds(94, 249, 54, 41);
+		panel2.add(btnSi);
+		
+		JButton btnNo = new JButton("NO");
+		btnNo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				//CambiaPanel(panel2,panel3);
+			}
+		});
+		
+		btnNo.setFont(new Font("Dialog", Font.BOLD, 12));
+		btnNo.setBounds(287, 249, 54, 41);
+		panel2.add(btnNo);
+		
+		
+		
+		JButton btnImagen = new JButton("");
+		btnImagen.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				CambiaPanel(panel2,panel1);
+			}
+		});
+		btnImagen.setBackground(UIManager.getColor("Button.select"));
+		btnImagen.setBounds(44, 29, 47, 31);
+		
+		ImageIcon imagen1 = new ImageIcon("/home/drow/git/Programacion-II/Actividad10/src/Imagenes/Flecha3.png");
+        Icon icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth()-10,btnImagen.getHeight(),Image.SCALE_DEFAULT));
+		btnImagen.setIcon(icono);
+		panel2.add(btnImagen);
 		
 		
 		//PANEL3:............................................................................
@@ -190,62 +243,6 @@ public class Ventana_principal extends JFrame{
 		
 		
 		
-		
-		
-		//PANEL2:............................................................................
-		panel2 = new JPanel();
-		panel2.setBounds(5, 15, 440, 340);
-		panel2.setLayout(null);
-		panel2.setVisible(false);
-		
-		JLabel lblPregunta = new JLabel("¿Cuentas con targeta de credito?");
-		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
-		lblPregunta.setBounds(44, 90, 365, 41);
-		panel2.add(lblPregunta);
-		
-		JButton btnSi = new JButton("SI");
-		btnSi.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				
-				CambiaPanel(panel2,panel3);
-			}
-		});
-		btnSi.setFont(new Font("Dialog", Font.BOLD, 12));
-		btnSi.setBounds(94, 249, 54, 41);
-		panel2.add(btnSi);
-		
-		JButton btnNo = new JButton("NO");
-		btnNo.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				
-				//CambiaPanel(panel2,panel3);
-			}
-		});
-		
-		btnNo.setFont(new Font("Dialog", Font.BOLD, 12));
-		btnNo.setBounds(287, 249, 54, 41);
-		panel2.add(btnNo);
-		
-		
-		
-		JButton btnImagen = new JButton("");
-		btnImagen.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				
-				CambiaPanel(panel2,panel1);
-			}
-		});
-		btnImagen.setBackground(UIManager.getColor("Button.select"));
-		btnImagen.setBounds(44, 29, 47, 31);
-		
-		ImageIcon imagen1 = new ImageIcon("/home/drow/git/Programacion-II/Actividad10/src/Imagenes/Flecha3.png");
-        Icon icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth()-10,btnImagen.getHeight(),Image.SCALE_DEFAULT));
-		btnImagen.setIcon(icono);
-		panel2.add(btnImagen);
-		
-		
-		
-		
 		//PANEL4:............................................................................
 		panel4 = new JPanel();
 		panel4.setBounds(5, 15, 440, 340);
@@ -267,16 +264,17 @@ public class Ventana_principal extends JFrame{
 		lblFechaFinDe.setBounds(149, 147, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
-		JDateChooser dateChooserInicio = new JDateChooser();
+		dateChooserInicio = new JDateChooser();
 		dateChooserInicio.setBounds(166, 106, 114, 23);
 		panel4.add(dateChooserInicio);
 		
-		JDateChooser dateChooserfin = new JDateChooser();
+		dateChooserfin = new JDateChooser();
 		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+					
+					btnPagoConTargeta.setEnabled(true);
+					btnPagoConEfectivo.setEnabled(true);
 				
-				btnPagoConTargeta.setEnabled(true);
-				btnPagoConEfectivo.setEnabled(true);
 			}
 		});
 		dateChooserfin.setBounds(166, 177, 114, 23);
@@ -301,6 +299,12 @@ public class Ventana_principal extends JFrame{
 		panel4.add(btnPagoConTargeta);
 		
 		btnPagoConEfectivo = new JButton("Pago con efectivo");
+		btnPagoConEfectivo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+			}
+		});
 		btnPagoConEfectivo.setEnabled(false);
 		btnPagoConEfectivo.setFont(new Font("Dialog", Font.BOLD, 13));
 		btnPagoConEfectivo.setBounds(248, 284, 149, 27);
@@ -308,6 +312,16 @@ public class Ventana_principal extends JFrame{
 		
 		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	private void CambiaPanel(JPanel a,JPanel b) {
 		
