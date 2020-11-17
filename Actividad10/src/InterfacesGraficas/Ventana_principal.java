@@ -137,7 +137,7 @@ public class Ventana_principal extends JFrame{
 		panel2.setLayout(null);
 		panel2.setVisible(false);
 		
-		JLabel lblPregunta = new JLabel("Â¿Cuentas con targeta de credito?");
+		JLabel lblPregunta = new JLabel("¿Cuentas con tarjeta de credito?");
 		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
 		lblPregunta.setBounds(44, 90, 365, 41);
 		panel2.add(lblPregunta);
