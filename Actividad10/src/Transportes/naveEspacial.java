@@ -1,12 +1,13 @@
 package Transportes;
 
 /*
-Vásquez López Alfredo Omar 201957903
-Avendaño Avalos Luis Ángel   201933893
+VÃ¡squez LÃ³pez Alfredo Omar 201957903
+AvendaÃ±o Avalos Luis Ã�ngel   201933893
 */
 
 public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	
+	public static final int precioHora=10;
 	public static final int GastoMOV=300;
 	public static final int DistanciaMOV=300;
 	public static final int GastoATACK=100;
@@ -39,6 +40,10 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		this.Caniones=Caniones;
 		Escudos=true;
 	}
+	
+	   public static int getPrecioHora() {
+	    	return precioHora;
+	    }
 	
 	public String Despegar() {
 	    	

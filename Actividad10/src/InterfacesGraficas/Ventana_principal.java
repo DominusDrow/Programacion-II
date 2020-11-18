@@ -19,6 +19,9 @@ import javax.swing.border.LineBorder;
 
 import com.toedter.calendar.JDateChooser;
 
+import Transportes.avion;
+import Transportes.naveEspacial;
+
 import javax.swing.AbstractButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -47,6 +50,7 @@ public class Ventana_principal extends JFrame{
 	private JToggleButton tglbtnInicio,tglbtnRentasAnteriores;	
 	
 	private JButton btnPagoConTargeta,btnPagoConEfectivo,btnAceptarygenerar,btnAceptar;
+	private JButton btnCalcular;
 	
 	private JDateChooser dateChooserfin,dateChooserInicio;
 	
@@ -220,7 +224,12 @@ public class Ventana_principal extends JFrame{
 		btnAceptar = new JButton("Aceptar");
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+				if(((AbstractButton) rdbtnNaveEspacial).isSelected()) {
+					renta.setVehiculo(new naveEspacial("AlfredoX"));
+				}else {
+					renta.setVehiculo(new avion("Boeing"));
+				}
+
 				CambiaPanel(panel3,panel4);
 				
 			}
@@ -311,14 +320,49 @@ public class Ventana_principal extends JFrame{
 		textFielPrecio = new JTextField();
 		//textFielPrecio.setText("1823");
 		textFielPrecio.setEditable(false);
-		textFielPrecio.setBounds(184, 224, 86, 29);
+		textFielPrecio.setBounds(125, 235, 86, 29);
 		panel4.add(textFielPrecio);
 		textFielPrecio.setColumns(10);
 		
 		JLabel lblPrecio = new JLabel("$");
 		lblPrecio.setFont(new Font("Dialog", Font.BOLD, 17));
-		lblPrecio.setBounds(166, 225, 23, 23);
+		lblPrecio.setBounds(115, 235, 23, 23);
 		panel4.add(lblPrecio);
+		
+		JLabel lblsi = new JLabel("X");
+		lblsi.setFont(new Font("Dialog", Font.BOLD, 17));
+		lblsi.setBounds(212, 235, 23, 23);
+		panel4.add(lblsi);
+		
+		final JTextField textFielHoras = new JTextField();
+		//textFielPrecio.setText("1823");
+		textFielHoras.setEditable(false);
+		textFielHoras.setBounds(224, 235, 40, 29);
+		panel4.add(textFielHoras);
+		textFielHoras.setColumns(10);
+		
+		JLabel lblsiH = new JLabel("horas");
+		lblsiH.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblsiH.setBounds(266, 235, 40, 30);
+		panel4.add(lblsiH);
+		
+		btnCalcular=new JButton("Calcular");
+		btnCalcular.setFont(new Font("Dialog",Font.BOLD,13));
+		btnCalcular.setBounds(166, 205, 114, 23);
+		panel4.add(btnCalcular);
+		btnCalcular.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+					int horas=renta.calculaHoras(dateChooserInicio, dateChooserfin);
+					//int precio=renta.calculaPrecio(horas,renta.getVehiculo().) necesitamos el precioXhora del vehiculo
+				if(renta.validar(dateChooserInicio,dateChooserfin)) {
+					textFielPrecio.setText("precioTotal");
+					textFielHoras.setText(" "+horas+" ");
+				}else {
+					JOptionPane.showMessageDialog(null, "Las fechas estan mal.");
+				}
+				
+			}
+		});
 		
 		btnPagoConTargeta = new JButton("Pago con targeta");
 		btnPagoConTargeta.addActionListener(new ActionListener() {
@@ -732,10 +776,6 @@ public class Ventana_principal extends JFrame{
 		
 	}
 	
-	private void ValidarFecha() {
-		
-		
-	}
 	
 }
 
