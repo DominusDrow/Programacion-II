@@ -1,6 +1,7 @@
 package InterfacesGraficas;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Image;
@@ -10,8 +11,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.JTable;
 import javax.swing.JTextField;
+import javax.swing.JTextPane;
 import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
 
 import com.toedter.calendar.JDateChooser;
 
@@ -19,6 +23,8 @@ import javax.swing.AbstractButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
@@ -28,39 +34,22 @@ public class Ventana_principal extends JFrame{
 
 	private Renta renta;
 	
-	private JPanel Contenedor;
-	private JPanel panel1; 
-	private JPanel panel2; 
-	private JPanel panel3; 
-	private JPanel panel4; 
-	private JPanel panel5; 
-	private JPanel panel6; 
-	private JPanel panel7; 
-
+	private JPanel Contenedor,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panel10;
 	
-	private JRadioButton rdbtnNaveEspacial;
-	private JRadioButton rdbtnAvion;
+	private JTable tableRentados;
 	
-	private JButton btnAceptar;
+	private JRadioButton rdbtnNaveEspacial,rdbtnAvion;
+		
 	
+	private JTextField textFielPrecio,textFieldAlgo,textFieldcel,textFieldnom,textField,
+	textFieldTarjeta,textFieldCVV;
 	
-	private JTextField textFielPrecio;
+	private JToggleButton tglbtnInicio,tglbtnRentasAnteriores;	
 	
-	private JToggleButton tglbtnInicio;
-	private JToggleButton tglbtnRentasAnteriores;
+	private JButton btnPagoConTargeta,btnPagoConEfectivo,btnAceptarygenerar,btnAceptar;
 	
+	private JDateChooser dateChooserfin,dateChooserInicio;
 	
-	private JButton btnPagoConTargeta;
-	private JButton btnPagoConEfectivo;
-	
-	private JDateChooser dateChooserfin;
-	private JDateChooser dateChooserInicio;
-	
-	private JTextField textFieldcel;
-	private JTextField textFieldnom;
-	private JTextField textField;
-	private JTextField textFieldTarjeta;
-	private JTextField textFieldCVV;
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -91,6 +80,20 @@ public class Ventana_principal extends JFrame{
 		setContentPane(Contenedor);
 		Contenedor.setLayout(new BorderLayout(0, 0));
 		
+		//componentes compartidos:
+		JButton btnImagen = new JButton("");
+		btnImagen.setBackground(UIManager.getColor("Button.select"));
+		btnImagen.setBounds(44, 29, 47, 31);
+		
+		btnImagen.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				CambiaPanel(panel2,panel1);
+			}
+		});
+		
+		
+		
 		//PANEL1:............................................................................
 		panel1 = new JPanel();
 		Contenedor.add(panel1);
@@ -110,10 +113,12 @@ public class Ventana_principal extends JFrame{
 		panel1.add(btnRentar);
 		
 		tglbtnInicio = new JToggleButton("Inicio");
+		tglbtnInicio.setSelected(true);
 		tglbtnInicio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				tglbtnRentasAnteriores.setSelected(false);
+				CambiaPanel(panel10,panel1);
 			}
 		});
 		tglbtnInicio.setBounds(12, 12, 105, 27);
@@ -124,11 +129,24 @@ public class Ventana_principal extends JFrame{
 			public void actionPerformed(ActionEvent arg0) {
 				
 				tglbtnInicio.setSelected(false);
+				CambiaPanel(panel1,panel10);
 			}
 		});
 		tglbtnRentasAnteriores.setBounds(116, 12, 147, 27);
 		panel1.add(tglbtnRentasAnteriores);
 		
+		
+		JLabel lbltitulo = new JLabel("RAPIMOV");
+		lbltitulo.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lbltitulo.setBounds(141, 60, 168, 43);
+		panel1.add(lbltitulo);
+		
+		JLabel lbllogo = new JLabel("");
+		lbllogo.setBounds(128, 122, 193, 121);		
+		ImageIcon imagen9 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Carretera1.png"));
+        Icon icono9 = new ImageIcon(imagen9.getImage().getScaledInstance(lbllogo.getWidth()-10,lbllogo.getHeight(),Image.SCALE_DEFAULT));
+        lbllogo.setIcon(icono9);
+    	panel1.add(lbllogo);
 		
 		
 		//PANEL2:............................................................................
@@ -167,22 +185,20 @@ public class Ventana_principal extends JFrame{
 		btnNo.setBounds(287, 249, 54, 41);
 		panel2.add(btnNo);
 		
+	
 		
-		
-		JButton btnImagen = new JButton("");
-		btnImagen.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				
-				CambiaPanel(panel2,panel1);
-			}
-		});
-		btnImagen.setBackground(UIManager.getColor("Button.select"));
-		btnImagen.setBounds(44, 29, 47, 31);
-		
-		ImageIcon imagen1 = new ImageIcon("/home/drow/git/Programacion-II/Actividad10/src/Imagenes/Flecha3.png");
+		ImageIcon imagen1 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Flecha1.png"));
         Icon icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth()-10,btnImagen.getHeight(),Image.SCALE_DEFAULT));
 		btnImagen.setIcon(icono);
 		panel2.add(btnImagen);
+		
+		
+		JLabel imagentarjeta1 = new JLabel("");
+		imagentarjeta1.setBounds(139, 128, 160, 112);
+		ImageIcon imagen6 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Targeta2.png"));
+        Icon icono6 = new ImageIcon(imagen6.getImage().getScaledInstance(imagentarjeta1.getWidth()-10,imagentarjeta1.getHeight(),Image.SCALE_DEFAULT));
+        imagentarjeta1.setIcon(icono6);
+    	panel2.add(imagentarjeta1);
 		
 		
 		//PANEL3:............................................................................
@@ -205,7 +221,6 @@ public class Ventana_principal extends JFrame{
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				//crear objeto de tipo nave y pasarlo a setvehiculo
 				CambiaPanel(panel3,panel4);
 				
 			}
@@ -218,7 +233,7 @@ public class Ventana_principal extends JFrame{
 		JLabel lblnave1 = new JLabel("");
 		lblnave1.setBounds(63, 101, 124, 85);
 		
-		ImageIcon imagen2 = new ImageIcon("/home/drow/git/Programacion-II/Actividad10/src/Imagenes/Nave1.png");
+		ImageIcon imagen2 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Nave1.png"));
         Icon icono2 = new ImageIcon(imagen2.getImage().getScaledInstance(lblnave1.getWidth()-10,lblnave1.getHeight(),Image.SCALE_DEFAULT));
         lblnave1.setIcon(icono2);	
         panel3.add(lblnave1);
@@ -226,7 +241,7 @@ public class Ventana_principal extends JFrame{
 		JLabel lblnave2 = new JLabel("");
 		lblnave2.setBounds(266, 93, 124, 116);
 		
-		ImageIcon imagen3 = new ImageIcon("/home/drow/git/Programacion-II/Actividad10/src/Imagenes/Nave2.png");
+		ImageIcon imagen3 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Nave2.png"));
         Icon icono3 = new ImageIcon(imagen3.getImage().getScaledInstance(lblnave2.getWidth()-10,lblnave2.getHeight(),Image.SCALE_DEFAULT));
         lblnave2.setIcon(icono3);
 		
@@ -281,12 +296,10 @@ public class Ventana_principal extends JFrame{
 		dateChooserInicio.setBounds(166, 106, 114, 23);
 		panel4.add(dateChooserInicio);
 		
-		//boton calcular: al presionar solo calcula las fechas ok
-		
 		dateChooserfin = new JDateChooser();
 		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+					
 					btnPagoConTargeta.setEnabled(true);
 					btnPagoConEfectivo.setEnabled(true);
 				
@@ -307,7 +320,7 @@ public class Ventana_principal extends JFrame{
 		lblPrecio.setBounds(166, 225, 23, 23);
 		panel4.add(lblPrecio);
 		
-		btnPagoConTargeta = new JButton("Pago con tarjeta");
+		btnPagoConTargeta = new JButton("Pago con targeta");
 		btnPagoConTargeta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
@@ -349,7 +362,7 @@ public class Ventana_principal extends JFrame{
 		
 		JLabel lblDatosDelCliente = new JLabel("Datos del cliente");
 		lblDatosDelCliente.setFont(new Font("Dialog", Font.BOLD, 14));
-		lblDatosDelCliente.setBounds(157, 62, 115, 17);
+		lblDatosDelCliente.setBounds(157, 62, 124, 17);
 		panel5.add(lblDatosDelCliente);
 		
 		JLabel lblNombre = new JLabel("Nombre:");
@@ -438,7 +451,7 @@ public class Ventana_principal extends JFrame{
 		lblFechaDeExpiracion.setBounds(39, 229, 136, 17);
 		panel6.add(lblFechaDeExpiracion);
 		
-		JDateChooser dateChooserEXp = new JDateChooser();
+		JTextField dateChooserEXp = new JTextField();
 		dateChooserEXp.setBounds(176, 229, 79, 21);
 		panel6.add(dateChooserEXp);
 		
@@ -472,14 +485,14 @@ public class Ventana_principal extends JFrame{
 		panel7.setLayout(null);
 		panel7.setVisible(false);
 		
-		JLabel lbldatos1 = new JLabel("Datos personales y bancarios");
-		lbldatos1.setFont(new Font("Dialog", Font.BOLD, 20));
-		lbldatos1.setBounds(77, 12, 302, 34);
+		JLabel lbldatos1 = new JLabel("Confirmacion de datos");
+		lbldatos1.setFont(new Font("Dialog", Font.BOLD, 24));
+		lbldatos1.setBounds(89, 11, 266, 34);
 		panel7.add(lbldatos1);
 		
 		JLabel lblDatosDelCliente1 = new JLabel("Datos del cliente");
 		lblDatosDelCliente1.setFont(new Font("Dialog", Font.BOLD, 14));
-		lblDatosDelCliente1.setBounds(157, 62, 115, 17);
+		lblDatosDelCliente1.setBounds(157, 62, 124, 17);
 		panel7.add(lblDatosDelCliente1);
 		
 		JLabel lblNombre1 = new JLabel("Nombre:");
@@ -507,12 +520,18 @@ public class Ventana_principal extends JFrame{
 		lblNoDeTarjeta1.setBounds(39, 187, 96, 17);
 		panel7.add(lblNoDeTarjeta1);
 		
-		textFieldTarjeta = new JTextField();
+		JTextField textFieldTarjeta = new JTextField();
 		textFieldTarjeta.setColumns(10);
 		textFieldTarjeta.setBounds(134, 185, 164, 21);
 		panel7.add(textFieldTarjeta);
 		
 		JButton btnContinuar = new JButton("Continuar");
+		btnContinuar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				CambiaPanel(panel7,panel8);
+			}
+		});
 		btnContinuar.setFont(new Font("Dialog", Font.BOLD, 14));
 		btnContinuar.setBounds(167, 301, 105, 27);
 		panel7.add(btnContinuar);
@@ -521,34 +540,171 @@ public class Ventana_principal extends JFrame{
 		lblVehiculo.setBounds(341, 76, 60, 17);
 		panel7.add(lblVehiculo);
 		
-		JLabel lblVehiculoIco = new JLabel("");
-		lblVehiculoIco.setBounds(319, 107, 95, 84);
-		panel7.add(lblVehiculoIco);
-		
 		JLabel lblInicio = new JLabel("Inicio:");
 		lblInicio.setBounds(39, 230, 60, 17);
 		panel7.add(lblInicio);
-		
-		JDateChooser dateChooserInicio = new JDateChooser();
-		dateChooserInicio.setBounds(94, 230, 79, 21);
-		panel7.add(dateChooserInicio);
 		
 		JLabel lblFinal = new JLabel("final:");
 		lblFinal.setBounds(39, 259, 60, 17);
 		panel7.add(lblFinal);
 		
-		JDateChooser dateChooserfinal = new JDateChooser();
-		dateChooserfinal.setBounds(94, 259, 79, 21);
-		panel7.add(dateChooserfinal);
-		
 		JLabel lblPrecio1 = new JLabel("Precio:");
 		lblPrecio1.setBounds(224, 250, 60, 17);
 		panel7.add(lblPrecio1);
 		
-		textField = new JTextField();
+		JTextField textField = new JTextField();
 		textField.setBounds(287, 245, 85, 27);
 		panel7.add(textField);
 		textField.setColumns(10);
+		
+		JTextField textFieldInicio = new JTextField();
+		textFieldInicio.setBounds(89, 228, 86, 20);
+		panel7.add(textFieldInicio);
+		textFieldInicio.setColumns(10);
+		
+		JTextField textFieldfinal = new JTextField();
+		textFieldfinal.setBounds(89, 258, 86, 20);
+		panel7.add(textFieldfinal);
+		textFieldfinal.setColumns(10);
+		
+		JPanel panelImagen1 = new JPanel();
+		panelImagen1.setBounds(308, 102, 122, 102);
+		panel7.add(panelImagen1);
+		panelImagen1.setLayout(new BorderLayout(0, 0));
+		
+		JLabel lblVehiculoIco_1 = new JLabel("");
+		/*
+		ImageIcon imagen5 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Nave1.png"));
+        Icon icono5 = new ImageIcon(imagen5.getImage().getScaledInstance(lblVehiculoIco_1.getWidth()-10,lblVehiculoIco_1.getHeight(),Image.SCALE_DEFAULT));
+        lblVehiculoIco_1.setIcon(icono5);
+		*/
+		panelImagen1.add(lblVehiculoIco_1, BorderLayout.CENTER);
+		
+		JLabel lblVehiculoIco_2 = new JLabel("");
+		/*
+		ImageIcon imagen7 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Nave2.png"));
+        Icon icono7 = new ImageIcon(imagen7.getImage().getScaledInstance(lblVehiculoIco_2.getWidth()-10,lblVehiculoIco_2.getHeight(),Image.SCALE_DEFAULT));
+        lblVehiculoIco_1.setIcon(icono7);
+		*/
+		panelImagen1.add(lblVehiculoIco_2, BorderLayout.NORTH);
+		
+		
+		
+		//PANEL8:............................................................................
+
+		panel8 = new JPanel();
+		panel8.setBounds(5, 15, 440, 340);
+		panel8.setLayout(null);
+		panel8.setVisible(false);
+		
+		JTextPane textPaneContrato = new JTextPane();
+		textPaneContrato.setBounds(31, 58, 369, 190);
+		panel8.add(textPaneContrato);
+		
+		JLabel lblContrato = new JLabel("CONTRATO");
+		lblContrato.setFont(new Font("Aharoni", Font.PLAIN, 30));
+		lblContrato.setBounds(31, 17, 202, 49);
+		panel8.add(lblContrato);
+		
+		JCheckBox e = new JCheckBox("He leido el contrato y estoy de acuerdo");
+		e.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				btnAceptarygenerar.setEnabled(true);
+			}
+		});
+		e.setBounds(124, 263, 215, 23);
+		panel8.	add(e);
+		
+		btnAceptarygenerar = new JButton("Aceptar y generar archivo");
+		btnAceptarygenerar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				CambiaPanel(panel8,panel9);
+			}
+		});
+		btnAceptarygenerar.setEnabled(false);
+		btnAceptarygenerar.setBounds(147, 293, 167, 23);
+		panel8.add(btnAceptarygenerar);
+		
+		
+		
+		//PANEL9:............................................................................
+
+		panel9 = new JPanel();
+		panel9.setBounds(5, 15, 440, 340);
+		panel9.setLayout(null);
+		panel9.setVisible(false);
+		
+		JLabel lblgracias = new JLabel("Gracias por rentar en");
+		lblgracias.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lblgracias.setBounds(58, 35, 319, 46);
+		panel9.add(lblgracias);
+		
+		JLabel lblrapi = new JLabel("RAPIMOV");
+		lblrapi.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lblrapi.setBounds(140, 74, 162, 55);
+		panel9.add(lblrapi);
+		
+		JButton btnFin = new JButton("Finalizar");
+		btnFin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				CambiaPanel(panel9,panel1);
+			}
+		});
+		btnFin.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 15));
+		btnFin.setBounds(163, 251, 112, 30);
+		panel9.add(btnFin);
+		
+		textFieldAlgo = new JTextField();
+		textFieldAlgo.setBounds(150, 157, 135, 36);
+		panel9.add(textFieldAlgo);
+		textFieldAlgo.setColumns(10);
+		
+		
+		
+		//PANEL10:............................................................................
+		
+		panel10 = new JPanel();
+		panel10.setBounds(5, 15, 440, 340);
+		panel10.setLayout(null);
+		panel10.setVisible(false);
+		
+		JLabel lblAnteriores = new JLabel("Vehiculos rentados");
+		lblAnteriores.setFont(new Font("Tahoma", Font.BOLD, 25));
+		lblAnteriores.setBounds(96, 55, 246, 44);
+		panel10.add(lblAnteriores);
+		
+		tableRentados = new JTable();
+		tableRentados.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
+		tableRentados.setBounds(389, 277, -327, -165);
+		panel10.add(tableRentados);
+		/*
+		JToggleButton tglbtnInicio2 = new JToggleButton("Inicio");
+		tglbtnInicio.setSelected(true);
+		tglbtnInicio.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				tglbtnRentasAnteriores.setSelected(false);
+				CambiaPanel(panel10,panel1);
+			}
+		});
+		tglbtnInicio.setBounds(12, 12, 105, 27);
+		panel10.add(tglbtnInicio);
+		
+		JToggleButton tglbtnRentasAnteriores2 = new JToggleButton("Rentas Anteriores");
+		tglbtnRentasAnteriores.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				tglbtnInicio.setSelected(false);
+				CambiaPanel(panel1,panel10);
+			}
+		});
+		tglbtnRentasAnteriores.setBounds(116, 12, 147, 27);
+		panel10.add(tglbtnRentasAnteriores);
+		*/
+		
 		
 		
 	}
