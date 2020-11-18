@@ -481,7 +481,7 @@ public class Ventana_principal extends JFrame{
 		panel6.add(textFieldcel);
 		textFieldcel.setColumns(10);
 		
-		final JTextField textFieldnom = new JTextField();
+		JTextField textFieldnom = new JTextField();
 		textFieldnom.setColumns(10);
 		textFieldnom.setBounds(134, 100, 164, 21);
 		panel6.add(textFieldnom);
@@ -517,9 +517,7 @@ public class Ventana_principal extends JFrame{
 		JButton btnAceptar1 = new JButton("Aceptar");
 		btnAceptar1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-					renta.setNombreC(textFieldnom.getText());
-					a=renta.getNombreC();
-					System.out.println(a);
+				
 					CambiaPanel(panel6,panel7);
 				
 			}
@@ -563,7 +561,7 @@ public class Ventana_principal extends JFrame{
 		textFieldcel1.setColumns(10);
 		
 		JTextField textFieldnom1 = new JTextField();
-		textFieldnom1.setText("");
+		textFieldnom1.setText(a); //al hacer esto nos da java.lang.NullPointerException
 		textFieldnom1.setEditable(false);
 		textFieldnom1.setColumns(10);
 		textFieldnom1.setBounds(134, 100, 164, 21);
@@ -582,7 +580,7 @@ public class Ventana_principal extends JFrame{
 		JButton btnContinuar = new JButton("Continuar");
 		btnContinuar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+
 				CambiaPanel(panel7,panel8);
 			}
 		});

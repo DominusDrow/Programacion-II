@@ -20,7 +20,7 @@ public class Renta {
 	private boolean tarjetaCredito;
 	
 	public Renta() {
-		this.NomCliente="";
+		this.NomCliente="algo";
 	} 
 	
 	public Renta(Medios_Transporte vehiculo) {
