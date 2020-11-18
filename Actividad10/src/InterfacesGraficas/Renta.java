@@ -7,11 +7,12 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+import com.toedter.calendar.JDateChooser;
+
 public class Renta {
 	
 	private Medios_Transporte vehiculo;
-	private int horas;
-	private int precioHora;	
+	private int precioRenta;
 	private int horasRenta;
 	private String NomCliente;
 
@@ -32,6 +33,14 @@ public class Renta {
 		return vehiculo;
 	}
 	
+	public void setPrecio(int precioR) {
+		precioRenta=precioR;
+	}
+	
+	public int getPrecio() {
+		return precioRenta;
+	}
+	
 	public void setHoraR(int horas) {
 		horasRenta=horas;
 	}
@@ -48,20 +57,16 @@ public class Renta {
 		return NomCliente;
 	}
 	
-	public void setDateInicio(int dia,int mes, int anio) {
-		Calendar calendar=new GregorianCalendar();
-		calendar.set(anio,mes, dia);
-		fechaInicio=calendar.getTime();
+	public void setDateInicio(JDateChooser fecha) {
+		fechaInicio= fecha.getDate();
 	}
 	
 	public Date getDateInicio() {
 		return fechaInicio;
 	}
 	
-	public void getDateFin(int dia,int mes, int anio) {
-		Calendar calendar=new GregorianCalendar();
-		calendar.set(anio,mes, dia);
-		fechaFin=calendar.getTime();
+	public void setDateFin(JDateChooser fecha) {
+		fechaFin= fecha.getDate();
 	}
 	
 	public Date getDateFin() {
@@ -78,9 +83,28 @@ public class Renta {
 		return tarjetaCredito;
 	}
 	
-	public static boolean soniguales(Date fecha1,Date fecha2) {
+	public int calculaHoras(JDateChooser fechaI, JDateChooser fechaF) {
+		int dias=0,horas;
+		Calendar inicio=fechaI.getCalendar();
+		Calendar fin=fechaF.getCalendar();
+			
+		while(inicio.before(fin)||inicio.equals(fin)) {
+			dias++;
+			inicio.add(Calendar.DATE, 1);	
+		}	
+		horas=24*dias;
 		
-		if(fecha1.equals(fecha2)) {
+		return horas;
+	}
+	
+	public int calculaPrecio(int horas,int precioXHora) {
+		return precioXHora*horas;
+	}
+	
+	public static boolean validar(JDateChooser fecha1,JDateChooser fecha2) {
+		
+		if((fecha1.getDate()).before(fecha2.getDate())||(fecha1.getDate()).equals(fecha2.getDate())) {
+			//si fecha inicio esta antes o es igual a fecha fin, esta bien(Y)
 			return true;
 		}
 		return false;

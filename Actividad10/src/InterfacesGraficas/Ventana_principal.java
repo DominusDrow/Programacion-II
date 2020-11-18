@@ -205,6 +205,7 @@ public class Ventana_principal extends JFrame{
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				//crear objeto de tipo nave y pasarlo a setvehiculo
 				CambiaPanel(panel3,panel4);
 				
 			}
@@ -280,10 +281,12 @@ public class Ventana_principal extends JFrame{
 		dateChooserInicio.setBounds(166, 106, 114, 23);
 		panel4.add(dateChooserInicio);
 		
+		//boton calcular: al presionar solo calcula las fechas ok
+		
 		dateChooserfin = new JDateChooser();
 		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-					
+				
 					btnPagoConTargeta.setEnabled(true);
 					btnPagoConEfectivo.setEnabled(true);
 				
@@ -304,7 +307,7 @@ public class Ventana_principal extends JFrame{
 		lblPrecio.setBounds(166, 225, 23, 23);
 		panel4.add(lblPrecio);
 		
-		btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta = new JButton("Pago con tarjeta");
 		btnPagoConTargeta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
