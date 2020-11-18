@@ -54,6 +54,8 @@ public class Ventana_principal extends JFrame{
 	
 	private JDateChooser dateChooserfin,dateChooserInicio;
 	
+	private String a;
+	
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -352,19 +354,23 @@ public class Ventana_principal extends JFrame{
 		panel4.add(btnCalcular);
 		btnCalcular.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				if((dateChooserInicio.getDate()!=null)&&(dateChooserfin.getDate()!=null))	{
 					int horas=renta.calculaHoras(dateChooserInicio, dateChooserfin);
 					//int precio=renta.calculaPrecio(horas,renta.getVehiculo().) necesitamos el precioXhora del vehiculo
-				if(renta.validar(dateChooserInicio,dateChooserfin)) {
-					textFielPrecio.setText("precioTotal");
-					textFielHoras.setText(" "+horas+" ");
+					if(renta.validar(dateChooserInicio,dateChooserfin)) {
+						textFielPrecio.setText("precioTotal");
+						textFielHoras.setText(" "+horas+" ");
+					}else {
+						JOptionPane.showMessageDialog(null, "Las fechas estan mal.");
+					}
 				}else {
-					JOptionPane.showMessageDialog(null, "Las fechas estan mal.");
+					JOptionPane.showMessageDialog(null, "Introduzca fechas");
 				}
 				
 			}
 		});
 		
-		btnPagoConTargeta = new JButton("Pago con targeta");
+		btnPagoConTargeta = new JButton("Pago con tarjeta");
 		btnPagoConTargeta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
@@ -475,7 +481,7 @@ public class Ventana_principal extends JFrame{
 		panel6.add(textFieldcel);
 		textFieldcel.setColumns(10);
 		
-		JTextField textFieldnom = new JTextField();
+		final JTextField textFieldnom = new JTextField();
 		textFieldnom.setColumns(10);
 		textFieldnom.setBounds(134, 100, 164, 21);
 		panel6.add(textFieldnom);
@@ -511,7 +517,9 @@ public class Ventana_principal extends JFrame{
 		JButton btnAceptar1 = new JButton("Aceptar");
 		btnAceptar1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-					
+					renta.setNombreC(textFieldnom.getText());
+					a=renta.getNombreC();
+					System.out.println(a);
 					CambiaPanel(panel6,panel7);
 				
 			}
@@ -555,6 +563,8 @@ public class Ventana_principal extends JFrame{
 		textFieldcel1.setColumns(10);
 		
 		JTextField textFieldnom1 = new JTextField();
+		textFieldnom1.setText("");
+		textFieldnom1.setEditable(false);
 		textFieldnom1.setColumns(10);
 		textFieldnom1.setBounds(134, 100, 164, 21);
 		panel7.add(textFieldnom1);
@@ -602,6 +612,7 @@ public class Ventana_principal extends JFrame{
 		textField.setColumns(10);
 		
 		JTextField textFieldInicio = new JTextField();
+		//textFieldInicio.setText();
 		textFieldInicio.setBounds(89, 228, 86, 20);
 		panel7.add(textFieldInicio);
 		textFieldInicio.setColumns(10);

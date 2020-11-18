@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 
 import com.toedter.calendar.JDateChooser;
 
@@ -20,8 +19,12 @@ public class Renta {
 	private Date fechaFin;
 	private boolean tarjetaCredito;
 	
-	public void Renta(Medios_Transporte vehiculo) {
-		
+	public Renta() {
+		this.NomCliente="";
+	} 
+	
+	public Renta(Medios_Transporte vehiculo) {
+		this.NomCliente="";
 		this.vehiculo=vehiculo;
 	} 
 	
