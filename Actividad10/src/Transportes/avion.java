@@ -7,7 +7,6 @@ AvendaÃ±o Avalos Luis Ã�ngel   201933893
 
 public class avion extends transporte_aereo implements Comunicacion {
 	
-	public static final int precioHora=10;
     private int numVuelo;
     private String aerolinea;
 	public static final int capaCombus=750;
@@ -28,10 +27,7 @@ public class avion extends transporte_aereo implements Comunicacion {
     	this.aerolinea=aero;
     	this.numVuelo=numVuelo;
     }
-    
-    public static int getPrecioHora() {
-    	return precioHora;
-    }
+
     
     public void setNumvuelo(int num) {
     	numVuelo=num;

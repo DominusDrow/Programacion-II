@@ -7,7 +7,6 @@ AvendaÃ±o Avalos Luis Ã�ngel   201933893
 
 public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 	
-	public static final int precioHora=10;
 	public static final int GastoMOV=300;
 	public static final int DistanciaMOV=300;
 	public static final int GastoATACK=100;
@@ -41,10 +40,7 @@ public class naveEspacial extends trasporte_Espacial implements Comunicacion {
 		Escudos=true;
 	}
 	
-	   public static int getPrecioHora() {
-	    	return precioHora;
-	    }
-	
+
 	public String Despegar() {
 	    	
 	    if(super.getOrbita()) {
