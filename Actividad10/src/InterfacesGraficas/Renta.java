@@ -61,7 +61,7 @@ public class Renta {
 	}
 	
 	public void setCelularC(String celular) {
-		celular=CelularC;
+		CelularC=celular;
 	}
 	
 	public String getCelulareC() {

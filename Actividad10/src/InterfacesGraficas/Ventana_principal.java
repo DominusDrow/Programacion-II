@@ -29,6 +29,7 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 
 import java.awt.event.ActionListener;
+import java.text.SimpleDateFormat;
 import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
 import javax.swing.UIManager;
@@ -73,7 +74,8 @@ public class Ventana_principal extends JFrame{
 	
 	private	ImageIcon imagen3,imagen2,imagen6,imagen1,imagen9;
 	
-	private String a;
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
 	
 	
 	
@@ -503,9 +505,10 @@ public class Ventana_principal extends JFrame{
 		
 	
 		//ya existen:
-		/*panel6.add(lblDatosDelCliente);
+		
+		panel6.add(lblDatosDelCliente);
 		panel6.add(lblNombre);
-		panel6.add(lblCelular); */
+		panel6.add(lblCelular);
 		
 		textFieldcel2 = new JTextField();
 		textFieldcel2.setBounds(134, 144, 164, 21);
@@ -549,16 +552,30 @@ public class Ventana_principal extends JFrame{
 		btnAceptar1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
-				
-				renta.setNombreC(textFieldnom2.getText());
-				textFieldnom3.setText(renta.getNombreC());
-				
-				renta.setCelularC(textFieldcel.getText());
-				textFieldcel1.setText(renta.getCelulareC());
-				
-				//falta capturar los demas datos
-				
-				CambiaPanel(panel6,panel7);	
+				if(!textFieldCVV.getText().isEmpty()&&!textFieldcel2.getText().isEmpty()&&!textFieldTarjeta.getText().isEmpty()&&!textFieldnom2.getText().isEmpty()&&!dateChooserEXp.getText().isEmpty()) {
+					renta.setNombreC(textFieldnom2.getText());
+					textFieldnom3.setText(renta.getNombreC());
+
+
+					renta.setCelularC(textFieldcel2.getText());
+					textFieldcel1.setText(renta.getCelulareC());
+					
+					textFieldTarjeta1.setText(textFieldTarjeta.getText());
+					
+					textFieldInicio.setText(sdf.format(renta.getDateInicio()));
+					
+					textFieldfinal.setText(sdf.format(renta.getDateFin()));
+					
+					textField7.setText(renta.getPrecio());
+					
+					
+					//falta capturar los demas datos
+					
+					CambiaPanel(panel6,panel7);	
+				}else {
+					JOptionPane.showMessageDialog(null, "Por favor, ingrese todos los datos");
+				}
+
 			}
 		});
 		btnAceptar1.setFont(new Font("Dialog", Font.BOLD, 14));
