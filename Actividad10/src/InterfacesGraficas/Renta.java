@@ -11,44 +11,44 @@ import com.toedter.calendar.JDateChooser;
 public class Renta {
 	
 	private Medios_Transporte vehiculo;
-	private int precioRenta;
-	private int horasRenta;
+	private int precioHora;
+	
 	private String NomCliente;
-
+	private String CelularC;
+	private String precioRenta;
+	private String horasRenta;
+	
 	private Date fechaInicio;
 	private Date fechaFin;
 	private boolean tarjetaCredito;
 	
-	public Renta() {
-		this.NomCliente="algo";
-	} 
-	
-	public Renta(Medios_Transporte vehiculo) {
-		this.NomCliente="";
+	public void setVehiculo(avion vehiculo) {
+		this.precioHora=70;
 		this.vehiculo=vehiculo;
-	} 
+	}
 	
-	public void setVehiculo(Medios_Transporte Mvehiculo) {
-		vehiculo=Mvehiculo;
+	public void setVehiculo(naveEspacial vehiculo) {
+		this.precioHora=100;
+		this.vehiculo=vehiculo;
 	}
 	
 	public Medios_Transporte getVehiculo() {
 		return vehiculo;
 	}
 	
-	public void setPrecio(int precioR) {
+	public void setPrecio(String precioR) {
 		precioRenta=precioR;
 	}
 	
-	public int getPrecio() {
+	public String getPrecio() {
 		return precioRenta;
 	}
 	
-	public void setHoraR(int horas) {
+	public void setHoraR(String horas) {
 		horasRenta=horas;
 	}
 	
-	public int getHoraR() {
+	public String getHoraR() {
 		return horasRenta;
 	}
 	
@@ -58,6 +58,14 @@ public class Renta {
 	
 	public String getNombreC() {
 		return NomCliente;
+	}
+	
+	public void setCelularC(String celular) {
+		celular=CelularC;
+	}
+	
+	public String getCelulareC() {
+		return CelularC;
 	}
 	
 	public void setDateInicio(JDateChooser fecha) {
@@ -76,7 +84,6 @@ public class Renta {
 		return fechaFin;
 	}
 	
-
 	
 	public void setTarjeta(boolean tarj) {
 		tarjetaCredito=tarj;
@@ -100,8 +107,8 @@ public class Renta {
 		return horas;
 	}
 	
-	public int calculaPrecio(int horas,int precioXHora) {
-		return precioXHora*horas;
+	public int calculaPrecio(int horas) {
+		return this.precioHora*horas;
 	}
 	
 	public static boolean validar(JDateChooser fecha1,JDateChooser fecha2) {
@@ -113,11 +120,13 @@ public class Renta {
 		return false;
 	}
 	
+	
+	
 	public void rentar() {
 		
 		try {
 			
-			FileReader entrada = new FileReader("/home/drow/Documents/texto.txt");
+			var entrada = new FileReader("");
 			
 			int c= entrada.read();
 			
