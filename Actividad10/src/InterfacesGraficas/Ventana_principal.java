@@ -30,6 +30,7 @@ import javax.swing.JCheckBox;
 
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
+import java.util.Random;
 import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
 import javax.swing.UIManager;
@@ -50,7 +51,7 @@ public class Ventana_principal extends JFrame{
 	private JLabel lblCelular1,lblNombre1,lblDatosDelCliente1,lbldatos1,lblCvv,lblFechaDeExpiracion,
 	lblNoDeTarjeta,lbldatos,lblGuardeEsteFolio,lblDebidoASu,lblSeGeneroEl,lblCelular,lblNombre,lblDatosDelCliente,
 	lblNewLabel,lblsiH,lblsi,lblPrecio,lblFechaFinDe,lblFechaInicioDe,lblnave2,lblnave1,lblNuestrosVehiculos,
-	lblElijaSuVehiculo,imagentarjeta1,lblPregunta,lbllogo,lbltitulo,lblElijaSuVehiculo1,lblNoDeTarjeta1;
+	lblElijaSuVehiculo,imagentarjeta1,lblPregunta,lbllogo,lbltitulo,lblElijaSuVehiculo1,lblNoDeTarjeta1,lblCelular0,lblNombre0,lblDatosDelCliente0;
 	
 	private JRadioButton rdbtnNaveEspacial,rdbtnAvion;
 	
@@ -61,7 +62,7 @@ public class Ventana_principal extends JFrame{
 	private JToggleButton tglbtnInicio,tglbtnRentasAnteriores;	
 	
 	private JButton btnPagoConTargeta,btnPagoConEfectivo,btnAceptarygenerar,btnAceptar,btnCalcular,btnFin,btnContinuar,btnAceptar1,
-	btnNo,btnSi,btnRentar,btnImagen;
+	btnNo,btnSi,btnRentar,btnImagen,btnAceptaE,btnAceptar11;
 	
 	private JDateChooser dateChooserfin,dateChooserInicio;
 	
@@ -165,7 +166,7 @@ public class Ventana_principal extends JFrame{
 		
 		btnRentar = new JButton("RENTAR");
 		btnRentar.setFont(new Font("Dialog", Font.BOLD, 18));
-		btnRentar.setBounds(158, 272, 123, 43);
+		btnRentar.setBounds(145, 272, 123, 43);
 		btnRentar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -181,7 +182,7 @@ public class Ventana_principal extends JFrame{
 		
 		lbltitulo = new JLabel("RAPIMOV");
 		lbltitulo.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lbltitulo.setBounds(141, 60, 168, 43);
+		lbltitulo.setBounds(139, 60, 168, 43);
 		panel1.add(lbltitulo);
 		
 		lbllogo = new JLabel("");
@@ -198,7 +199,7 @@ public class Ventana_principal extends JFrame{
 		panel2.setLayout(null);
 		panel2.setVisible(false);
 		
-		lblPregunta = new JLabel("ï¿½Cuentas con tarjeta de credito?");
+		lblPregunta = new JLabel("¿Cuentas con tarjeta de crédito?");
 		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
 		lblPregunta.setBounds(44, 90, 365, 41);
 		panel2.add(lblPregunta);
@@ -269,7 +270,7 @@ public class Ventana_principal extends JFrame{
 			}
 		});
 		btnAceptar.setFont(new Font("Dialog", Font.BOLD, 15));
-		btnAceptar.setBounds(166, 285, 105, 27);
+		btnAceptar.setBounds(145, 285, 105, 27);
 		btnAceptar.setEnabled(false);
 		panel3.add(btnAceptar);
 		
@@ -327,28 +328,20 @@ public class Ventana_principal extends JFrame{
 		
 		lblFechaInicioDe = new JLabel("Fecha inicio de renta:");
 		lblFechaInicioDe.setFont(new Font("Dialog", Font.BOLD, 15));
-		lblFechaInicioDe.setBounds(139, 71, 169, 23);
+		lblFechaInicioDe.setBounds(128, 71, 169, 23);
 		panel4.add(lblFechaInicioDe);
 		
 		lblFechaFinDe = new JLabel("Fecha fin de renta:");
 		lblFechaFinDe.setFont(new Font("Dialog", Font.BOLD, 15));
-		lblFechaFinDe.setBounds(149, 147, 169, 23);
+		lblFechaFinDe.setBounds(139, 140, 169, 23);
 		panel4.add(lblFechaFinDe);
 		
 		dateChooserInicio = new JDateChooser();
-		dateChooserInicio.setBounds(166, 106, 114, 23);
+		dateChooserInicio.setBounds(145, 106, 114, 23);
 		panel4.add(dateChooserInicio);
 		
 		dateChooserfin = new JDateChooser();
-		dateChooserfin.getCalendarButton().addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-					
-					btnPagoConTargeta.setEnabled(true);
-					btnPagoConEfectivo.setEnabled(true);
-				
-			}
-		});
-		dateChooserfin.setBounds(166, 177, 114, 23);
+		dateChooserfin.setBounds(145, 170, 114, 23);
 		panel4.add(dateChooserfin);
 		
 		textFielPrecio = new JTextField();
@@ -381,7 +374,7 @@ public class Ventana_principal extends JFrame{
 		
 		btnCalcular=new JButton("Calcular");
 		btnCalcular.setFont(new Font("Dialog",Font.BOLD,13));
-		btnCalcular.setBounds(166, 205, 114, 23);
+		btnCalcular.setBounds(145, 205, 114, 23);
 		panel4.add(btnCalcular);
 		btnCalcular.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -393,6 +386,8 @@ public class Ventana_principal extends JFrame{
 					if(Renta.validar(dateChooserInicio,dateChooserfin)) {
 						textFielPrecio.setText(" "+renta.calculaPrecio(horas));
 						textFielHoras.setText(" "+horas+" ");
+						btnPagoConTargeta.setEnabled(true);
+						btnPagoConEfectivo.setEnabled(true);
 					
 					}else
 						JOptionPane.showMessageDialog(null, "Las fechas estan mal.");
@@ -443,30 +438,55 @@ public class Ventana_principal extends JFrame{
 		lblNewLabel.setBounds(109, 12, 218, 53);
 		panel5.add(lblNewLabel);
 		
-		lblDatosDelCliente = new JLabel("Datos del cliente");
-		lblDatosDelCliente.setFont(new Font("Dialog", Font.BOLD, 14));
-		lblDatosDelCliente.setBounds(157, 62, 124, 17);
-		panel5.add(lblDatosDelCliente);
+		lblDatosDelCliente0 = new JLabel("Datos del cliente");
+		lblDatosDelCliente0.setFont(new Font("Dialog", Font.BOLD, 14));
+		lblDatosDelCliente0.setBounds(157, 62, 124, 17);
+		panel5.add(lblDatosDelCliente0);
 		
-		lblNombre = new JLabel("Nombre:");
-		lblNombre.setFont(new Font("Dialog", Font.BOLD, 13));
-		lblNombre.setBounds(39, 102, 60, 17);
-		panel5.add(lblNombre);
+		lblNombre0 = new JLabel("Nombre:");
+		lblNombre0.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNombre0.setBounds(70, 85, 60, 17);
+		panel5.add(lblNombre0);
 		
-		lblCelular = new JLabel("Celular:");
-		lblCelular.setFont(new Font("Dialog", Font.BOLD, 13));
-		lblCelular.setBounds(39, 146, 60, 17);
-		panel5.add(lblCelular);
+		
+		lblCelular0 = new JLabel("Celular:");
+		lblCelular0.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblCelular0.setBounds(70, 129, 60, 17);
+		panel5.add(lblCelular0);
 		
 		textFieldcel = new JTextField();
-		textFieldcel.setBounds(134, 144, 164, 21);
+		textFieldcel.setBounds(134, 129, 164, 21);
 		panel5.add(textFieldcel);
 		textFieldcel.setColumns(10);
 		
 		textFieldnom1 = new JTextField();
 		textFieldnom1.setColumns(10);
-		textFieldnom1.setBounds(134, 100, 164, 21);
+		textFieldnom1.setBounds(134, 85, 164, 21);
 		panel5.add(textFieldnom1);
+		
+		btnAceptaE= new JButton("Capturar");
+		btnAceptaE.setFont(new Font("Dialog", Font.BOLD, 12));
+		btnAceptaE.setBounds(167, 155, 105, 20);
+		panel5.add(btnAceptaE);
+		btnAceptaE.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				if(!textFieldnom1.getText().isEmpty()&&!textFieldcel.getText().isEmpty()) {
+					btnAceptar11.setEnabled(true);
+					btnAceptaE.setEnabled(false);
+					textFieldnom1.setEditable(false);
+					textFieldcel.setEditable(false);
+					renta.setNombreC(textFieldnom1.getText());
+					renta.setCelularC(textFieldcel.getText());
+					textField.setText(folio());
+
+				}else {
+					JOptionPane.showMessageDialog(null, "Ingrese los datos por favor.");
+				}
+
+
+			}
+		});
 		
 		lblSeGeneroEl = new JLabel("Se genero el siguiente folio");
 		lblSeGeneroEl.setFont(new Font("Dialog", Font.BOLD, 13));
@@ -474,6 +494,7 @@ public class Ventana_principal extends JFrame{
 		panel5.add(lblSeGeneroEl);
 		
 		textField = new JTextField();
+		textField.setEditable(false);
 		textField.setBounds(158, 208, 115, 21);
 		panel5.add(textField);
 		textField.setColumns(10);
@@ -482,14 +503,21 @@ public class Ventana_principal extends JFrame{
 		lblDebidoASu.setBounds(43, 241, 358, 17);
 		panel5.add(lblDebidoASu);
 		
-		lblGuardeEsteFolio = new JLabel("guarde este folio para alcaraciones y reclamos");
+		lblGuardeEsteFolio = new JLabel("almacene este folio para alcaraciones y reclamos");
 		lblGuardeEsteFolio.setBounds(85, 261, 286, 17);
 		panel5.add(lblGuardeEsteFolio);
 		
-		btnAceptar1 = new JButton("Aceptar");
-		btnAceptar1.setFont(new Font("Dialog", Font.BOLD, 14));
-		btnAceptar1.setBounds(167, 290, 105, 27);
-		panel5.add(btnAceptar1);
+		btnAceptar11 = new JButton("Aceptar");
+		btnAceptar11.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//metodo de guarda archivo
+				CambiaPanel(panel5, panel9);
+			}
+		});
+		btnAceptar11.setEnabled(false);
+		btnAceptar11.setFont(new Font("Dialog", Font.BOLD, 14));
+		btnAceptar11.setBounds(167, 290, 105, 27);
+		panel5.add(btnAceptar11);
 		
 		//PANEL6:............................................................................
 		
@@ -503,11 +531,19 @@ public class Ventana_principal extends JFrame{
 		lbldatos.setBounds(77, 12, 302, 34);
 		panel6.add(lbldatos);
 		
-	
-		//ya existen:
-		
+		lblDatosDelCliente = new JLabel("Datos del cliente");
+		lblDatosDelCliente.setFont(new Font("Dialog", Font.BOLD, 14));
+		lblDatosDelCliente.setBounds(157, 62, 124, 17);
 		panel6.add(lblDatosDelCliente);
+		
+		lblNombre = new JLabel("Nombre:");
+		lblNombre.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblNombre.setBounds(39, 100, 60, 17);
 		panel6.add(lblNombre);
+		
+		lblCelular= new JLabel("Celular:");
+		lblCelular.setFont(new Font("Dialog", Font.BOLD, 13));
+		lblCelular.setBounds(39, 144, 60, 17);
 		panel6.add(lblCelular);
 		
 		textFieldcel2 = new JTextField();
@@ -520,17 +556,17 @@ public class Ventana_principal extends JFrame{
 		textFieldnom2.setBounds(134, 100, 164, 21);
 		panel6.add(textFieldnom2);
 		
-		lblNoDeTarjeta = new JLabel("No. tarjeta");
+		lblNoDeTarjeta = new JLabel("No. tarjeta:");
 		lblNoDeTarjeta.setFont(new Font("Dialog", Font.BOLD, 13));
 		lblNoDeTarjeta.setBounds(39, 187, 96, 17);
 		panel6.add(lblNoDeTarjeta);
 		
 		textFieldTarjeta = new JTextField();
 		textFieldTarjeta.setColumns(10);
-		textFieldTarjeta.setBounds(134, 185, 164, 21);
+		textFieldTarjeta.setBounds(134, 187, 164, 21);
 		panel6.add(textFieldTarjeta);
 		
-		lblFechaDeExpiracion = new JLabel("Fecha de expiracion");
+		lblFechaDeExpiracion = new JLabel("Fecha de expiracion:");
 		lblFechaDeExpiracion.setFont(new Font("Dialog", Font.BOLD, 13));
 		lblFechaDeExpiracion.setBounds(39, 229, 136, 17);
 		panel6.add(lblFechaDeExpiracion);
@@ -623,7 +659,7 @@ public class Ventana_principal extends JFrame{
 		textFieldnom3.setBounds(134, 100, 164, 21);
 		panel7.add(textFieldnom3);
 		
-		lblNoDeTarjeta1 = new JLabel("No. tarjeta");
+		lblNoDeTarjeta1 = new JLabel("No. tarjeta:");
 		lblNoDeTarjeta1.setFont(new Font("Dialog", Font.BOLD, 13));
 		lblNoDeTarjeta1.setBounds(39, 187, 96, 17);
 		panel7.add(lblNoDeTarjeta1);
@@ -637,16 +673,25 @@ public class Ventana_principal extends JFrame{
 		btnContinuar = new JButton("Continuar");
 		btnContinuar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
-				CambiaPanel(panel7,panel8);
+				
+				renta.setContrato("El término del arrendamiento será por "+renta.getVehiculo().getModelo()+" a nombre del C. "
+						+renta.getNombreC()+" con numero de celular: "+renta.getCelulareC()+". Dicho termino se extiende de "
+						+sdf.format(renta.getDateInicio())+" al "+sdf.format(renta.getDateFin())+" a razon del total de "+renta.getHoraR()
+						+" horas.\n"+"El arrendador lleva obligacion de responder con daños y prejuicios en caso de:\n\tAccidentes de menor y mayor daño"
+								+ "\n\tDaños a terceros.\nAsi pues, se extiende de la misma manera la obligacion de cumplir con el regreso integro del bien."
+								+ "\n\nObligaciones del arrendador es cumplir con el contrato.");
+				textPaneContrato.setText(renta.getContrato());
+				
 				btnImagen.setVisible(false);
+				CambiaPanel(panel7,panel8);
+
 			}
 		});
 		btnContinuar.setFont(new Font("Dialog", Font.BOLD, 14));
 		btnContinuar.setBounds(167, 301, 105, 27);
 		panel7.add(btnContinuar);
 		
-		lblVehiculo = new JLabel("Vehiculo");
+		lblVehiculo = new JLabel("Vehiculo:");
 		lblVehiculo.setBounds(341, 76, 60, 17);
 		panel7.add(lblVehiculo);
 		
@@ -711,6 +756,7 @@ public class Ventana_principal extends JFrame{
 		panel8.setVisible(false);
 		
 		textPaneContrato = new JTextPane();
+		textPaneContrato.setEditable(false);
 		textPaneContrato.setBounds(31, 58, 369, 190);
 		panel8.add(textPaneContrato);
 		
@@ -726,18 +772,19 @@ public class Ventana_principal extends JFrame{
 				btnAceptarygenerar.setEnabled(true);
 			}
 		});
-		HeLeido.setBounds(124, 263, 215, 23);
+		HeLeido.setBounds(84, 263, 280, 23);
 		panel8.	add(HeLeido);
 		
 		btnAceptarygenerar = new JButton("Aceptar y generar archivo");
 		btnAceptarygenerar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
+				
 				CambiaPanel(panel8,panel9);
 			}
 		});
 		btnAceptarygenerar.setEnabled(false);
-		btnAceptarygenerar.setBounds(147, 293, 167, 23);
+		btnAceptarygenerar.setBounds(107, 293, 210, 23);
 		panel8.add(btnAceptarygenerar);
 		
 		
@@ -829,8 +876,31 @@ public class Ventana_principal extends JFrame{
 		renta.setPrecio(textFielPrecio.getText());
 	}
 	
+	public String folio() {
+		char [] chars = "0123456789abcdefghijklmnopqrstuvwxyz".toCharArray();
+
+		// Longitud del array de char.
+		int charsLength = chars.length;
+
+		// Instanciamos la clase Random
+		Random random = new Random();
+
+		// Un StringBuffer para componer la cadena aleatoria de forma eficiente
+		StringBuffer buffer = new StringBuffer();
+
+		// Bucle para elegir una cadena de 10 caracteres al azar
+		for (int i=0;i<10;i++){
+
+		   // Añadimos al buffer un caracter al azar del array
+		   buffer.append(chars[random.nextInt(charsLength)]);
+		}
+		
+		return buffer.toString();
+	}
+	
 	
 }
+
 
 
 

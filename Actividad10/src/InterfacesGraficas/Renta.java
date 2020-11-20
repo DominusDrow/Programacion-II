@@ -21,6 +21,7 @@ public class Renta {
 	private Date fechaInicio;
 	private Date fechaFin;
 	private boolean tarjetaCredito;
+	private String contrato;
 	
 	public void setVehiculo(avion vehiculo) {
 		this.precioHora=70;
@@ -50,6 +51,14 @@ public class Renta {
 	
 	public String getHoraR() {
 		return horasRenta;
+	}
+	
+	public void setContrato(String contrat) {
+		contrato=contrat;
+	}
+	
+	public String getContrato() {
+		return contrato;
 	}
 	
 	public void setNombreC(String nombre) {
