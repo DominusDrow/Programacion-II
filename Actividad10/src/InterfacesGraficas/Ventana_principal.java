@@ -29,6 +29,8 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.text.SimpleDateFormat;
 import java.util.Random;
 import java.awt.event.ActionEvent;
@@ -44,7 +46,7 @@ public class Ventana_principal extends JFrame{
 	private JTable tableRentados;
 	
 	private JPanel Contenedor,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panel10,panelImagen1,
-	panelaux1,panelaux2;
+	panelaux;
 	
 	private JLabel lblAnteriores,lblrapi,lblgracias,lblContrato,lblVehiculoIco_1,lblPrecio1,lblFinal,lblInicio,lblVehiculo;
 	
@@ -120,6 +122,15 @@ public class Ventana_principal extends JFrame{
 				CambiaPanel(panel10,panel1);
 			}
 		});
+		tglbtnInicio.addMouseListener(new MouseAdapter() {
+			
+			public void mousePressed(MouseEvent e) {
+				tglbtnInicio.setBounds(9, 9, 110, 32);
+			}
+			public void mouseReleased(MouseEvent e) {
+				tglbtnInicio.setBounds(12, 12, 105, 27);
+			}
+		});
 		tglbtnInicio.setBounds(12, 12, 105, 27);
 		Contenedor.add(tglbtnInicio);
 		
@@ -131,29 +142,67 @@ public class Ventana_principal extends JFrame{
 				CambiaPanel(panel1,panel10);
 			}
 		});
+		tglbtnRentasAnteriores.addMouseListener(new MouseAdapter() {
+			
+			public void mousePressed(MouseEvent e) {
+				tglbtnRentasAnteriores.setBounds(113, 9, 152, 32);
+			}
+			public void mouseReleased(MouseEvent e) {
+				tglbtnRentasAnteriores.setBounds(116, 12, 147, 27);
+			}
+		});
 		tglbtnRentasAnteriores.setBounds(116, 12, 147, 27);
 		Contenedor.add(tglbtnRentasAnteriores);
 		
 		btnImagen = new JButton("");
 		btnImagen.setVisible(false);
+		btnImagen.setContentAreaFilled(false);
+		btnImagen.setBorderPainted(false);
 		btnImagen.setBackground(UIManager.getColor("Button.select"));
-		btnImagen.setBounds(15, 15, 47, 31);
+		btnImagen.setBounds(15, 15, 35, 35);
 		btnImagen.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
-				CambiaPanel(panelaux2,panelaux1);
-				
-				if(panelaux2.equals(panel1)) {
+
+				if(panelaux.equals(panel2)) {
+					CambiaPanel(panelaux,panel1);
 					btnImagen.setVisible(false);
 					tglbtnInicio.setVisible(true);
 					tglbtnRentasAnteriores.setVisible(true);
-					
 				}
+				else if(panelaux.equals(panel3))
+					CambiaPanel(panelaux,panel2);
+			
+				else if(panelaux.equals(panel4))
+					CambiaPanel(panelaux,panel3);
+				
+				else if(panelaux.equals(panel5))
+					CambiaPanel(panelaux,panel4);
+				
+				else if(panelaux.equals(panel6))
+					CambiaPanel(panelaux,panel4);
+				
+				else if(panelaux.equals(panel7))
+					CambiaPanel(panelaux,panel6);
 				
 			}
 		});
+		btnImagen.addMouseListener(new MouseAdapter() {
+			
+			public void mousePressed(MouseEvent e) {
+				btnImagen.setBounds(17, 17, 30, 30);
+				icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth(),btnImagen.getHeight(),Image.SCALE_DEFAULT));
+				btnImagen.setIcon(icono);
+			}
+		
+			public void mouseReleased(MouseEvent e) {
+				btnImagen.setBounds(15, 15, 35, 35);
+				icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth(),btnImagen.getHeight(),Image.SCALE_DEFAULT));
+				btnImagen.setIcon(icono);
+			}
+		});
+		
 		imagen1 = new ImageIcon(Ventana_principal.class.getResource("/Imagenes/Flecha1.png"));
-        icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth()-10,btnImagen.getHeight(),Image.SCALE_DEFAULT));
+        icono = new ImageIcon(imagen1.getImage().getScaledInstance(btnImagen.getWidth(),btnImagen.getHeight(),Image.SCALE_DEFAULT));
 		btnImagen.setIcon(icono);
 		Contenedor.add(btnImagen);
 		
@@ -199,7 +248,7 @@ public class Ventana_principal extends JFrame{
 		panel2.setLayout(null);
 		panel2.setVisible(false);
 		
-		lblPregunta = new JLabel("¿Cuentas con tarjeta de crédito?");
+		lblPregunta = new JLabel("ï¿½Cuentas con tarjeta de crï¿½dito?");
 		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
 		lblPregunta.setBounds(44, 90, 365, 41);
 		panel2.add(lblPregunta);
@@ -270,7 +319,7 @@ public class Ventana_principal extends JFrame{
 			}
 		});
 		btnAceptar.setFont(new Font("Dialog", Font.BOLD, 15));
-		btnAceptar.setBounds(145, 285, 105, 27);
+		btnAceptar.setBounds(160, 295, 105, 30);
 		btnAceptar.setEnabled(false);
 		panel3.add(btnAceptar);
 		
@@ -299,7 +348,7 @@ public class Ventana_principal extends JFrame{
 
 			}
 		});
-		rdbtnNaveEspacial.setBounds(40, 194, 130, 25);
+		rdbtnNaveEspacial.setBounds(40, 210, 130, 25);
 		panel3.add(rdbtnNaveEspacial);
 		
 		rdbtnAvion = new JRadioButton("Avion");
@@ -310,7 +359,7 @@ public class Ventana_principal extends JFrame{
 				
 			}
 		});
-		rdbtnAvion.setBounds(276, 194, 74, 25);
+		rdbtnAvion.setBounds(276, 210, 74, 25);
 		panel3.add(rdbtnAvion);
 		
 		
@@ -512,6 +561,7 @@ public class Ventana_principal extends JFrame{
 			public void actionPerformed(ActionEvent e) {
 				//metodo de guarda archivo
 				CambiaPanel(panel5, panel9);
+				btnImagen.setVisible(false);
 			}
 		});
 		btnAceptar11.setEnabled(false);
@@ -603,9 +653,7 @@ public class Ventana_principal extends JFrame{
 					textFieldfinal.setText(sdf.format(renta.getDateFin()));
 					
 					textField7.setText(renta.getPrecio());
-					
-					
-					//falta capturar los demas datos
+						
 					
 					CambiaPanel(panel6,panel7);	
 				}else {
@@ -674,11 +722,11 @@ public class Ventana_principal extends JFrame{
 		btnContinuar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				renta.setContrato("El término del arrendamiento será por "+renta.getVehiculo().getModelo()+" a nombre del C. "
+				renta.setContrato("El tï¿½rmino del arrendamiento serï¿½ por "+renta.getVehiculo().getModelo()+" a nombre del C. "
 						+renta.getNombreC()+" con numero de celular: "+renta.getCelulareC()+". Dicho termino se extiende de "
 						+sdf.format(renta.getDateInicio())+" al "+sdf.format(renta.getDateFin())+" a razon del total de "+renta.getHoraR()
-						+" horas.\n"+"El arrendador lleva obligacion de responder con daños y prejuicios en caso de:\n\tAccidentes de menor y mayor daño"
-								+ "\n\tDaños a terceros.\nAsi pues, se extiende de la misma manera la obligacion de cumplir con el regreso integro del bien."
+						+" horas.\n"+"El arrendador lleva obligacion de responder con daï¿½os y prejuicios en caso de:\n\tAccidentes de menor y mayor daï¿½o"
+								+ "\n\tDaï¿½os a terceros.\nAsi pues, se extiende de la misma manera la obligacion de cumplir con el regreso integro del bien."
 								+ "\n\nObligaciones del arrendador es cumplir con el contrato.");
 				textPaneContrato.setText(renta.getContrato());
 				
@@ -810,6 +858,24 @@ public class Ventana_principal extends JFrame{
 		btnFin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
+				textFieldAlgo.setText("");
+				textFieldcel.setText("");
+				textFieldnom2.setText("");
+				textField.setText("");
+				textFieldTarjeta.setText("");
+				textFieldCVV.setText("");
+				textFieldfinal.setText("");
+				textFieldInicio.setText("");
+				textField7.setText("");
+				textFieldTarjeta1.setText("");
+				textFieldnom1.setText("");
+				textFieldcel1.setText("");
+				dateChooserEXp.setText("");
+				textFielHoras.setText("");
+				textFieldnom3.setText("");
+				textFieldcel2.setText("");
+				textFielPrecio.setText("");
+				
 				CambiaPanel(panel9,panel1);
 				
 				tglbtnInicio.setVisible(true);
@@ -848,9 +914,8 @@ public class Ventana_principal extends JFrame{
 	
 	
 	private void CambiaPanel(JPanel a,JPanel b) {
-		
-		panelaux1=a;	//para que funcione el boton de regresar
-		panelaux2=b;
+					//para que funcione el boton de regresar
+		panelaux=b;
 		
 		a.setVisible(false);		//cambia el panel a por el panel b
 		b.setVisible(true);	
@@ -891,7 +956,7 @@ public class Ventana_principal extends JFrame{
 		// Bucle para elegir una cadena de 10 caracteres al azar
 		for (int i=0;i<10;i++){
 
-		   // Añadimos al buffer un caracter al azar del array
+		   // Aï¿½adimos al buffer un caracter al azar del array
 		   buffer.append(chars[random.nextInt(charsLength)]);
 		}
 		
