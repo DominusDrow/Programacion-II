@@ -1,27 +1,37 @@
 package InterfacesGraficas;
 
 import Transportes.*;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.swing.JOptionPane;
+
 import com.toedter.calendar.JDateChooser;
+
 
 public class Renta {
 	
 	private Medios_Transporte vehiculo;
-	private int precioHora;
+	private Cliente cliente;
 	
-	private String NomCliente;
-	private String CelularC;
+	private int precioHora;
 	private String precioRenta;
 	private String horasRenta;
 	
 	private Date fechaInicio;
 	private Date fechaFin;
-	private boolean tarjetaCredito;
 	private String contrato;
+
 	
 	public void setVehiculo(avion vehiculo) {
 		this.precioHora=70;
@@ -35,6 +45,14 @@ public class Renta {
 	
 	public Medios_Transporte getVehiculo() {
 		return vehiculo;
+	}
+	
+	public void setCliente(Cliente client) {
+		cliente=client;
+	}
+	
+	public Cliente getCliente() {
+		return cliente;
 	}
 	
 	public void setPrecio(String precioR) {
@@ -61,22 +79,6 @@ public class Renta {
 		return contrato;
 	}
 	
-	public void setNombreC(String nombre) {
-		NomCliente=nombre;
-	}
-	
-	public String getNombreC() {
-		return NomCliente;
-	}
-	
-	public void setCelularC(String celular) {
-		CelularC=celular;
-	}
-	
-	public String getCelulareC() {
-		return CelularC;
-	}
-	
 	public void setDateInicio(JDateChooser fecha) {
 		fechaInicio= fecha.getDate();
 	}
@@ -93,13 +95,10 @@ public class Renta {
 		return fechaFin;
 	}
 	
-	
-	public void setTarjeta(boolean tarj) {
-		tarjetaCredito=tarj;
-	}
-	
-	public boolean getTarjeta() {
-		return tarjetaCredito;
+	public String toString() {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		return "Se rentó: "+vehiculo.getModelo()+"\n Cliente: "+cliente.getNombre()+"\n De "+sdf.format(fechaInicio)+" al "+sdf.format(fechaFin)
+		+"\nPor el total de $"+precioRenta;
 	}
 	
 	public int calculaHoras(JDateChooser fechaI, JDateChooser fechaF) {
@@ -129,6 +128,40 @@ public class Renta {
 		return false;
 	}
 	
+	public void guardaFlujo(ArrayList<Renta> rentasA){
+		try{
+		    BufferedOutputStream bos= new BufferedOutputStream(new FileOutputStream("RentasAnteriores.dat"));
+		    ObjectOutputStream oos=new ObjectOutputStream(bos);
+		    	for(int i=0;i<rentasA.size();i++)
+		    		oos.writeObject(rentasA.get(i));
+			   
+			    oos.close();
+			    bos.close(); 
+        }catch (Exception ex){ }
+		
+		JOptionPane.showMessageDialog (null, "Archivo guardado."); 
+  }
+	
+	public ArrayList<Renta> leerFluj(String patch) {
+		ArrayList<Renta> rentasA=new ArrayList <Renta>();
+		
+		try{
+			BufferedInputStream bos= new BufferedInputStream(new FileInputStream(patch));
+			ObjectInputStream oos=new ObjectInputStream(bos);
+			
+			Renta r=(Renta)oos.readObject();
+		    while(r!=null) {
+		    	r=(Renta)oos.readObject();
+		    	rentasA.add(r);
+		    }
+		    
+			oos.close();
+			bos.close(); 
+        }catch (Exception ex){ }
+		return rentasA;
+		
+	}
+	
 	
 	
 	public void rentar() {
@@ -149,10 +182,7 @@ public class Renta {
 			}
 		
 			
-		}catch(IOException e) {
-			
-			System.out.println("No se encontro el archhivo");
-		}
+		}catch(IOException e) {}
 		
 	}
 	

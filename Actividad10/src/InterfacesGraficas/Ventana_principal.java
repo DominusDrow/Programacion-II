@@ -248,7 +248,7 @@ public class Ventana_principal extends JFrame{
 		panel2.setLayout(null);
 		panel2.setVisible(false);
 		
-		lblPregunta = new JLabel("ï¿½Cuentas con tarjeta de crï¿½dito?");
+		lblPregunta = new JLabel("¿Cuentas con tarjeta de credito?");
 		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
 		lblPregunta.setBounds(44, 90, 365, 41);
 		panel2.add(lblPregunta);
@@ -257,7 +257,7 @@ public class Ventana_principal extends JFrame{
 		btnSi.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				renta.setTarjeta(true);
+				renta.getCliente().setTarjeta(true);
 				CambiaPanel(panel2,panel3);
 			}
 		});
@@ -269,7 +269,7 @@ public class Ventana_principal extends JFrame{
 		btnNo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				renta.setTarjeta(false);
+				renta.getCliente().setTarjeta(false);
 				CambiaPanel(panel2,panel3);
 				btnPagoConEfectivo.setEnabled(false);
 			}
@@ -525,8 +525,8 @@ public class Ventana_principal extends JFrame{
 					btnAceptaE.setEnabled(false);
 					textFieldnom1.setEditable(false);
 					textFieldcel.setEditable(false);
-					renta.setNombreC(textFieldnom1.getText());
-					renta.setCelularC(textFieldcel.getText());
+					renta.getCliente().setNombre(textFieldnom1.getText());
+					renta.getCliente().setCelular(textFieldcel.getText());
 					textField.setText(folio());
 
 				}else {
@@ -639,12 +639,12 @@ public class Ventana_principal extends JFrame{
 			public void actionPerformed(ActionEvent arg0) {
 					
 				if(!textFieldCVV.getText().isEmpty()&&!textFieldcel2.getText().isEmpty()&&!textFieldTarjeta.getText().isEmpty()&&!textFieldnom2.getText().isEmpty()&&!dateChooserEXp.getText().isEmpty()) {
-					renta.setNombreC(textFieldnom2.getText());
-					textFieldnom3.setText(renta.getNombreC());
+					renta.getCliente().setNombre(textFieldnom2.getText());
+					textFieldnom3.setText(renta.getCliente().getNombre());
 
 
-					renta.setCelularC(textFieldcel2.getText());
-					textFieldcel1.setText(renta.getCelulareC());
+					renta.getCliente().setCelular(textFieldcel2.getText());
+					textFieldcel1.setText(renta.getCliente().getCelular());
 					
 					textFieldTarjeta1.setText(textFieldTarjeta.getText());
 					
@@ -722,11 +722,11 @@ public class Ventana_principal extends JFrame{
 		btnContinuar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				renta.setContrato("El tï¿½rmino del arrendamiento serï¿½ por "+renta.getVehiculo().getModelo()+" a nombre del C. "
-						+renta.getNombreC()+" con numero de celular: "+renta.getCelulareC()+". Dicho termino se extiende de "
+				renta.setContrato("El termino del arrendamiento seria por "+renta.getVehiculo().getModelo()+" a nombre del C. "
+						+renta.getCliente().getNombre()+" con numero de celular: "+renta.getCliente().getCelular()+". Dicho termino se extiende de "
 						+sdf.format(renta.getDateInicio())+" al "+sdf.format(renta.getDateFin())+" a razon del total de "+renta.getHoraR()
-						+" horas.\n"+"El arrendador lleva obligacion de responder con daï¿½os y prejuicios en caso de:\n\tAccidentes de menor y mayor daï¿½o"
-								+ "\n\tDaï¿½os a terceros.\nAsi pues, se extiende de la misma manera la obligacion de cumplir con el regreso integro del bien."
+						+" horas.\n"+"El arrendador lleva obligacion de responder con danios y prejuicios en caso de:\n\tAccidentes de menor y mayor danio"
+								+ "\n\tDanios a terceros.\nAsi pues, se extiende de la misma manera la obligacion de cumplir con el regreso integro del bien."
 								+ "\n\nObligaciones del arrendador es cumplir con el contrato.");
 				textPaneContrato.setText(renta.getContrato());
 				
