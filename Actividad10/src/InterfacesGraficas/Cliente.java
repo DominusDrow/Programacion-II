@@ -1,6 +1,8 @@
 package InterfacesGraficas;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente{
 	
 private String nombre;
 private String celular;
@@ -16,6 +18,12 @@ private boolean tarjetaCredito;
 		this.nombre=nombre;
 	}
 	
+	public Cliente() {
+		this.nombre="";
+		this.celular="";
+		this.tarjetaCredito=false;
+	}
+
 	public void setNombre(String name) {
 		nombre=name;
 	}

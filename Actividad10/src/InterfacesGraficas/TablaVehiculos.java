@@ -31,12 +31,13 @@ public class TablaVehiculos extends javax.swing.JPanel {
            	   
         }
         
-    }
-    
-    public void Vaciar() {
-    	
-    	
-    	
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+                matriz,
+                new String [] {
+                    "Cliente", "Telefono", "Vehiculo"
+                }
+            ));
+        
     }
     
     

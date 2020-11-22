@@ -3,12 +3,17 @@ package InterfacesGraficas;
 import Transportes.*;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -19,8 +24,8 @@ import javax.swing.JOptionPane;
 import com.toedter.calendar.JDateChooser;
 
 
-public class Renta {
-	
+public class Renta implements Serializable{
+
 	private Medios_Transporte vehiculo;
 	private Cliente cliente;
 	
@@ -32,8 +37,15 @@ public class Renta {
 	private Date fechaInicio;
 	private Date fechaFin;
 	private String contrato;
-
 	
+	public Renta(Cliente client) {
+		this.cliente=client;
+	}
+	
+	public Renta() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getNomVehiculo() {
 		return nomVehiculo;
 	}
@@ -137,39 +149,49 @@ public class Renta {
 	
 	public void guardaFlujo(ArrayList<Renta> rentasA){
 		try{
-		    BufferedOutputStream bos= new BufferedOutputStream(new FileOutputStream("RentasAnteriores.dat"));
-		    ObjectOutputStream oos=new ObjectOutputStream(bos);
-		    	for(int i=0;i<rentasA.size();i++)
-		    		oos.writeObject(rentasA.get(i));
-			   
-			    oos.close();
-			    bos.close(); 
+			OutputStream fos=new FileOutputStream("RentasAnteriores.dat");
+			ObjectOutputStream bos= new ObjectOutputStream(fos);
+	    	for(int i=0;i<rentasA.size();i++)
+	    		bos.writeObject(rentasA.get(i));
+			bos.close();
         }catch (Exception ex){ }
 		
 		JOptionPane.showMessageDialog (null, "Archivo guardado."); 
   }
 	
-	public ArrayList<Renta> leerFluj(String patch) {
-		ArrayList<Renta> rentasA=new ArrayList <Renta>();
-		
+	public ArrayList<Renta> leerFluj() {//lee los objetos del archivo y los añade al arraylist, retorna este lleno de objetos
+		ArrayList<Renta> rentasA=new ArrayList<Renta>(); //si el archivo no existe lo crea y retorna arraylist con un objeto para evitar el null;
+		Renta r=new Renta(new Cliente("null"));
+		rentasA.add(r);
 		try{
-			BufferedInputStream bos= new BufferedInputStream(new FileInputStream(patch));
-			ObjectInputStream oos=new ObjectInputStream(bos);
-			
-			Renta r=(Renta)oos.readObject();
-		    while(r!=null) {
-		    	r=(Renta)oos.readObject();
-		    	rentasA.add(r);
-		    }
+			File p= new File("RentasAnteriores.dat");
+			if(!p.exists()) {
+				System.out.println("no existe");
+				p.createNewFile();
+			}else {
+				System.out.println("existe");
+				InputStream fos=new FileInputStream(p);
+				ObjectInputStream bos= new ObjectInputStream(fos);
+			    int i=0;
+			    System.out.println("si");
+		    	r=(Renta)bos.readObject();
+		    	System.out.println("hola");//ya no se imprime, aca lanza la excepcion
+			    while(r!=null) {
+					rentasA.add(i,r);
+			    	r=(Renta)bos.readObject();
+			    }
+			}
 		    
-			oos.close();
-			bos.close(); 
-        }catch (Exception ex){ }
+        }catch (FileNotFoundException ex){
+        	
+        } catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		return rentasA;
 		
 	}
-	
-	
 		
 	
 	

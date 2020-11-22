@@ -32,6 +32,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Random;
 import java.awt.event.ActionEvent;
 import javax.swing.JToggleButton;
@@ -41,11 +42,12 @@ public class Ventana_principal extends JFrame{
 	
 	private static final long serialVersionUID = 1L;	//se lo puso el IDE automaticamente :v
 	
+	private TablaVehiculos tablaAnteriores;
 	private Renta renta;
 	
 	private JTable tableRentados;
 	
-	private JPanel Contenedor,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panel10,panelImagen1,
+	private JPanel Contenedor,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panelImagen1,
 	panelaux;
 	
 	private JLabel lblAnteriores,lblrapi,lblgracias,lblContrato,lblVehiculoIco_1,lblPrecio1,lblFinal,lblInicio,lblVehiculo;
@@ -78,6 +80,10 @@ public class Ventana_principal extends JFrame{
 	private	ImageIcon imagen3,imagen2,imagen6,imagen1,imagen9;
 	
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
+	private ArrayList<Renta> rentasA= new ArrayList<Renta>();
+	
+	
 
 	
 	
@@ -97,6 +103,7 @@ public class Ventana_principal extends JFrame{
 
 
 	public Ventana_principal() {
+		renta= new Renta(new Cliente());
 		
 		//propiedades basicas del frame:
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -117,9 +124,18 @@ public class Ventana_principal extends JFrame{
 		tglbtnInicio.setSelected(true);
 		tglbtnInicio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+					
+					rentasA=renta.leerFluj();
+
+					if(((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
+						System.out.println("no hay nada");
+						rentasA.clear();
+					}else {
+						tablaAnteriores.Actualizar(rentasA);
+					}
+					
 				tglbtnRentasAnteriores.setSelected(false);
-				CambiaPanel(panel10,panel1);
+				CambiaPanel(tablaAnteriores,panel1);
 			}
 		});
 		tglbtnInicio.addMouseListener(new MouseAdapter() {
@@ -137,9 +153,9 @@ public class Ventana_principal extends JFrame{
 		tglbtnRentasAnteriores = new JToggleButton("Rentas Anteriores");
 		tglbtnRentasAnteriores.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				
+				//aca va el flujo de lectura
 				tglbtnInicio.setSelected(false);
-				CambiaPanel(panel1,panel10);
+				CambiaPanel(panel1,tablaAnteriores);
 			}
 		});
 		tglbtnRentasAnteriores.addMouseListener(new MouseAdapter() {
@@ -219,7 +235,8 @@ public class Ventana_principal extends JFrame{
 		btnRentar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
-				renta= new Renta();
+				
+
 				CambiaPanel(panel1,panel2);
 				
 				tglbtnInicio.setVisible(false);
@@ -826,8 +843,7 @@ public class Ventana_principal extends JFrame{
 		btnAceptarygenerar = new JButton("Aceptar y generar archivo");
 		btnAceptarygenerar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-				
+
 				CambiaPanel(panel8,panel9);
 			}
 		});
@@ -876,6 +892,10 @@ public class Ventana_principal extends JFrame{
 				textFieldcel2.setText("");
 				textFielPrecio.setText("");
 				
+				rentasA.add(renta);
+				renta.guardaFlujo(rentasA);
+				
+				tablaAnteriores.Actualizar(rentasA);
 				CambiaPanel(panel9,panel1);
 				
 				tglbtnInicio.setVisible(true);
@@ -892,10 +912,10 @@ public class Ventana_principal extends JFrame{
 		textFieldAlgo.setColumns(10);
 		
 		
-		
 		//PANEL10:............................................................................
 		
-		panel10= new TablaVehiculos();
+		tablaAnteriores= new TablaVehiculos();
+
 		
 		
 	}
@@ -932,19 +952,12 @@ public class Ventana_principal extends JFrame{
 	public String folio() {
 		char [] chars = "0123456789abcdefghijklmnopqrstuvwxyz".toCharArray();
 
-		// Longitud del array de char.
+//genera cadena random para folio
 		int charsLength = chars.length;
-
-		// Instanciamos la clase Random
 		Random random = new Random();
-
-		// Un StringBuffer para componer la cadena aleatoria de forma eficiente
 		StringBuffer buffer = new StringBuffer();
 
-		// Bucle para elegir una cadena de 10 caracteres al azar
 		for (int i=0;i<10;i++){
-
-		   // A�adimos al buffer un caracter al azar del array
 		   buffer.append(chars[random.nextInt(charsLength)]);
 		}
 		
