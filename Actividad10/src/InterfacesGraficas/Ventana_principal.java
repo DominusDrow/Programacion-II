@@ -248,7 +248,7 @@ public class Ventana_principal extends JFrame{
 		panel2.setLayout(null);
 		panel2.setVisible(false);
 		
-		lblPregunta = new JLabel("¿Cuentas con tarjeta de credito?");
+		lblPregunta = new JLabel("ï¿½Cuentas con tarjeta de credito?");
 		lblPregunta.setFont(new Font("Dialog", Font.BOLD, 22));
 		lblPregunta.setBounds(44, 90, 365, 41);
 		panel2.add(lblPregunta);
@@ -895,20 +895,8 @@ public class Ventana_principal extends JFrame{
 		
 		//PANEL10:............................................................................
 		
-		panel10 = new JPanel();
-		panel10.setBounds(5, 15, 440, 340);
-		panel10.setLayout(null);
-		panel10.setVisible(false);
+		panel10= new TablaVehiculos();
 		
-		lblAnteriores = new JLabel("Vehiculos rentados");
-		lblAnteriores.setFont(new Font("Tahoma", Font.BOLD, 25));
-		lblAnteriores.setBounds(96, 40, 246, 44);
-		panel10.add(lblAnteriores);
-		
-		tableRentados = new JTable();
-		tableRentados.setBorder(new LineBorder(new Color(0, 0, 0), 2, true));
-		tableRentados.setBounds(389, 277, -327, -165);
-		panel10.add(tableRentados);
 		
 	}
 	

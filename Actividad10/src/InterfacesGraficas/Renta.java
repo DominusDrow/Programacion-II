@@ -27,18 +27,25 @@ public class Renta {
 	private int precioHora;
 	private String precioRenta;
 	private String horasRenta;
+	private String nomVehiculo;
 	
 	private Date fechaInicio;
 	private Date fechaFin;
 	private String contrato;
 
 	
+	public String getNomVehiculo() {
+		return nomVehiculo;
+	}
+	
 	public void setVehiculo(avion vehiculo) {
+		this.nomVehiculo="avion";
 		this.precioHora=70;
 		this.vehiculo=vehiculo;
 	}
 	
 	public void setVehiculo(naveEspacial vehiculo) {
+		this.nomVehiculo="Nave";
 		this.precioHora=100;
 		this.vehiculo=vehiculo;
 	}
@@ -97,7 +104,7 @@ public class Renta {
 	
 	public String toString() {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		return "Se rentó: "+vehiculo.getModelo()+"\n Cliente: "+cliente.getNombre()+"\n De "+sdf.format(fechaInicio)+" al "+sdf.format(fechaFin)
+		return "Se rentï¿½: "+vehiculo.getModelo()+"\n Cliente: "+cliente.getNombre()+"\n De "+sdf.format(fechaInicio)+" al "+sdf.format(fechaFin)
 		+"\nPor el total de $"+precioRenta;
 	}
 	
@@ -163,29 +170,7 @@ public class Renta {
 	}
 	
 	
-	
-	public void rentar() {
 		
-		try {
-			
-			var entrada = new FileReader("");
-			
-			int c= entrada.read();
-			
-			while(c!=-1) {
-				
-				c=entrada.read();
-				
-				char letra = (char) c;
-				
-				System.out.print(letra);
-			}
-		
-			
-		}catch(IOException e) {}
-		
-	}
-	
 	
 	
 
