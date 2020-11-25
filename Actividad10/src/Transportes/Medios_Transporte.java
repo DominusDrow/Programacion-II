@@ -1,13 +1,19 @@
 package Transportes;
 
+import java.io.Serializable;
+
 /*
-Vásquez López Alfredo Omar 201957903
-Avendaño Avalos Luis Ángel   201933893
+VÃ¡squez LÃ³pez Alfredo Omar 201957903
+AvendaÃ±o Avalos Luis Ã�ngel   201933893
 */
 
-public abstract class Medios_Transporte {
+public abstract class Medios_Transporte implements Serializable{
   
-    private String modelo;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3813991902007197367L;
+	private String modelo;
     private int capacidad_pasajeros;
     private int kilometraje;
     private int combustible;

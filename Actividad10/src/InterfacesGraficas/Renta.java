@@ -1,15 +1,12 @@
 package InterfacesGraficas;
 
 import Transportes.*;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
+
+import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
@@ -21,11 +18,17 @@ import java.util.Date;
 
 import javax.swing.JOptionPane;
 
+
 import com.toedter.calendar.JDateChooser;
 
 
 public class Renta implements Serializable{
+	
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8115855457791496411L;
 	private Medios_Transporte vehiculo;
 	private Cliente cliente;
 	
@@ -151,7 +154,8 @@ public class Renta implements Serializable{
 		try{
 			OutputStream fos=new FileOutputStream("RentasAnteriores.dat");
 			ObjectOutputStream bos= new ObjectOutputStream(fos);
-	    	for(int i=0;i<rentasA.size();i++)
+	    	
+			for(int i=0;i<rentasA.size();i++)
 	    		bos.writeObject(rentasA.get(i));
 			bos.close();
         }catch (Exception ex){ }
@@ -164,31 +168,24 @@ public class Renta implements Serializable{
 		Renta r=new Renta(new Cliente("null"));
 		rentasA.add(r);
 		try{
-			File p= new File("RentasAnteriores.dat");
-			if(!p.exists()) {
-				System.out.println("no existe");
-				p.createNewFile();
-			}else {
-				System.out.println("existe");
-				InputStream fos=new FileInputStream(p);
-				ObjectInputStream bos= new ObjectInputStream(fos);
+			FileInputStream fis= new FileInputStream("RentasAnteriores.dat");
+			ObjectInputStream ois= new ObjectInputStream(fis);
+				//InputStream fos=new FileInputStream(p);
+				//ObjectInputStream bos= new ObjectInputStream(fos);
 			    int i=0;
-			    System.out.println("si");
-		    	r=(Renta)bos.readObject();
 		    	System.out.println("hola");//ya no se imprime, aca lanza la excepcion
-			    while(r!=null) {
-					rentasA.add(i,r);
-			    	r=(Renta)bos.readObject();
+		    	r=(Renta)ois.readObject();
+		    	while(true) {
+			    	rentasA.add(i,r);
+					System.out.println("ta bien");
+			    	r=(Renta)ois.readObject();
+
 			    }
-			}
-		    
-        }catch (FileNotFoundException ex){
-        	
-        } catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+        }catch(EOFException e) {System.out.println("EOFE");	}
+		catch (FileNotFoundException ex){} 
+		catch (ClassNotFoundException e) {e.printStackTrace();} 
+		catch (IOException e) {e.printStackTrace();}
+		
 		return rentasA;
 		
 	}

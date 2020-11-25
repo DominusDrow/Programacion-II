@@ -1,7 +1,6 @@
 package InterfacesGraficas;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Image;
@@ -11,11 +10,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
-import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.border.EmptyBorder;
-import javax.swing.border.LineBorder;
 
 import com.toedter.calendar.JDateChooser;
 
@@ -45,12 +42,11 @@ public class Ventana_principal extends JFrame{
 	private TablaVehiculos tablaAnteriores;
 	private Renta renta;
 	
-	private JTable tableRentados;
 	
 	private JPanel Contenedor,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panelImagen1,
 	panelaux;
 	
-	private JLabel lblAnteriores,lblrapi,lblgracias,lblContrato,lblVehiculoIco_1,lblPrecio1,lblFinal,lblInicio,lblVehiculo;
+	private JLabel lblrapi,lblgracias,lblContrato,lblVehiculoIco_1,lblPrecio1,lblFinal,lblInicio,lblVehiculo;
 	
 	private JLabel lblCelular1,lblNombre1,lblDatosDelCliente1,lbldatos1,lblCvv,lblFechaDeExpiracion,
 	lblNoDeTarjeta,lbldatos,lblGuardeEsteFolio,lblDebidoASu,lblSeGeneroEl,lblCelular,lblNombre,lblDatosDelCliente,
@@ -104,7 +100,8 @@ public class Ventana_principal extends JFrame{
 
 	public Ventana_principal() {
 		renta= new Renta(new Cliente());
-		
+		rentasA=renta.leerFluj();
+
 		//propiedades basicas del frame:
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setTitle("Renta de Vehiculos");
@@ -125,15 +122,6 @@ public class Ventana_principal extends JFrame{
 		tglbtnInicio.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
-					rentasA=renta.leerFluj();
-
-					if(((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
-						System.out.println("no hay nada");
-						rentasA.clear();
-					}else {
-						tablaAnteriores.Actualizar(rentasA);
-					}
-					
 				tglbtnRentasAnteriores.setSelected(false);
 				CambiaPanel(tablaAnteriores,panel1);
 			}
@@ -153,7 +141,12 @@ public class Ventana_principal extends JFrame{
 		tglbtnRentasAnteriores = new JToggleButton("Rentas Anteriores");
 		tglbtnRentasAnteriores.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				//aca va el flujo de lectura
+				if(((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
+					System.out.println("no hay nada");
+					rentasA.clear();
+				}else {
+					tablaAnteriores.Actualizar(rentasA);
+				}
 				tglbtnInicio.setSelected(false);
 				CambiaPanel(panel1,tablaAnteriores);
 			}

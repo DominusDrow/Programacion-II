@@ -2,8 +2,12 @@ package InterfacesGraficas;
 
 import java.io.Serializable;
 
-public class Cliente{
-	
+public class Cliente implements Serializable{
+
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5776047000500851072L;
 private String nombre;
 private String celular;
 private boolean tarjetaCredito;

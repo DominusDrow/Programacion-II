@@ -1,11 +1,12 @@
 package InterfacesGraficas;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class TablaVehiculos extends javax.swing.JPanel {
+public class TablaVehiculos extends javax.swing.JPanel{
     
-    ArrayList <Renta> rentas;
+	ArrayList <Renta> rentas;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
