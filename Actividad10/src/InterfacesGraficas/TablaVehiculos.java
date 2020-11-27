@@ -4,6 +4,8 @@ package InterfacesGraficas;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+import javax.swing.JTable;
+
 public class TablaVehiculos extends javax.swing.JPanel{
     
 	ArrayList <Renta> rentas;
@@ -49,8 +51,14 @@ public class TablaVehiculos extends javax.swing.JPanel{
 
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        //jTable1 = new javax.swing.JTable();
+        jTable1 = new JTable() { 
+        	public boolean isCellEditable(int row, int column) {
+        		return false; 
+        	} 
+        };
 
+        	Fuente: https://www.iteramos.com/pregunta/27848/-como-hacer-que-una-tabla-jt-no-sea-editable-
         setBorder(null);
         setPreferredSize(new java.awt.Dimension(440, 340));
 
