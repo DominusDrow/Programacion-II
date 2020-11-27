@@ -101,6 +101,10 @@ public class Ventana_principal extends JFrame{
 	public Ventana_principal() {
 		renta= new Renta(new Cliente());
 		rentasA=renta.leerFluj();
+		if(rentasA.isEmpty()||((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
+			System.out.println("no hay nada");
+			rentasA.clear();
+		}
 
 		//propiedades basicas del frame:
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -141,7 +145,7 @@ public class Ventana_principal extends JFrame{
 		tglbtnRentasAnteriores = new JToggleButton("Rentas Anteriores");
 		tglbtnRentasAnteriores.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				if(((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
+				if(rentasA.isEmpty()||((rentasA.get(0)).getCliente().getNombre()).equals("null")) {//esto arregla el nullpointerexception de leer el flujo
 					System.out.println("no hay nada");
 					rentasA.clear();
 				}else {
@@ -229,7 +233,7 @@ public class Ventana_principal extends JFrame{
 			public void actionPerformed(ActionEvent arg0) {
 				
 				
-
+				renta=new Renta(new Cliente());
 				CambiaPanel(panel1,panel2);
 				
 				tglbtnInicio.setVisible(false);
@@ -440,11 +444,12 @@ public class Ventana_principal extends JFrame{
 				
 				if((dateChooserInicio.getDate()!=null)&&(dateChooserfin.getDate()!=null))	{
 					
-					int horas=renta.calculaHoras(dateChooserInicio, dateChooserfin);
-					
 					if(Renta.validar(dateChooserInicio,dateChooserfin)) {
-						textFielPrecio.setText(" "+renta.calculaPrecio(horas));
-						textFielHoras.setText(" "+horas+" ");
+						int horas=renta.calculaHoras(dateChooserInicio, dateChooserfin);
+						int precio=renta.calculaPrecio(horas);
+						
+						textFielPrecio.setText(precio+"");
+						textFielHoras.setText(horas+"");
 						btnPagoConTargeta.setEnabled(true);
 						btnPagoConEfectivo.setEnabled(true);
 					
@@ -461,7 +466,7 @@ public class Ventana_principal extends JFrame{
 		btnPagoConTargeta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
-				CapturaDatos1();
+				CapturaDatos1(Integer.parseInt(textFielHoras.getText()),Integer.parseInt(textFielPrecio.getText()));
 				CambiaPanel(panel4,panel6);
 			}
 		});
@@ -474,7 +479,7 @@ public class Ventana_principal extends JFrame{
 		btnPagoConEfectivo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 					
-				CapturaDatos1();
+				CapturaDatos1(Integer.parseInt(textFielHoras.getText()),Integer.parseInt(textFielPrecio.getText()));
 				CambiaPanel(panel4,panel5);
 			}
 		});
@@ -662,7 +667,7 @@ public class Ventana_principal extends JFrame{
 					
 					textFieldfinal.setText(sdf.format(renta.getDateFin()));
 					
-					textField7.setText(renta.getPrecio());
+					textField7.setText(""+renta.getPrecio());
 						
 					
 					CambiaPanel(panel6,panel7);	
@@ -826,7 +831,7 @@ public class Ventana_principal extends JFrame{
 		HeLeido = new JCheckBox("He leido el contrato y estoy de acuerdo");
 		HeLeido.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				HeLeido.setSelected(false);
 				btnAceptarygenerar.setEnabled(true);
 			}
 		});
@@ -867,23 +872,7 @@ public class Ventana_principal extends JFrame{
 		btnFin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				textFieldAlgo.setText("");
-				textFieldcel.setText("");
-				textFieldnom2.setText("");
-				textField.setText("");
-				textFieldTarjeta.setText("");
-				textFieldCVV.setText("");
-				textFieldfinal.setText("");
-				textFieldInicio.setText("");
-				textField7.setText("");
-				textFieldTarjeta1.setText("");
-				textFieldnom1.setText("");
-				textFieldcel1.setText("");
-				dateChooserEXp.setText("");
-				textFielHoras.setText("");
-				textFieldnom3.setText("");
-				textFieldcel2.setText("");
-				textFielPrecio.setText("");
+				volvemosalanormalidad();
 				
 				rentasA.add(renta);
 				renta.guardaFlujo(rentasA);
@@ -935,11 +924,11 @@ public class Ventana_principal extends JFrame{
 		
 	}
 	
-	private void CapturaDatos1() {
+	private void CapturaDatos1(int horas, int precio) {
 		renta.setDateInicio(dateChooserInicio);
 		renta.setDateFin(dateChooserfin);
-		renta.setHoraR(textFielHoras.getText());
-		renta.setPrecio(textFielPrecio.getText());
+		renta.setHoraR(horas);
+		renta.setPrecio(precio);
 	}
 	
 	public String folio() {
@@ -955,6 +944,40 @@ public class Ventana_principal extends JFrame{
 		}
 		
 		return buffer.toString();
+	}
+	
+	public void volvemosalanormalidad() {
+		textFieldAlgo.setText("");
+		textFieldcel.setText("");
+		textFieldnom2.setText("");
+		textField.setText("");
+		textFieldTarjeta.setText("");
+		textFieldCVV.setText("");
+		textFieldfinal.setText("");
+		textFieldInicio.setText("");
+		textField7.setText("");
+		textFieldTarjeta1.setText("");
+		textFieldnom1.setText("");
+		textFieldcel1.setText("");
+		dateChooserEXp.setText("");
+		textFielHoras.setText("");
+		textFieldnom3.setText("");
+		textFieldcel2.setText("");
+		textFielPrecio.setText("");
+		
+		if(rdbtnNaveEspacial.isSelected())
+			rdbtnNaveEspacial.setSelected(false);
+		else
+			rdbtnAvion.setSelected(false);
+		
+		dateChooserInicio.setCalendar(null);
+		dateChooserfin.setCalendar(null);
+		
+		btnPagoConTargeta.setEnabled(false);
+		btnPagoConEfectivo.setEnabled(false);
+		
+		HeLeido.setSelected(false);
+		btnAceptarygenerar.setEnabled(false);
 	}
 	
 	

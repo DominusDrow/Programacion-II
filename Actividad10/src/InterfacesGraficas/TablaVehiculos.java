@@ -23,13 +23,14 @@ public class TablaVehiculos extends javax.swing.JPanel{
         rentas=e;
         
         String [][] matriz = new String[rentas.size()][3];
-        
+        int j;
         for(int i=0;i<rentas.size();i++){
-            
-           matriz[i][0]= rentas.get(i).getCliente().getNombre();
-           matriz[i][0]= rentas.get(i).getCliente().getCelular();
-           matriz[i][0]= (String) rentas.get(i).getNomVehiculo();
-           	   
+        	j=0;
+        	matriz[i][j]= rentas.get(i).getCliente().getNombre();
+        	j++;
+        	matriz[i][j]= rentas.get(i).getCliente().getCelular();
+        	j++;
+        	matriz[i][j]=(String) rentas.get(i).getNomVehiculo();
         }
         
         jTable1.setModel(new javax.swing.table.DefaultTableModel(

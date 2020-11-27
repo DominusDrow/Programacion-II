@@ -33,8 +33,8 @@ public class Renta implements Serializable{
 	private Cliente cliente;
 	
 	private int precioHora;
-	private String precioRenta;
-	private String horasRenta;
+	private int precioRenta;
+	private int horasRenta;
 	private String nomVehiculo;
 	
 	private Date fechaInicio;
@@ -43,11 +43,15 @@ public class Renta implements Serializable{
 	
 	public Renta(Cliente client) {
 		this.cliente=client;
+		this.precioHora=0;
+		this.precioRenta=0;
+		this.horasRenta=0;
+		this.nomVehiculo=null;
+		this.fechaInicio=null;
+		this.fechaFin=null;
+		this.contrato="";
 	}
-	
-	public Renta() {
-		// TODO Auto-generated constructor stub
-	}
+
 
 	public String getNomVehiculo() {
 		return nomVehiculo;
@@ -77,19 +81,19 @@ public class Renta implements Serializable{
 		return cliente;
 	}
 	
-	public void setPrecio(String precioR) {
+	public void setPrecio(int precioR) {
 		precioRenta=precioR;
 	}
 	
-	public String getPrecio() {
+	public int getPrecio() {
 		return precioRenta;
 	}
 	
-	public void setHoraR(String horas) {
+	public void setHoraR(int horas) {
 		horasRenta=horas;
 	}
 	
-	public String getHoraR() {
+	public int getHoraR() {
 		return horasRenta;
 	}
 	
@@ -155,8 +159,10 @@ public class Renta implements Serializable{
 			OutputStream fos=new FileOutputStream("RentasAnteriores.dat");
 			ObjectOutputStream bos= new ObjectOutputStream(fos);
 	    	
-			for(int i=0;i<rentasA.size();i++)
+			for(int i=0;i<rentasA.size();i++) {
 	    		bos.writeObject(rentasA.get(i));
+				System.out.println(rentasA.get(i).getCliente().getNombre());
+			}
 			bos.close();
         }catch (Exception ex){ }
 		
@@ -175,8 +181,10 @@ public class Renta implements Serializable{
 			    int i=0;
 		    	System.out.println("hola");//ya no se imprime, aca lanza la excepcion
 		    	r=(Renta)ois.readObject();
+		    	rentasA.clear();
 		    	while(true) {
 			    	rentasA.add(i,r);
+			    	System.out.println(r.getCliente().getNombre());
 					System.out.println("ta bien");
 			    	r=(Renta)ois.readObject();
 
