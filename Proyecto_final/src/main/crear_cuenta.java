@@ -63,7 +63,7 @@ public class crear_cuenta extends javax.swing.JPanel {
         jLabel3.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("ContraseÃ±a: ");
+        jLabel3.setText("Contraseña: ");
 
         txtEdad_Usuario.setBackground(new java.awt.Color(30, 130, 28));
         txtEdad_Usuario.setFont(new java.awt.Font("Verdana", 2, 18)); // NOI18N
