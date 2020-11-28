@@ -7,7 +7,7 @@ public class Usuario extends Persona{
   
     private String contrasenia;
     private Date Inicio;
-    private Date Actual;
+    private int Dias;
     
     
     public Usuario(){
@@ -22,15 +22,6 @@ public class Usuario extends Persona{
     public void setInicio(Date Inicio) {
         this.Inicio = Inicio;
     }
-
-    public Date getActual() {
-        return Actual;
-    }
-
-    public void setActual(Date Actual) {
-        this.Actual = Actual;
-    }
-
 
     public String getContrasenia() {
         return contrasenia;
