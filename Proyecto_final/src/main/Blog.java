@@ -1,11 +1,15 @@
 
 package main;
 
+import javax.swing.JButton;
+
 public class Blog extends javax.swing.JPanel {
 
     public Blog() {
         initComponents();
         
+        jTable2.setDefaultRenderer(Object.class, new ImgTabla());
+       
         
     }
 
@@ -76,6 +80,9 @@ public class Blog extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    public JButton getBtnNuevaEntrada() {
+        return btnNuevaEntrada;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnNuevaEntrada;
@@ -84,3 +91,5 @@ public class Blog extends javax.swing.JPanel {
     private javax.swing.JTable jTable2;
     // End of variables declaration//GEN-END:variables
 }
+
+
