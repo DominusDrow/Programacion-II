@@ -9,11 +9,9 @@ import objetos.Persona;
 
 public class Ingresar extends javax.swing.JPanel {
 
-    private Paciente paciente;
     
     public Ingresar() {
-        
-        paciente= new Paciente();
+       
         
         initComponents();
         
@@ -186,18 +184,18 @@ public class Ingresar extends javax.swing.JPanel {
           
             if(btnNuevaCuenta.isVisible()){
                 
-                paciente=Ventana_principal.getRegistro().Validar_usuarioYcontrasenia(txtNombre_Usuario.getText(), new String(txtContraseniaUsuario.getPassword()));
+                Ventana_principal.setPaciente(Ventana_principal.getRegistro().Validar_usuarioYcontrasenia(txtNombre_Usuario.getText(), new String(txtContraseniaUsuario.getPassword())));
                 
-                if(paciente!=null){
+                if(Ventana_principal.getPaciente()!=null){
                     Ventana_principal.getPanelLogin().setVisible(false);
                     Ventana_principal.getPanelUsuario().setVisible(true);
                     
-                    Ventana_principal.getPanelUsuario().getLblNombreUsuario().setText(paciente.getNombre());
-                    Ventana_principal.getPanelUsuario().getLblEdadUsuario().setText(""+paciente.getEdad()+" anios.");
-                    Ventana_principal.getPanelUsuario().getLblPesoUsuario().setText(""+paciente.getPeso()+" kg.");
-                    Ventana_principal.getPanelUsuario().getLblAlturaUsuario().setText(""+paciente.getEstatura()+" cm."); 
-                    Ventana_principal.getPanelUsuario().getLblFechaInicio().setText("Fecha de inicio: "+paciente.getInicio());
-                    Ventana_principal.getPanelUsuario().getLblFechaActual().setText(""+paciente.getDias()+" dias de tratamiento.");
+                    Ventana_principal.getPanelUsuario().getLblNombreUsuario().setText(Ventana_principal.getPaciente().getNombre());
+                    Ventana_principal.getPanelUsuario().getLblEdadUsuario().setText(""+Ventana_principal.getPaciente().getEdad()+" anios.");
+                    Ventana_principal.getPanelUsuario().getLblPesoUsuario().setText(""+Ventana_principal.getPaciente().getPeso()+" kg.");
+                    Ventana_principal.getPanelUsuario().getLblAlturaUsuario().setText(""+Ventana_principal.getPaciente().getEstatura()+" cm."); 
+                    Ventana_principal.getPanelUsuario().getLblFechaInicio().setText("Inicio: "+Ventana_principal.getPaciente().getInicio());
+                    Ventana_principal.getPanelUsuario().getLblFechaActual().setText(""+Ventana_principal.getPaciente().getDias()+" Dias.");
                     
                 
                 }else

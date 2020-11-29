@@ -89,7 +89,7 @@ public class Registro {
 		
   }
     
-    public int calPesoP(int pesoAnt,int pesoAct) {
+    public double calPesoP(double pesoAnt,double pesoAct) {
     	return pesoAnt-pesoAct;
     }
     
@@ -97,7 +97,14 @@ public class Registro {
     	int i=usuarios.indexOf(paciente);
     	if(i!=-1)
     		usuarios.remove(i);
-    	
+    }
+    
+    public void actualizarCuenta(Paciente paciente, int edad, double peso, double est){
+       
+        paciente.setPesoPerdido(calPesoP(paciente.getPeso(),peso));
+        paciente.setEdad(edad);
+        paciente.setPeso(peso);
+        paciente.setEstatura(est);
     }
     
     

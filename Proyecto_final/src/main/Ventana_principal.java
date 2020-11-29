@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
+import objetos.Paciente;
 import objetos.Registro;
 
 public class Ventana_principal extends javax.swing.JFrame {
@@ -14,18 +15,18 @@ public class Ventana_principal extends javax.swing.JFrame {
    private static crear_cuenta panelRegistrar;
    private static Usuario panelUsuario;
    private static Pnutriologo panelNutriologo;
+   private static Actualizar panelActualizar;
 
    private static Registro registro;
+   private static Paciente paciente;
    
-   public static Registro getRegistro() {
-   	return registro;
-   }
-    
+  
     public Ventana_principal() {
         
         initComponents();
         setLocationRelativeTo(null);
         
+        paciente = new Paciente();
         registro=new Registro();
         registro.LLenar_lista();
         
@@ -53,8 +54,13 @@ public class Ventana_principal extends javax.swing.JFrame {
         panelNutriologo.setVisible(false);
         PanelFondo.add(panelNutriologo);
         
+         //panel actualizar datos
+        panelActualizar = new Actualizar();
+        panelActualizar.setBounds(0, 70, 1000, 568);
+        panelActualizar.setVisible(false);
+        PanelFondo.add(panelActualizar);
         
-        
+      
         /*  //ajustar la imagen del logo, al final no lo cuparemos :v
         ImageIcon imagen1 = new ImageIcon(Ventana_principal.class.getResource("/main/img/Logo.png"));
         Icon icono1 = new ImageIcon(imagen1.getImage().getScaledInstance(lblLogo.getWidth()-10,lblLogo.getHeight(),Image.SCALE_DEFAULT));
@@ -296,6 +302,24 @@ public class Ventana_principal extends javax.swing.JFrame {
     public static Pnutriologo getPanelNutriologo() {
         return panelNutriologo;
     }
+    
+    public static Registro getRegistro() {
+   	return registro;
+    }
+
+    public static Paciente getPaciente() {
+        return paciente;
+    }
+
+    public static void setPaciente(Paciente paciente) {
+        Ventana_principal.paciente = paciente;
+    }
+
+    public static Actualizar getPanelActualizar() {
+        return panelActualizar;
+    }
+
+   
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

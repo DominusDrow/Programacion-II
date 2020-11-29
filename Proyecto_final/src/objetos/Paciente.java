@@ -12,7 +12,7 @@ public class Paciente extends Persona implements Comunica, Serializable{
     private Date Inicio;
     private Cuenta cuenta;
     private int Dias;
-    private int pesoPerdido;
+    private double pesoPerdido;
     
     public Paciente(){
     	this.Dias=0;
@@ -62,11 +62,11 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	return calculaDias(Inicio);
     }
     
-    public int getPesoPerdido() {
+    public double getPesoPerdido() {
 		return pesoPerdido;
 	}
 
-	public void setPesoPerdido(int pesoPerdido) {
+	public void setPesoPerdido(double pesoPerdido) {
 		this.pesoPerdido = pesoPerdido;
 	}
 
