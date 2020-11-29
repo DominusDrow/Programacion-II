@@ -2,24 +2,24 @@ package objetos;
 
 public class Cuenta {
 	private String Usuario;
-	private String contraseña;
+	private String contrasenia;
 	
 	public Cuenta(String contra, String usu) {
-		this.contraseña=contra;
+		this.contrasenia=contra;
 		this.Usuario=usu;
 	}
 	
 	public Cuenta() {
-		this.contraseña="";
+		this.contrasenia="";
 		this.Usuario="";
 	}
 	
 	public void setContra(String contra) {
-		contraseña=contra;
+		contrasenia=contra;
 	}
 	
 	public String getContra() {
-		return contraseña;
+		return contrasenia;
 	}
 	
 	public void setUsuario(String usu) {
