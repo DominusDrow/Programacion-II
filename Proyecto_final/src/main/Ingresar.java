@@ -193,9 +193,12 @@ public class Ingresar extends javax.swing.JPanel {
                     Ventana_principal.getPanelUsuario().setVisible(true);
                     
                     Ventana_principal.getPanelUsuario().getLblNombreUsuario().setText(paciente.getNombre());
-                    Ventana_principal.getPanelUsuario().getLblEdadUsuario().setText(""+paciente.getEdad());
-                    Ventana_principal.getPanelUsuario().getLblPesoUsuario().setText(""+paciente.getPeso());
-                    Ventana_principal.getPanelUsuario().getLblAlturaUsuario().setText(""+paciente.getEstatura());  
+                    Ventana_principal.getPanelUsuario().getLblEdadUsuario().setText(""+paciente.getEdad()+" anios.");
+                    Ventana_principal.getPanelUsuario().getLblPesoUsuario().setText(""+paciente.getPeso()+" kg.");
+                    Ventana_principal.getPanelUsuario().getLblAlturaUsuario().setText(""+paciente.getEstatura()+" cm."); 
+                    Ventana_principal.getPanelUsuario().getLblFechaInicio().setText("Fecha de inicio: "+paciente.getInicio());
+                    Ventana_principal.getPanelUsuario().getLblFechaActual().setText(""+paciente.getDias()+" dias de tratamiento.");
+                    
                 
                 }else
                     JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");

@@ -2,6 +2,7 @@
 package main;
 
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 public class Usuario extends javax.swing.JPanel {
     
@@ -651,7 +652,13 @@ public class Usuario extends javax.swing.JPanel {
     }//GEN-LAST:event_btnActualizarDatosActionPerformed
 
     private void btnActualizarDatos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarDatos1ActionPerformed
-        
+    	 int i=JOptionPane.showConfirmDialog(null, "Aceptar o Cancelar",
+                 "OK_CANCEL_OPTION", JOptionPane.OK_CANCEL_OPTION,
+                 JOptionPane.INFORMATION_MESSAGE);
+    	 if(i==0){//si elije aceptar
+    		 //Ventana_principal.getRegistro().eliminaCuenta(paciente); no sé como conseguir al paciente xd
+    	 }
+    		 
     }//GEN-LAST:event_btnActualizarDatos1ActionPerformed
 
     private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed

@@ -2,6 +2,7 @@
 package objetos;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -11,11 +12,11 @@ public class Paciente extends Persona implements Comunica, Serializable{
     private Date Inicio;
     private Cuenta cuenta;
     private int Dias;
-    
+    private int pesoPerdido;
     
     public Paciente(){
     	this.Dias=0;
-    	this.Inicio=null;
+    	this.Inicio=new Date();
     	this.IMC=0;
     	this.cuenta=null;
     }
@@ -23,7 +24,7 @@ public class Paciente extends Persona implements Comunica, Serializable{
     public Paciente(String nom,int edad, double peso,double estatura, String contra){
     	super(nom,edad,peso,estatura);
     	this.Dias=0;
-    	this.Inicio=null;
+    	this.Inicio=new Date();
     	this.IMC=0;
     	cuenta=new Cuenta(contra,nom);
     }
@@ -40,12 +41,10 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	return cuenta;
     }
 
-    public Date getInicio() {
-    	return Inicio;
-    }
-
-    public void setInicio(Date Inicio) {
-        this.Inicio = Inicio;
+    public String getInicio() {
+    	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    	String fecha=sdf.format(Inicio);
+    	return fecha;
     }
 
     public float getUMC() {
@@ -58,15 +57,20 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	this.IMC = imc;
     }
     
-    public void setDias() {
-    	this.Dias=calculaDias(Inicio);
-    }
     
     public int getDias() {
-    	return Dias;
+    	return calculaDias(Inicio);
     }
     
-    public int calculaDias(Date fechai) {
+    public int getPesoPerdido() {
+		return pesoPerdido;
+	}
+
+	public void setPesoPerdido(int pesoPerdido) {
+		this.pesoPerdido = pesoPerdido;
+	}
+
+	public int calculaDias(Date fechai) {
     	int dias=0;
     	Date actual=new Date();
 		Calendar inicio=Calendar.getInstance();

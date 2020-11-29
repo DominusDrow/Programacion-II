@@ -89,6 +89,20 @@ public class Registro {
 		
   }
     
+    public int calPesoP(int pesoAnt,int pesoAct) {
+    	return pesoAnt-pesoAct;
+    }
+    
+    public void eliminaCuenta(Paciente paciente) {
+    	int i=usuarios.indexOf(paciente);
+    	if(i!=-1)
+    		usuarios.remove(i);
+    	
+    }
+    
+    
+ 
+    
     
     
     
