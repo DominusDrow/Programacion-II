@@ -1,11 +1,14 @@
 
 package main;
 
+import objetos.Paciente;
+
 public class Usuario extends javax.swing.JPanel {
     
     private static Blog panelBlog;
     private static Ejercicio panelEjercicio;
     
+    private Paciente paciente=Ingresar.getPaciente();
     
     public Usuario() {
         initComponents();
@@ -24,9 +27,19 @@ public class Usuario extends javax.swing.JPanel {
         add(panelEjercicio);
         
         //datos persona
-        lblNombreUsuario.setText(Ingresar.getPaciente().getNombre());
+        
+        
+        
+        System.out.println(paciente.getNombre());
+        System.out.println(Ingresar.getPaciente().getEdad());
+        System.out.println(Ingresar.getPaciente().getPeso());
+
+        lblNombreUsuario.setText(paciente.getNombre());
+        
         lblEdadUsuario.setText(""+Ingresar.getPaciente().getEdad());
+        
         lblPesoUsuario.setText(""+Ingresar.getPaciente().getPeso());
+        
         lblAlturaUsuario.setText(""+Ingresar.getPaciente().getEstatura());
         //lblEdadUsuario.setText(""+Ingresar.getPaciente().);
 
@@ -623,7 +636,9 @@ public class Usuario extends javax.swing.JPanel {
     }//GEN-LAST:event_btnIngresarActionPerformed
 
     private void btnEjercicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEjercicioActionPerformed
-        
+    	System.out.println(Ingresar.getPaciente().getNombre());
+        System.out.println(Ingresar.getPaciente().getEdad());
+        System.out.println(Ingresar.getPaciente().getPeso());
         panelDieta.setVisible(false);
         panelBlog.setVisible(false);
         panelEjercicio.setVisible(true);

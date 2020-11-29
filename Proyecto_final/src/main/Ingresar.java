@@ -189,7 +189,10 @@ public class Ingresar extends javax.swing.JPanel {
                 paciente=Ventana_principal.getRegistro().Validar_usuarioYcontrasenia(txtNombre_Usuario.getText(), new String(txtContraseniaUsuario.getPassword()));
                 
                 if(paciente!=null){
-                    Ventana_principal.getPanelLogin().setVisible(false);
+                	System.out.println(paciente.getNombre());
+                    System.out.println(paciente.getEdad());
+                    System.out.println(paciente.getPeso());
+                	Ventana_principal.getPanelLogin().setVisible(false);
                     Ventana_principal.getPanelUsuario().setVisible(true);   
                 
                 }else
