@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
+import objetos.Registro;
 
 public class Ventana_principal extends javax.swing.JFrame {
 
@@ -14,12 +15,18 @@ public class Ventana_principal extends javax.swing.JFrame {
    private static Usuario panelUsuario;
    private static Pnutriologo panelNutriologo;
 
-    
+   private static Registro registro;
+   
+   public static Registro getRegistro() {
+   	return registro;
+   }
     
     public Ventana_principal() {
         
         initComponents();
         setLocationRelativeTo(null);
+        
+        registro=new Registro();
         
         //panel login
         panelLogin = new Ingresar();

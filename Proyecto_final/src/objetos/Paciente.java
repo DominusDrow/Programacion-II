@@ -19,12 +19,12 @@ public class Paciente extends Persona implements Comunica{
     	this.cuenta=null;
     }
     
-    public Paciente(String nom,int edad, double peso,double estatura){
+    public Paciente(String nom,int edad, double peso,double estatura, String contra){
     	super(nom,edad,peso,estatura);
     	this.Dias=0;
     	this.Inicio=null;
     	this.IMC=0;
-    	this.cuenta=null;
+    	cuenta=new Cuenta(contra,nom);
     }
     
     public Paciente(Cuenta cuent){

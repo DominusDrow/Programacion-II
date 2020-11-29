@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Registro {
     
-    private ArrayList <Paciente> usuarios;
+    private ArrayList <Paciente> usuarios=new ArrayList <Paciente> ();
     
    
     public void LLenar_lista(){ //lllena el arraylist con datos de un arhivo
@@ -37,8 +37,8 @@ public class Registro {
     }
     
     
-    public void Usuario_nuevo(String nom,int edad, double peso,double estatura){ //crea un nuevo usuario 
-        usuarios.add(new Paciente(nom,edad,peso,estatura));
+    public void Usuario_nuevo(String nom,int edad, double peso,double estatura,String contra){ //crea un nuevo usuario 
+        usuarios.add(new Paciente(nom,edad,peso,estatura,contra));
     }
     
     
@@ -62,9 +62,9 @@ public class Registro {
     	return false;
     }
     
-    public boolean Validar_registro(String contra,String confirma,String Cnom,String Cedad,String Cpeso,String Cestat,String Cusu){ //comprueba que ningun campo este vacio o incorrecto
+    public boolean Validar_registro(String contra,String confirma,String Cnom,String Cedad,String Cpeso,String Cestat){ //comprueba que ningun campo este vacio o incorrecto
         
-    	if(!(contra.isEmpty()&&confirma.isEmpty()&&Cnom.isEmpty()&&Cedad.isEmpty()&&Cpeso.isEmpty()&&Cestat.isEmpty()&&Cusu.isEmpty())&&contra.equals(confirma))
+    	if(!(contra.isEmpty()&&confirma.isEmpty()&&Cnom.isEmpty()&&Cedad.isEmpty()&&Cpeso.isEmpty()&&Cestat.isEmpty())&&contra.equals(confirma))
         	return true;
         
         return false;
