@@ -1,38 +1,87 @@
 
 package objetos;
 
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
+
 
 public class Registro {
     
-    private ArrayList <Usuario> usuarios;
-    private Nutriologo nutriologo;
+    private ArrayList <Paciente> usuarios;
     
    
     public void LLenar_lista(){ //lllena el arraylist con datos de un arhivo
-        
+    	Paciente p= new Paciente();
+		try{
+			FileInputStream fis= new FileInputStream("Usuarios.dat");
+			ObjectInputStream ois= new ObjectInputStream(fis);
+			    int i=1;
+		    	p=(Paciente)ois.readObject();
+		    	usuarios.clear();
+		    	while(true) {
+			    	usuarios.add(i,p);
+			    	p=(Paciente)ois.readObject();
+
+			    }
+        }catch(EOFException e) {System.out.println("EOFE");	}
+		catch (FileNotFoundException ex){} 
+		catch (ClassNotFoundException e) {e.printStackTrace();} 
+		catch (IOException e) {e.printStackTrace();}
     }
     
     
-    public void Usuario_nuevo(/*jtxtfailed nombre, jsdslds*/){ //crea un nuevo usuario 
-        //new Usiario(ejsnfmdls,ñs{f)
+    public void Usuario_nuevo(String nom,int edad, double peso,double estatura){ //crea un nuevo usuario 
+        usuarios.add(new Paciente(nom,edad,peso,estatura));
     }
     
     
-    public void Validar_usuarioYcontrasenia(){  //busca en el arraylist si el usuario existe
-        
-        //al final de cada motodo se limpian las casillas
+    public Persona Validar_usuarioYcontrasenia(String usua,String contra){  //busca en el arraylist si el usuario existe
+    	for(int i=0;i<usuarios.size();i++) {
+    		if(usuarios.get(i).getCuenta().getUsuario().equals(usua)){
+    			System.out.println("Usuario encontrado.");
+    			if(usuarios.get(i).getCuenta().getContra().equals(contra)) {
+    				return usuarios.get(i);
+    			}
+    		}
+		}
+    	return null;//debe devolver algo que no sea null
+        //al final de cada motodo se limpian las casillasNO
     }
     
-    public void Vaciar_lista(){ //copia todos los datos de la losta a un arcivo
-        
-        
+    public boolean Valida_nutriologo(Nutriologo nutri) {
+    	if(nutri.getCuenta().getContra().equals("123")&&nutri.getCuenta().getUsuario().equals("Alfredo"))
+    		return true;
+    	
+    	return false;
     }
     
-    public void Validar_registro(){ //comprueba que ningun campo este vacio o incorrecto
+    public boolean Validar_registro(String contra,String confirma,String Cnom,String Cedad,String Cpeso,String Cestat,String Cusu){ //comprueba que ningun campo este vacio o incorrecto
         
+    	if(!(contra.isEmpty()&&confirma.isEmpty()&&Cnom.isEmpty()&&Cedad.isEmpty()&&Cpeso.isEmpty()&&Cestat.isEmpty()&&Cusu.isEmpty())&&contra.equals(confirma))
+        	return true;
         
+        return false;
     }
+    
+    public void guardaUsuarios(){//guarda los usuarios que hay en el array
+		try{
+			OutputStream fos=new FileOutputStream("Usuarios.dat");
+			ObjectOutputStream bos= new ObjectOutputStream(fos);
+	    	
+			for(int i=0;i<usuarios.size();i++) {
+	    		bos.writeObject(usuarios.get(i));
+			}
+			bos.close();
+        }catch (Exception ex){ }
+		
+  }
     
     
     

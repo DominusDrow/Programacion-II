@@ -4,6 +4,7 @@ package objetos;
 public class Nutriologo extends Persona {
     
     private String celular;
+    private Cuenta cuenta;
     private int blogs;
 
     public Nutriologo(String nombre){
@@ -25,7 +26,13 @@ public class Nutriologo extends Persona {
         this.blogs = blogs;
     }
     
+    public void setCuenta(Cuenta cuent) {
+    	this.cuenta=cuent;
+    }
     
+    public Cuenta getCuenta() {
+    	return cuenta;
+    }
     
     
     
