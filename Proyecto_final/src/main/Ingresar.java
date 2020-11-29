@@ -2,12 +2,19 @@
 package main;
 
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
+import objetos.Paciente;
+import objetos.Persona;
 
 
 public class Ingresar extends javax.swing.JPanel {
 
- 
+    private static Paciente paciente;
+    
     public Ingresar() {
+        
+        paciente= new Paciente();
+        
         initComponents();
         
         
@@ -175,14 +182,30 @@ public class Ingresar extends javax.swing.JPanel {
     }//GEN-LAST:event_txtNombre_UsuarioActionPerformed
 
     private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
-       
-        if(btnNuevaCuenta.isVisible()){
-            Ventana_principal.getPanelLogin().setVisible(false);
-            Ventana_principal.getPanelUsuario().setVisible(true);   
-        }else{
-            Ventana_principal.getPanelLogin().setVisible(false);
-            Ventana_principal.getPanelNutriologo().setVisible(true);
-        }        
+        
+          
+            if(btnNuevaCuenta.isVisible()){
+                
+                paciente=Ventana_principal.getRegistro().Validar_usuarioYcontrasenia(txtNombre_Usuario.getText(), new String(txtContraseniaUsuario.getPassword()));
+                
+                if(paciente!=null){
+                    Ventana_principal.getPanelLogin().setVisible(false);
+                    Ventana_principal.getPanelUsuario().setVisible(true);   
+                
+                }else
+                    JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
+
+            }else{
+                
+                if(Ventana_principal.getRegistro().Valida_nutriologo(txtNombre_Usuario.getText(),new String(txtContraseniaUsuario.getPassword()))){
+                    Ventana_principal.getPanelLogin().setVisible(false);
+                    Ventana_principal.getPanelNutriologo().setVisible(true);
+                }else
+                    JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
+            }     
+        
+        txtNombre_Usuario.setText("");
+        txtContraseniaUsuario.setText("");
         
     }//GEN-LAST:event_btnIngresarActionPerformed
 
@@ -199,6 +222,10 @@ public class Ingresar extends javax.swing.JPanel {
     
     public JButton getBotonCuenta(){
         return btnNuevaCuenta;
+    }
+
+    public static Paciente getPaciente() {
+        return paciente;
     }
     
     

@@ -23,6 +23,17 @@ public class Usuario extends javax.swing.JPanel {
         panelEjercicio.setVisible(false);
         add(panelEjercicio);
         
+        //datos persona
+        lblNombreUsuario.setText(Ingresar.getPaciente().getNombre());
+        lblEdadUsuario.setText(""+Ingresar.getPaciente().getEdad());
+        lblPesoUsuario.setText(""+Ingresar.getPaciente().getPeso());
+        lblAlturaUsuario.setText(""+Ingresar.getPaciente().getEstatura());
+        //lblEdadUsuario.setText(""+Ingresar.getPaciente().);
+
+
+
+        
+        
         
     }
     
@@ -555,7 +566,6 @@ public class Usuario extends javax.swing.JPanel {
         btnBlog.setBorderPainted(false);
         btnBlog.setFocusPainted(false);
         btnBlog.setFocusable(false);
-        btnBlog.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnBlog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBlogActionPerformed(evt);
@@ -569,7 +579,6 @@ public class Usuario extends javax.swing.JPanel {
         btnEjercicio.setBorderPainted(false);
         btnEjercicio.setFocusPainted(false);
         btnEjercicio.setFocusable(false);
-        btnEjercicio.setMargin(new java.awt.Insets(0, 0, 0, 0));
         btnEjercicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEjercicioActionPerformed(evt);
@@ -586,12 +595,12 @@ public class Usuario extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(panelDieta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnDieta, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnDieta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnBlog, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnBlog, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnEjercicio, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(6, 6, 6))))
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

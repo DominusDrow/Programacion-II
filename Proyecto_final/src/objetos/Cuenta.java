@@ -1,6 +1,8 @@
 package objetos;
 
-public class Cuenta {
+import java.io.Serializable;
+
+public class Cuenta implements Serializable{
 	private String Usuario;
 	private String contrasenia;
 	

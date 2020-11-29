@@ -14,15 +14,21 @@ import java.util.ArrayList;
 
 public class Registro {
     
-    private ArrayList <Paciente> usuarios=new ArrayList <Paciente> ();
+    private ArrayList <Paciente> usuarios;
+    Nutriologo nutriologo;
     
+    public Registro(){
+        
+        usuarios = new ArrayList <Paciente> ();
+        nutriologo = new Nutriologo();
+    }
    
     public void LLenar_lista(){ //lllena el arraylist con datos de un arhivo
     	Paciente p= new Paciente();
 		try{
 			FileInputStream fis= new FileInputStream("Usuarios.dat");
 			ObjectInputStream ois= new ObjectInputStream(fis);
-			    int i=1;
+			    int i=0;
 		    	p=(Paciente)ois.readObject();
 		    	usuarios.clear();
 		    	while(true) {
@@ -42,7 +48,7 @@ public class Registro {
     }
     
     
-    public Persona Validar_usuarioYcontrasenia(String usua,String contra){  //busca en el arraylist si el usuario existe
+    public Paciente Validar_usuarioYcontrasenia(String usua,String contra){  //busca en el arraylist si el usuario existe
     	for(int i=0;i<usuarios.size();i++) {
     		if(usuarios.get(i).getCuenta().getUsuario().equals(usua)){
     			System.out.println("Usuario encontrado.");
@@ -55,8 +61,8 @@ public class Registro {
         //al final de cada motodo se limpian las casillasNO
     }
     
-    public boolean Valida_nutriologo(Nutriologo nutri) {
-    	if(nutri.getCuenta().getContra().equals("123")&&nutri.getCuenta().getUsuario().equals("Alfredo"))
+    public boolean Valida_nutriologo(String nom,String contra) {
+    	if(contra.equals(nutriologo.getCuenta().getContra())&&nom.equals(nutriologo.getNombre()))
     		return true;
     	
     	return false;

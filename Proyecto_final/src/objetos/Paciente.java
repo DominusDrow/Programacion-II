@@ -1,10 +1,11 @@
 
 package objetos;
 
+import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Paciente extends Persona implements Comunica{
+public class Paciente extends Persona implements Comunica, Serializable{
   
     private float IMC;
     private Date Inicio;

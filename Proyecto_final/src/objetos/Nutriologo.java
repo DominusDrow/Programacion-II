@@ -7,8 +7,9 @@ public class Nutriologo extends Persona {
     private Cuenta cuenta;
     private int blogs;
 
-    public Nutriologo(String nombre){
-        super(nombre);
+    public Nutriologo(){
+        super("Ricardo");
+        cuenta = new Cuenta("1234","Ricardo");
     }
     
     public void setcelular(String celular) {

@@ -27,6 +27,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         setLocationRelativeTo(null);
         
         registro=new Registro();
+        registro.LLenar_lista();
         
         //panel login
         panelLogin = new Ingresar();
@@ -240,6 +241,8 @@ public class Ventana_principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        
+        registro.guardaUsuarios();
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
