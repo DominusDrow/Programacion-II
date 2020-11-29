@@ -9,7 +9,7 @@ import objetos.Persona;
 
 public class Ingresar extends javax.swing.JPanel {
 
-    private static Paciente paciente;
+    private Paciente paciente;
     
     public Ingresar() {
         
@@ -189,11 +189,13 @@ public class Ingresar extends javax.swing.JPanel {
                 paciente=Ventana_principal.getRegistro().Validar_usuarioYcontrasenia(txtNombre_Usuario.getText(), new String(txtContraseniaUsuario.getPassword()));
                 
                 if(paciente!=null){
-                	System.out.println(paciente.getNombre());
-                    System.out.println(paciente.getEdad());
-                    System.out.println(paciente.getPeso());
-                	Ventana_principal.getPanelLogin().setVisible(false);
-                    Ventana_principal.getPanelUsuario().setVisible(true);   
+                    Ventana_principal.getPanelLogin().setVisible(false);
+                    Ventana_principal.getPanelUsuario().setVisible(true);
+                    
+                    Ventana_principal.getPanelUsuario().getLblNombreUsuario().setText(paciente.getNombre());
+                    Ventana_principal.getPanelUsuario().getLblEdadUsuario().setText(""+paciente.getEdad());
+                    Ventana_principal.getPanelUsuario().getLblPesoUsuario().setText(""+paciente.getPeso());
+                    Ventana_principal.getPanelUsuario().getLblAlturaUsuario().setText(""+paciente.getEstatura());  
                 
                 }else
                     JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
@@ -207,6 +209,9 @@ public class Ingresar extends javax.swing.JPanel {
                     JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
             }     
         
+            
+      
+            
         txtNombre_Usuario.setText("");
         txtContraseniaUsuario.setText("");
         
@@ -226,11 +231,7 @@ public class Ingresar extends javax.swing.JPanel {
     public JButton getBotonCuenta(){
         return btnNuevaCuenta;
     }
-
-    public static Paciente getPaciente() {
-        return paciente;
-    }
-    
+   
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

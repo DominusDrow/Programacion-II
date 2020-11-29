@@ -1,14 +1,13 @@
 
 package main;
 
-import objetos.Paciente;
+import javax.swing.JLabel;
 
 public class Usuario extends javax.swing.JPanel {
     
     private static Blog panelBlog;
     private static Ejercicio panelEjercicio;
     
-    private Paciente paciente=Ingresar.getPaciente();
     
     public Usuario() {
         initComponents();
@@ -25,26 +24,6 @@ public class Usuario extends javax.swing.JPanel {
         panelEjercicio.setBounds(255, 85, 745, 483);
         panelEjercicio.setVisible(false);
         add(panelEjercicio);
-        
-        //datos persona
-        
-        
-        
-        System.out.println(paciente.getNombre());
-        System.out.println(Ingresar.getPaciente().getEdad());
-        System.out.println(Ingresar.getPaciente().getPeso());
-
-        lblNombreUsuario.setText(paciente.getNombre());
-        
-        lblEdadUsuario.setText(""+Ingresar.getPaciente().getEdad());
-        
-        lblPesoUsuario.setText(""+Ingresar.getPaciente().getPeso());
-        
-        lblAlturaUsuario.setText(""+Ingresar.getPaciente().getEstatura());
-        //lblEdadUsuario.setText(""+Ingresar.getPaciente().);
-
-
-
         
         
         
@@ -636,9 +615,7 @@ public class Usuario extends javax.swing.JPanel {
     }//GEN-LAST:event_btnIngresarActionPerformed
 
     private void btnEjercicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEjercicioActionPerformed
-    	System.out.println(Ingresar.getPaciente().getNombre());
-        System.out.println(Ingresar.getPaciente().getEdad());
-        System.out.println(Ingresar.getPaciente().getPeso());
+        
         panelDieta.setVisible(false);
         panelBlog.setVisible(false);
         panelEjercicio.setVisible(true);
@@ -684,6 +661,42 @@ public class Usuario extends javax.swing.JPanel {
     private void jCheckBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox12ActionPerformed
+
+    public JLabel getLblAlturaUsuario() {
+        return lblAlturaUsuario;
+    }
+
+    public JLabel getLblEdadUsuario() {
+        return lblEdadUsuario;
+    }
+
+    public JLabel getLblFechaActual() {
+        return lblFechaActual;
+    }
+
+    public JLabel getLblFechaInicio() {
+        return lblFechaInicio;
+    }
+
+    public JLabel getLblIMC() {
+        return lblIMC;
+    }
+
+    public JLabel getLblNombreUsuario() {
+        return lblNombreUsuario;
+    }
+
+    public JLabel getLblPesoUsuario() {
+        return lblPesoUsuario;
+    }
+
+    public JLabel getLblProgesoPeso() {
+        return lblProgesoPeso;
+    }
+
+    public JLabel getLblVEcesComer() {
+        return lblVEcesComer;
+    }
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
