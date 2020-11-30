@@ -17,6 +17,8 @@ import java.util.Date;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 
+import main.Ventana_principal;
+
 
 public class Registro {
     
@@ -127,7 +129,7 @@ public class Registro {
     public void validar_Recomendacion(double a, double b, JLabel lbl){
         
         
-        if(17<=b && 17>a)       //esto se sustituye por el IMC pero ahorita no funcioan correctamente 
+        if(Ventana_principal.getPaciente().getIMC()<=b && 17>Ventana_principal.getPaciente().getIMC())       //esto se sustituye por el IMC pero ahorita no funcioan correctamente 
             lbl.setVisible(true);
         else
             lbl.setVisible(false);
