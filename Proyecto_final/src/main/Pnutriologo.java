@@ -1970,7 +1970,307 @@ public class Pnutriologo extends javax.swing.JPanel {
         
     }//GEN-LAST:event_btnPacientesActionPerformed
 
+    public JCheckBox getAbdominales18() {
+        return Abdominales18;
+    }
 
+    public JCheckBox getAbdominales20() {
+        return Abdominales20;
+    }
+
+    public JCheckBox getAbdominales25() {
+        return Abdominales25;
+    }
+
+    public JCheckBox getAgua18() {
+        return Agua18;
+    }
+
+    public JCheckBox getAgua20() {
+        return Agua20;
+    }
+
+    public JCheckBox getAgua25() {
+        return Agua25;
+    }
+
+    public JCheckBox getAlcohol18() {
+        return Alcohol18;
+    }
+
+    public JCheckBox getAlcohol20() {
+        return Alcohol20;
+    }
+
+    public JCheckBox getAlcohol25() {
+        return Alcohol25;
+    }
+
+    public JCheckBox getAzucar18() {
+        return Azucar18;
+    }
+
+    public JCheckBox getAzucar20() {
+        return Azucar20;
+    }
+
+    public JCheckBox getAzucar25() {
+        return Azucar25;
+    }
+
+    public JCheckBox getCarne18() {
+        return Carne18;
+    }
+
+    public JCheckBox getCarne20() {
+        return Carne20;
+    }
+
+    public JCheckBox getCarne25() {
+        return Carne25;
+    }
+
+    public JCheckBox getCrossFit18() {
+        return CrossFit18;
+    }
+
+    public JCheckBox getCrossFit20() {
+        return CrossFit20;
+    }
+
+    public JCheckBox getCrossFit25() {
+        return CrossFit25;
+    }
+
+    public JCheckBox getDormido18() {
+        return Dormido18;
+    }
+
+    public JCheckBox getDormido20() {
+        return Dormido20;
+    }
+
+    public JCheckBox getDormido25() {
+        return Dormido25;
+    }
+
+    public JCheckBox getEmbutidos18() {
+        return Embutidos18;
+    }
+
+    public JCheckBox getEmbutidos20() {
+        return Embutidos20;
+    }
+
+    public JCheckBox getEmbutidos25() {
+        return Embutidos25;
+    }
+
+    public JCheckBox getFlexiones18() {
+        return Flexiones18;
+    }
+
+    public JCheckBox getFlexiones20() {
+        return Flexiones20;
+    }
+
+    public JCheckBox getFlexiones25() {
+        return Flexiones25;
+    }
+
+    public JCheckBox getFritura20() {
+        return Fritura20;
+    }
+
+    public JCheckBox getFritura25() {
+        return Fritura25;
+    }
+
+    public JCheckBox getFrituras18() {
+        return Frituras18;
+    }
+
+    public JCheckBox getFruta25() {
+        return Fruta25;
+    }
+
+    public JCheckBox getFrutas18() {
+        return Frutas18;
+    }
+
+    public JCheckBox getFrutas20() {
+        return Frutas20;
+    }
+
+    public JCheckBox getGranos18() {
+        return Granos18;
+    }
+
+    public JCheckBox getGranos20() {
+        return Granos20;
+    }
+
+    public JCheckBox getGranos25() {
+        return Granos25;
+    }
+
+    public JCheckBox getGrasas18() {
+        return Grasas18;
+    }
+
+    public JCheckBox getGrasas20() {
+        return Grasas20;
+    }
+
+    public JCheckBox getGrasas25() {
+        return Grasas25;
+    }
+
+    public JCheckBox getHierba20() {
+        return Hierba20;
+    }
+
+    public JCheckBox getHierbas18() {
+        return Hierbas18;
+    }
+
+    public JCheckBox getHierbas25() {
+        return Hierbas25;
+    }
+
+    public JCheckBox getNadar18() {
+        return Nadar18;
+    }
+
+    public JCheckBox getNadar20() {
+        return Nadar20;
+    }
+
+    public JCheckBox getNadar25() {
+        return Nadar25;
+    }
+
+    public JCheckBox getNoDormido() {
+        return NoDormido;
+    }
+
+    public JCheckBox getNoDormido20() {
+        return NoDormido20;
+    }
+
+    public JCheckBox getNoDormido25() {
+        return NoDormido25;
+    }
+
+    public JCheckBox getPan18() {
+        return Pan18;
+    }
+
+    public JCheckBox getPan20() {
+        return Pan20;
+    }
+
+    public JCheckBox getPan25() {
+        return Pan25;
+    }
+
+    public JCheckBox getParado18() {
+        return Parado18;
+    }
+
+    public JCheckBox getParado20() {
+        return Parado20;
+    }
+
+    public JCheckBox getParado25() {
+        return Parado25;
+    }
+
+    public JCheckBox getPesas18() {
+        return Pesas18;
+    }
+
+    public JCheckBox getPesas20() {
+        return Pesas20;
+    }
+
+    public JCheckBox getPesas25() {
+        return Pesas25;
+    }
+
+    public JCheckBox getSentadillas18() {
+        return Sentadillas18;
+    }
+
+    public JCheckBox getSentadillas20() {
+        return Sentadillas20;
+    }
+
+    public JCheckBox getSentadillas25() {
+        return Sentadillas25;
+    }
+
+    public JCheckBox getSentado18() {
+        return Sentado18;
+    }
+
+    public JCheckBox getSentado20() {
+        return Sentado20;
+    }
+
+    public JCheckBox getSentado25() {
+        return Sentado25;
+    }
+
+    public JCheckBox getSodio18() {
+        return Sodio18;
+    }
+
+    public JCheckBox getSodio20() {
+        return Sodio20;
+    }
+
+    public JCheckBox getSodio25() {
+        return Sodio25;
+    }
+
+    public JCheckBox getTrotar18() {
+        return Trotar18;
+    }
+
+    public JCheckBox getTrotar20() {
+        return Trotar20;
+    }
+
+    public JCheckBox getTrotar25() {
+        return Trotar25;
+    }
+
+    public JCheckBox getVerduras18() {
+        return Verduras18;
+    }
+
+    public JCheckBox getVerduras20() {
+        return Verduras20;
+    }
+
+    public JCheckBox getVerduras25() {
+        return Verduras25;
+    }
+
+    public JCheckBox getYoga18() {
+        return Yoga18;
+    }
+
+    public JCheckBox getYoga20() {
+        return Yoga20;
+    }
+
+    public JCheckBox getYoga25() {
+        return Yoga25;
+    }
+    
+    
     public static Blog getPanelBlog() {
         return panelBlog;
     }

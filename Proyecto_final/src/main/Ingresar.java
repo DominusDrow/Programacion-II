@@ -248,36 +248,220 @@ public class Ingresar extends javax.swing.JPanel {
         return btnNuevaCuenta;
     }
    
-    
-    
     public void Visible() {
+	   	
     	
-    	JCheckBox aux = new JCheckBox();
+        
+    	if(Ventana_principal.getPanelNutriologo().getFrutas18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblFrutas().setVisible(true);
     	
-    	int a = 0,b=0;
+    	else if(Ventana_principal.getPanelNutriologo().getFrutas20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblFrutas().setVisible(true);
     	
-    	if(Ventana_principal.getPaciente().getIMC()<=18 && Ventana_principal.getPaciente().getIMC()>0) {
-    		a=0;
-    		b=24;
-    	}else if(Ventana_principal.getPaciente().getIMC()<=24.5 && Ventana_principal.getPaciente().getIMC()>18) {
-    		a=25;
-    		b=49;
-    	}else if(Ventana_principal.getPaciente().getIMC()>2){
-    		a=50;
-    		b=74;
-    	}
+    	else if(Ventana_principal.getPanelNutriologo().getFruta25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblFrutas().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblFrutas().setVisible(false);
     	
-    	for(int i=a;i<b;i++) {
+    	
+    
+    	if(Ventana_principal.getPanelNutriologo().getVerduras18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblVerduras().setVisible(true);
+  
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getVerduras20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblVerduras().setVisible(true);
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getVerduras25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblVerduras().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblVerduras().setVisible(false);
+    	
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getGranos18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblGranos().setVisible(true);
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getGranos20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblGranos().setVisible(true);
+    	
+    	else  if(Ventana_principal.getPanelNutriologo().getGranos25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblGranos().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblGranos().setVisible(false);
+    	
+    	
+
+    
+    	if(Ventana_principal.getPanelNutriologo().getHierbas18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblHierba().setVisible(true);
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getHierba20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblHierba().setVisible(true);
+  
+    	else if(Ventana_principal.getPanelNutriologo().getHierbas25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblHierba().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblHierba().setVisible(false);
+    	
+    	
     		
-    		aux=Ventana_principal.getPanelNutriologo().getArrayCheck().get(i);
-    		
-    		//if(aux.isSelected())
-    			
-    	}
+    	
+    	if(Ventana_principal.getPanelNutriologo().getCarne18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblCarne().setVisible(true);
+    
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getCarne20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblCarne().setVisible(true);
+
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getCarne25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblCarne().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblCarne().setVisible(false);
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getAgua18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblAgua().setVisible(true);
+   
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAgua20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblAgua().setVisible(true);
+    
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAgua25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblAgua().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblAgua().setVisible(false);
+    	
+    	
+
+   
+    	if(Ventana_principal.getPanelNutriologo().getPan18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblPan().setVisible(true);
+    
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getPan20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblPan().setVisible(true);
+
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getPan25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblPan().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblPan().setVisible(false);
+    	
+    	
+    	
+   
+    	
+    	if(Ventana_principal.getPanelNutriologo().getSodio18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblSodio().setVisible(true);
+   
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getSodio20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblSodio().setVisible(true);
+  
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getSodio25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblSodio().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblSodio().setVisible(false);
     	
     	
     	
     	
+    	if(Ventana_principal.getPanelNutriologo().getAzucar18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblDulceE().setVisible(true);
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAzucar20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblDulceE().setVisible(true);
+
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAzucar25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblDulceE().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblDulceE().setVisible(false);
+    	
+    	
+    	
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getFrituras18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblFritura().setVisible(true);
+    
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getFritura20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblFritura().setVisible(true);
+    
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getFritura25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblFritura().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblFritura().setVisible(false);
+    	
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getGrasas18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblGrasas().setVisible(true);
+    
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getGrasas20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblGrasas().setVisible(true);
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getGrasas25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblGrasas().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblGrasas().setVisible(false);
+    	
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getEmbutidos18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblEmbutidos().setVisible(true);
+    
+    	
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getEmbutidos20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblEmbutidos().setVisible(true);
+   
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getEmbutidos25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblEmbutidos().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblEmbutidos().setVisible(false);
+    	
+    	
+    	
+    	if(Ventana_principal.getPanelNutriologo().getAlcohol18().isSelected() && (Ventana_principal.getPaciente().getIMC()<=18)) 
+    		Ventana_principal.getPanelUsuario().getLblAlcohol().setVisible(true);
+
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAlcohol20().isSelected() && (Ventana_principal.getPaciente().getIMC()>18 &&  Ventana_principal.getPaciente().getIMC()<=25)) 
+    		Ventana_principal.getPanelUsuario().getLblAlcohol().setVisible(true);
+
+    	
+    	else if(Ventana_principal.getPanelNutriologo().getAlcohol25().isSelected() && (Ventana_principal.getPaciente().getIMC()>25)) 
+    		Ventana_principal.getPanelUsuario().getLblAlcohol().setVisible(true);
+    	else
+    		Ventana_principal.getPanelUsuario().getLblAlcohol().setVisible(false);
+    	
+    	
+    	
+    
     	
     }
 
