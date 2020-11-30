@@ -53,6 +53,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         panelNutriologo.setBounds(0, 70, 1000, 568);
         panelNutriologo.setVisible(false);
         PanelFondo.add(panelNutriologo);
+        System.out.println(panelNutriologo.getArrayCheck().size());
         
          //panel actualizar datos
         panelActualizar = new Actualizar();

@@ -31,6 +31,9 @@ public class Pnutriologo extends javax.swing.JPanel {
     }
 
   
+    /**
+     * 
+     */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -331,128 +334,127 @@ public class Pnutriologo extends javax.swing.JPanel {
         Frutas18.setBackground(new java.awt.Color(239, 255, 232));
         Frutas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frutas18.setText("Frutas");
-        
         check.add(Frutas18);
 
         Verduras18.setBackground(new java.awt.Color(239, 255, 232));
         Verduras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras18.setText("Verduras");
+        check.add(Verduras18);
         
-        check.add(Frutas18);
         Granos18.setBackground(new java.awt.Color(239, 255, 232));
         Granos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos18.setText("Granos");
+        check.add(Granos18);
         
-        check.add(Frutas18);
-        Carne18.setBackground(new java.awt.Color(239, 255, 232));
-        Carne18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Carne18.setText("Carne");
-        
-        check.add(Frutas18);
         Hierbas18.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas18.setText("Hierbas");
+        check.add(Hierbas18);
         
-        check.add(Frutas18);
-        Sodio18.setBackground(new java.awt.Color(239, 255, 232));
-        Sodio18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sodio18.setText("Sodio");
-        
-        check.add(Frutas18);
-        Azucar18.setBackground(new java.awt.Color(239, 255, 232));
-        Azucar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Azucar18.setText("Azucar");
-        
-        check.add(Frutas18);
-        Grasas18.setBackground(new java.awt.Color(239, 255, 232));
-        Grasas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Grasas18.setText("Grasas");
-        
-        check.add(Frutas18);
-        Alcohol18.setBackground(new java.awt.Color(239, 255, 232));
-        Alcohol18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Alcohol18.setText("Alcohol");
-        
-        check.add(Frutas18);
+        Carne18.setBackground(new java.awt.Color(239, 255, 232));
+        Carne18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Carne18.setText("Carne");
+        check.add(Carne18);
+ 
         Agua18.setBackground(new java.awt.Color(239, 255, 232));
         Agua18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua18.setText("Agua");
+        check.add(Agua18);
         
-        check.add(Frutas18);
-        Frituras18.setBackground(new java.awt.Color(239, 255, 232));
-        Frituras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Frituras18.setText("Fritura");
-        
-        check.add(Frutas18);
-        Embutidos18.setBackground(new java.awt.Color(239, 255, 232));
-        Embutidos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Embutidos18.setText("Embutidos");
-        
-        check.add(Frutas18);
-        Trotar18.setBackground(new java.awt.Color(239, 255, 232));
-        Trotar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Trotar18.setText("Trotar");
-        
-        check.add(Frutas18);
-        Sentadillas18.setBackground(new java.awt.Color(239, 255, 232));
-        Sentadillas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sentadillas18.setText("Sentadillas");
-       
-        check.add(Frutas18);
-        Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
-        Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Abdominales18.setText("Abdominales");
-        
-        check.add(Frutas18);
-        Pesas18.setBackground(new java.awt.Color(239, 255, 232));
-        Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Pesas18.setText("Pesas");
-        
-        check.add(Frutas18);
-        Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
-        Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Flexiones18.setText("Flexiones");
-        
-        check.add(Frutas18);
-        CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
-        CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        CrossFit18.setText("Crossfit");
-        
-        check.add(Frutas18);
-        Parado18.setBackground(new java.awt.Color(239, 255, 232));
-        Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Parado18.setText("Estar parado");
-        
-        check.add(Frutas18);
-        Sentado18.setBackground(new java.awt.Color(239, 255, 232));
-        Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sentado18.setText("Estar sentado");
-        
-        check.add(Frutas18);
-        Dormido18.setBackground(new java.awt.Color(239, 255, 232));
-        Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Dormido18.setText("Dormir mucho");
-        
-        check.add(Frutas18);
-        NoDormido.setBackground(new java.awt.Color(239, 255, 232));
-        NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        NoDormido.setText("Dormir poco");
-        
-        check.add(Frutas18);
         Pan18.setBackground(new java.awt.Color(239, 255, 232));
         Pan18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan18.setText("Pan");
+        check.add(Pan18);
         
+        Sodio18.setBackground(new java.awt.Color(239, 255, 232));
+        Sodio18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sodio18.setText("Sodio");
+        check.add(Sodio18);
+        
+        Azucar18.setBackground(new java.awt.Color(239, 255, 232));
+        Azucar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Azucar18.setText("Azucar");
+        check.add(Azucar18);
+        
+        Frituras18.setBackground(new java.awt.Color(239, 255, 232));
+        Frituras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Frituras18.setText("Fritura");
+        check.add(Frituras18);
+        
+        Grasas18.setBackground(new java.awt.Color(239, 255, 232));
+        Grasas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Grasas18.setText("Grasas");
+        check.add(Grasas18);
+        
+        Embutidos18.setBackground(new java.awt.Color(239, 255, 232));
+        Embutidos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Embutidos18.setText("Embutidos");
+        check.add(Embutidos18);
+        
+        Alcohol18.setBackground(new java.awt.Color(239, 255, 232));
+        Alcohol18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Alcohol18.setText("Alcohol");
+        check.add(Alcohol18);
 
+        Trotar18.setBackground(new java.awt.Color(239, 255, 232));
+        Trotar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Trotar18.setText("Trotar");
+        check.add(Trotar18);
+        
+        Sentadillas18.setBackground(new java.awt.Color(239, 255, 232));
+        Sentadillas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentadillas18.setText("Sentadillas");
+        check.add(Sentadillas18);
+        
+        Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
+        Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Abdominales18.setText("Abdominales");
+        check.add(Abdominales18);
+        
+        Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
+        Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Flexiones18.setText("Flexiones");
+        check.add(Frutas18);
+        
+        Pesas18.setBackground(new java.awt.Color(239, 255, 232));
+        Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pesas18.setText("Pesas");
+        check.add(Frutas18);
+
+        CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
+        CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        CrossFit18.setText("Crossfit");
+        check.add(Frutas18);
+        
         Yoga18.setBackground(new java.awt.Color(239, 255, 232));
         Yoga18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga18.setText("Yoga");
+        check.add(Yoga18);
         
-
+        Parado18.setBackground(new java.awt.Color(239, 255, 232));
+        Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Parado18.setText("Estar parado");
+        check.add(Parado18);
+        
+        Sentado18.setBackground(new java.awt.Color(239, 255, 232));
+        Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentado18.setText("Estar sentado");
+        check.add(Sentado18);
+        
+        Dormido18.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido18.setText("Dormir mucho");
+        check.add(Dormido18);
+        
+        NoDormido.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido.setText("Dormir poco");
+        check.add(NoDormido);
+ 
         Nadar18.setBackground(new java.awt.Color(239, 255, 232));
         Nadar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar18.setText("Nadar");
-        
+        check.add(Nadar18);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -553,36 +555,31 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel47.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel47.setText("Debes evitar ingerir:");
 
-        Sodio20.setBackground(new java.awt.Color(239, 255, 232));
-        Sodio20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sodio20.setText("Sodio");
+        Frutas20.setBackground(new java.awt.Color(239, 255, 232));
+        Frutas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Frutas20.setText("Frutas");
+        check.add(Frutas20);
         
+        Verduras20.setBackground(new java.awt.Color(239, 255, 232));
+        Verduras20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Verduras20.setText("Verduras");
+        check.add(Verduras20);
+        
+        Granos20.setBackground(new java.awt.Color(239, 255, 232));
+        Granos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Granos20.setText("Granos");
+        check.add(Granos20);
 
         Hierba20.setBackground(new java.awt.Color(239, 255, 232));
         Hierba20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierba20.setText("Hierbas");
-        
+        check.add(Hierba20);
 
         Carne20.setBackground(new java.awt.Color(239, 255, 232));
         Carne20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne20.setText("Carne");
+        check.add(Carne20);
         
-
-        Granos20.setBackground(new java.awt.Color(239, 255, 232));
-        Granos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Granos20.setText("Granos");
-        
-
-        Verduras20.setBackground(new java.awt.Color(239, 255, 232));
-        Verduras20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Verduras20.setText("Verduras");
-        
-
-        Frutas20.setBackground(new java.awt.Color(239, 255, 232));
-        Frutas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Frutas20.setText("Frutas");
-        
-
         jLabel48.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
         jLabel48.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -596,100 +593,109 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel51.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel51.setText("Se recomienda que consumas:");
 
-        Embutidos20.setBackground(new java.awt.Color(239, 255, 232));
-        Embutidos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Embutidos20.setText("Embutidos");
-        
-
-        Fritura20.setBackground(new java.awt.Color(239, 255, 232));
-        Fritura20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Fritura20.setText("Fritura");
-       
         Agua20.setBackground(new java.awt.Color(239, 255, 232));
         Agua20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua20.setText("Agua");
+        check.add(Agua20);
         
+        Pan20.setBackground(new java.awt.Color(239, 255, 232));
+        Pan20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pan20.setText("Pan");
+        check.add(Pan20);
+        
+        Sodio20.setBackground(new java.awt.Color(239, 255, 232));
+        Sodio20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sodio20.setText("Sodio");
+        check.add(Sodio20);
+        
+        Azucar20.setBackground(new java.awt.Color(239, 255, 232));
+        Azucar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Azucar20.setText("Azucar");
+        check.add(Azucar20);
+        
+        Fritura20.setBackground(new java.awt.Color(239, 255, 232));
+        Fritura20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fritura20.setText("Fritura");
+        check.add(Fritura20);
+        
+        Embutidos20.setBackground(new java.awt.Color(239, 255, 232));
+        Embutidos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Embutidos20.setText("Embutidos");
+        check.add(Embutidos20);
+        
+        Grasas20.setBackground(new java.awt.Color(239, 255, 232));
+        Grasas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Grasas20.setText("Grasas");
+        check.add(Grasas20);
 
         Alcohol20.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol20.setText("Alcohol");
-        
-
-        Grasas20.setBackground(new java.awt.Color(239, 255, 232));
-        Grasas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Grasas20.setText("Grasas");
-        
-
-        Azucar20.setBackground(new java.awt.Color(239, 255, 232));
-        Azucar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Azucar20.setText("Azucar");
-        
-
-        Abdominales20.setBackground(new java.awt.Color(239, 255, 232));
-        Abdominales20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Abdominales20.setText("Abdominales");
-        
-
-        Sentadillas20.setBackground(new java.awt.Color(239, 255, 232));
-        Sentadillas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sentadillas20.setText("Sentadillas");
-        
+        check.add(Alcohol20);
 
         Trotar20.setBackground(new java.awt.Color(239, 255, 232));
         Trotar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar20.setText("Trotar");
+        check.add(Trotar20);
         
-
-        Parado20.setBackground(new java.awt.Color(239, 255, 232));
-        Parado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Parado20.setText("Estar parado");
+        Sentadillas20.setBackground(new java.awt.Color(239, 255, 232));
+        Sentadillas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentadillas20.setText("Sentadillas");
+        check.add(Sentadillas20);
         
-
-        CrossFit20.setBackground(new java.awt.Color(239, 255, 232));
-        CrossFit20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        CrossFit20.setText("Crossfit");
-        
+        Abdominales20.setBackground(new java.awt.Color(239, 255, 232));
+        Abdominales20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Abdominales20.setText("Abdominales");
+        check.add(Abdominales20);
 
         Flexiones20.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones20.setText("Flexiones");
+        check.add(Flexiones20);
         
         Pesas20.setBackground(new java.awt.Color(239, 255, 232));
         Pesas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas20.setText("Pesas");
-       
-        NoDormido20.setBackground(new java.awt.Color(239, 255, 232));
-        NoDormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        NoDormido20.setText("Dormir poco");
-       
-
-        Dormido20.setBackground(new java.awt.Color(239, 255, 232));
-        Dormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Dormido20.setText("Dormir mucho");
+        check.add(Pesas20);
         
+        CrossFit20.setBackground(new java.awt.Color(239, 255, 232));
+        CrossFit20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        CrossFit20.setText("Crossfit");
+        check.add(CrossFit20);
+        
+        Yoga20.setBackground(new java.awt.Color(239, 255, 232));
+        Yoga20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Yoga20.setText("Yoga");
+        check.add(Yoga20);
 
         Sentado20.setBackground(new java.awt.Color(239, 255, 232));
         Sentado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado20.setText("Estar sentado");
+        check.add(Sentado20);
         
+        Parado20.setBackground(new java.awt.Color(239, 255, 232));
+        Parado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Parado20.setText("Estar parado");
+        check.add(Parado20);
 
-        jLabel52.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
-        jLabel52.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        Dormido20.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido20.setText("Dormir mucho");
+        check.add(Dormido20);
+        
+        NoDormido20.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido20.setText("Dormir poco");
+        check.add(NoDormido20);
 
         Nadar20.setBackground(new java.awt.Color(239, 255, 232));
         Nadar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar20.setText("Nadar");
-        
+        check.add(Nadar20);
 
-        Yoga20.setBackground(new java.awt.Color(239, 255, 232));
-        Yoga20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Yoga20.setText("Yoga");
-       
-        Pan20.setBackground(new java.awt.Color(239, 255, 232));
-        Pan20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Pan20.setText("Pan");
-       
+        jLabel52.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
+        jLabel52.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
         jLabel53.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/2998122-ecology-green-leaf-plant-spring_99858.png"))); // NOI18N
@@ -783,23 +789,60 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/1488492636-basicman09_81758.png"))); // NOI18N
         jLabel75.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
+        Fruta25.setBackground(new java.awt.Color(239, 255, 232));
+        Fruta25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fruta25.setText("Frutas");
+        check.add(Fruta25);
+
+        Verduras25.setBackground(new java.awt.Color(239, 255, 232));
+        Verduras25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Verduras25.setText("Verduras");
+        check.add(Verduras25);
+        
         Granos25.setBackground(new java.awt.Color(239, 255, 232));
         Granos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos25.setText("Granos");
-        
-
-        Carne25.setBackground(new java.awt.Color(239, 255, 232));
-        Carne25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Carne25.setText("Carne");
-        
+        check.add(Granos25);
 
         Hierbas25.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas25.setText("Hierbas");
+        check.add(Hierbas25);
+        
+        Carne25.setBackground(new java.awt.Color(239, 255, 232));
+        Carne25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Carne25.setText("Carne");
+        check.add(Carne25);
+        
+        Agua25.setBackground(new java.awt.Color(239, 255, 232));
+        Agua25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Agua25.setText("Agua");
+        check.add(Agua25);
+        
+        Pan25.setBackground(new java.awt.Color(239, 255, 232));
+        Pan25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pan25.setText("Pan");
+        check.add(Pan25);
         
         Sodio25.setBackground(new java.awt.Color(239, 255, 232));
         Sodio25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio25.setText("Sodio");
+        check.add(Sodio25);
+        
+        Azucar25.setBackground(new java.awt.Color(239, 255, 232));
+        Azucar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Azucar25.setText("Azucar");
+        check.add(Azucar25);
+        
+        Fritura25.setBackground(new java.awt.Color(239, 255, 232));
+        Fritura25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fritura25.setText("Fritura");
+        check.add(Fritura25);
+        
+        Grasas25.setBackground(new java.awt.Color(239, 255, 232));
+        Grasas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Grasas25.setText("Grasas");
+        check.add(Grasas25);
         
         jLabel76.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel76.setText("Debes evitar ingerir:");
@@ -811,35 +854,15 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
         jLabel78.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        Fruta25.setBackground(new java.awt.Color(239, 255, 232));
-        Fruta25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Fruta25.setText("Frutas");
-        
-
-        Verduras25.setBackground(new java.awt.Color(239, 255, 232));
-        Verduras25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Verduras25.setText("Verduras");
-        
-
-        Alcohol25.setBackground(new java.awt.Color(239, 255, 232));
-        Alcohol25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Alcohol25.setText("Alcohol");
-        
-
-        Agua25.setBackground(new java.awt.Color(239, 255, 232));
-        Agua25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Agua25.setText("Agua");
-        
-
-        Fritura25.setBackground(new java.awt.Color(239, 255, 232));
-        Fritura25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Fritura25.setText("Fritura");
-        
-
         Embutidos25.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos25.setText("Embutidos");
+        check.add(Embutidos25);
         
+        Alcohol25.setBackground(new java.awt.Color(239, 255, 232));
+        Alcohol25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Alcohol25.setText("Alcohol");
+        check.add(Alcohol25);
 
         jLabel79.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel79.setText("Se recomienda que consumas:");
@@ -850,77 +873,66 @@ public class Pnutriologo extends javax.swing.JPanel {
         Trotar25.setBackground(new java.awt.Color(239, 255, 232));
         Trotar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar25.setText("Trotar");
-        
+        check.add(Trotar25);
 
         Sentadillas25.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas25.setText("Sentadillas");
-        
+        check.add(Sentadillas25);
 
         Abdominales25.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales25.setText("Abdominales");
+        check.add(Abdominales25);
         
-
-        Azucar25.setBackground(new java.awt.Color(239, 255, 232));
-        Azucar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Azucar25.setText("Azucar");
-        
-        Grasas25.setBackground(new java.awt.Color(239, 255, 232));
-        Grasas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Grasas25.setText("Grasas");
-        
-        NoDormido25.setBackground(new java.awt.Color(239, 255, 232));
-        NoDormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        NoDormido25.setText("Dormir poco");
-        
-
-        Pesas25.setBackground(new java.awt.Color(239, 255, 232));
-        Pesas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Pesas25.setText("Pesas");
-        
-
         Flexiones25.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones25.setText("Flexiones");
+        check.add(Flexiones25);
+        
+        Pesas25.setBackground(new java.awt.Color(239, 255, 232));
+        Pesas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pesas25.setText("Pesas");
+        check.add(Pesas25);
         
         CrossFit25.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit25.setText("Crossfit");
+        check.add(CrossFit25);
         
+        Yoga25.setBackground(new java.awt.Color(239, 255, 232));
+        Yoga25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Yoga25.setText("Yoga");
+        check.add(Yoga25);
+        
+        Sentado25.setBackground(new java.awt.Color(239, 255, 232));
+        Sentado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentado25.setText("Estar sentado");
+        check.add(Sentado25);
 
         Parado25.setBackground(new java.awt.Color(239, 255, 232));
         Parado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado25.setText("Estar parado");
+        check.add(Parado25);
         
+        Dormido25.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido25.setText("Dormir mucho");
+        check.add(Dormido25);
 
-        Pan25.setBackground(new java.awt.Color(239, 255, 232));
-        Pan25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Pan25.setText("Pan");
-        
-
-        Yoga25.setBackground(new java.awt.Color(239, 255, 232));
-        Yoga25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Yoga25.setText("Yoga");
-        
+        NoDormido25.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido25.setText("Dormir poco");
+        check.add(NoDormido25);
 
         Nadar25.setBackground(new java.awt.Color(239, 255, 232));
         Nadar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar25.setText("Nadar");
-       
+        check.add(Nadar25);
+        
         jLabel81.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
         jLabel81.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-
-        Sentado25.setBackground(new java.awt.Color(239, 255, 232));
-        Sentado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Sentado25.setText("Estar sentado");
-        
-
-        Dormido25.setBackground(new java.awt.Color(239, 255, 232));
-        Dormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        Dormido25.setText("Dormir mucho");
-        
 
         jLabel82.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/iconfinder-food-and-restaurantnot-allowedsignalingfast-foodprohibitionforbidden-4394756_119512.png"))); // NOI18N
@@ -1888,7 +1900,10 @@ public class Pnutriologo extends javax.swing.JPanel {
     public JLabel getLblNumPacientes() {
         return lblNumPacientes;
     }
-
+    
+    public ArrayList<JCheckBox> getArrayCheck(){
+    	return check;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox Abdominales18;
