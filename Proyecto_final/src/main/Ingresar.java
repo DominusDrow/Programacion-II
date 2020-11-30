@@ -211,10 +211,12 @@ public class Ingresar extends javax.swing.JPanel {
 
             }else{
                 
-                Ventana_principal.getPanelNutriologo().getLblNombreNutriologo().setText("Dr."+Ventana_principal.getRegistro().getNutriologo().getNombre());
-                Ventana_principal.getPanelNutriologo().getLblNumPacientes().setText("Pacientes: "+Ventana_principal.getRegistro().getUsuarios().size());
-                
+               
                 if(Ventana_principal.getRegistro().Valida_nutriologo(txtNombre_Usuario.getText(),new String(txtContraseniaUsuario.getPassword()))){
+                   Ventana_principal.getPanelNutriologo().getLblNombreNutriologo().setText("Dr."+Ventana_principal.getRegistro().getNutriologo().getNombre());
+                   Ventana_principal.getPanelNutriologo().getLblNumPacientes().setText("Pacientes: "+Ventana_principal.getRegistro().getUsuarios().size());
+                   Ventana_principal.getBtnHome().setEnabled(false);
+                    
                     Ventana_principal.getPanelLogin().setVisible(false);
                     Ventana_principal.getPanelNutriologo().setVisible(true);
                 }else

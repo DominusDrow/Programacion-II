@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JPanel;
 import objetos.Paciente;
 import objetos.Registro;
@@ -82,7 +83,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
+        btnHome = new javax.swing.JButton();
         panelInicio = new javax.swing.JPanel();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -117,14 +118,14 @@ public class Ventana_principal extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/titulo.png"))); // NOI18N
 
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/home32.png"))); // NOI18N
-        jButton5.setBorderPainted(false);
-        jButton5.setContentAreaFilled(false);
-        jButton5.setFocusPainted(false);
-        jButton5.setFocusable(false);
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/home32.png"))); // NOI18N
+        btnHome.setBorderPainted(false);
+        btnHome.setContentAreaFilled(false);
+        btnHome.setFocusPainted(false);
+        btnHome.setFocusable(false);
+        btnHome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnHomeActionPerformed(evt);
             }
         });
 
@@ -134,7 +135,7 @@ public class Ventana_principal extends javax.swing.JFrame {
             panelTopbarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelTopbarLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton5)
+                .addComponent(btnHome)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(160, 160, 160)
@@ -148,7 +149,7 @@ public class Ventana_principal extends javax.swing.JFrame {
             .addGroup(panelTopbarLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panelTopbarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton5)
+                    .addComponent(btnHome)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(panelTopbarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -259,13 +260,13 @@ public class Ventana_principal extends javax.swing.JFrame {
         panelLogin.getBotonCuenta().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHomeActionPerformed
         panelInicio.setVisible(true);
         panelLogin.setVisible(false);
         panelRegistrar.setVisible(false);
         panelUsuario.setVisible(false);
         panelNutriologo.setVisible(false);
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnHomeActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         
@@ -320,16 +321,20 @@ public class Ventana_principal extends javax.swing.JFrame {
         return panelActualizar;
     }
 
+    public static JButton getBtnHome() {
+        return btnHome;
+    }
+
    
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel PanelFondo;
+    private static javax.swing.JButton btnHome;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel panelInicio;
     private javax.swing.JPanel panelTopbar;
