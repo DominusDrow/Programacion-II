@@ -1,6 +1,8 @@
 
 package main;
     
+import javax.swing.JTable;
+
 
 public class Pnutriologo extends javax.swing.JPanel {
     
@@ -2846,6 +2848,11 @@ public class Pnutriologo extends javax.swing.JPanel {
         
         btnConsejos.setSelected(false);
         btnBlog.setSelected(false);
+        
+        JTable tablaAux = new JTable();
+        tablaAux = panelUsuarios.getjTable1();
+        panelUsuarios.setjTable1( Ventana_principal.getRegistro().ActualizaTabla(tablaAux));     
+        
     }//GEN-LAST:event_btnPacientesActionPerformed
 
     private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
