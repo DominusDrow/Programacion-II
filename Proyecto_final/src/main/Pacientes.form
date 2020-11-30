@@ -71,7 +71,7 @@
                 <Column editable="true" title="PESO" type="java.lang.Object"/>
                 <Column editable="true" title="ALTURA" type="java.lang.Object"/>
                 <Column editable="true" title="FECHA INICIO" type="java.lang.Object"/>
-                <Column editable="true" title="FECHA ACTUAL" type="java.lang.Object"/>
+                <Column editable="true" title="DIAS" type="java.lang.Object"/>
               </Table>
             </Property>
             <Property name="rowHeight" type="int" value="30"/>

@@ -29,7 +29,7 @@ public class Pacientes extends javax.swing.JPanel {
                 {null, null, null, null, null, null}
             },
             new String [] {
-                "NOMBRE", "EDAD", "PESO", "ALTURA", "FECHA INICIO", "FECHA ACTUAL"
+                "NOMBRE", "EDAD", "PESO", "ALTURA", "FECHA INICIO", "DIAS"
             }
         ));
         jTable1.setRowHeight(30);

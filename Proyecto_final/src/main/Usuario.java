@@ -3,11 +3,12 @@ package main;
 
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 
 public class Usuario extends javax.swing.JPanel {
     
     private static Blog panelBlog;
-    private static Ejercicio panelEjercicio;
+    private Ejercicio panelEjercicio;
     
     
     public Usuario() {
@@ -26,7 +27,28 @@ public class Usuario extends javax.swing.JPanel {
         panelEjercicio.setVisible(false);
         add(panelEjercicio);
         
-        
+        //iniciar las etiquetas:
+        lblFrutas.setVisible(false);
+        lblVerduras.setVisible(false);
+         lblAgua.setVisible(false);
+        lblAlcohol.setVisible(false);
+         lblCarne.setVisible(false);
+         lblCereales.setVisible(false);
+         lblCerealesE.setVisible(false);
+         lblDulce.setVisible(false);
+         lblDulceE.setVisible(false);
+         lblEmbutidos.setVisible(false);
+         lblEnlatados.setVisible(false);
+         lblFibra.setVisible(false);
+      lblFritura.setVisible(false);
+        lblFrutas.setVisible(false);
+     lblGranos.setVisible(false);
+     lblGrasas.setVisible(false);
+     lblHierba.setVisible(false);
+     lblPan.setVisible(false);
+      lblRefresco.setVisible(false);
+       lblSodio.setVisible(false);
+     lblVerduras.setVisible(false);
         
     }
     
@@ -53,26 +75,27 @@ public class Usuario extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         lblProgesoPeso = new javax.swing.JLabel();
         lblIMC = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
+        lblFrutas = new javax.swing.JLabel();
+        lblVerduras = new javax.swing.JLabel();
+        lblCereales = new javax.swing.JLabel();
+        lblGranos = new javax.swing.JLabel();
+        lblHierba = new javax.swing.JLabel();
+        lblFibra = new javax.swing.JLabel();
+        lblCarne = new javax.swing.JLabel();
+        lblDulce = new javax.swing.JLabel();
+        lblAgua = new javax.swing.JLabel();
+        lblPan = new javax.swing.JLabel();
+        lblSodio = new javax.swing.JLabel();
+        lblDulceE = new javax.swing.JLabel();
+        lblFritura = new javax.swing.JLabel();
+        lblRefresco = new javax.swing.JLabel();
+        lblCerealesE = new javax.swing.JLabel();
+        lblGrasas = new javax.swing.JLabel();
+        lblEmbutidos = new javax.swing.JLabel();
+        lblAlcohol = new javax.swing.JLabel();
+        lblEnlatados = new javax.swing.JLabel();
         lblVEcesComer = new javax.swing.JLabel();
+        lblCaloriasR = new javax.swing.JLabel();
         btnDieta = new javax.swing.JToggleButton();
         btnBlog = new javax.swing.JToggleButton();
         btnEjercicio = new javax.swing.JToggleButton();
@@ -240,85 +263,88 @@ public class Usuario extends javax.swing.JPanel {
         lblIMC.setForeground(new java.awt.Color(0, 102, 0));
         lblIMC.setText("IMC");
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
-        jLabel8.setToolTipText("");
-        jLabel8.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        lblFrutas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblFrutas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
+        lblFrutas.setToolTipText("");
+        lblFrutas.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/vegetablesfood_122724.png"))); // NOI18N
-        jLabel9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblVerduras.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblVerduras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/vegetablesfood_122724.png"))); // NOI18N
+        lblVerduras.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/nature_121939.png"))); // NOI18N
-        jLabel12.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblCereales.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblCereales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/nature_121939.png"))); // NOI18N
+        lblCereales.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Rice_Bowl_icon-icons.com_68695.png"))); // NOI18N
-        jLabel13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblGranos.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblGranos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Rice_Bowl_icon-icons.com_68695.png"))); // NOI18N
+        lblGranos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/2998122-ecology-green-leaf-plant-spring_99858.png"))); // NOI18N
-        jLabel14.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblHierba.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblHierba.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/2998122-ecology-green-leaf-plant-spring_99858.png"))); // NOI18N
+        lblHierba.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Porridge_icon-icons.com_68703.png"))); // NOI18N
-        jLabel15.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblFibra.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblFibra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Porridge_icon-icons.com_68703.png"))); // NOI18N
+        lblFibra.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c225-2427885_85692.png"))); // NOI18N
-        jLabel16.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblCarne.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblCarne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c225-2427885_85692.png"))); // NOI18N
+        lblCarne.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/3943420-candy-christmas-dessert-lollies-restaurant-sugar-sweet_111597.png"))); // NOI18N
-        jLabel17.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblDulce.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblDulce.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/3943420-candy-christmas-dessert-lollies-restaurant-sugar-sweet_111597.png"))); // NOI18N
+        lblDulce.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/water_drink_bottle_icon-icons.com_51087.png"))); // NOI18N
-        jLabel18.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblAgua.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblAgua.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/water_drink_bottle_icon-icons.com_51087.png"))); // NOI18N
+        lblAgua.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/christmas_pan_47215.png"))); // NOI18N
-        jLabel19.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblPan.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblPan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/christmas_pan_47215.png"))); // NOI18N
+        lblPan.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
-        jLabel10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblSodio.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblSodio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
+        lblSodio.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/3943420-candy-christmas-dessert-lollies-restaurant-sugar-sweet_111597.png"))); // NOI18N
-        jLabel21.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblDulceE.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblDulceE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/3943420-candy-christmas-dessert-lollies-restaurant-sugar-sweet_111597.png"))); // NOI18N
+        lblDulceE.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/iconfinder-food-and-restaurantnot-allowedsignalingfast-foodprohibitionforbidden-4394756_119512.png"))); // NOI18N
-        jLabel22.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblFritura.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblFritura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/iconfinder-food-and-restaurantnot-allowedsignalingfast-foodprohibitionforbidden-4394756_119512.png"))); // NOI18N
+        lblFritura.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel23.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/fast-food-icons-freecoke-soda_107427.png"))); // NOI18N
-        jLabel23.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblRefresco.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblRefresco.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/fast-food-icons-freecoke-soda_107427.png"))); // NOI18N
+        lblRefresco.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/nature_121939.png"))); // NOI18N
-        jLabel20.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblCerealesE.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblCerealesE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/nature_121939.png"))); // NOI18N
+        lblCerealesE.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/egg-free_icon-icons.com_49231.png"))); // NOI18N
-        jLabel25.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblGrasas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblGrasas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/egg-free_icon-icons.com_49231.png"))); // NOI18N
+        lblGrasas.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel26.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/sausage-1_icon-icons.com_63232.png"))); // NOI18N
-        jLabel26.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblEmbutidos.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblEmbutidos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/sausage-1_icon-icons.com_63232.png"))); // NOI18N
+        lblEmbutidos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel27.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Drinks-33_icon-icons.com_61965.png"))); // NOI18N
-        jLabel27.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblAlcohol.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblAlcohol.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/Drinks-33_icon-icons.com_61965.png"))); // NOI18N
+        lblAlcohol.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jLabel28.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/pixel-pastels-littledr3ams-22_106726.png"))); // NOI18N
-        jLabel28.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        lblEnlatados.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        lblEnlatados.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/pixel-pastels-littledr3ams-22_106726.png"))); // NOI18N
+        lblEnlatados.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
         lblVEcesComer.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         lblVEcesComer.setText("Veces");
+
+        lblCaloriasR.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        lblCaloriasR.setText("calorias");
 
         javax.swing.GroupLayout panelDietaLayout = new javax.swing.GroupLayout(panelDieta);
         panelDieta.setLayout(panelDietaLayout);
@@ -335,25 +361,25 @@ public class Usuario extends javax.swing.JPanel {
                         .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelDietaLayout.createSequentialGroup()
-                                    .addComponent(jLabel8)
+                                    .addComponent(lblFrutas)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel9)
+                                    .addComponent(lblVerduras)
                                     .addGap(18, 18, 18)
-                                    .addComponent(jLabel12)
+                                    .addComponent(lblCereales)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel13)
+                                    .addComponent(lblGranos)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel14)
+                                    .addComponent(lblHierba)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel15)
+                                    .addComponent(lblFibra)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel16)
+                                    .addComponent(lblCarne)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jLabel17)
+                                    .addComponent(lblDulce)
                                     .addGap(12, 12, 12)
-                                    .addComponent(jLabel18)
+                                    .addComponent(lblAgua)
                                     .addGap(12, 12, 12)
-                                    .addComponent(jLabel19))
+                                    .addComponent(lblPan))
                                 .addGroup(panelDietaLayout.createSequentialGroup()
                                     .addGap(31, 31, 31)
                                     .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -367,31 +393,32 @@ public class Usuario extends javax.swing.JPanel {
                             .addGroup(panelDietaLayout.createSequentialGroup()
                                 .addGap(33, 33, 33)
                                 .addComponent(jLabel7)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addContainerGap(24, Short.MAX_VALUE))
                     .addGroup(panelDietaLayout.createSequentialGroup()
                         .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel6)
                             .addGroup(panelDietaLayout.createSequentialGroup()
-                                .addComponent(jLabel10)
+                                .addComponent(lblSodio)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel21)
+                                .addComponent(lblDulceE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel22)))
+                                .addComponent(lblFritura)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(panelDietaLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel23)
+                                .addComponent(lblRefresco)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel20)
+                                .addComponent(lblCerealesE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel25)
+                                .addComponent(lblGrasas)
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabel26)
+                                .addComponent(lblEmbutidos)
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabel27)
+                                .addComponent(lblAlcohol)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel28))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelDietaLayout.createSequentialGroup()
+                                .addComponent(lblEnlatados))
+                            .addGroup(panelDietaLayout.createSequentialGroup()
+                                .addComponent(lblCaloriasR)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(lblProgesoPeso)
                                 .addGap(85, 85, 85))))))
@@ -411,34 +438,35 @@ public class Usuario extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel8)
-                        .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addComponent(lblFrutas)
+                        .addComponent(lblVerduras, javax.swing.GroupLayout.Alignment.TRAILING))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel13)
-                        .addComponent(jLabel12)
-                        .addComponent(jLabel14)
-                        .addComponent(jLabel15)
-                        .addComponent(jLabel16)
-                        .addComponent(jLabel17)
-                        .addComponent(jLabel18)
-                        .addComponent(jLabel19)))
+                        .addComponent(lblGranos)
+                        .addComponent(lblCereales)
+                        .addComponent(lblHierba)
+                        .addComponent(lblFibra)
+                        .addComponent(lblCarne)
+                        .addComponent(lblDulce)
+                        .addComponent(lblAgua)
+                        .addComponent(lblPan)))
                 .addGap(18, 18, 18)
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel21)
-                    .addComponent(jLabel22)
-                    .addComponent(jLabel23)
-                    .addComponent(jLabel25)
-                    .addComponent(jLabel26)
-                    .addComponent(jLabel27)
-                    .addComponent(jLabel28)
-                    .addComponent(jLabel20))
+                    .addComponent(lblSodio)
+                    .addComponent(lblDulceE)
+                    .addComponent(lblFritura)
+                    .addComponent(lblRefresco)
+                    .addComponent(lblGrasas)
+                    .addComponent(lblEmbutidos)
+                    .addComponent(lblAlcohol)
+                    .addComponent(lblEnlatados)
+                    .addComponent(lblCerealesE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panelDietaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
-                    .addComponent(lblProgesoPeso))
+                    .addComponent(lblProgesoPeso)
+                    .addComponent(lblCaloriasR))
                 .addGap(59, 59, 59))
         );
 
@@ -496,7 +524,7 @@ public class Usuario extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnBlog, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnEjercicio, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnEjercicio, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addContainerGap())))
         );
         layout.setVerticalGroup(
@@ -605,6 +633,96 @@ public class Usuario extends javax.swing.JPanel {
         return lblVEcesComer;
     }
 
+    public JPanel getPanelDieta() {
+        return panelDieta;
+    }
+
+    public JLabel getLblAlcohol() {
+        return lblAlcohol;
+    }
+
+    public JLabel getLblCaloriasR() {
+        return lblCaloriasR;
+    }
+
+    public JLabel getLblCarne() {
+        return lblCarne;
+    }
+
+    public JLabel getLblCereales() {
+        return lblCereales;
+    }
+
+    public JLabel getLblCerealesE() {
+        return lblCerealesE;
+    }
+
+    public JLabel getLblDulce() {
+        return lblDulce;
+    }
+
+    public JLabel getLblDulceE() {
+        return lblDulceE;
+    }
+
+    public JLabel getLblEmbutidos() {
+        return lblEmbutidos;
+    }
+
+    public JLabel getLblEnlatados() {
+        return lblEnlatados;
+    }
+
+    public JLabel getLblFibra() {
+        return lblFibra;
+    }
+
+    public JLabel getLblFritura() {
+        return lblFritura;
+    }
+
+    public JLabel getLblFrutas() {
+        return lblFrutas;
+    }
+
+    public JLabel getLblGranos() {
+        return lblGranos;
+    }
+
+    public JLabel getLblGrasas() {
+        return lblGrasas;
+    }
+
+    public JLabel getLblHierba() {
+        return lblHierba;
+    }
+
+    public JLabel getLblPan() {
+        return lblPan;
+    }
+
+    public JLabel getLblRefresco() {
+        return lblRefresco;
+    }
+
+    public JLabel getLblSodio() {
+        return lblSodio;
+    }
+
+    public JLabel getLblVerduras() {
+        return lblVerduras;
+    }
+
+    public JLabel getLblAgua() {
+        return lblAgua;
+    }
+
+    public Ejercicio getPanelEjercicio() {
+        return panelEjercicio;
+    }
+
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnActualizarDatos;
@@ -614,40 +732,41 @@ public class Usuario extends javax.swing.JPanel {
     private javax.swing.JButton btnEliminarCuenta;
     private javax.swing.JButton btnIngresar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblAgua;
+    private javax.swing.JLabel lblAlcohol;
     private javax.swing.JLabel lblAlturaUsuario;
+    private javax.swing.JLabel lblCaloriasR;
+    private javax.swing.JLabel lblCarne;
+    private javax.swing.JLabel lblCereales;
+    private javax.swing.JLabel lblCerealesE;
+    private javax.swing.JLabel lblDulce;
+    private javax.swing.JLabel lblDulceE;
     private javax.swing.JLabel lblEdadUsuario;
+    private javax.swing.JLabel lblEmbutidos;
+    private javax.swing.JLabel lblEnlatados;
     private javax.swing.JLabel lblFechaActual;
     private javax.swing.JLabel lblFechaInicio;
+    private javax.swing.JLabel lblFibra;
+    private javax.swing.JLabel lblFritura;
+    private javax.swing.JLabel lblFrutas;
+    private javax.swing.JLabel lblGranos;
+    private javax.swing.JLabel lblGrasas;
+    private javax.swing.JLabel lblHierba;
     private javax.swing.JLabel lblIMC;
     private javax.swing.JLabel lblNombreUsuario;
+    private javax.swing.JLabel lblPan;
     private javax.swing.JLabel lblPesoUsuario;
     private javax.swing.JLabel lblProgesoPeso;
+    private javax.swing.JLabel lblRefresco;
+    private javax.swing.JLabel lblSodio;
     private javax.swing.JLabel lblVEcesComer;
+    private javax.swing.JLabel lblVerduras;
     private javax.swing.JPanel panelDieta;
     // End of variables declaration//GEN-END:variables
 }
