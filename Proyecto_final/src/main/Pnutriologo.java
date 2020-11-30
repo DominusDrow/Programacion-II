@@ -331,228 +331,128 @@ public class Pnutriologo extends javax.swing.JPanel {
         Frutas18.setBackground(new java.awt.Color(239, 255, 232));
         Frutas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frutas18.setText("Frutas");
-        Frutas18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Frutas18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
 
         Verduras18.setBackground(new java.awt.Color(239, 255, 232));
         Verduras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras18.setText("Verduras");
-        Verduras18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Verduras18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Granos18.setBackground(new java.awt.Color(239, 255, 232));
         Granos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos18.setText("Granos");
-        Granos18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Granos18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Carne18.setBackground(new java.awt.Color(239, 255, 232));
         Carne18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne18.setText("Carne");
-        Carne18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Carne18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Hierbas18.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas18.setText("Hierbas");
-        Hierbas18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Hierbas18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Sodio18.setBackground(new java.awt.Color(239, 255, 232));
         Sodio18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio18.setText("Sodio");
-        Sodio18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sodio18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Azucar18.setBackground(new java.awt.Color(239, 255, 232));
         Azucar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar18.setText("Azucar");
-        Azucar18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Azucar18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Grasas18.setBackground(new java.awt.Color(239, 255, 232));
         Grasas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas18.setText("Grasas");
-        Grasas18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Grasas18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Alcohol18.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol18.setText("Alcohol");
-        Alcohol18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Alcohol18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Agua18.setBackground(new java.awt.Color(239, 255, 232));
         Agua18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua18.setText("Agua");
-        Agua18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Agua18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Frituras18.setBackground(new java.awt.Color(239, 255, 232));
         Frituras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frituras18.setText("Fritura");
-        Frituras18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Frituras18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Embutidos18.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos18.setText("Embutidos");
-        Embutidos18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Embutidos18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Trotar18.setBackground(new java.awt.Color(239, 255, 232));
         Trotar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar18.setText("Trotar");
-        Trotar18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Trotar18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Sentadillas18.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas18.setText("Sentadillas");
-        Sentadillas18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentadillas18ActionPerformed(evt);
-            }
-        });
+       
         check.add(Frutas18);
         Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales18.setText("Abdominales");
-        Abdominales18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Abdominales18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Pesas18.setBackground(new java.awt.Color(239, 255, 232));
         Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas18.setText("Pesas");
-        Pesas18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pesas18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones18.setText("Flexiones");
-        Flexiones18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Flexiones18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit18.setText("Crossfit");
-        CrossFit18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CrossFit18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Parado18.setBackground(new java.awt.Color(239, 255, 232));
         Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado18.setText("Estar parado");
-        Parado18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Parado18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Sentado18.setBackground(new java.awt.Color(239, 255, 232));
         Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado18.setText("Estar sentado");
-        Sentado18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentado18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Dormido18.setBackground(new java.awt.Color(239, 255, 232));
         Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido18.setText("Dormir mucho");
-        Dormido18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Dormido18ActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         NoDormido.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido.setText("Dormir poco");
-        NoDormido.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NoDormidoActionPerformed(evt);
-            }
-        });
+        
         check.add(Frutas18);
         Pan18.setBackground(new java.awt.Color(239, 255, 232));
         Pan18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan18.setText("Pan");
-        Pan18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pan18ActionPerformed(evt);
-            }
-        });
+        
 
         Yoga18.setBackground(new java.awt.Color(239, 255, 232));
         Yoga18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga18.setText("Yoga");
-        Yoga18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Yoga18ActionPerformed(evt);
-            }
-        });
+        
 
         Nadar18.setBackground(new java.awt.Color(239, 255, 232));
         Nadar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar18.setText("Nadar");
-        Nadar18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Nadar18ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -656,56 +556,32 @@ public class Pnutriologo extends javax.swing.JPanel {
         Sodio20.setBackground(new java.awt.Color(239, 255, 232));
         Sodio20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio20.setText("Sodio");
-        Sodio20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sodio20ActionPerformed(evt);
-            }
-        });
+        
 
         Hierba20.setBackground(new java.awt.Color(239, 255, 232));
         Hierba20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierba20.setText("Hierbas");
-        Hierba20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Hierba20ActionPerformed(evt);
-            }
-        });
+        
 
         Carne20.setBackground(new java.awt.Color(239, 255, 232));
         Carne20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne20.setText("Carne");
-        Carne20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Carne20ActionPerformed(evt);
-            }
-        });
+        
 
         Granos20.setBackground(new java.awt.Color(239, 255, 232));
         Granos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos20.setText("Granos");
-        Granos20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Granos20ActionPerformed(evt);
-            }
-        });
+        
 
         Verduras20.setBackground(new java.awt.Color(239, 255, 232));
         Verduras20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras20.setText("Verduras");
-        Verduras20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Verduras20ActionPerformed(evt);
-            }
-        });
+        
 
         Frutas20.setBackground(new java.awt.Color(239, 255, 232));
         Frutas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frutas20.setText("Frutas");
-        Frutas20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Frutas20ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel48.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
@@ -723,146 +599,79 @@ public class Pnutriologo extends javax.swing.JPanel {
         Embutidos20.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos20.setText("Embutidos");
-        Embutidos20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Embutidos20ActionPerformed(evt);
-            }
-        });
+        
 
         Fritura20.setBackground(new java.awt.Color(239, 255, 232));
         Fritura20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fritura20.setText("Fritura");
-        Fritura20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Fritura20ActionPerformed(evt);
-            }
-        });
-
+       
         Agua20.setBackground(new java.awt.Color(239, 255, 232));
         Agua20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua20.setText("Agua");
-        Agua20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Agua20ActionPerformed(evt);
-            }
-        });
+        
 
         Alcohol20.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol20.setText("Alcohol");
-        Alcohol20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Alcohol20ActionPerformed(evt);
-            }
-        });
+        
 
         Grasas20.setBackground(new java.awt.Color(239, 255, 232));
         Grasas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas20.setText("Grasas");
-        Grasas20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Grasas20ActionPerformed(evt);
-            }
-        });
+        
 
         Azucar20.setBackground(new java.awt.Color(239, 255, 232));
         Azucar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar20.setText("Azucar");
-        Azucar20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Azucar20ActionPerformed(evt);
-            }
-        });
+        
 
         Abdominales20.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales20.setText("Abdominales");
-        Abdominales20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Abdominales20ActionPerformed(evt);
-            }
-        });
+        
 
         Sentadillas20.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas20.setText("Sentadillas");
-        Sentadillas20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentadillas20ActionPerformed(evt);
-            }
-        });
+        
 
         Trotar20.setBackground(new java.awt.Color(239, 255, 232));
         Trotar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar20.setText("Trotar");
-        Trotar20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Trotar20ActionPerformed(evt);
-            }
-        });
+        
 
         Parado20.setBackground(new java.awt.Color(239, 255, 232));
         Parado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado20.setText("Estar parado");
-        Parado20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Parado20ActionPerformed(evt);
-            }
-        });
+        
 
         CrossFit20.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit20.setText("Crossfit");
-        CrossFit20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CrossFit20ActionPerformed(evt);
-            }
-        });
+        
 
         Flexiones20.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones20.setText("Flexiones");
-        Flexiones20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Flexiones20ActionPerformed(evt);
-            }
-        });
-
+        
         Pesas20.setBackground(new java.awt.Color(239, 255, 232));
         Pesas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas20.setText("Pesas");
-        Pesas20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pesas20ActionPerformed(evt);
-            }
-        });
-
+       
         NoDormido20.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido20.setText("Dormir poco");
-        NoDormido20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NoDormido20ActionPerformed(evt);
-            }
-        });
+       
 
         Dormido20.setBackground(new java.awt.Color(239, 255, 232));
         Dormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido20.setText("Dormir mucho");
-        Dormido20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Dormido20ActionPerformed(evt);
-            }
-        });
+        
 
         Sentado20.setBackground(new java.awt.Color(239, 255, 232));
         Sentado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado20.setText("Estar sentado");
-        Sentado20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentado20ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel52.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -871,29 +680,16 @@ public class Pnutriologo extends javax.swing.JPanel {
         Nadar20.setBackground(new java.awt.Color(239, 255, 232));
         Nadar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar20.setText("Nadar");
-        Nadar20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Nadar20ActionPerformed(evt);
-            }
-        });
+        
 
         Yoga20.setBackground(new java.awt.Color(239, 255, 232));
         Yoga20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga20.setText("Yoga");
-        Yoga20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Yoga20ActionPerformed(evt);
-            }
-        });
-
+       
         Pan20.setBackground(new java.awt.Color(239, 255, 232));
         Pan20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan20.setText("Pan");
-        Pan20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pan20ActionPerformed(evt);
-            }
-        });
+       
 
         jLabel53.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/2998122-ecology-green-leaf-plant-spring_99858.png"))); // NOI18N
@@ -990,39 +786,21 @@ public class Pnutriologo extends javax.swing.JPanel {
         Granos25.setBackground(new java.awt.Color(239, 255, 232));
         Granos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos25.setText("Granos");
-        Granos25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Granos25ActionPerformed(evt);
-            }
-        });
+        
 
         Carne25.setBackground(new java.awt.Color(239, 255, 232));
         Carne25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne25.setText("Carne");
-        Carne25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Carne25ActionPerformed(evt);
-            }
-        });
+        
 
         Hierbas25.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas25.setText("Hierbas");
-        Hierbas25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Hierbas25ActionPerformed(evt);
-            }
-        });
-
+        
         Sodio25.setBackground(new java.awt.Color(239, 255, 232));
         Sodio25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio25.setText("Sodio");
-        Sodio25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sodio25ActionPerformed(evt);
-            }
-        });
-
+        
         jLabel76.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel76.setText("Debes evitar ingerir:");
 
@@ -1036,56 +814,32 @@ public class Pnutriologo extends javax.swing.JPanel {
         Fruta25.setBackground(new java.awt.Color(239, 255, 232));
         Fruta25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fruta25.setText("Frutas");
-        Fruta25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Fruta25ActionPerformed(evt);
-            }
-        });
+        
 
         Verduras25.setBackground(new java.awt.Color(239, 255, 232));
         Verduras25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras25.setText("Verduras");
-        Verduras25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Verduras25ActionPerformed(evt);
-            }
-        });
+        
 
         Alcohol25.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol25.setText("Alcohol");
-        Alcohol25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Alcohol25ActionPerformed(evt);
-            }
-        });
+        
 
         Agua25.setBackground(new java.awt.Color(239, 255, 232));
         Agua25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua25.setText("Agua");
-        Agua25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Agua25ActionPerformed(evt);
-            }
-        });
+        
 
         Fritura25.setBackground(new java.awt.Color(239, 255, 232));
         Fritura25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fritura25.setText("Fritura");
-        Fritura25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Fritura25ActionPerformed(evt);
-            }
-        });
+        
 
         Embutidos25.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos25.setText("Embutidos");
-        Embutidos25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Embutidos25ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel79.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel79.setText("Se recomienda que consumas:");
@@ -1096,120 +850,64 @@ public class Pnutriologo extends javax.swing.JPanel {
         Trotar25.setBackground(new java.awt.Color(239, 255, 232));
         Trotar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar25.setText("Trotar");
-        Trotar25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Trotar25ActionPerformed(evt);
-            }
-        });
+        
 
         Sentadillas25.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas25.setText("Sentadillas");
-        Sentadillas25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentadillas25ActionPerformed(evt);
-            }
-        });
+        
 
         Abdominales25.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales25.setText("Abdominales");
-        Abdominales25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Abdominales25ActionPerformed(evt);
-            }
-        });
+        
 
         Azucar25.setBackground(new java.awt.Color(239, 255, 232));
         Azucar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar25.setText("Azucar");
-        Azucar25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Azucar25ActionPerformed(evt);
-            }
-        });
-
+        
         Grasas25.setBackground(new java.awt.Color(239, 255, 232));
         Grasas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas25.setText("Grasas");
-        Grasas25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Grasas25ActionPerformed(evt);
-            }
-        });
-
+        
         NoDormido25.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido25.setText("Dormir poco");
-        NoDormido25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NoDormido25ActionPerformed(evt);
-            }
-        });
+        
 
         Pesas25.setBackground(new java.awt.Color(239, 255, 232));
         Pesas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas25.setText("Pesas");
-        Pesas25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pesas25ActionPerformed(evt);
-            }
-        });
+        
 
         Flexiones25.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones25.setText("Flexiones");
-        Flexiones25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Flexiones25ActionPerformed(evt);
-            }
-        });
-
+        
         CrossFit25.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit25.setText("Crossfit");
-        CrossFit25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CrossFit25ActionPerformed(evt);
-            }
-        });
+        
 
         Parado25.setBackground(new java.awt.Color(239, 255, 232));
         Parado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado25.setText("Estar parado");
-        Parado25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Parado25ActionPerformed(evt);
-            }
-        });
+        
 
         Pan25.setBackground(new java.awt.Color(239, 255, 232));
         Pan25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan25.setText("Pan");
-        Pan25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pan25ActionPerformed(evt);
-            }
-        });
+        
 
         Yoga25.setBackground(new java.awt.Color(239, 255, 232));
         Yoga25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga25.setText("Yoga");
-        Yoga25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Yoga25ActionPerformed(evt);
-            }
-        });
+        
 
         Nadar25.setBackground(new java.awt.Color(239, 255, 232));
         Nadar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar25.setText("Nadar");
-        Nadar25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Nadar25ActionPerformed(evt);
-            }
-        });
-
+       
         jLabel81.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
         jLabel81.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1217,20 +915,12 @@ public class Pnutriologo extends javax.swing.JPanel {
         Sentado25.setBackground(new java.awt.Color(239, 255, 232));
         Sentado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado25.setText("Estar sentado");
-        Sentado25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Sentado25ActionPerformed(evt);
-            }
-        });
+        
 
         Dormido25.setBackground(new java.awt.Color(239, 255, 232));
         Dormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido25.setText("Dormir mucho");
-        Dormido25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Dormido25ActionPerformed(evt);
-            }
-        });
+        
 
         jLabel82.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/iconfinder-food-and-restaurantnot-allowedsignalingfast-foodprohibitionforbidden-4394756_119512.png"))); // NOI18N
