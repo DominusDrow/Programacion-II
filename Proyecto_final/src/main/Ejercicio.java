@@ -10,6 +10,8 @@ public class Ejercicio extends javax.swing.JPanel {
     public Ejercicio() {
         initComponents();
         
+        lblMensajeMotivacional.setVisible(false);
+        
         lblAbdominales.setVisible(false);
         lblCardio.setVisible(false);
         lblCorrer.setVisible(false);
@@ -43,8 +45,7 @@ public class Ejercicio extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         RbtnHoyEjercicio = new javax.swing.JRadioButton();
-        jLabel9 = new javax.swing.JLabel();
-        lblDiasEjercicio = new javax.swing.JLabel();
+        lblMensajeMotivacional = new javax.swing.JLabel();
         lblTrotar = new javax.swing.JLabel();
         lblSentadillas = new javax.swing.JLabel();
         lblAbdominales = new javax.swing.JLabel();
@@ -72,7 +73,7 @@ public class Ejercicio extends javax.swing.JPanel {
 
         lblEstadoFisico.setFont(new java.awt.Font("Verdana", 1, 29)); // NOI18N
         lblEstadoFisico.setForeground(new java.awt.Color(0, 102, 0));
-        lblEstadoFisico.setText("Estado f.");
+        lblEstadoFisico.setText("peso normal");
 
         jLabel5.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel5.setText("Debes hacer ejercicio ");
@@ -95,11 +96,9 @@ public class Ejercicio extends javax.swing.JPanel {
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        jLabel9.setText("Dias ejercitandome:");
-
-        lblDiasEjercicio.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
-        lblDiasEjercicio.setText("Dias");
+        lblMensajeMotivacional.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
+        lblMensajeMotivacional.setForeground(new java.awt.Color(147, 11, 36));
+        lblMensajeMotivacional.setText("Sigue Esforzandote!!!!!!!");
 
         lblTrotar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lblTrotar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/8_116658.png"))); // NOI18N
@@ -178,7 +177,7 @@ public class Ejercicio extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel7)
@@ -195,56 +194,53 @@ public class Ejercicio extends javax.swing.JPanel {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(lblParado))
                                     .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.LEADING))
+                                .addGap(41, 41, 41)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblAbdominales)
+                                    .addComponent(lblDormido))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(41, 41, 41)
-                                        .addComponent(lblAbdominales)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGap(33, 33, 33)
+                                        .addComponent(lblNoDormido)
+                                        .addGap(36, 36, 36)
+                                        .addComponent(lblSalir)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(lblNadar))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
                                         .addComponent(lblFlexiones)
-                                        .addGap(12, 12, 12)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                                         .addComponent(lblPesas)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(lblCrossFit)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblCrossFit)
+                                        .addGap(28, 28, 28)
                                         .addComponent(lblCardio)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(lblYoga)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(lblNada))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(35, 35, 35)
-                                        .addComponent(lblDormido)
-                                        .addGap(28, 28, 28)
-                                        .addComponent(lblNoDormido)
-                                        .addGap(31, 31, 31)
-                                        .addComponent(lblSalir))))
+                                        .addComponent(lblYoga))))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblVecesEjercicio)
                                 .addGap(39, 39, 39)
                                 .addComponent(jLabel6)))
-                        .addGap(0, 26, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lblMEsfuerzo)
+                            .addComponent(lblNada)))
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(RbtnHoyEjercicio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblNadar)
-                                .addGap(20, 20, 20)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(lblCorrer)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblMEsfuerzo))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(lblDiasEjercicio, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(107, Short.MAX_VALUE))
+                                .addGap(2, 2, 2))
+                            .addComponent(lblMensajeMotivacional, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 309, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(60, 60, 60))
             .addGroup(layout.createSequentialGroup()
-                .addGap(177, 177, 177)
+                .addGap(148, 148, 148)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblEstadoFisico, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblEstadoFisico, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -267,12 +263,11 @@ public class Ejercicio extends javax.swing.JPanel {
                         .addComponent(lblSentadillas)
                         .addComponent(lblAbdominales)
                         .addComponent(lblPesas)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(13, 13, 13)
-                            .addComponent(lblCrossFit))
-                        .addComponent(lblCardio, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(lblYoga, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(lblNada, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addComponent(lblNada, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblYoga)
+                            .addComponent(lblCardio)
+                            .addComponent(lblCrossFit)))
                     .addComponent(lblFlexiones)
                     .addComponent(lblTrotar))
                 .addGap(53, 53, 53)
@@ -287,19 +282,18 @@ public class Ejercicio extends javax.swing.JPanel {
                         .addComponent(lblSalir, javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(lblCorrer, javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(lblNadar, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(lblDormido))
+                        .addComponent(lblDormido, javax.swing.GroupLayout.Alignment.TRAILING))
                     .addComponent(lblMEsfuerzo))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(RbtnHoyEjercicio)
-                    .addComponent(jLabel9)
-                    .addComponent(lblDiasEjercicio))
+                    .addComponent(lblMensajeMotivacional))
                 .addGap(39, 39, 39))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void RbtnHoyEjercicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RbtnHoyEjercicioActionPerformed
-        
+        lblMensajeMotivacional.setVisible(true);
     }//GEN-LAST:event_RbtnHoyEjercicioActionPerformed
 
     public JLabel getLblAbdominales() {
@@ -316,10 +310,6 @@ public class Ejercicio extends javax.swing.JPanel {
 
     public JLabel getLblCrossFit() {
         return lblCrossFit;
-    }
-
-    public JLabel getLblDiasEjercicio() {
-        return lblDiasEjercicio;
     }
 
     public JLabel getLblDormido() {
@@ -390,16 +380,15 @@ public class Ejercicio extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel lblAbdominales;
     private javax.swing.JLabel lblCardio;
     private javax.swing.JLabel lblCorrer;
     private javax.swing.JLabel lblCrossFit;
-    private javax.swing.JLabel lblDiasEjercicio;
     private javax.swing.JLabel lblDormido;
     private javax.swing.JLabel lblEstadoFisico;
     private javax.swing.JLabel lblFlexiones;
     private javax.swing.JLabel lblMEsfuerzo;
+    private javax.swing.JLabel lblMensajeMotivacional;
     private javax.swing.JLabel lblNada;
     private javax.swing.JLabel lblNadar;
     private javax.swing.JLabel lblNoDormido;

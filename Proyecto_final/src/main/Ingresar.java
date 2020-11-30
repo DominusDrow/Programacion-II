@@ -200,9 +200,9 @@ public class Ingresar extends javax.swing.JPanel {
                     Ventana_principal.getPanelUsuario().getLblIMC().setText("Tu IMC: "+Ventana_principal.getPaciente().getIMC());
                     Ventana_principal.getPanelUsuario().getLblVEcesComer().setText(""+Ventana_principal.getRegistro().getNutriologo().ComerDia(Ventana_principal.getPaciente().getIMC()));
                     if(Ventana_principal.getPaciente().getPesoPerdido()<0) {
-                    	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText("Haz ganado: "+Math.abs(Ventana_principal.getPaciente().getPesoPerdido())+" kg");
+                    	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText("<html><center>Haz ganado: "+Math.abs(Ventana_principal.getPaciente().getPesoPerdido())+" kg");
                     }else {
-                    	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText(Ventana_principal.getPaciente().msgHumano());
+                    	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText("<html><center>"+Ventana_principal.getPaciente().msgHumano());
                     }
                     Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblVecesEjercicio().setText(""+Ventana_principal.getRegistro().getNutriologo().EjercicioDia(Ventana_principal.getPaciente().getIMC()));
                     Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblEstadoFisico().setText(Ventana_principal.getRegistro().getNutriologo().VerEstado(Ventana_principal.getPaciente().getIMC()));
@@ -210,6 +210,9 @@ public class Ingresar extends javax.swing.JPanel {
                     JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
 
             }else{
+                
+                Ventana_principal.getPanelNutriologo().getLblNombreNutriologo().setText("Dr."+Ventana_principal.getRegistro().getNutriologo().getNombre());
+                Ventana_principal.getPanelNutriologo().getLblNumPacientes().setText("Pacientes: "+Ventana_principal.getRegistro().getUsuarios().size());
                 
                 if(Ventana_principal.getRegistro().Valida_nutriologo(txtNombre_Usuario.getText(),new String(txtContraseniaUsuario.getPassword()))){
                     Ventana_principal.getPanelLogin().setVisible(false);

@@ -153,6 +153,10 @@ public class Registro {
         paciente.setPeso(peso);
         paciente.setEstatura(est);
     }
+
+    public ArrayList<Paciente> getUsuarios() {
+        return usuarios;
+    }
     
     
  
