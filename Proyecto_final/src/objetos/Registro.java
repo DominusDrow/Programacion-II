@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import javax.swing.JLabel;
 import javax.swing.JTable;
 
 
@@ -121,6 +122,16 @@ public class Registro {
     	
     	return tabla;
     	
+    }
+    
+    public void validar_Recomendacion(double a, double b, JLabel lbl){
+        
+        
+        if(17<=b && 17>a)       //esto se sustituye por el IMC pero ahorita no funcioan correctamente 
+            lbl.setVisible(true);
+        else
+            lbl.setVisible(false);
+        
     }
     
     public void eliminaCuenta(Paciente paciente) {
