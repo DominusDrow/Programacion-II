@@ -1,6 +1,9 @@
 
 package main;
     
+import java.util.ArrayList;
+
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 
@@ -9,6 +12,7 @@ public class Pnutriologo extends javax.swing.JPanel {
     
     private Pacientes panelUsuarios;
     private static Blog panelBlog;
+    private static ArrayList<JCheckBox> check=new ArrayList<JCheckBox>();
     
     public Pnutriologo() {
         initComponents();
@@ -49,7 +53,9 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jCheckBox1 = new javax.swing.JCheckBox();
+        for(int i=0;i<75;i++)
+        	check.add(new JCheckBox());
+        /*jCheckBox1 = new javax.swing.JCheckBox();
         jCheckBox2 = new javax.swing.JCheckBox();
         jCheckBox4 = new javax.swing.JCheckBox();
         jCheckBox6 = new javax.swing.JCheckBox();
@@ -73,7 +79,7 @@ public class Pnutriologo extends javax.swing.JPanel {
         jCheckBox46 = new javax.swing.JCheckBox();
         jCheckBox18 = new javax.swing.JCheckBox();
         jCheckBox47 = new javax.swing.JCheckBox();
-        jCheckBox49 = new javax.swing.JCheckBox();
+        jCheckBox49 = new javax.swing.JCheckBox();*/
         jLabel6 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -99,17 +105,17 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel41 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        jCheckBox10 = new javax.swing.JCheckBox();
+        /*jCheckBox10 = new javax.swing.JCheckBox();
         jCheckBox15 = new javax.swing.JCheckBox();
         jCheckBox16 = new javax.swing.JCheckBox();
         jCheckBox5 = new javax.swing.JCheckBox();
         jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox20 = new javax.swing.JCheckBox();
+        jCheckBox20 = new javax.swing.JCheckBox();*/
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
-        jCheckBox30 = new javax.swing.JCheckBox();
+        /*jCheckBox30 = new javax.swing.JCheckBox();
         jCheckBox25 = new javax.swing.JCheckBox();
         jCheckBox21 = new javax.swing.JCheckBox();
         jCheckBox26 = new javax.swing.JCheckBox();
@@ -124,11 +130,11 @@ public class Pnutriologo extends javax.swing.JPanel {
         jCheckBox56 = new javax.swing.JCheckBox();
         jCheckBox57 = new javax.swing.JCheckBox();
         jCheckBox58 = new javax.swing.JCheckBox();
-        jCheckBox59 = new javax.swing.JCheckBox();
+        jCheckBox59 = new javax.swing.JCheckBox();*/
         jLabel52 = new javax.swing.JLabel();
-        jCheckBox60 = new javax.swing.JCheckBox();
+        /*jCheckBox60 = new javax.swing.JCheckBox();
         jCheckBox61 = new javax.swing.JCheckBox();
-        jCheckBox31 = new javax.swing.JCheckBox();
+        jCheckBox31 = new javax.swing.JCheckBox();*/
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
@@ -152,22 +158,22 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jCheckBox62 = new javax.swing.JCheckBox();
+        /*jCheckBox62 = new javax.swing.JCheckBox();
         jCheckBox63 = new javax.swing.JCheckBox();
         jCheckBox64 = new javax.swing.JCheckBox();
-        jCheckBox65 = new javax.swing.JCheckBox();
+        jCheckBox65 = new javax.swing.JCheckBox();*/
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jCheckBox66 = new javax.swing.JCheckBox();
+        /*jCheckBox66 = new javax.swing.JCheckBox();
         jCheckBox67 = new javax.swing.JCheckBox();
         jCheckBox68 = new javax.swing.JCheckBox();
         jCheckBox69 = new javax.swing.JCheckBox();
         jCheckBox70 = new javax.swing.JCheckBox();
-        jCheckBox143 = new javax.swing.JCheckBox();
+        jCheckBox143 = new javax.swing.JCheckBox();*/
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jCheckBox144 = new javax.swing.JCheckBox();
+        /*jCheckBox144 = new javax.swing.JCheckBox();
         jCheckBox145 = new javax.swing.JCheckBox();
         jCheckBox146 = new javax.swing.JCheckBox();
         jCheckBox147 = new javax.swing.JCheckBox();
@@ -179,10 +185,10 @@ public class Pnutriologo extends javax.swing.JPanel {
         jCheckBox153 = new javax.swing.JCheckBox();
         jCheckBox154 = new javax.swing.JCheckBox();
         jCheckBox155 = new javax.swing.JCheckBox();
-        jCheckBox156 = new javax.swing.JCheckBox();
+        jCheckBox156 = new javax.swing.JCheckBox();*/
         jLabel81 = new javax.swing.JLabel();
-        jCheckBox157 = new javax.swing.JCheckBox();
-        jCheckBox158 = new javax.swing.JCheckBox();
+        /*jCheckBox157 = new javax.swing.JCheckBox();
+        jCheckBox158 = new javax.swing.JCheckBox();*/
         jLabel82 = new javax.swing.JLabel();
         jLabel162 = new javax.swing.JLabel();
         jLabel163 = new javax.swing.JLabel();
@@ -324,106 +330,106 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
         jLabel4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jCheckBox1.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox1.setText("Frutas");
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+        check.get(0).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(0).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(0).setText("Frutas");
+        check.get(0).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox1ActionPerformed(evt);
             }
         });
 
-        jCheckBox2.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox2.setText("Verduras");
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+        check.get(1).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(1).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(1).setText("Verduras");
+        check.get(1).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox2ActionPerformed(evt);
             }
         });
 
-        jCheckBox4.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox4.setText("Granos");
-        jCheckBox4.addActionListener(new java.awt.event.ActionListener() {
+        check.get(2).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(2).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(2).setText("Granos");
+        check.get(2).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox4ActionPerformed(evt);
             }
         });
 
-        jCheckBox6.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox6.setText("Carne");
-        jCheckBox6.addActionListener(new java.awt.event.ActionListener() {
+        check.get(3).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(3).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(3).setText("Carne");
+        check.get(3).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox6ActionPerformed(evt);
             }
         });
 
-        jCheckBox8.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox8.setText("Hierbas");
-        jCheckBox8.addActionListener(new java.awt.event.ActionListener() {
+        check.get(4).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(4).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(4).setText("Hierbas");
+        check.get(4).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox8ActionPerformed(evt);
             }
         });
 
-        jCheckBox9.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox9.setText("Sodio");
-        jCheckBox9.addActionListener(new java.awt.event.ActionListener() {
+        check.get(5).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(5).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(5).setText("Sodio");
+        check.get(5).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox9ActionPerformed(evt);
             }
         });
 
-        jCheckBox11.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox11.setText("Azucar");
-        jCheckBox11.addActionListener(new java.awt.event.ActionListener() {
+        check.get(6).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(6).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(6).setText("Azucar");
+        check.get(6).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox11ActionPerformed(evt);
             }
         });
 
-        jCheckBox13.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox13.setText("Grasas");
-        jCheckBox13.addActionListener(new java.awt.event.ActionListener() {
+        check.get(7).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(7).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(7).setText("Grasas");
+        check.get(7).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox13ActionPerformed(evt);
             }
         });
 
-        jCheckBox14.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox14.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox14.setText("Alcohol");
-        jCheckBox14.addActionListener(new java.awt.event.ActionListener() {
+        check.get(9).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(9).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(9).setText("Alcohol");
+        check.get(9).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox14ActionPerformed(evt);
             }
         });
 
-        jCheckBox17.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox17.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox17.setText("Agua");
-        jCheckBox17.addActionListener(new java.awt.event.ActionListener() {
+        check.get(10).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(10).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(10).setText("Agua");
+        check.get(10).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox17ActionPerformed(evt);
             }
         });
 
-        jCheckBox24.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox24.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox24.setText("Fritura");
-        jCheckBox24.addActionListener(new java.awt.event.ActionListener() {
+        check.get(11).setBackground(new java.awt.Color(239, 255, 232));
+        check.get(11).setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        check.get(11).setText("Fritura");
+        check.get(11).addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jCheckBox24ActionPerformed(evt);
             }
         });
 
-        jCheckBox29.setBackground(new java.awt.Color(239, 255, 232));
+        check.get(12).setBackground(new java.awt.Color(239, 255, 232));
         jCheckBox29.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jCheckBox29.setText("Embutidos");
         jCheckBox29.addActionListener(new java.awt.event.ActionListener() {
