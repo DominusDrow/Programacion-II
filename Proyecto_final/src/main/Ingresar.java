@@ -197,7 +197,7 @@ public class Ingresar extends javax.swing.JPanel {
                     Ventana_principal.getPanelUsuario().getLblFechaInicio().setText("Inicio: "+Ventana_principal.getPaciente().getInicio());
                     Ventana_principal.getPanelUsuario().getLblFechaActual().setText(""+Ventana_principal.getPaciente().getDias()+" Dias.");
                     Ventana_principal.getPanelUsuario().getLblCaloriasR().setText(""+Ventana_principal.getRegistro().getNutriologo().CalculCalo(Ventana_principal.getPaciente().getPeso(), Ventana_principal.getPaciente().getEstatura(), Ventana_principal.getPaciente().getEdad())+" kcal.");
-                    Ventana_principal.getPanelUsuario().getLblIMC().setText(""+Ventana_principal.getPaciente().getIMC());
+                    Ventana_principal.getPanelUsuario().getLblIMC().setText("Tu IMC: "+Ventana_principal.getPaciente().getIMC());
                     Ventana_principal.getPanelUsuario().getLblVEcesComer().setText(""+Ventana_principal.getRegistro().getNutriologo().ComerDia(Ventana_principal.getPaciente().getIMC()));
                     if(Ventana_principal.getPaciente().getPesoPerdido()<0) {
                     	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText("Haz ganado: "+Math.abs(Ventana_principal.getPaciente().getPesoPerdido())+" kg");
@@ -205,7 +205,7 @@ public class Ingresar extends javax.swing.JPanel {
                     	Ventana_principal.getPanelUsuario().getLblProgesoPeso().setText(Ventana_principal.getPaciente().msgHumano());
                     }
                     Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblVecesEjercicio().setText(""+Ventana_principal.getRegistro().getNutriologo().EjercicioDia(Ventana_principal.getPaciente().getIMC()));
-                
+                    Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblEstadoFisico().setText(Ventana_principal.getRegistro().getNutriologo().VerEstado(Ventana_principal.getPaciente().getIMC()));
                 }else
                     JOptionPane.showMessageDialog(null, "Ingreso incorrecto \n Revise sus cambios.");
 

@@ -10,6 +10,7 @@ public class Test {
 		
 		System.out.println(nutriologo.toString());
 		System.out.println(pc1.toString());
+		System.out.println(pc1.getIMC());
 		//el doctor calcula el estado de salud segun el IMC
 		System.out.println("\nNutriologo: Tu estado de salud es: "+nutriologo.VerEstado(pc1.getIMC()));
 		//el paciente lo guarda

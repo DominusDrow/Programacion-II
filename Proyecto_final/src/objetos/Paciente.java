@@ -27,14 +27,14 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	super(nom,edad,peso,estatura);
     	this.Dias=0;
     	this.Inicio=new Date();
-    	this.IMC=(float) ((float)peso/(estatura*estatura));
+    	this.IMC=((float)peso/(float)(estatura*estatura)*10000);
     }
     
     public Paciente(String nom,int edad, double peso,double estatura, String contra){
     	super(nom,edad,peso,estatura);
     	this.Dias=0;
     	this.Inicio=new Date();
-    	this.IMC=0;
+    	this.IMC=((float)peso/(float)(estatura*estatura)*10000);
     	cuenta=new Cuenta(contra,nom);
     }
     
@@ -70,16 +70,10 @@ public class Paciente extends Persona implements Comunica, Serializable{
     }
 
     public float getIMC() {
-        return IMC;
+    	IMC=((float)getPeso()/(float)(getEstatura()*getEstatura())*10000);
+    	return IMC;
     }
-
-    public void setIMC(int peso, int estatura) {
-        int alt2=estatura*estatura;
-    	int imc=peso/alt2;
-    	this.IMC = imc;
-    }
-    
-    
+   
     public int getDias() {
     	Dias=calculaDias(Inicio);
     	return Dias;
