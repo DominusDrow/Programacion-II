@@ -252,7 +252,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         	registro.guardaConsejos(registro.getLeidocheck());
         else
         	registro.guardaConsejos(panelNutriologo.getArrayCheck());
-        
+        dispose();
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
