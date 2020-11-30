@@ -334,7 +334,7 @@ public class crear_cuenta extends javax.swing.JPanel {
         		txtNombre_UsuarioR.getText(),txtEdad_Usuario.getText(), txtPesp_Usuario1.getText(),txtPesp_Usuario.getText());
         if(p) {
         	Ventana_principal.getRegistro().Usuario_nuevo(txtNombre_UsuarioR.getText(), Integer.parseInt(txtEdad_Usuario.getText()),
-        			Double.parseDouble(txtPesp_Usuario1.getText()),Double.parseDouble(txtPesp_Usuario1.getText()),new String(txtContraseniaUsuarioRC.getPassword()));
+        			Double.parseDouble(txtPesp_Usuario1.getText()),Double.parseDouble(txtPesp_Usuario.getText()),new String(txtContraseniaUsuarioRC.getPassword()));
         	Ventana_principal.getPanelRegistrar().setVisible(false);
             Ventana_principal.getPanelLogin().setVisible(true);
         }else {
