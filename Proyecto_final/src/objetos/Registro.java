@@ -14,6 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 
@@ -86,6 +87,40 @@ public class Registro {
         	return true;
         
         return false;
+    }
+    
+    private void guardaConsejos(ArrayList<JCheckBox> check) {
+    	try{
+			OutputStream fos=new FileOutputStream("Consejos.dat");
+			ObjectOutputStream bos= new ObjectOutputStream(fos);
+	    	
+			for(int i=0;i<check.size();i++) {
+	    		bos.writeObject(check.get(i));
+			}
+			bos.close();
+        }catch (Exception ex){ }
+    }
+    
+    private ArrayList<JCheckBox> leeConsejos() {
+    	ArrayList<JCheckBox> check=new ArrayList<JCheckBox>();
+    	JCheckBox p= new JCheckBox();
+    	check.add(p);
+    	try{
+			FileInputStream fis= new FileInputStream("Consejos.dat");
+			ObjectInputStream ois= new ObjectInputStream(fis);
+			    int i=0;
+		    	p=(JCheckBox)ois.readObject();
+		    	check.clear();
+		    	while(true) {
+			    	check.add(i,p);
+			    	p=(JCheckBox)ois.readObject();
+
+			    }
+        }catch(EOFException e) {System.out.println("EOFE");	}
+		catch (FileNotFoundException ex){} 
+		catch (ClassNotFoundException e) {e.printStackTrace();} 
+		catch (IOException e) {e.printStackTrace();}
+    	return check;
     }
     
     public void guardaUsuarios(){//guarda los usuarios que hay en el array
