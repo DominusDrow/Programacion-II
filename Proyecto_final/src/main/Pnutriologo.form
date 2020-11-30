@@ -240,13 +240,13 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox59" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Sentado20" min="-2" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jCheckBox10" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Sodio20" min="-2" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jCheckBox20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Frutas20" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel67" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   <Component id="jLabel52" alignment="0" min="-2" max="-2" attributes="0"/>
                                               </Group>
@@ -254,21 +254,11 @@
                                           <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox28" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Azucar20" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="jCheckBox42" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="Agua18" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="Pan18" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
@@ -297,6 +287,35 @@
                                       </Group>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="Agua18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Component id="Pan18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="jLabel179" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel166" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Yoga25" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="Nadar25" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel178" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
@@ -306,18 +325,18 @@
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jCheckBox54" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CrossFit20" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel70" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="jLabel62" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox61" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Yoga20" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jCheckBox60" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Nadar20" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
@@ -331,22 +350,22 @@
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel51" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Fritura20" alignment="1" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox27" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Grasas20" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="jLabel69" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox30" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Embutidos20" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox26" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Alcohol20" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -354,7 +373,7 @@
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="103" groupAlignment="1" attributes="0">
                                                   <Component id="jLabel81" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox65" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Sodio25" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
@@ -368,26 +387,26 @@
                                                   <Group type="103" groupAlignment="1" attributes="0">
                                                       <Component id="jLabel172" min="-2" max="-2" attributes="0"/>
                                                       <Group type="102" attributes="0">
-                                                          <Component id="jCheckBox144" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Trotar25" min="-2" max="-2" attributes="0"/>
                                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                          <Component id="jCheckBox145" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Sentadillas25" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
                                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox146" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Abdominales25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox151" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Flexiones25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="jCheckBox149" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jCheckBox150" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="NoDormido25" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Pesas25" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="1" attributes="0">
                                                       <Component id="jLabel80" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jCheckBox70" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Fritura25" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
@@ -395,21 +414,11 @@
                                                   <Component id="jLabel77" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
-                                                  <Component id="jLabel173" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                                                  <Component id="jLabel174" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                                                  <Component id="jLabel165" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox152" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Group type="103" groupAlignment="1" attributes="0">
                                                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                                                  <Component id="jCheckBox147" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="Azucar25" min="-2" max="-2" attributes="0"/>
                                                                   <Group type="102" attributes="0">
                                                                       <Component id="jLabel171" min="-2" max="-2" attributes="0"/>
                                                                       <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
@@ -418,17 +427,17 @@
                                                               </Group>
                                                               <Group type="102" alignment="1" attributes="0">
                                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                                      <Component id="jCheckBox66" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="Fruta25" alignment="0" min="-2" max="-2" attributes="0"/>
                                                                       <Component id="jLabel78" alignment="0" min="-2" max="-2" attributes="0"/>
                                                                   </Group>
                                                                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                                                   <Group type="103" groupAlignment="1" attributes="0">
                                                                       <Component id="jLabel162" min="-2" max="-2" attributes="0"/>
-                                                                      <Component id="jCheckBox67" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="Verduras25" min="-2" max="-2" attributes="0"/>
                                                                   </Group>
                                                                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                                      <Component id="jCheckBox62" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="Granos25" alignment="0" min="-2" max="-2" attributes="0"/>
                                                                       <Component id="jLabel163" alignment="0" min="-2" max="-2" attributes="0"/>
                                                                   </Group>
                                                               </Group>
@@ -437,84 +446,122 @@
                                                           <Group type="103" groupAlignment="1" attributes="0">
                                                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                                                   <Component id="jLabel167" min="-2" max="-2" attributes="0"/>
-                                                                  <Component id="jCheckBox64" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="Hierbas25" min="-2" max="-2" attributes="0"/>
                                                                   <Component id="jLabel164" min="-2" max="-2" attributes="0"/>
                                                               </Group>
                                                               <Group type="102" alignment="1" attributes="0">
-                                                                  <Component id="jCheckBox148" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="Grasas25" min="-2" max="-2" attributes="0"/>
                                                                   <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                                                               </Group>
                                                           </Group>
                                                           <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                                           <Component id="jLabel180" min="-2" max="-2" attributes="0"/>
                                                       </Group>
-                                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                                          <Component id="jCheckBox69" min="-2" max="-2" attributes="0"/>
-                                                          <Group type="102" attributes="0">
-                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                                  <Group type="102" attributes="0">
-                                                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                                          <Group type="102" alignment="0" attributes="0">
-                                                                              <Component id="jLabel75" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel74" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
-                                                                          </Group>
-                                                                          <Group type="102" attributes="0">
-                                                                              <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
-                                                                          </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                                      <Group type="102" alignment="1" attributes="0">
+                                                                          <Component id="Sentado18" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                                          <Component id="Parado18" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                                          <Component id="Dormido18" min="-2" max="-2" attributes="0"/>
+                                                                      </Group>
+                                                                      <Group type="102" alignment="1" attributes="0">
+                                                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                                                          <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace max="32767" attributes="0"/>
+                                                                          <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                                                          <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                                                                       </Group>
                                                                   </Group>
-                                                                  <Group type="102" alignment="0" attributes="0">
-                                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                                          <Group type="102" alignment="0" attributes="0">
-                                                                              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                                                                              <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                                                                          </Group>
-                                                                          <Group type="102" alignment="1" attributes="0">
-                                                                              <Component id="jCheckBox53" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                                                                              <Component id="jCheckBox58" min="-2" max="-2" attributes="0"/>
-                                                                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
-                                                                          </Group>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Group type="102" attributes="0">
+                                                                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                                                          <Component id="NoDormido" min="-2" max="-2" attributes="0"/>
                                                                       </Group>
-                                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                                          <Component id="jCheckBox56" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                                          <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                                          <Component id="jCheckBox57" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                                          <Component id="jLabel168" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                                          <Component id="jCheckBox63" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                                      <Group type="102" alignment="0" attributes="0">
+                                                                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                                                          <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
                                                                       </Group>
-                                                                  </Group>
-                                                                  <Group type="102" alignment="0" attributes="0">
-                                                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                                                      <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
-                                                                  </Group>
-                                                                  <Group type="102" alignment="0" attributes="0">
-                                                                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                                                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                                                                   </Group>
                                                               </Group>
-                                                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                                                              <Component id="jLabel169" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="102" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="jLabel75" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Group type="102" alignment="0" attributes="0">
+                                                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                                              <Component id="jLabel74" min="-2" max="-2" attributes="0"/>
+                                                                              <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                                                                          </Group>
+                                                                      </Group>
+                                                                  </Group>
+                                                                  <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
                                                           </Group>
                                                       </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel65" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Component id="Parado20" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                                                  <Component id="Dormido20" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="Pesas20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="NoDormido20" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel168" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="Carne25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
-                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="1" attributes="0">
                                                       <Component id="jLabel170" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jCheckBox154" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Pan25" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="Agua25" min="-2" max="-2" attributes="0"/>
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="jLabel173" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                                              <Component id="jLabel174" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                                              <Component id="jLabel165" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                                              <Component id="CrossFit25" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="321" max="-2" attributes="0"/>
+                                                          <Component id="jLabel169" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
                                               </Group>
                                           </Group>
@@ -527,11 +574,11 @@
                                                   <Component id="jLabel182" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="jCheckBox157" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Sentado25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox153" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Parado25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox158" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Dormido25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                                                   <Component id="jLabel177" min="-2" max="-2" attributes="0"/>
                                               </Group>
@@ -558,9 +605,9 @@
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="jLabel181" min="-2" max="-2" attributes="0"/>
                                               <Group type="102" attributes="0">
-                                                  <Component id="jCheckBox143" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Embutidos25" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox68" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Alcohol25" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -618,55 +665,25 @@
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jCheckBox46" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox49" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                                  <Component id="jLabel179" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel166" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jCheckBox155" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox156" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel178" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="jCheckBox16" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jCheckBox40" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox21" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                                  <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                                   <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Verduras20" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
@@ -674,77 +691,77 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Granos20" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel54" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jCheckBox15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="Hierba20" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel53" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
-                                  <Component id="jLabel79" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                                  <Component id="jLabel76" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" attributes="0">
-                                              <Component id="jCheckBox52" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox35" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox51" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jCheckBox55" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="Carne20" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel60" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="CrossFit18" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="Agua20" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
                                       </Group>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="1" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                          <Component id="jCheckBox41" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                                          <Component id="jCheckBox43" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
-                                          <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                                          <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel60" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                          <Component id="jLabel79" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                          <Component id="jLabel76" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Trotar20" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="Sentadillas20" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Abdominales20" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Flexiones20" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                                  <EmptySpace min="225" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jCheckBox31" min="-2" max="-2" attributes="0"/>
+                              <Component id="Pan20" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
@@ -791,22 +808,26 @@
                                   </Group>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="Trotar18" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="Sentadillas18" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jCheckBox36" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox38" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox37" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox47" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="Trotar18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="Sentadillas18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Abdominales18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="Flexiones18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="Pesas18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="Yoga18" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="Nadar18" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                                   <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -875,12 +896,12 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="Trotar18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Flexiones18" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="Sentadillas18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox40" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox36" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox47" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CrossFit18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Abdominales18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Yoga18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Pesas18" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
@@ -912,11 +933,11 @@
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jCheckBox42" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox41" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox43" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox46" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox49" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Dormido18" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="NoDormido" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Nadar18" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Parado18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Sentado18" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
@@ -938,13 +959,15 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox16" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox21" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox31" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox20" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Granos20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Verduras20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="Carne20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Hierba20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="Agua20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Pan20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Frutas20" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
@@ -959,13 +982,13 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCheckBox30" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox27" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox26" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Embutidos20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Grasas20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Alcohol20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Fritura20" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="jCheckBox28" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox10" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Azucar20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Sodio20" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -987,8 +1010,8 @@
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jCheckBox54" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox61" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="CrossFit20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Yoga20" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -998,11 +1021,11 @@
                                   <Component id="jLabel64" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jCheckBox52" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox55" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox56" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox51" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Trotar20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Flexiones20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Sentadillas20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Pesas20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Abdominales20" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -1018,11 +1041,11 @@
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jCheckBox59" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox53" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox58" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox57" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox60" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Sentado20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Parado20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Dormido20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="NoDormido20" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Nadar20" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="24" max="32767" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
@@ -1044,16 +1067,16 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCheckBox62" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox67" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Granos25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Verduras25" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="jCheckBox69" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox154" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Agua25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Pan25" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jCheckBox66" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Fruta25" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="jCheckBox64" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Hierbas25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Carne25" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -1069,12 +1092,12 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCheckBox143" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox148" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox68" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox70" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox147" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox65" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Embutidos25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Grasas25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Alcohol25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Fritura25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Azucar25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Sodio25" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
@@ -1093,10 +1116,10 @@
                                           </Group>
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox150" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Pesas25" min="-2" max="-2" attributes="0"/>
                                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                                  <Component id="jCheckBox155" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jCheckBox152" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Yoga25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="CrossFit25" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -1121,10 +1144,10 @@
                                       </Group>
                                   </Group>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jCheckBox144" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox151" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox145" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox146" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Trotar25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Flexiones25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Sentadillas25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Abdominales25" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -1141,12 +1164,12 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jCheckBox157" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox149" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jCheckBox156" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Sentado25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="NoDormido25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Nadar25" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jCheckBox153" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCheckBox158" min="-2" max="-2" attributes="0"/>
+                              <Component id="Parado25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Dormido25" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -1425,7 +1448,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentadillas18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox36">
+                <Component class="javax.swing.JCheckBox" name="Abdominales18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1436,10 +1459,10 @@
                     <Property name="text" type="java.lang.String" value="Abdominales"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox36ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Abdominales18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox37">
+                <Component class="javax.swing.JCheckBox" name="Pesas18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1450,10 +1473,10 @@
                     <Property name="text" type="java.lang.String" value="Pesas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox37ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pesas18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox38">
+                <Component class="javax.swing.JCheckBox" name="Flexiones18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1464,10 +1487,10 @@
                     <Property name="text" type="java.lang.String" value="Flexiones"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox38ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Flexiones18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox40">
+                <Component class="javax.swing.JCheckBox" name="CrossFit18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1478,10 +1501,10 @@
                     <Property name="text" type="java.lang.String" value="Crossfit"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox40ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CrossFit18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox41">
+                <Component class="javax.swing.JCheckBox" name="Parado18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1492,10 +1515,10 @@
                     <Property name="text" type="java.lang.String" value="Estar parado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox41ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Parado18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox42">
+                <Component class="javax.swing.JCheckBox" name="Sentado18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1506,10 +1529,10 @@
                     <Property name="text" type="java.lang.String" value="Estar sentado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox42ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentado18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox43">
+                <Component class="javax.swing.JCheckBox" name="Dormido18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1520,10 +1543,10 @@
                     <Property name="text" type="java.lang.String" value="Dormir mucho"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox43ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dormido18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox46">
+                <Component class="javax.swing.JCheckBox" name="NoDormido">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1534,7 +1557,7 @@
                     <Property name="text" type="java.lang.String" value="Dormir poco"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox46ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NoDormidoActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JCheckBox" name="Pan18">
@@ -1551,7 +1574,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pan18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox47">
+                <Component class="javax.swing.JCheckBox" name="Yoga18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1562,10 +1585,10 @@
                     <Property name="text" type="java.lang.String" value="Yoga"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox47ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Yoga18ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox49">
+                <Component class="javax.swing.JCheckBox" name="Nadar18">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1576,7 +1599,7 @@
                     <Property name="text" type="java.lang.String" value="Nadar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox49ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Nadar18ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel6">
@@ -1851,7 +1874,7 @@
                     <Property name="text" type="java.lang.String" value="Debes evitar ingerir:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox10">
+                <Component class="javax.swing.JCheckBox" name="Sodio20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1862,10 +1885,10 @@
                     <Property name="text" type="java.lang.String" value="Sodio"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox10ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sodio20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox15">
+                <Component class="javax.swing.JCheckBox" name="Hierba20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1876,10 +1899,10 @@
                     <Property name="text" type="java.lang.String" value="Hierbas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox15ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Hierba20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox16">
+                <Component class="javax.swing.JCheckBox" name="Carne20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1890,10 +1913,10 @@
                     <Property name="text" type="java.lang.String" value="Carne"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox16ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carne20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox5">
+                <Component class="javax.swing.JCheckBox" name="Granos20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1904,10 +1927,10 @@
                     <Property name="text" type="java.lang.String" value="Granos"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox5ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Granos20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+                <Component class="javax.swing.JCheckBox" name="Verduras20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1918,10 +1941,10 @@
                     <Property name="text" type="java.lang.String" value="Verduras"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox3ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Verduras20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox20">
+                <Component class="javax.swing.JCheckBox" name="Frutas20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1932,7 +1955,7 @@
                     <Property name="text" type="java.lang.String" value="Frutas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox20ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Frutas20ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel48">
@@ -1970,7 +1993,7 @@
                     <Property name="text" type="java.lang.String" value="Se recomienda que consumas:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox30">
+                <Component class="javax.swing.JCheckBox" name="Embutidos20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1981,10 +2004,10 @@
                     <Property name="text" type="java.lang.String" value="Embutidos"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox30ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Embutidos20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox25">
+                <Component class="javax.swing.JCheckBox" name="Fritura20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -1995,10 +2018,10 @@
                     <Property name="text" type="java.lang.String" value="Fritura"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox25ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Fritura20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox21">
+                <Component class="javax.swing.JCheckBox" name="Agua20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2009,10 +2032,10 @@
                     <Property name="text" type="java.lang.String" value="Agua"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox21ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Agua20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox26">
+                <Component class="javax.swing.JCheckBox" name="Alcohol20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2023,10 +2046,10 @@
                     <Property name="text" type="java.lang.String" value="Alcohol"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox26ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Alcohol20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox27">
+                <Component class="javax.swing.JCheckBox" name="Grasas20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2037,10 +2060,10 @@
                     <Property name="text" type="java.lang.String" value="Grasas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox27ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Grasas20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox28">
+                <Component class="javax.swing.JCheckBox" name="Azucar20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2051,10 +2074,10 @@
                     <Property name="text" type="java.lang.String" value="Azucar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox28ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Azucar20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox51">
+                <Component class="javax.swing.JCheckBox" name="Abdominales20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2065,10 +2088,10 @@
                     <Property name="text" type="java.lang.String" value="Abdominales"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox51ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Abdominales20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox35">
+                <Component class="javax.swing.JCheckBox" name="Sentadillas20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2079,10 +2102,10 @@
                     <Property name="text" type="java.lang.String" value="Sentadillas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox35ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentadillas20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox52">
+                <Component class="javax.swing.JCheckBox" name="Trotar20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2093,10 +2116,10 @@
                     <Property name="text" type="java.lang.String" value="Trotar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox52ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Trotar20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox53">
+                <Component class="javax.swing.JCheckBox" name="Parado20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2107,10 +2130,10 @@
                     <Property name="text" type="java.lang.String" value="Estar parado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox53ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Parado20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox54">
+                <Component class="javax.swing.JCheckBox" name="CrossFit20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2121,10 +2144,10 @@
                     <Property name="text" type="java.lang.String" value="Crossfit"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox54ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CrossFit20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox55">
+                <Component class="javax.swing.JCheckBox" name="Flexiones20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2135,10 +2158,10 @@
                     <Property name="text" type="java.lang.String" value="Flexiones"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox55ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Flexiones20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox56">
+                <Component class="javax.swing.JCheckBox" name="Pesas20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2149,10 +2172,10 @@
                     <Property name="text" type="java.lang.String" value="Pesas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox56ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pesas20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox57">
+                <Component class="javax.swing.JCheckBox" name="NoDormido20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2163,10 +2186,10 @@
                     <Property name="text" type="java.lang.String" value="Dormir poco"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox57ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NoDormido20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox58">
+                <Component class="javax.swing.JCheckBox" name="Dormido20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2177,10 +2200,10 @@
                     <Property name="text" type="java.lang.String" value="Dormir mucho"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox58ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dormido20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox59">
+                <Component class="javax.swing.JCheckBox" name="Sentado20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2191,7 +2214,7 @@
                     <Property name="text" type="java.lang.String" value="Estar sentado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox59ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentado20ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel52">
@@ -2205,7 +2228,7 @@
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox60">
+                <Component class="javax.swing.JCheckBox" name="Nadar20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2216,10 +2239,10 @@
                     <Property name="text" type="java.lang.String" value="Nadar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox60ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Nadar20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox61">
+                <Component class="javax.swing.JCheckBox" name="Yoga20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2230,10 +2253,10 @@
                     <Property name="text" type="java.lang.String" value="Yoga"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox61ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Yoga20ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox31">
+                <Component class="javax.swing.JCheckBox" name="Pan20">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2244,7 +2267,7 @@
                     <Property name="text" type="java.lang.String" value="Pan"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox31ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pan20ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel53">
@@ -2500,7 +2523,7 @@
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox62">
+                <Component class="javax.swing.JCheckBox" name="Granos25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2511,10 +2534,10 @@
                     <Property name="text" type="java.lang.String" value="Granos"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox62ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Granos25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox63">
+                <Component class="javax.swing.JCheckBox" name="Carne25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2525,10 +2548,10 @@
                     <Property name="text" type="java.lang.String" value="Carne"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox63ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Carne25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox64">
+                <Component class="javax.swing.JCheckBox" name="Hierbas25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2539,10 +2562,10 @@
                     <Property name="text" type="java.lang.String" value="Hierbas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox64ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Hierbas25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox65">
+                <Component class="javax.swing.JCheckBox" name="Sodio25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2553,7 +2576,7 @@
                     <Property name="text" type="java.lang.String" value="Sodio"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox65ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sodio25ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel76">
@@ -2583,7 +2606,7 @@
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox66">
+                <Component class="javax.swing.JCheckBox" name="Fruta25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2594,10 +2617,10 @@
                     <Property name="text" type="java.lang.String" value="Frutas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox66ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Fruta25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox67">
+                <Component class="javax.swing.JCheckBox" name="Verduras25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2608,10 +2631,10 @@
                     <Property name="text" type="java.lang.String" value="Verduras"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox67ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Verduras25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox68">
+                <Component class="javax.swing.JCheckBox" name="Alcohol25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2622,10 +2645,10 @@
                     <Property name="text" type="java.lang.String" value="Alcohol"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox68ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Alcohol25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox69">
+                <Component class="javax.swing.JCheckBox" name="Agua25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2636,10 +2659,10 @@
                     <Property name="text" type="java.lang.String" value="Agua"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox69ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Agua25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox70">
+                <Component class="javax.swing.JCheckBox" name="Fritura25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2650,10 +2673,10 @@
                     <Property name="text" type="java.lang.String" value="Fritura"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox70ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Fritura25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox143">
+                <Component class="javax.swing.JCheckBox" name="Embutidos25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2664,7 +2687,7 @@
                     <Property name="text" type="java.lang.String" value="Embutidos"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox143ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Embutidos25ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel79">
@@ -2683,7 +2706,7 @@
                     <Property name="text" type="java.lang.String" value="Se recomienda que realices: "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox144">
+                <Component class="javax.swing.JCheckBox" name="Trotar25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2694,10 +2717,10 @@
                     <Property name="text" type="java.lang.String" value="Trotar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox144ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Trotar25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox145">
+                <Component class="javax.swing.JCheckBox" name="Sentadillas25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2708,10 +2731,10 @@
                     <Property name="text" type="java.lang.String" value="Sentadillas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox145ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentadillas25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox146">
+                <Component class="javax.swing.JCheckBox" name="Abdominales25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2722,10 +2745,10 @@
                     <Property name="text" type="java.lang.String" value="Abdominales"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox146ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Abdominales25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox147">
+                <Component class="javax.swing.JCheckBox" name="Azucar25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2736,10 +2759,10 @@
                     <Property name="text" type="java.lang.String" value="Azucar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox147ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Azucar25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox148">
+                <Component class="javax.swing.JCheckBox" name="Grasas25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2750,10 +2773,10 @@
                     <Property name="text" type="java.lang.String" value="Grasas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox148ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Grasas25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox149">
+                <Component class="javax.swing.JCheckBox" name="NoDormido25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2764,10 +2787,10 @@
                     <Property name="text" type="java.lang.String" value="Dormir poco"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox149ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NoDormido25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox150">
+                <Component class="javax.swing.JCheckBox" name="Pesas25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2778,10 +2801,10 @@
                     <Property name="text" type="java.lang.String" value="Pesas"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox150ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pesas25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox151">
+                <Component class="javax.swing.JCheckBox" name="Flexiones25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2792,10 +2815,10 @@
                     <Property name="text" type="java.lang.String" value="Flexiones"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox151ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Flexiones25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox152">
+                <Component class="javax.swing.JCheckBox" name="CrossFit25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2806,10 +2829,10 @@
                     <Property name="text" type="java.lang.String" value="Crossfit"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox152ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CrossFit25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox153">
+                <Component class="javax.swing.JCheckBox" name="Parado25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2820,10 +2843,10 @@
                     <Property name="text" type="java.lang.String" value="Estar parado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox153ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Parado25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox154">
+                <Component class="javax.swing.JCheckBox" name="Pan25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2834,10 +2857,10 @@
                     <Property name="text" type="java.lang.String" value="Pan"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox154ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Pan25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox155">
+                <Component class="javax.swing.JCheckBox" name="Yoga25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2848,10 +2871,10 @@
                     <Property name="text" type="java.lang.String" value="Yoga"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox155ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Yoga25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox156">
+                <Component class="javax.swing.JCheckBox" name="Nadar25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2862,7 +2885,7 @@
                     <Property name="text" type="java.lang.String" value="Nadar"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox156ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Nadar25ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel81">
@@ -2876,7 +2899,7 @@
                     <Property name="verticalTextPosition" type="int" value="3"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox157">
+                <Component class="javax.swing.JCheckBox" name="Sentado25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2887,10 +2910,10 @@
                     <Property name="text" type="java.lang.String" value="Estar sentado"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox157ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Sentado25ActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JCheckBox" name="jCheckBox158">
+                <Component class="javax.swing.JCheckBox" name="Dormido25">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="e8" green="ff" red="ef" type="rgb"/>
@@ -2901,7 +2924,7 @@
                     <Property name="text" type="java.lang.String" value="Dormir mucho"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox158ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dormido25ActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel82">

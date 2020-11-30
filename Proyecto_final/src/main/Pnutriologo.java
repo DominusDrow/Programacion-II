@@ -63,17 +63,17 @@ public class Pnutriologo extends javax.swing.JPanel {
         Embutidos18 = new javax.swing.JCheckBox();
         Trotar18 = new javax.swing.JCheckBox();
         Sentadillas18 = new javax.swing.JCheckBox();
-        jCheckBox36 = new javax.swing.JCheckBox();
-        jCheckBox37 = new javax.swing.JCheckBox();
-        jCheckBox38 = new javax.swing.JCheckBox();
-        jCheckBox40 = new javax.swing.JCheckBox();
-        jCheckBox41 = new javax.swing.JCheckBox();
-        jCheckBox42 = new javax.swing.JCheckBox();
-        jCheckBox43 = new javax.swing.JCheckBox();
-        jCheckBox46 = new javax.swing.JCheckBox();
+        Abdominales18 = new javax.swing.JCheckBox();
+        Pesas18 = new javax.swing.JCheckBox();
+        Flexiones18 = new javax.swing.JCheckBox();
+        CrossFit18 = new javax.swing.JCheckBox();
+        Parado18 = new javax.swing.JCheckBox();
+        Sentado18 = new javax.swing.JCheckBox();
+        Dormido18 = new javax.swing.JCheckBox();
+        NoDormido = new javax.swing.JCheckBox();
         Pan18 = new javax.swing.JCheckBox();
-        jCheckBox47 = new javax.swing.JCheckBox();
-        jCheckBox49 = new javax.swing.JCheckBox();
+        Yoga18 = new javax.swing.JCheckBox();
+        Nadar18 = new javax.swing.JCheckBox();
         jLabel6 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -99,36 +99,36 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel41 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        jCheckBox10 = new javax.swing.JCheckBox();
-        jCheckBox15 = new javax.swing.JCheckBox();
-        jCheckBox16 = new javax.swing.JCheckBox();
-        jCheckBox5 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        jCheckBox20 = new javax.swing.JCheckBox();
+        Sodio20 = new javax.swing.JCheckBox();
+        Hierba20 = new javax.swing.JCheckBox();
+        Carne20 = new javax.swing.JCheckBox();
+        Granos20 = new javax.swing.JCheckBox();
+        Verduras20 = new javax.swing.JCheckBox();
+        Frutas20 = new javax.swing.JCheckBox();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
-        jCheckBox30 = new javax.swing.JCheckBox();
-        jCheckBox25 = new javax.swing.JCheckBox();
-        jCheckBox21 = new javax.swing.JCheckBox();
-        jCheckBox26 = new javax.swing.JCheckBox();
-        jCheckBox27 = new javax.swing.JCheckBox();
-        jCheckBox28 = new javax.swing.JCheckBox();
-        jCheckBox51 = new javax.swing.JCheckBox();
-        jCheckBox35 = new javax.swing.JCheckBox();
-        jCheckBox52 = new javax.swing.JCheckBox();
-        jCheckBox53 = new javax.swing.JCheckBox();
-        jCheckBox54 = new javax.swing.JCheckBox();
-        jCheckBox55 = new javax.swing.JCheckBox();
-        jCheckBox56 = new javax.swing.JCheckBox();
-        jCheckBox57 = new javax.swing.JCheckBox();
-        jCheckBox58 = new javax.swing.JCheckBox();
-        jCheckBox59 = new javax.swing.JCheckBox();
+        Embutidos20 = new javax.swing.JCheckBox();
+        Fritura20 = new javax.swing.JCheckBox();
+        Agua20 = new javax.swing.JCheckBox();
+        Alcohol20 = new javax.swing.JCheckBox();
+        Grasas20 = new javax.swing.JCheckBox();
+        Azucar20 = new javax.swing.JCheckBox();
+        Abdominales20 = new javax.swing.JCheckBox();
+        Sentadillas20 = new javax.swing.JCheckBox();
+        Trotar20 = new javax.swing.JCheckBox();
+        Parado20 = new javax.swing.JCheckBox();
+        CrossFit20 = new javax.swing.JCheckBox();
+        Flexiones20 = new javax.swing.JCheckBox();
+        Pesas20 = new javax.swing.JCheckBox();
+        NoDormido20 = new javax.swing.JCheckBox();
+        Dormido20 = new javax.swing.JCheckBox();
+        Sentado20 = new javax.swing.JCheckBox();
         jLabel52 = new javax.swing.JLabel();
-        jCheckBox60 = new javax.swing.JCheckBox();
-        jCheckBox61 = new javax.swing.JCheckBox();
-        jCheckBox31 = new javax.swing.JCheckBox();
+        Nadar20 = new javax.swing.JCheckBox();
+        Yoga20 = new javax.swing.JCheckBox();
+        Pan20 = new javax.swing.JCheckBox();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
@@ -152,37 +152,37 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jCheckBox62 = new javax.swing.JCheckBox();
-        jCheckBox63 = new javax.swing.JCheckBox();
-        jCheckBox64 = new javax.swing.JCheckBox();
-        jCheckBox65 = new javax.swing.JCheckBox();
+        Granos25 = new javax.swing.JCheckBox();
+        Carne25 = new javax.swing.JCheckBox();
+        Hierbas25 = new javax.swing.JCheckBox();
+        Sodio25 = new javax.swing.JCheckBox();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jCheckBox66 = new javax.swing.JCheckBox();
-        jCheckBox67 = new javax.swing.JCheckBox();
-        jCheckBox68 = new javax.swing.JCheckBox();
-        jCheckBox69 = new javax.swing.JCheckBox();
-        jCheckBox70 = new javax.swing.JCheckBox();
-        jCheckBox143 = new javax.swing.JCheckBox();
+        Fruta25 = new javax.swing.JCheckBox();
+        Verduras25 = new javax.swing.JCheckBox();
+        Alcohol25 = new javax.swing.JCheckBox();
+        Agua25 = new javax.swing.JCheckBox();
+        Fritura25 = new javax.swing.JCheckBox();
+        Embutidos25 = new javax.swing.JCheckBox();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jCheckBox144 = new javax.swing.JCheckBox();
-        jCheckBox145 = new javax.swing.JCheckBox();
-        jCheckBox146 = new javax.swing.JCheckBox();
-        jCheckBox147 = new javax.swing.JCheckBox();
-        jCheckBox148 = new javax.swing.JCheckBox();
-        jCheckBox149 = new javax.swing.JCheckBox();
-        jCheckBox150 = new javax.swing.JCheckBox();
-        jCheckBox151 = new javax.swing.JCheckBox();
-        jCheckBox152 = new javax.swing.JCheckBox();
-        jCheckBox153 = new javax.swing.JCheckBox();
-        jCheckBox154 = new javax.swing.JCheckBox();
-        jCheckBox155 = new javax.swing.JCheckBox();
-        jCheckBox156 = new javax.swing.JCheckBox();
+        Trotar25 = new javax.swing.JCheckBox();
+        Sentadillas25 = new javax.swing.JCheckBox();
+        Abdominales25 = new javax.swing.JCheckBox();
+        Azucar25 = new javax.swing.JCheckBox();
+        Grasas25 = new javax.swing.JCheckBox();
+        NoDormido25 = new javax.swing.JCheckBox();
+        Pesas25 = new javax.swing.JCheckBox();
+        Flexiones25 = new javax.swing.JCheckBox();
+        CrossFit25 = new javax.swing.JCheckBox();
+        Parado25 = new javax.swing.JCheckBox();
+        Pan25 = new javax.swing.JCheckBox();
+        Yoga25 = new javax.swing.JCheckBox();
+        Nadar25 = new javax.swing.JCheckBox();
         jLabel81 = new javax.swing.JLabel();
-        jCheckBox157 = new javax.swing.JCheckBox();
-        jCheckBox158 = new javax.swing.JCheckBox();
+        Sentado25 = new javax.swing.JCheckBox();
+        Dormido25 = new javax.swing.JCheckBox();
         jLabel82 = new javax.swing.JLabel();
         jLabel162 = new javax.swing.JLabel();
         jLabel163 = new javax.swing.JLabel();
@@ -450,75 +450,75 @@ public class Pnutriologo extends javax.swing.JPanel {
             }
         });
 
-        jCheckBox36.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox36.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox36.setText("Abdominales");
-        jCheckBox36.addActionListener(new java.awt.event.ActionListener() {
+        Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
+        Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Abdominales18.setText("Abdominales");
+        Abdominales18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox36ActionPerformed(evt);
+                Abdominales18ActionPerformed(evt);
             }
         });
 
-        jCheckBox37.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox37.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox37.setText("Pesas");
-        jCheckBox37.addActionListener(new java.awt.event.ActionListener() {
+        Pesas18.setBackground(new java.awt.Color(239, 255, 232));
+        Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pesas18.setText("Pesas");
+        Pesas18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox37ActionPerformed(evt);
+                Pesas18ActionPerformed(evt);
             }
         });
 
-        jCheckBox38.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox38.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox38.setText("Flexiones");
-        jCheckBox38.addActionListener(new java.awt.event.ActionListener() {
+        Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
+        Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Flexiones18.setText("Flexiones");
+        Flexiones18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox38ActionPerformed(evt);
+                Flexiones18ActionPerformed(evt);
             }
         });
 
-        jCheckBox40.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox40.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox40.setText("Crossfit");
-        jCheckBox40.addActionListener(new java.awt.event.ActionListener() {
+        CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
+        CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        CrossFit18.setText("Crossfit");
+        CrossFit18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox40ActionPerformed(evt);
+                CrossFit18ActionPerformed(evt);
             }
         });
 
-        jCheckBox41.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox41.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox41.setText("Estar parado");
-        jCheckBox41.addActionListener(new java.awt.event.ActionListener() {
+        Parado18.setBackground(new java.awt.Color(239, 255, 232));
+        Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Parado18.setText("Estar parado");
+        Parado18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox41ActionPerformed(evt);
+                Parado18ActionPerformed(evt);
             }
         });
 
-        jCheckBox42.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox42.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox42.setText("Estar sentado");
-        jCheckBox42.addActionListener(new java.awt.event.ActionListener() {
+        Sentado18.setBackground(new java.awt.Color(239, 255, 232));
+        Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentado18.setText("Estar sentado");
+        Sentado18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox42ActionPerformed(evt);
+                Sentado18ActionPerformed(evt);
             }
         });
 
-        jCheckBox43.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox43.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox43.setText("Dormir mucho");
-        jCheckBox43.addActionListener(new java.awt.event.ActionListener() {
+        Dormido18.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido18.setText("Dormir mucho");
+        Dormido18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox43ActionPerformed(evt);
+                Dormido18ActionPerformed(evt);
             }
         });
 
-        jCheckBox46.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox46.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox46.setText("Dormir poco");
-        jCheckBox46.addActionListener(new java.awt.event.ActionListener() {
+        NoDormido.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido.setText("Dormir poco");
+        NoDormido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox46ActionPerformed(evt);
+                NoDormidoActionPerformed(evt);
             }
         });
 
@@ -531,21 +531,21 @@ public class Pnutriologo extends javax.swing.JPanel {
             }
         });
 
-        jCheckBox47.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox47.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox47.setText("Yoga");
-        jCheckBox47.addActionListener(new java.awt.event.ActionListener() {
+        Yoga18.setBackground(new java.awt.Color(239, 255, 232));
+        Yoga18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Yoga18.setText("Yoga");
+        Yoga18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox47ActionPerformed(evt);
+                Yoga18ActionPerformed(evt);
             }
         });
 
-        jCheckBox49.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox49.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox49.setText("Nadar");
-        jCheckBox49.addActionListener(new java.awt.event.ActionListener() {
+        Nadar18.setBackground(new java.awt.Color(239, 255, 232));
+        Nadar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Nadar18.setText("Nadar");
+        Nadar18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox49ActionPerformed(evt);
+                Nadar18ActionPerformed(evt);
             }
         });
 
@@ -648,57 +648,57 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel47.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel47.setText("Debes evitar ingerir:");
 
-        jCheckBox10.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox10.setText("Sodio");
-        jCheckBox10.addActionListener(new java.awt.event.ActionListener() {
+        Sodio20.setBackground(new java.awt.Color(239, 255, 232));
+        Sodio20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sodio20.setText("Sodio");
+        Sodio20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox10ActionPerformed(evt);
+                Sodio20ActionPerformed(evt);
             }
         });
 
-        jCheckBox15.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox15.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox15.setText("Hierbas");
-        jCheckBox15.addActionListener(new java.awt.event.ActionListener() {
+        Hierba20.setBackground(new java.awt.Color(239, 255, 232));
+        Hierba20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Hierba20.setText("Hierbas");
+        Hierba20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox15ActionPerformed(evt);
+                Hierba20ActionPerformed(evt);
             }
         });
 
-        jCheckBox16.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox16.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox16.setText("Carne");
-        jCheckBox16.addActionListener(new java.awt.event.ActionListener() {
+        Carne20.setBackground(new java.awt.Color(239, 255, 232));
+        Carne20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Carne20.setText("Carne");
+        Carne20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox16ActionPerformed(evt);
+                Carne20ActionPerformed(evt);
             }
         });
 
-        jCheckBox5.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox5.setText("Granos");
-        jCheckBox5.addActionListener(new java.awt.event.ActionListener() {
+        Granos20.setBackground(new java.awt.Color(239, 255, 232));
+        Granos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Granos20.setText("Granos");
+        Granos20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox5ActionPerformed(evt);
+                Granos20ActionPerformed(evt);
             }
         });
 
-        jCheckBox3.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox3.setText("Verduras");
-        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
+        Verduras20.setBackground(new java.awt.Color(239, 255, 232));
+        Verduras20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Verduras20.setText("Verduras");
+        Verduras20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox3ActionPerformed(evt);
+                Verduras20ActionPerformed(evt);
             }
         });
 
-        jCheckBox20.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox20.setText("Frutas");
-        jCheckBox20.addActionListener(new java.awt.event.ActionListener() {
+        Frutas20.setBackground(new java.awt.Color(239, 255, 232));
+        Frutas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Frutas20.setText("Frutas");
+        Frutas20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox20ActionPerformed(evt);
+                Frutas20ActionPerformed(evt);
             }
         });
 
@@ -715,147 +715,147 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel51.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel51.setText("Se recomienda que consumas:");
 
-        jCheckBox30.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox30.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox30.setText("Embutidos");
-        jCheckBox30.addActionListener(new java.awt.event.ActionListener() {
+        Embutidos20.setBackground(new java.awt.Color(239, 255, 232));
+        Embutidos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Embutidos20.setText("Embutidos");
+        Embutidos20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox30ActionPerformed(evt);
+                Embutidos20ActionPerformed(evt);
             }
         });
 
-        jCheckBox25.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox25.setText("Fritura");
-        jCheckBox25.addActionListener(new java.awt.event.ActionListener() {
+        Fritura20.setBackground(new java.awt.Color(239, 255, 232));
+        Fritura20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fritura20.setText("Fritura");
+        Fritura20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox25ActionPerformed(evt);
+                Fritura20ActionPerformed(evt);
             }
         });
 
-        jCheckBox21.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox21.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox21.setText("Agua");
-        jCheckBox21.addActionListener(new java.awt.event.ActionListener() {
+        Agua20.setBackground(new java.awt.Color(239, 255, 232));
+        Agua20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Agua20.setText("Agua");
+        Agua20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox21ActionPerformed(evt);
+                Agua20ActionPerformed(evt);
             }
         });
 
-        jCheckBox26.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox26.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox26.setText("Alcohol");
-        jCheckBox26.addActionListener(new java.awt.event.ActionListener() {
+        Alcohol20.setBackground(new java.awt.Color(239, 255, 232));
+        Alcohol20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Alcohol20.setText("Alcohol");
+        Alcohol20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox26ActionPerformed(evt);
+                Alcohol20ActionPerformed(evt);
             }
         });
 
-        jCheckBox27.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox27.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox27.setText("Grasas");
-        jCheckBox27.addActionListener(new java.awt.event.ActionListener() {
+        Grasas20.setBackground(new java.awt.Color(239, 255, 232));
+        Grasas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Grasas20.setText("Grasas");
+        Grasas20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox27ActionPerformed(evt);
+                Grasas20ActionPerformed(evt);
             }
         });
 
-        jCheckBox28.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox28.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox28.setText("Azucar");
-        jCheckBox28.addActionListener(new java.awt.event.ActionListener() {
+        Azucar20.setBackground(new java.awt.Color(239, 255, 232));
+        Azucar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Azucar20.setText("Azucar");
+        Azucar20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox28ActionPerformed(evt);
+                Azucar20ActionPerformed(evt);
             }
         });
 
-        jCheckBox51.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox51.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox51.setText("Abdominales");
-        jCheckBox51.addActionListener(new java.awt.event.ActionListener() {
+        Abdominales20.setBackground(new java.awt.Color(239, 255, 232));
+        Abdominales20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Abdominales20.setText("Abdominales");
+        Abdominales20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox51ActionPerformed(evt);
+                Abdominales20ActionPerformed(evt);
             }
         });
 
-        jCheckBox35.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox35.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox35.setText("Sentadillas");
-        jCheckBox35.addActionListener(new java.awt.event.ActionListener() {
+        Sentadillas20.setBackground(new java.awt.Color(239, 255, 232));
+        Sentadillas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentadillas20.setText("Sentadillas");
+        Sentadillas20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox35ActionPerformed(evt);
+                Sentadillas20ActionPerformed(evt);
             }
         });
 
-        jCheckBox52.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox52.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox52.setText("Trotar");
-        jCheckBox52.addActionListener(new java.awt.event.ActionListener() {
+        Trotar20.setBackground(new java.awt.Color(239, 255, 232));
+        Trotar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Trotar20.setText("Trotar");
+        Trotar20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox52ActionPerformed(evt);
+                Trotar20ActionPerformed(evt);
             }
         });
 
-        jCheckBox53.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox53.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox53.setText("Estar parado");
-        jCheckBox53.addActionListener(new java.awt.event.ActionListener() {
+        Parado20.setBackground(new java.awt.Color(239, 255, 232));
+        Parado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Parado20.setText("Estar parado");
+        Parado20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox53ActionPerformed(evt);
+                Parado20ActionPerformed(evt);
             }
         });
 
-        jCheckBox54.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox54.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox54.setText("Crossfit");
-        jCheckBox54.addActionListener(new java.awt.event.ActionListener() {
+        CrossFit20.setBackground(new java.awt.Color(239, 255, 232));
+        CrossFit20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        CrossFit20.setText("Crossfit");
+        CrossFit20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox54ActionPerformed(evt);
+                CrossFit20ActionPerformed(evt);
             }
         });
 
-        jCheckBox55.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox55.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox55.setText("Flexiones");
-        jCheckBox55.addActionListener(new java.awt.event.ActionListener() {
+        Flexiones20.setBackground(new java.awt.Color(239, 255, 232));
+        Flexiones20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Flexiones20.setText("Flexiones");
+        Flexiones20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox55ActionPerformed(evt);
+                Flexiones20ActionPerformed(evt);
             }
         });
 
-        jCheckBox56.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox56.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox56.setText("Pesas");
-        jCheckBox56.addActionListener(new java.awt.event.ActionListener() {
+        Pesas20.setBackground(new java.awt.Color(239, 255, 232));
+        Pesas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pesas20.setText("Pesas");
+        Pesas20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox56ActionPerformed(evt);
+                Pesas20ActionPerformed(evt);
             }
         });
 
-        jCheckBox57.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox57.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox57.setText("Dormir poco");
-        jCheckBox57.addActionListener(new java.awt.event.ActionListener() {
+        NoDormido20.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido20.setText("Dormir poco");
+        NoDormido20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox57ActionPerformed(evt);
+                NoDormido20ActionPerformed(evt);
             }
         });
 
-        jCheckBox58.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox58.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox58.setText("Dormir mucho");
-        jCheckBox58.addActionListener(new java.awt.event.ActionListener() {
+        Dormido20.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido20.setText("Dormir mucho");
+        Dormido20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox58ActionPerformed(evt);
+                Dormido20ActionPerformed(evt);
             }
         });
 
-        jCheckBox59.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox59.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox59.setText("Estar sentado");
-        jCheckBox59.addActionListener(new java.awt.event.ActionListener() {
+        Sentado20.setBackground(new java.awt.Color(239, 255, 232));
+        Sentado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentado20.setText("Estar sentado");
+        Sentado20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox59ActionPerformed(evt);
+                Sentado20ActionPerformed(evt);
             }
         });
 
@@ -863,30 +863,30 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
         jLabel52.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jCheckBox60.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox60.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox60.setText("Nadar");
-        jCheckBox60.addActionListener(new java.awt.event.ActionListener() {
+        Nadar20.setBackground(new java.awt.Color(239, 255, 232));
+        Nadar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Nadar20.setText("Nadar");
+        Nadar20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox60ActionPerformed(evt);
+                Nadar20ActionPerformed(evt);
             }
         });
 
-        jCheckBox61.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox61.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox61.setText("Yoga");
-        jCheckBox61.addActionListener(new java.awt.event.ActionListener() {
+        Yoga20.setBackground(new java.awt.Color(239, 255, 232));
+        Yoga20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Yoga20.setText("Yoga");
+        Yoga20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox61ActionPerformed(evt);
+                Yoga20ActionPerformed(evt);
             }
         });
 
-        jCheckBox31.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox31.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox31.setText("Pan");
-        jCheckBox31.addActionListener(new java.awt.event.ActionListener() {
+        Pan20.setBackground(new java.awt.Color(239, 255, 232));
+        Pan20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pan20.setText("Pan");
+        Pan20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox31ActionPerformed(evt);
+                Pan20ActionPerformed(evt);
             }
         });
 
@@ -982,39 +982,39 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/1488492636-basicman09_81758.png"))); // NOI18N
         jLabel75.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jCheckBox62.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox62.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox62.setText("Granos");
-        jCheckBox62.addActionListener(new java.awt.event.ActionListener() {
+        Granos25.setBackground(new java.awt.Color(239, 255, 232));
+        Granos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Granos25.setText("Granos");
+        Granos25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox62ActionPerformed(evt);
+                Granos25ActionPerformed(evt);
             }
         });
 
-        jCheckBox63.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox63.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox63.setText("Carne");
-        jCheckBox63.addActionListener(new java.awt.event.ActionListener() {
+        Carne25.setBackground(new java.awt.Color(239, 255, 232));
+        Carne25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Carne25.setText("Carne");
+        Carne25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox63ActionPerformed(evt);
+                Carne25ActionPerformed(evt);
             }
         });
 
-        jCheckBox64.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox64.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox64.setText("Hierbas");
-        jCheckBox64.addActionListener(new java.awt.event.ActionListener() {
+        Hierbas25.setBackground(new java.awt.Color(239, 255, 232));
+        Hierbas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Hierbas25.setText("Hierbas");
+        Hierbas25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox64ActionPerformed(evt);
+                Hierbas25ActionPerformed(evt);
             }
         });
 
-        jCheckBox65.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox65.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox65.setText("Sodio");
-        jCheckBox65.addActionListener(new java.awt.event.ActionListener() {
+        Sodio25.setBackground(new java.awt.Color(239, 255, 232));
+        Sodio25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sodio25.setText("Sodio");
+        Sodio25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox65ActionPerformed(evt);
+                Sodio25ActionPerformed(evt);
             }
         });
 
@@ -1028,57 +1028,57 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
         jLabel78.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jCheckBox66.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox66.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox66.setText("Frutas");
-        jCheckBox66.addActionListener(new java.awt.event.ActionListener() {
+        Fruta25.setBackground(new java.awt.Color(239, 255, 232));
+        Fruta25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fruta25.setText("Frutas");
+        Fruta25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox66ActionPerformed(evt);
+                Fruta25ActionPerformed(evt);
             }
         });
 
-        jCheckBox67.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox67.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox67.setText("Verduras");
-        jCheckBox67.addActionListener(new java.awt.event.ActionListener() {
+        Verduras25.setBackground(new java.awt.Color(239, 255, 232));
+        Verduras25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Verduras25.setText("Verduras");
+        Verduras25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox67ActionPerformed(evt);
+                Verduras25ActionPerformed(evt);
             }
         });
 
-        jCheckBox68.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox68.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox68.setText("Alcohol");
-        jCheckBox68.addActionListener(new java.awt.event.ActionListener() {
+        Alcohol25.setBackground(new java.awt.Color(239, 255, 232));
+        Alcohol25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Alcohol25.setText("Alcohol");
+        Alcohol25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox68ActionPerformed(evt);
+                Alcohol25ActionPerformed(evt);
             }
         });
 
-        jCheckBox69.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox69.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox69.setText("Agua");
-        jCheckBox69.addActionListener(new java.awt.event.ActionListener() {
+        Agua25.setBackground(new java.awt.Color(239, 255, 232));
+        Agua25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Agua25.setText("Agua");
+        Agua25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox69ActionPerformed(evt);
+                Agua25ActionPerformed(evt);
             }
         });
 
-        jCheckBox70.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox70.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox70.setText("Fritura");
-        jCheckBox70.addActionListener(new java.awt.event.ActionListener() {
+        Fritura25.setBackground(new java.awt.Color(239, 255, 232));
+        Fritura25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Fritura25.setText("Fritura");
+        Fritura25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox70ActionPerformed(evt);
+                Fritura25ActionPerformed(evt);
             }
         });
 
-        jCheckBox143.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox143.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox143.setText("Embutidos");
-        jCheckBox143.addActionListener(new java.awt.event.ActionListener() {
+        Embutidos25.setBackground(new java.awt.Color(239, 255, 232));
+        Embutidos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Embutidos25.setText("Embutidos");
+        Embutidos25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox143ActionPerformed(evt);
+                Embutidos25ActionPerformed(evt);
             }
         });
 
@@ -1088,120 +1088,120 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel80.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel80.setText("Se recomienda que realices: ");
 
-        jCheckBox144.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox144.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox144.setText("Trotar");
-        jCheckBox144.addActionListener(new java.awt.event.ActionListener() {
+        Trotar25.setBackground(new java.awt.Color(239, 255, 232));
+        Trotar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Trotar25.setText("Trotar");
+        Trotar25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox144ActionPerformed(evt);
+                Trotar25ActionPerformed(evt);
             }
         });
 
-        jCheckBox145.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox145.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox145.setText("Sentadillas");
-        jCheckBox145.addActionListener(new java.awt.event.ActionListener() {
+        Sentadillas25.setBackground(new java.awt.Color(239, 255, 232));
+        Sentadillas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentadillas25.setText("Sentadillas");
+        Sentadillas25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox145ActionPerformed(evt);
+                Sentadillas25ActionPerformed(evt);
             }
         });
 
-        jCheckBox146.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox146.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox146.setText("Abdominales");
-        jCheckBox146.addActionListener(new java.awt.event.ActionListener() {
+        Abdominales25.setBackground(new java.awt.Color(239, 255, 232));
+        Abdominales25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Abdominales25.setText("Abdominales");
+        Abdominales25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox146ActionPerformed(evt);
+                Abdominales25ActionPerformed(evt);
             }
         });
 
-        jCheckBox147.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox147.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox147.setText("Azucar");
-        jCheckBox147.addActionListener(new java.awt.event.ActionListener() {
+        Azucar25.setBackground(new java.awt.Color(239, 255, 232));
+        Azucar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Azucar25.setText("Azucar");
+        Azucar25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox147ActionPerformed(evt);
+                Azucar25ActionPerformed(evt);
             }
         });
 
-        jCheckBox148.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox148.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox148.setText("Grasas");
-        jCheckBox148.addActionListener(new java.awt.event.ActionListener() {
+        Grasas25.setBackground(new java.awt.Color(239, 255, 232));
+        Grasas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Grasas25.setText("Grasas");
+        Grasas25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox148ActionPerformed(evt);
+                Grasas25ActionPerformed(evt);
             }
         });
 
-        jCheckBox149.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox149.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox149.setText("Dormir poco");
-        jCheckBox149.addActionListener(new java.awt.event.ActionListener() {
+        NoDormido25.setBackground(new java.awt.Color(239, 255, 232));
+        NoDormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        NoDormido25.setText("Dormir poco");
+        NoDormido25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox149ActionPerformed(evt);
+                NoDormido25ActionPerformed(evt);
             }
         });
 
-        jCheckBox150.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox150.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox150.setText("Pesas");
-        jCheckBox150.addActionListener(new java.awt.event.ActionListener() {
+        Pesas25.setBackground(new java.awt.Color(239, 255, 232));
+        Pesas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pesas25.setText("Pesas");
+        Pesas25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox150ActionPerformed(evt);
+                Pesas25ActionPerformed(evt);
             }
         });
 
-        jCheckBox151.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox151.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox151.setText("Flexiones");
-        jCheckBox151.addActionListener(new java.awt.event.ActionListener() {
+        Flexiones25.setBackground(new java.awt.Color(239, 255, 232));
+        Flexiones25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Flexiones25.setText("Flexiones");
+        Flexiones25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox151ActionPerformed(evt);
+                Flexiones25ActionPerformed(evt);
             }
         });
 
-        jCheckBox152.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox152.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox152.setText("Crossfit");
-        jCheckBox152.addActionListener(new java.awt.event.ActionListener() {
+        CrossFit25.setBackground(new java.awt.Color(239, 255, 232));
+        CrossFit25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        CrossFit25.setText("Crossfit");
+        CrossFit25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox152ActionPerformed(evt);
+                CrossFit25ActionPerformed(evt);
             }
         });
 
-        jCheckBox153.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox153.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox153.setText("Estar parado");
-        jCheckBox153.addActionListener(new java.awt.event.ActionListener() {
+        Parado25.setBackground(new java.awt.Color(239, 255, 232));
+        Parado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Parado25.setText("Estar parado");
+        Parado25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox153ActionPerformed(evt);
+                Parado25ActionPerformed(evt);
             }
         });
 
-        jCheckBox154.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox154.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox154.setText("Pan");
-        jCheckBox154.addActionListener(new java.awt.event.ActionListener() {
+        Pan25.setBackground(new java.awt.Color(239, 255, 232));
+        Pan25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Pan25.setText("Pan");
+        Pan25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox154ActionPerformed(evt);
+                Pan25ActionPerformed(evt);
             }
         });
 
-        jCheckBox155.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox155.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox155.setText("Yoga");
-        jCheckBox155.addActionListener(new java.awt.event.ActionListener() {
+        Yoga25.setBackground(new java.awt.Color(239, 255, 232));
+        Yoga25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Yoga25.setText("Yoga");
+        Yoga25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox155ActionPerformed(evt);
+                Yoga25ActionPerformed(evt);
             }
         });
 
-        jCheckBox156.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox156.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox156.setText("Nadar");
-        jCheckBox156.addActionListener(new java.awt.event.ActionListener() {
+        Nadar25.setBackground(new java.awt.Color(239, 255, 232));
+        Nadar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Nadar25.setText("Nadar");
+        Nadar25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox156ActionPerformed(evt);
+                Nadar25ActionPerformed(evt);
             }
         });
 
@@ -1209,21 +1209,21 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
         jLabel81.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
-        jCheckBox157.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox157.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox157.setText("Estar sentado");
-        jCheckBox157.addActionListener(new java.awt.event.ActionListener() {
+        Sentado25.setBackground(new java.awt.Color(239, 255, 232));
+        Sentado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Sentado25.setText("Estar sentado");
+        Sentado25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox157ActionPerformed(evt);
+                Sentado25ActionPerformed(evt);
             }
         });
 
-        jCheckBox158.setBackground(new java.awt.Color(239, 255, 232));
-        jCheckBox158.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jCheckBox158.setText("Dormir mucho");
-        jCheckBox158.addActionListener(new java.awt.event.ActionListener() {
+        Dormido25.setBackground(new java.awt.Color(239, 255, 232));
+        Dormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Dormido25.setText("Dormir mucho");
+        Dormido25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox158ActionPerformed(evt);
+                Dormido25ActionPerformed(evt);
             }
         });
 
@@ -1328,29 +1328,20 @@ public class Pnutriologo extends javax.swing.JPanel {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox59)
+                            .addComponent(Sentado20)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(41, 41, 41)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jCheckBox10)
+                                    .addComponent(Sodio20)
                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jCheckBox20)
+                                        .addComponent(Frutas20)
                                         .addComponent(jLabel67)
                                         .addComponent(jLabel52)))
                                 .addGap(50, 50, 50)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel57)
-                                    .addComponent(jCheckBox28))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel44)
-                        .addGap(101, 101, 101))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBox42)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Agua18)
-                        .addGap(41, 41, 41)
-                        .addComponent(Pan18)
-                        .addGap(110, 110, 110))
+                                    .addComponent(Azucar20))))
+                        .addContainerGap())
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(41, 41, 41)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1370,7 +1361,28 @@ public class Pnutriologo extends javax.swing.JPanel {
                                 .addComponent(jLabel35)
                                 .addGap(39, 39, 39)
                                 .addComponent(jLabel36)
-                                .addGap(114, 114, 114))))))
+                                .addGap(114, 114, 114))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                .addComponent(Agua18)
+                                .addGap(41, 41, 41)
+                                .addComponent(Pan18)
+                                .addGap(110, 110, 110))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel179)
+                                .addGap(22, 22, 22)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel166)
+                                        .addComponent(Yoga25))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(Nadar25)
+                                            .addComponent(jLabel178))
+                                        .addGap(9, 9, 9)))
+                                .addGap(93, 93, 93))))))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -1378,15 +1390,15 @@ public class Pnutriologo extends javax.swing.JPanel {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jCheckBox54)
+                                    .addComponent(CrossFit20)
                                     .addComponent(jLabel70))
                                 .addGap(47, 47, 47)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel62)
-                                    .addComponent(jCheckBox61)))
+                                    .addComponent(Yoga20)))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jCheckBox60)
+                                    .addComponent(Nadar20)
                                     .addComponent(jLabel71))
                                 .addGap(9, 9, 9))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -1396,25 +1408,25 @@ public class Pnutriologo extends javax.swing.JPanel {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel56)
                                     .addComponent(jLabel51)
-                                    .addComponent(jCheckBox25))
+                                    .addComponent(Fritura20))
                                 .addGap(73, 73, 73)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel61)
-                                    .addComponent(jCheckBox27))
+                                    .addComponent(Grasas20))
                                 .addGap(36, 36, 36)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel69)
-                                    .addComponent(jCheckBox30))
+                                    .addComponent(Embutidos20))
                                 .addGap(47, 47, 47)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel68)
-                                    .addComponent(jCheckBox26)))
+                                    .addComponent(Alcohol20)))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(40, 40, 40)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(jLabel81)
-                                        .addComponent(jCheckBox65))
+                                        .addComponent(Sodio25))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGap(17, 17, 17)
                                         .addComponent(jLabel183)
@@ -1426,119 +1438,138 @@ public class Pnutriologo extends javax.swing.JPanel {
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel172)
                                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                                .addComponent(jCheckBox144)
+                                                .addComponent(Trotar25)
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jCheckBox145)))
+                                                .addComponent(Sentadillas25)))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jCheckBox146)
+                                        .addComponent(Abdominales25)
                                         .addGap(18, 18, 18)
-                                        .addComponent(jCheckBox151)
+                                        .addComponent(Flexiones25)
                                         .addGap(37, 37, 37)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jCheckBox149)
-                                            .addComponent(jCheckBox150)))
+                                            .addComponent(NoDormido25)
+                                            .addComponent(Pesas25)))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGap(35, 35, 35)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel80)
-                                            .addComponent(jCheckBox70)))
+                                            .addComponent(Fritura25)))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGap(42, 42, 42)
                                         .addComponent(jLabel77))
-                                    .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addGap(210, 210, 210)
-                                        .addComponent(jLabel173)
-                                        .addGap(51, 51, 51)
-                                        .addComponent(jLabel174)
-                                        .addGap(39, 39, 39)
-                                        .addComponent(jLabel165)
-                                        .addGap(24, 24, 24)
-                                        .addComponent(jCheckBox152))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jCheckBox147)
+                                                        .addComponent(Azucar25)
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                             .addComponent(jLabel171)
                                                             .addGap(52, 52, 52)
                                                             .addComponent(jLabel82)))
                                                     .addGroup(jPanel2Layout.createSequentialGroup()
                                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(jCheckBox66)
+                                                            .addComponent(Fruta25)
                                                             .addComponent(jLabel78))
                                                         .addGap(37, 37, 37)
                                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                             .addComponent(jLabel162)
-                                                            .addComponent(jCheckBox67))
+                                                            .addComponent(Verduras25))
                                                         .addGap(39, 39, 39)
                                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(jCheckBox62)
+                                                            .addComponent(Granos25)
                                                             .addComponent(jLabel163))))
                                                 .addGap(42, 42, 42)
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                         .addComponent(jLabel167)
-                                                        .addComponent(jCheckBox64)
+                                                        .addComponent(Hierbas25)
                                                         .addComponent(jLabel164))
                                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                                        .addComponent(jCheckBox148)
+                                                        .addComponent(Grasas25)
                                                         .addGap(8, 8, 8)))
                                                 .addGap(59, 59, 59)
                                                 .addComponent(jLabel180))
-                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jCheckBox69)
-                                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                                            .addGap(6, 6, 6)
-                                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                                                    .addComponent(jLabel75)
-                                                                    .addGap(112, 112, 112)
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(6, 6, 6)
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                                .addComponent(Sentado18)
+                                                                .addGap(18, 18, 18)
+                                                                .addComponent(Parado18)
+                                                                .addGap(18, 18, 18)
+                                                                .addComponent(Dormido18))
+                                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                                .addGap(38, 38, 38)
+                                                                .addComponent(jLabel38)
+                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                                .addComponent(jLabel39)
+                                                                .addGap(83, 83, 83)
+                                                                .addComponent(jLabel40)
+                                                                .addGap(16, 16, 16)))
+                                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                                .addGap(64, 64, 64)
+                                                                .addComponent(NoDormido))
+                                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                                .addGap(84, 84, 84)
+                                                                .addComponent(jLabel41))))
+                                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addComponent(jLabel75)
+                                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                                .addGap(16, 16, 16)
+                                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                                     .addComponent(jLabel74)
-                                                                    .addGap(96, 96, 96)
-                                                                    .addComponent(jLabel73)
-                                                                    .addGap(102, 102, 102)
-                                                                    .addComponent(jLabel72))
-                                                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                                                    .addComponent(jLabel38)
-                                                                    .addGap(112, 112, 112)
-                                                                    .addComponent(jLabel39)
-                                                                    .addGap(96, 96, 96)
-                                                                    .addComponent(jLabel40))))
-                                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                                                    .addGap(89, 89, 89)
-                                                                    .addComponent(jLabel66)
-                                                                    .addGap(39, 39, 39)
-                                                                    .addComponent(jLabel65)
-                                                                    .addGap(133, 133, 133))
-                                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                                                    .addComponent(jCheckBox53)
-                                                                    .addGap(38, 38, 38)
-                                                                    .addComponent(jCheckBox58)
-                                                                    .addGap(73, 73, 73)))
-                                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addComponent(jCheckBox56)
-                                                                .addComponent(jLabel63)
-                                                                .addComponent(jCheckBox57, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                .addComponent(jLabel168, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                .addComponent(jCheckBox63, javax.swing.GroupLayout.Alignment.TRAILING)))
-                                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                                            .addGap(22, 22, 22)
-                                                            .addComponent(jLabel49))
-                                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                                            .addGap(19, 19, 19)
-                                                            .addComponent(jLabel11)))
-                                                    .addGap(21, 21, 21)
-                                                    .addComponent(jLabel169))))
-                                        .addGap(18, 18, 18)
+                                                                    .addComponent(jLabel49))))
+                                                        .addGap(99, 99, 99)
+                                                        .addComponent(jLabel73)
+                                                        .addGap(102, 102, 102)
+                                                        .addComponent(jLabel72))))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                                        .addGap(89, 89, 89)
+                                                        .addComponent(jLabel66)
+                                                        .addGap(39, 39, 39)
+                                                        .addComponent(jLabel65)
+                                                        .addGap(133, 133, 133))
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                                        .addComponent(Parado20)
+                                                        .addGap(38, 38, 38)
+                                                        .addComponent(Dormido20)
+                                                        .addGap(73, 73, 73)))
+                                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(Pesas20)
+                                                    .addComponent(NoDormido20, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(jLabel168, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(Carne25, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(jLabel63)))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(19, 19, 19)
+                                                .addComponent(jLabel11)))
+                                        .addGap(101, 101, 101)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel170)
-                                            .addComponent(jCheckBox154)))))
+                                            .addComponent(Pan25)))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(210, 210, 210)
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(Agua25)
+                                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                                    .addComponent(jLabel173)
+                                                    .addGap(51, 51, 51)
+                                                    .addComponent(jLabel174)
+                                                    .addGap(39, 39, 39)
+                                                    .addComponent(jLabel165)
+                                                    .addGap(24, 24, 24)
+                                                    .addComponent(CrossFit25)))
+                                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                                .addGap(321, 321, 321)
+                                                .addComponent(jLabel169))))))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addContainerGap()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1546,11 +1577,11 @@ public class Pnutriologo extends javax.swing.JPanel {
                                         .addGap(41, 41, 41)
                                         .addComponent(jLabel182))
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jCheckBox157)
+                                        .addComponent(Sentado25)
                                         .addGap(36, 36, 36)
-                                        .addComponent(jCheckBox153)
+                                        .addComponent(Parado25)
                                         .addGap(55, 55, 55)
-                                        .addComponent(jCheckBox158)
+                                        .addComponent(Dormido25)
                                         .addGap(60, 60, 60)
                                         .addComponent(jLabel177))))
                             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -1570,9 +1601,9 @@ public class Pnutriologo extends javax.swing.JPanel {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel181)
                                     .addGroup(jPanel2Layout.createSequentialGroup()
-                                        .addComponent(jCheckBox143)
+                                        .addComponent(Embutidos25)
                                         .addGap(58, 58, 58)
-                                        .addComponent(jCheckBox68))))
+                                        .addComponent(Alcohol25))))
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addGroup(jPanel2Layout.createSequentialGroup()
                                     .addGap(51, 51, 51)
@@ -1610,104 +1641,80 @@ public class Pnutriologo extends javax.swing.JPanel {
                                                     .addComponent(Frituras18))))))))
                         .addGap(78, 78, 78)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBox46)
-                        .addGap(75, 75, 75)
-                        .addComponent(jCheckBox49)
-                        .addGap(101, 101, 101))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addGap(86, 86, 86)
-                        .addComponent(jLabel179)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel166)
-                                .addComponent(jCheckBox155))
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox156)
-                                    .addComponent(jLabel178))
-                                .addGap(9, 9, 9)))
-                        .addGap(93, 93, 93))))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jCheckBox16)
-                        .addGap(39, 39, 39)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jCheckBox40)
-                            .addComponent(jLabel59)
-                            .addComponent(jCheckBox21))
-                        .addGap(30, 30, 30))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addGap(129, 129, 129)
+                        .addComponent(jLabel30)
+                        .addGap(35, 35, 35)
+                        .addComponent(jLabel31)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel32)
+                        .addGap(28, 28, 28)
+                        .addComponent(jLabel33)
+                        .addGap(158, 158, 158))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(51, 51, 51)
                         .addComponent(jLabel48)
                         .addGap(31, 31, 31)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox3)
+                            .addComponent(Verduras20)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel55)
                                 .addGap(8, 8, 8)))
                         .addGap(23, 23, 23)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox5)
+                            .addComponent(Granos20)
                             .addComponent(jLabel54))
-                        .addGap(44, 44, 44)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jCheckBox15)
-                            .addComponent(jLabel53)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(67, 67, 67)
-                        .addComponent(jLabel79))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(81, 81, 81)
-                        .addComponent(jLabel76))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel7))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
+                        .addGap(26, 26, 26)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel64)
-                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel5)
-                                .addGroup(jPanel2Layout.createSequentialGroup()
-                                    .addComponent(jCheckBox52)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(jCheckBox35)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jCheckBox51)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jCheckBox55)))))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                            .addComponent(Hierba20)
+                            .addComponent(jLabel53))
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jCheckBox41)
-                                .addGap(38, 38, 38)
-                                .addComponent(jCheckBox43)
-                                .addGap(73, 73, 73))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                                .addGap(129, 129, 129)
-                                .addComponent(jLabel30)
-                                .addGap(35, 35, 35)
-                                .addComponent(jLabel31)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel32)
-                                .addGap(18, 18, 18)))
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel60)
                             .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(jLabel33)))
-                        .addGap(131, 131, 131)))
-                .addGap(27, 27, 27)
+                                .addComponent(Carne20)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel60)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                        .addComponent(CrossFit18)
+                                        .addGap(7, 7, 7))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(Agua20)
+                                            .addComponent(jLabel59))
+                                        .addGap(37, 37, 37))))))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(67, 67, 67)
+                                .addComponent(jLabel79))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(81, 81, 81)
+                                .addComponent(jLabel76))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addComponent(jLabel7))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(29, 29, 29)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel64)
+                                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel5)
+                                        .addGroup(jPanel2Layout.createSequentialGroup()
+                                            .addComponent(Trotar20)
+                                            .addGap(18, 18, 18)
+                                            .addComponent(Sentadillas20)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(Abdominales20)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(Flexiones20))))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jCheckBox31)
+                    .addComponent(Pan20)
                     .addComponent(jLabel58))
                 .addGap(96, 96, 96))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
@@ -1741,21 +1748,23 @@ public class Pnutriologo extends javax.swing.JPanel {
                                     .addComponent(jLabel27))
                                 .addGap(95, 95, 95))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(Trotar18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Sentadillas18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jCheckBox36)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox38)
-                        .addGap(18, 18, 18)
-                        .addComponent(jCheckBox37)
-                        .addGap(158, 158, 158)
-                        .addComponent(jCheckBox47)
-                        .addGap(114, 114, 114))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel41)
-                        .addGap(256, 256, 256))))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(Trotar18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Sentadillas18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Abdominales18)
+                                .addGap(18, 18, 18)
+                                .addComponent(Flexiones18)
+                                .addGap(18, 18, 18)
+                                .addComponent(Pesas18)
+                                .addGap(158, 158, 158)
+                                .addComponent(Yoga18))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(Nadar18)
+                                .addComponent(jLabel44)))
+                        .addGap(114, 114, 114))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1812,12 +1821,12 @@ public class Pnutriologo extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(Trotar18)
-                            .addComponent(jCheckBox38)
+                            .addComponent(Flexiones18)
                             .addComponent(Sentadillas18)
-                            .addComponent(jCheckBox40)
-                            .addComponent(jCheckBox36)
-                            .addComponent(jCheckBox47)
-                            .addComponent(jCheckBox37)))
+                            .addComponent(CrossFit18)
+                            .addComponent(Abdominales18)
+                            .addComponent(Yoga18)
+                            .addComponent(Pesas18)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel10)
@@ -1841,11 +1850,11 @@ public class Pnutriologo extends javax.swing.JPanel {
                     .addComponent(jLabel39))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox42)
-                    .addComponent(jCheckBox41)
-                    .addComponent(jCheckBox43)
-                    .addComponent(jCheckBox46)
-                    .addComponent(jCheckBox49))
+                    .addComponent(Dormido18)
+                    .addComponent(NoDormido)
+                    .addComponent(Nadar18)
+                    .addComponent(Parado18)
+                    .addComponent(Sentado18, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
                 .addComponent(jLabel5)
                 .addGap(18, 18, 18)
@@ -1863,13 +1872,14 @@ public class Pnutriologo extends javax.swing.JPanel {
                         .addComponent(jLabel58)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox5)
-                    .addComponent(jCheckBox3)
-                    .addComponent(jCheckBox16)
-                    .addComponent(jCheckBox21)
-                    .addComponent(jCheckBox31)
-                    .addComponent(jCheckBox20)
-                    .addComponent(jCheckBox15))
+                    .addComponent(Granos20)
+                    .addComponent(Verduras20)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Carne20)
+                        .addComponent(Hierba20))
+                    .addComponent(Agua20)
+                    .addComponent(Pan20)
+                    .addComponent(Frutas20))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel47)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1882,13 +1892,13 @@ public class Pnutriologo extends javax.swing.JPanel {
                     .addComponent(jLabel68))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox30)
-                    .addComponent(jCheckBox27)
-                    .addComponent(jCheckBox26)
-                    .addComponent(jCheckBox25)
+                    .addComponent(Embutidos20)
+                    .addComponent(Grasas20)
+                    .addComponent(Alcohol20)
+                    .addComponent(Fritura20)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jCheckBox28)
-                        .addComponent(jCheckBox10)))
+                        .addComponent(Azucar20)
+                        .addComponent(Sodio20)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1906,18 +1916,18 @@ public class Pnutriologo extends javax.swing.JPanel {
                                     .addComponent(jLabel62))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jCheckBox54)
-                                    .addComponent(jCheckBox61)))))
+                                    .addComponent(CrossFit20)
+                                    .addComponent(Yoga20)))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(50, 50, 50)
                         .addComponent(jLabel64)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jCheckBox52)
-                            .addComponent(jCheckBox55)
-                            .addComponent(jCheckBox35)
-                            .addComponent(jCheckBox56)
-                            .addComponent(jCheckBox51))))
+                            .addComponent(Trotar20)
+                            .addComponent(Flexiones20)
+                            .addComponent(Sentadillas20)
+                            .addComponent(Pesas20)
+                            .addComponent(Abdominales20))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel49)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1929,11 +1939,11 @@ public class Pnutriologo extends javax.swing.JPanel {
                     .addComponent(jLabel74))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jCheckBox59)
-                    .addComponent(jCheckBox53)
-                    .addComponent(jCheckBox58)
-                    .addComponent(jCheckBox57)
-                    .addComponent(jCheckBox60))
+                    .addComponent(Sentado20)
+                    .addComponent(Parado20)
+                    .addComponent(Dormido20)
+                    .addComponent(NoDormido20)
+                    .addComponent(Nadar20))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1951,15 +1961,15 @@ public class Pnutriologo extends javax.swing.JPanel {
                         .addComponent(jLabel170)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox62)
-                    .addComponent(jCheckBox67)
+                    .addComponent(Granos25)
+                    .addComponent(Verduras25)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jCheckBox69)
-                        .addComponent(jCheckBox154))
-                    .addComponent(jCheckBox66)
+                        .addComponent(Agua25)
+                        .addComponent(Pan25))
+                    .addComponent(Fruta25)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jCheckBox64)
-                        .addComponent(jCheckBox63)))
+                        .addComponent(Hierbas25)
+                        .addComponent(Carne25)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel76)
                 .addGap(12, 12, 12)
@@ -1972,12 +1982,12 @@ public class Pnutriologo extends javax.swing.JPanel {
                     .addComponent(jLabel181))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox143)
-                    .addComponent(jCheckBox148)
-                    .addComponent(jCheckBox68)
-                    .addComponent(jCheckBox70)
-                    .addComponent(jCheckBox147)
-                    .addComponent(jCheckBox65))
+                    .addComponent(Embutidos25)
+                    .addComponent(Grasas25)
+                    .addComponent(Alcohol25)
+                    .addComponent(Fritura25)
+                    .addComponent(Azucar25)
+                    .addComponent(Sodio25))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(44, 44, 44)
@@ -1993,10 +2003,10 @@ public class Pnutriologo extends javax.swing.JPanel {
                                     .addComponent(jLabel179))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jCheckBox150)
+                                    .addComponent(Pesas25)
                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(jCheckBox155)
-                                        .addComponent(jCheckBox152))))))
+                                        .addComponent(Yoga25)
+                                        .addComponent(CrossFit25))))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -2012,10 +2022,10 @@ public class Pnutriologo extends javax.swing.JPanel {
                                     .addComponent(jLabel173))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jCheckBox144)
-                            .addComponent(jCheckBox151)
-                            .addComponent(jCheckBox145)
-                            .addComponent(jCheckBox146))))
+                            .addComponent(Trotar25)
+                            .addComponent(Flexiones25)
+                            .addComponent(Sentadillas25)
+                            .addComponent(Abdominales25))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel77)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2028,11 +2038,11 @@ public class Pnutriologo extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jCheckBox157)
-                        .addComponent(jCheckBox149)
-                        .addComponent(jCheckBox156))
-                    .addComponent(jCheckBox153)
-                    .addComponent(jCheckBox158)))
+                        .addComponent(Sentado25)
+                        .addComponent(NoDormido25)
+                        .addComponent(Nadar25))
+                    .addComponent(Parado25)
+                    .addComponent(Dormido25)))
         );
 
         jScrollPane1.setViewportView(jPanel2);
@@ -2230,245 +2240,245 @@ public class Pnutriologo extends javax.swing.JPanel {
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblSentadillas());
     }//GEN-LAST:event_Sentadillas18ActionPerformed
 
-    private void jCheckBox36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox36ActionPerformed
+    private void Abdominales18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblAbdominales());
-    }//GEN-LAST:event_jCheckBox36ActionPerformed
+    }//GEN-LAST:event_Abdominales18ActionPerformed
 
-    private void jCheckBox38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox38ActionPerformed
+    private void Flexiones18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones18ActionPerformed
        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblFlexiones());
-    }//GEN-LAST:event_jCheckBox38ActionPerformed
+    }//GEN-LAST:event_Flexiones18ActionPerformed
 
-    private void jCheckBox37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox37ActionPerformed
+    private void Pesas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblPesas());
-    }//GEN-LAST:event_jCheckBox37ActionPerformed
+    }//GEN-LAST:event_Pesas18ActionPerformed
 
-    private void jCheckBox40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox40ActionPerformed
+    private void CrossFit18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblCrossFit());
-    }//GEN-LAST:event_jCheckBox40ActionPerformed
+    }//GEN-LAST:event_CrossFit18ActionPerformed
 
-    private void jCheckBox47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox47ActionPerformed
+    private void Yoga18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblYoga());
-    }//GEN-LAST:event_jCheckBox47ActionPerformed
+    }//GEN-LAST:event_Yoga18ActionPerformed
 
-    private void jCheckBox42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox42ActionPerformed
+    private void Sentado18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblSentado());
-    }//GEN-LAST:event_jCheckBox42ActionPerformed
+    }//GEN-LAST:event_Sentado18ActionPerformed
 
-    private void jCheckBox41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox41ActionPerformed
+    private void Parado18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblParado());
-    }//GEN-LAST:event_jCheckBox41ActionPerformed
+    }//GEN-LAST:event_Parado18ActionPerformed
 
-    private void jCheckBox43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox43ActionPerformed
+    private void Dormido18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido18ActionPerformed
         Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblDormido());
-    }//GEN-LAST:event_jCheckBox43ActionPerformed
+    }//GEN-LAST:event_Dormido18ActionPerformed
 
-    private void jCheckBox46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox46ActionPerformed
+    private void NoDormidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormidoActionPerformed
                 Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblNoDormido());
-    }//GEN-LAST:event_jCheckBox46ActionPerformed
+    }//GEN-LAST:event_NoDormidoActionPerformed
 
-    private void jCheckBox49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox49ActionPerformed
+    private void Nadar18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar18ActionPerformed
                 Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblNadar());
-    }//GEN-LAST:event_jCheckBox49ActionPerformed
+    }//GEN-LAST:event_Nadar18ActionPerformed
 
-    private void jCheckBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox10ActionPerformed
+    private void Sodio20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sodio20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox10ActionPerformed
+    }//GEN-LAST:event_Sodio20ActionPerformed
 
-    private void jCheckBox15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox15ActionPerformed
+    private void Hierba20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hierba20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox15ActionPerformed
+    }//GEN-LAST:event_Hierba20ActionPerformed
 
-    private void jCheckBox16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox16ActionPerformed
+    private void Carne20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Carne20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox16ActionPerformed
+    }//GEN-LAST:event_Carne20ActionPerformed
 
-    private void jCheckBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox5ActionPerformed
+    private void Granos20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Granos20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox5ActionPerformed
+    }//GEN-LAST:event_Granos20ActionPerformed
 
-    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
+    private void Verduras20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Verduras20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox3ActionPerformed
+    }//GEN-LAST:event_Verduras20ActionPerformed
 
-    private void jCheckBox20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox20ActionPerformed
+    private void Frutas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Frutas20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox20ActionPerformed
+    }//GEN-LAST:event_Frutas20ActionPerformed
 
-    private void jCheckBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox30ActionPerformed
+    private void Embutidos20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Embutidos20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox30ActionPerformed
+    }//GEN-LAST:event_Embutidos20ActionPerformed
 
-    private void jCheckBox25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox25ActionPerformed
+    private void Fritura20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fritura20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox25ActionPerformed
+    }//GEN-LAST:event_Fritura20ActionPerformed
 
-    private void jCheckBox21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox21ActionPerformed
+    private void Agua20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agua20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox21ActionPerformed
+    }//GEN-LAST:event_Agua20ActionPerformed
 
-    private void jCheckBox26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox26ActionPerformed
+    private void Alcohol20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alcohol20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox26ActionPerformed
+    }//GEN-LAST:event_Alcohol20ActionPerformed
 
-    private void jCheckBox27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox27ActionPerformed
+    private void Grasas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Grasas20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox27ActionPerformed
+    }//GEN-LAST:event_Grasas20ActionPerformed
 
-    private void jCheckBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox28ActionPerformed
+    private void Azucar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Azucar20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox28ActionPerformed
+    }//GEN-LAST:event_Azucar20ActionPerformed
 
-    private void jCheckBox51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox51ActionPerformed
+    private void Abdominales20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox51ActionPerformed
+    }//GEN-LAST:event_Abdominales20ActionPerformed
 
-    private void jCheckBox35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox35ActionPerformed
+    private void Sentadillas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentadillas20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox35ActionPerformed
+    }//GEN-LAST:event_Sentadillas20ActionPerformed
 
-    private void jCheckBox52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox52ActionPerformed
+    private void Trotar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Trotar20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox52ActionPerformed
+    }//GEN-LAST:event_Trotar20ActionPerformed
 
-    private void jCheckBox53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox53ActionPerformed
+    private void Parado20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox53ActionPerformed
+    }//GEN-LAST:event_Parado20ActionPerformed
 
-    private void jCheckBox54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox54ActionPerformed
+    private void CrossFit20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox54ActionPerformed
+    }//GEN-LAST:event_CrossFit20ActionPerformed
 
-    private void jCheckBox55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox55ActionPerformed
+    private void Flexiones20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox55ActionPerformed
+    }//GEN-LAST:event_Flexiones20ActionPerformed
 
-    private void jCheckBox56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox56ActionPerformed
+    private void Pesas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox56ActionPerformed
+    }//GEN-LAST:event_Pesas20ActionPerformed
 
-    private void jCheckBox57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox57ActionPerformed
+    private void NoDormido20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormido20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox57ActionPerformed
+    }//GEN-LAST:event_NoDormido20ActionPerformed
 
-    private void jCheckBox58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox58ActionPerformed
+    private void Dormido20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox58ActionPerformed
+    }//GEN-LAST:event_Dormido20ActionPerformed
 
-    private void jCheckBox59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox59ActionPerformed
+    private void Sentado20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox59ActionPerformed
+    }//GEN-LAST:event_Sentado20ActionPerformed
 
-    private void jCheckBox60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox60ActionPerformed
+    private void Nadar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox60ActionPerformed
+    }//GEN-LAST:event_Nadar20ActionPerformed
 
-    private void jCheckBox61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox61ActionPerformed
+    private void Yoga20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox61ActionPerformed
+    }//GEN-LAST:event_Yoga20ActionPerformed
 
-    private void jCheckBox31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox31ActionPerformed
+    private void Pan20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pan20ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox31ActionPerformed
+    }//GEN-LAST:event_Pan20ActionPerformed
 
-    private void jCheckBox62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox62ActionPerformed
+    private void Granos25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Granos25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox62ActionPerformed
+    }//GEN-LAST:event_Granos25ActionPerformed
 
-    private void jCheckBox63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox63ActionPerformed
+    private void Carne25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Carne25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox63ActionPerformed
+    }//GEN-LAST:event_Carne25ActionPerformed
 
-    private void jCheckBox64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox64ActionPerformed
+    private void Hierbas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hierbas25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox64ActionPerformed
+    }//GEN-LAST:event_Hierbas25ActionPerformed
 
-    private void jCheckBox65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox65ActionPerformed
+    private void Sodio25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sodio25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox65ActionPerformed
+    }//GEN-LAST:event_Sodio25ActionPerformed
 
-    private void jCheckBox66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox66ActionPerformed
+    private void Fruta25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fruta25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox66ActionPerformed
+    }//GEN-LAST:event_Fruta25ActionPerformed
 
-    private void jCheckBox67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox67ActionPerformed
+    private void Verduras25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Verduras25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox67ActionPerformed
+    }//GEN-LAST:event_Verduras25ActionPerformed
 
-    private void jCheckBox68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox68ActionPerformed
+    private void Alcohol25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alcohol25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox68ActionPerformed
+    }//GEN-LAST:event_Alcohol25ActionPerformed
 
-    private void jCheckBox69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox69ActionPerformed
+    private void Agua25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agua25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox69ActionPerformed
+    }//GEN-LAST:event_Agua25ActionPerformed
 
-    private void jCheckBox70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox70ActionPerformed
+    private void Fritura25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fritura25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox70ActionPerformed
+    }//GEN-LAST:event_Fritura25ActionPerformed
 
-    private void jCheckBox143ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox143ActionPerformed
+    private void Embutidos25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Embutidos25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox143ActionPerformed
+    }//GEN-LAST:event_Embutidos25ActionPerformed
 
-    private void jCheckBox144ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox144ActionPerformed
+    private void Trotar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Trotar25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox144ActionPerformed
+    }//GEN-LAST:event_Trotar25ActionPerformed
 
-    private void jCheckBox145ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox145ActionPerformed
+    private void Sentadillas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentadillas25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox145ActionPerformed
+    }//GEN-LAST:event_Sentadillas25ActionPerformed
 
-    private void jCheckBox146ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox146ActionPerformed
+    private void Abdominales25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox146ActionPerformed
+    }//GEN-LAST:event_Abdominales25ActionPerformed
 
-    private void jCheckBox147ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox147ActionPerformed
+    private void Azucar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Azucar25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox147ActionPerformed
+    }//GEN-LAST:event_Azucar25ActionPerformed
 
-    private void jCheckBox148ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox148ActionPerformed
+    private void Grasas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Grasas25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox148ActionPerformed
+    }//GEN-LAST:event_Grasas25ActionPerformed
 
-    private void jCheckBox149ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox149ActionPerformed
+    private void NoDormido25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormido25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox149ActionPerformed
+    }//GEN-LAST:event_NoDormido25ActionPerformed
 
-    private void jCheckBox150ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox150ActionPerformed
+    private void Pesas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox150ActionPerformed
+    }//GEN-LAST:event_Pesas25ActionPerformed
 
-    private void jCheckBox151ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox151ActionPerformed
+    private void Flexiones25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox151ActionPerformed
+    }//GEN-LAST:event_Flexiones25ActionPerformed
 
-    private void jCheckBox152ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox152ActionPerformed
+    private void CrossFit25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox152ActionPerformed
+    }//GEN-LAST:event_CrossFit25ActionPerformed
 
-    private void jCheckBox153ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox153ActionPerformed
+    private void Parado25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox153ActionPerformed
+    }//GEN-LAST:event_Parado25ActionPerformed
 
-    private void jCheckBox154ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox154ActionPerformed
+    private void Pan25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pan25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox154ActionPerformed
+    }//GEN-LAST:event_Pan25ActionPerformed
 
-    private void jCheckBox155ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox155ActionPerformed
+    private void Yoga25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox155ActionPerformed
+    }//GEN-LAST:event_Yoga25ActionPerformed
 
-    private void jCheckBox156ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox156ActionPerformed
+    private void Nadar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox156ActionPerformed
+    }//GEN-LAST:event_Nadar25ActionPerformed
 
-    private void jCheckBox157ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox157ActionPerformed
+    private void Sentado25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox157ActionPerformed
+    }//GEN-LAST:event_Sentado25ActionPerformed
 
-    private void jCheckBox158ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox158ActionPerformed
+    private void Dormido25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox158ActionPerformed
+    }//GEN-LAST:event_Dormido25ActionPerformed
 
     public static Blog getPanelBlog() {
         return panelBlog;
@@ -2488,85 +2498,85 @@ public class Pnutriologo extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox Abdominales18;
+    private javax.swing.JCheckBox Abdominales20;
+    private javax.swing.JCheckBox Abdominales25;
     private javax.swing.JCheckBox Agua18;
+    private javax.swing.JCheckBox Agua20;
+    private javax.swing.JCheckBox Agua25;
     private javax.swing.JCheckBox Alcohol18;
+    private javax.swing.JCheckBox Alcohol20;
+    private javax.swing.JCheckBox Alcohol25;
     private javax.swing.JCheckBox Azucar18;
+    private javax.swing.JCheckBox Azucar20;
+    private javax.swing.JCheckBox Azucar25;
     private javax.swing.JCheckBox Carne18;
+    private javax.swing.JCheckBox Carne20;
+    private javax.swing.JCheckBox Carne25;
+    private javax.swing.JCheckBox CrossFit18;
+    private javax.swing.JCheckBox CrossFit20;
+    private javax.swing.JCheckBox CrossFit25;
+    private javax.swing.JCheckBox Dormido18;
+    private javax.swing.JCheckBox Dormido20;
+    private javax.swing.JCheckBox Dormido25;
     private javax.swing.JCheckBox Embutidos18;
+    private javax.swing.JCheckBox Embutidos20;
+    private javax.swing.JCheckBox Embutidos25;
+    private javax.swing.JCheckBox Flexiones18;
+    private javax.swing.JCheckBox Flexiones20;
+    private javax.swing.JCheckBox Flexiones25;
+    private javax.swing.JCheckBox Fritura20;
+    private javax.swing.JCheckBox Fritura25;
     private javax.swing.JCheckBox Frituras18;
+    private javax.swing.JCheckBox Fruta25;
     private javax.swing.JCheckBox Frutas18;
+    private javax.swing.JCheckBox Frutas20;
     private javax.swing.JCheckBox Granos18;
+    private javax.swing.JCheckBox Granos20;
+    private javax.swing.JCheckBox Granos25;
     private javax.swing.JCheckBox Grasas18;
+    private javax.swing.JCheckBox Grasas20;
+    private javax.swing.JCheckBox Grasas25;
+    private javax.swing.JCheckBox Hierba20;
     private javax.swing.JCheckBox Hierbas18;
+    private javax.swing.JCheckBox Hierbas25;
+    private javax.swing.JCheckBox Nadar18;
+    private javax.swing.JCheckBox Nadar20;
+    private javax.swing.JCheckBox Nadar25;
+    private javax.swing.JCheckBox NoDormido;
+    private javax.swing.JCheckBox NoDormido20;
+    private javax.swing.JCheckBox NoDormido25;
     private javax.swing.JCheckBox Pan18;
+    private javax.swing.JCheckBox Pan20;
+    private javax.swing.JCheckBox Pan25;
+    private javax.swing.JCheckBox Parado18;
+    private javax.swing.JCheckBox Parado20;
+    private javax.swing.JCheckBox Parado25;
+    private javax.swing.JCheckBox Pesas18;
+    private javax.swing.JCheckBox Pesas20;
+    private javax.swing.JCheckBox Pesas25;
     private javax.swing.JCheckBox Sentadillas18;
+    private javax.swing.JCheckBox Sentadillas20;
+    private javax.swing.JCheckBox Sentadillas25;
+    private javax.swing.JCheckBox Sentado18;
+    private javax.swing.JCheckBox Sentado20;
+    private javax.swing.JCheckBox Sentado25;
     private javax.swing.JCheckBox Sodio18;
+    private javax.swing.JCheckBox Sodio20;
+    private javax.swing.JCheckBox Sodio25;
     private javax.swing.JCheckBox Trotar18;
+    private javax.swing.JCheckBox Trotar20;
+    private javax.swing.JCheckBox Trotar25;
     private javax.swing.JCheckBox Verduras18;
+    private javax.swing.JCheckBox Verduras20;
+    private javax.swing.JCheckBox Verduras25;
+    private javax.swing.JCheckBox Yoga18;
+    private javax.swing.JCheckBox Yoga20;
+    private javax.swing.JCheckBox Yoga25;
     private javax.swing.JToggleButton btnBlog;
     private javax.swing.JToggleButton btnConsejos;
     private javax.swing.JButton btnIngresar;
     private javax.swing.JToggleButton btnPacientes;
-    private javax.swing.JCheckBox jCheckBox10;
-    private javax.swing.JCheckBox jCheckBox143;
-    private javax.swing.JCheckBox jCheckBox144;
-    private javax.swing.JCheckBox jCheckBox145;
-    private javax.swing.JCheckBox jCheckBox146;
-    private javax.swing.JCheckBox jCheckBox147;
-    private javax.swing.JCheckBox jCheckBox148;
-    private javax.swing.JCheckBox jCheckBox149;
-    private javax.swing.JCheckBox jCheckBox15;
-    private javax.swing.JCheckBox jCheckBox150;
-    private javax.swing.JCheckBox jCheckBox151;
-    private javax.swing.JCheckBox jCheckBox152;
-    private javax.swing.JCheckBox jCheckBox153;
-    private javax.swing.JCheckBox jCheckBox154;
-    private javax.swing.JCheckBox jCheckBox155;
-    private javax.swing.JCheckBox jCheckBox156;
-    private javax.swing.JCheckBox jCheckBox157;
-    private javax.swing.JCheckBox jCheckBox158;
-    private javax.swing.JCheckBox jCheckBox16;
-    private javax.swing.JCheckBox jCheckBox20;
-    private javax.swing.JCheckBox jCheckBox21;
-    private javax.swing.JCheckBox jCheckBox25;
-    private javax.swing.JCheckBox jCheckBox26;
-    private javax.swing.JCheckBox jCheckBox27;
-    private javax.swing.JCheckBox jCheckBox28;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox30;
-    private javax.swing.JCheckBox jCheckBox31;
-    private javax.swing.JCheckBox jCheckBox35;
-    private javax.swing.JCheckBox jCheckBox36;
-    private javax.swing.JCheckBox jCheckBox37;
-    private javax.swing.JCheckBox jCheckBox38;
-    private javax.swing.JCheckBox jCheckBox40;
-    private javax.swing.JCheckBox jCheckBox41;
-    private javax.swing.JCheckBox jCheckBox42;
-    private javax.swing.JCheckBox jCheckBox43;
-    private javax.swing.JCheckBox jCheckBox46;
-    private javax.swing.JCheckBox jCheckBox47;
-    private javax.swing.JCheckBox jCheckBox49;
-    private javax.swing.JCheckBox jCheckBox5;
-    private javax.swing.JCheckBox jCheckBox51;
-    private javax.swing.JCheckBox jCheckBox52;
-    private javax.swing.JCheckBox jCheckBox53;
-    private javax.swing.JCheckBox jCheckBox54;
-    private javax.swing.JCheckBox jCheckBox55;
-    private javax.swing.JCheckBox jCheckBox56;
-    private javax.swing.JCheckBox jCheckBox57;
-    private javax.swing.JCheckBox jCheckBox58;
-    private javax.swing.JCheckBox jCheckBox59;
-    private javax.swing.JCheckBox jCheckBox60;
-    private javax.swing.JCheckBox jCheckBox61;
-    private javax.swing.JCheckBox jCheckBox62;
-    private javax.swing.JCheckBox jCheckBox63;
-    private javax.swing.JCheckBox jCheckBox64;
-    private javax.swing.JCheckBox jCheckBox65;
-    private javax.swing.JCheckBox jCheckBox66;
-    private javax.swing.JCheckBox jCheckBox67;
-    private javax.swing.JCheckBox jCheckBox68;
-    private javax.swing.JCheckBox jCheckBox69;
-    private javax.swing.JCheckBox jCheckBox70;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
