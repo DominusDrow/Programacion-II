@@ -1,6 +1,9 @@
 
 package main;
     
+import java.util.ArrayList;
+
+import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JTable;
 
@@ -9,6 +12,7 @@ public class Pnutriologo extends javax.swing.JPanel {
     
     private Pacientes panelUsuarios;
     private static Blog panelBlog;
+    private ArrayList<JCheckBox> check=new ArrayList<JCheckBox>();
     
     public Pnutriologo() {
         initComponents();
@@ -332,6 +336,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Frutas18ActionPerformed(evt);
             }
         });
+        check.add(Frutas18);
 
         Verduras18.setBackground(new java.awt.Color(239, 255, 232));
         Verduras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -341,7 +346,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Verduras18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Granos18.setBackground(new java.awt.Color(239, 255, 232));
         Granos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos18.setText("Granos");
@@ -350,7 +355,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Granos18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Carne18.setBackground(new java.awt.Color(239, 255, 232));
         Carne18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne18.setText("Carne");
@@ -359,7 +364,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Carne18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Hierbas18.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas18.setText("Hierbas");
@@ -368,7 +373,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Hierbas18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Sodio18.setBackground(new java.awt.Color(239, 255, 232));
         Sodio18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio18.setText("Sodio");
@@ -377,7 +382,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Sodio18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Azucar18.setBackground(new java.awt.Color(239, 255, 232));
         Azucar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar18.setText("Azucar");
@@ -386,7 +391,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Azucar18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Grasas18.setBackground(new java.awt.Color(239, 255, 232));
         Grasas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas18.setText("Grasas");
@@ -395,7 +400,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Grasas18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Alcohol18.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol18.setText("Alcohol");
@@ -404,7 +409,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Alcohol18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Agua18.setBackground(new java.awt.Color(239, 255, 232));
         Agua18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua18.setText("Agua");
@@ -413,7 +418,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Agua18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Frituras18.setBackground(new java.awt.Color(239, 255, 232));
         Frituras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frituras18.setText("Fritura");
@@ -422,7 +427,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Frituras18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Embutidos18.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos18.setText("Embutidos");
@@ -431,7 +436,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Embutidos18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Trotar18.setBackground(new java.awt.Color(239, 255, 232));
         Trotar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar18.setText("Trotar");
@@ -440,7 +445,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Trotar18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Sentadillas18.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas18.setText("Sentadillas");
@@ -449,7 +454,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Sentadillas18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales18.setText("Abdominales");
@@ -458,7 +463,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Abdominales18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Pesas18.setBackground(new java.awt.Color(239, 255, 232));
         Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas18.setText("Pesas");
@@ -467,7 +472,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Pesas18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones18.setText("Flexiones");
@@ -476,7 +481,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Flexiones18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit18.setText("Crossfit");
@@ -485,7 +490,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 CrossFit18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Parado18.setBackground(new java.awt.Color(239, 255, 232));
         Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado18.setText("Estar parado");
@@ -494,7 +499,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Parado18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Sentado18.setBackground(new java.awt.Color(239, 255, 232));
         Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado18.setText("Estar sentado");
@@ -503,7 +508,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Sentado18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Dormido18.setBackground(new java.awt.Color(239, 255, 232));
         Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido18.setText("Dormir mucho");
@@ -512,7 +517,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 Dormido18ActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         NoDormido.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido.setText("Dormir poco");
@@ -521,7 +526,7 @@ public class Pnutriologo extends javax.swing.JPanel {
                 NoDormidoActionPerformed(evt);
             }
         });
-
+        check.add(Frutas18);
         Pan18.setBackground(new java.awt.Color(239, 255, 232));
         Pan18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan18.setText("Pan");
@@ -2177,308 +2182,6 @@ public class Pnutriologo extends javax.swing.JPanel {
         
     }//GEN-LAST:event_btnPacientesActionPerformed
 
-    private void Verduras18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Verduras18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblVerduras());
-    }//GEN-LAST:event_Verduras18ActionPerformed
-
-    private void Granos18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Granos18ActionPerformed
-      Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblGranos());
-    }//GEN-LAST:event_Granos18ActionPerformed
-
-    private void Carne18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Carne18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblCarne());
-    }//GEN-LAST:event_Carne18ActionPerformed
-
-    private void Hierbas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hierbas18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblHierba());
-    }//GEN-LAST:event_Hierbas18ActionPerformed
-
-    private void Sodio18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sodio18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblSodio());
-    }//GEN-LAST:event_Sodio18ActionPerformed
-
-    private void Frutas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Frutas18ActionPerformed
-        
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblFrutas());
-        
-       
-    }//GEN-LAST:event_Frutas18ActionPerformed
-
-    private void Agua18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agua18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblAgua());
-    }//GEN-LAST:event_Agua18ActionPerformed
-
-    private void Pan18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pan18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblPan());
-    }//GEN-LAST:event_Pan18ActionPerformed
-
-    private void Azucar18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Azucar18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblDulceE());
-    }//GEN-LAST:event_Azucar18ActionPerformed
-
-    private void Frituras18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Frituras18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblFritura());
-    }//GEN-LAST:event_Frituras18ActionPerformed
-
-    private void Grasas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Grasas18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblGrasas());
-    }//GEN-LAST:event_Grasas18ActionPerformed
-
-    private void Embutidos18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Embutidos18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblEmbutidos());
-    }//GEN-LAST:event_Embutidos18ActionPerformed
-
-    private void Alcohol18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alcohol18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getLblAlcohol());
-    }//GEN-LAST:event_Alcohol18ActionPerformed
-
-    private void Trotar18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Trotar18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblTrotar());
-    }//GEN-LAST:event_Trotar18ActionPerformed
-
-    private void Sentadillas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentadillas18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblSentadillas());
-    }//GEN-LAST:event_Sentadillas18ActionPerformed
-
-    private void Abdominales18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblAbdominales());
-    }//GEN-LAST:event_Abdominales18ActionPerformed
-
-    private void Flexiones18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones18ActionPerformed
-       Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblFlexiones());
-    }//GEN-LAST:event_Flexiones18ActionPerformed
-
-    private void Pesas18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblPesas());
-    }//GEN-LAST:event_Pesas18ActionPerformed
-
-    private void CrossFit18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblCrossFit());
-    }//GEN-LAST:event_CrossFit18ActionPerformed
-
-    private void Yoga18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblYoga());
-    }//GEN-LAST:event_Yoga18ActionPerformed
-
-    private void Sentado18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblSentado());
-    }//GEN-LAST:event_Sentado18ActionPerformed
-
-    private void Parado18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblParado());
-    }//GEN-LAST:event_Parado18ActionPerformed
-
-    private void Dormido18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido18ActionPerformed
-        Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblDormido());
-    }//GEN-LAST:event_Dormido18ActionPerformed
-
-    private void NoDormidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormidoActionPerformed
-                Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblNoDormido());
-    }//GEN-LAST:event_NoDormidoActionPerformed
-
-    private void Nadar18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar18ActionPerformed
-                Ventana_principal.getRegistro().validar_Recomendacion(0, 18, Ventana_principal.getPanelUsuario().getPanelEjercicio().getLblNadar());
-    }//GEN-LAST:event_Nadar18ActionPerformed
-
-    private void Sodio20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sodio20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sodio20ActionPerformed
-
-    private void Hierba20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hierba20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Hierba20ActionPerformed
-
-    private void Carne20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Carne20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Carne20ActionPerformed
-
-    private void Granos20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Granos20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Granos20ActionPerformed
-
-    private void Verduras20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Verduras20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Verduras20ActionPerformed
-
-    private void Frutas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Frutas20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Frutas20ActionPerformed
-
-    private void Embutidos20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Embutidos20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Embutidos20ActionPerformed
-
-    private void Fritura20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fritura20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Fritura20ActionPerformed
-
-    private void Agua20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agua20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Agua20ActionPerformed
-
-    private void Alcohol20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alcohol20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Alcohol20ActionPerformed
-
-    private void Grasas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Grasas20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Grasas20ActionPerformed
-
-    private void Azucar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Azucar20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Azucar20ActionPerformed
-
-    private void Abdominales20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Abdominales20ActionPerformed
-
-    private void Sentadillas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentadillas20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sentadillas20ActionPerformed
-
-    private void Trotar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Trotar20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Trotar20ActionPerformed
-
-    private void Parado20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Parado20ActionPerformed
-
-    private void CrossFit20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CrossFit20ActionPerformed
-
-    private void Flexiones20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Flexiones20ActionPerformed
-
-    private void Pesas20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Pesas20ActionPerformed
-
-    private void NoDormido20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormido20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_NoDormido20ActionPerformed
-
-    private void Dormido20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Dormido20ActionPerformed
-
-    private void Sentado20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sentado20ActionPerformed
-
-    private void Nadar20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Nadar20ActionPerformed
-
-    private void Yoga20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Yoga20ActionPerformed
-
-    private void Pan20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pan20ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Pan20ActionPerformed
-
-    private void Granos25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Granos25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Granos25ActionPerformed
-
-    private void Carne25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Carne25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Carne25ActionPerformed
-
-    private void Hierbas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hierbas25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Hierbas25ActionPerformed
-
-    private void Sodio25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sodio25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sodio25ActionPerformed
-
-    private void Fruta25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fruta25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Fruta25ActionPerformed
-
-    private void Verduras25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Verduras25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Verduras25ActionPerformed
-
-    private void Alcohol25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alcohol25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Alcohol25ActionPerformed
-
-    private void Agua25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Agua25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Agua25ActionPerformed
-
-    private void Fritura25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fritura25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Fritura25ActionPerformed
-
-    private void Embutidos25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Embutidos25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Embutidos25ActionPerformed
-
-    private void Trotar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Trotar25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Trotar25ActionPerformed
-
-    private void Sentadillas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentadillas25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sentadillas25ActionPerformed
-
-    private void Abdominales25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Abdominales25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Abdominales25ActionPerformed
-
-    private void Azucar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Azucar25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Azucar25ActionPerformed
-
-    private void Grasas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Grasas25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Grasas25ActionPerformed
-
-    private void NoDormido25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NoDormido25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_NoDormido25ActionPerformed
-
-    private void Pesas25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pesas25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Pesas25ActionPerformed
-
-    private void Flexiones25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Flexiones25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Flexiones25ActionPerformed
-
-    private void CrossFit25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CrossFit25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CrossFit25ActionPerformed
-
-    private void Parado25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Parado25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Parado25ActionPerformed
-
-    private void Pan25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pan25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Pan25ActionPerformed
-
-    private void Yoga25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Yoga25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Yoga25ActionPerformed
-
-    private void Nadar25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nadar25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Nadar25ActionPerformed
-
-    private void Sentado25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sentado25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Sentado25ActionPerformed
-
-    private void Dormido25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dormido25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Dormido25ActionPerformed
 
     public static Blog getPanelBlog() {
         return panelBlog;
