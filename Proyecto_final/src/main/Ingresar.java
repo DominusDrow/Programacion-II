@@ -271,7 +271,7 @@ public class Ingresar extends javax.swing.JPanel {
     		
     		aux=Ventana_principal.getPanelNutriologo().getArrayCheck().get(i);
     		
-    		if(aux.isSelected())
+    		//if(aux.isSelected())
     			
     	}
     	
