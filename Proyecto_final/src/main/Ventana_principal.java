@@ -30,7 +30,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         paciente = new Paciente();
         registro=new Registro();
         registro.LLenar_lista();
-        
+        registro.leeConsejos();
         //panel login
         panelLogin = new Ingresar();
         panelLogin.setBounds(3, 70, 1000, 568);
@@ -54,7 +54,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         panelNutriologo.setBounds(0, 70, 1000, 568);
         panelNutriologo.setVisible(false);
         PanelFondo.add(panelNutriologo);
-        System.out.println(panelNutriologo.getArrayCheck().size());
+        
         
          //panel actualizar datos
         panelActualizar = new Actualizar();
@@ -62,13 +62,10 @@ public class Ventana_principal extends javax.swing.JFrame {
         panelActualizar.setVisible(false);
         PanelFondo.add(panelActualizar);
         
+        
+
+        
       
-        /*  //ajustar la imagen del logo, al final no lo cuparemos :v
-        ImageIcon imagen1 = new ImageIcon(Ventana_principal.class.getResource("/main/img/Logo.png"));
-        Icon icono1 = new ImageIcon(imagen1.getImage().getScaledInstance(lblLogo.getWidth()-10,lblLogo.getHeight(),Image.SCALE_DEFAULT));
-        lblLogo.setIcon(icono1);
-        this.repaint();
-        */
         
         
     }
@@ -251,6 +248,11 @@ public class Ventana_principal extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
         registro.guardaUsuarios();
+        if(panelNutriologo.getArrayCheck().isEmpty())
+        	registro.guardaConsejos(registro.getLeidocheck());
+        else
+        	registro.guardaConsejos(panelNutriologo.getArrayCheck());
+        
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 

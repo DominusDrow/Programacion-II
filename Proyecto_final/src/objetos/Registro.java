@@ -24,12 +24,16 @@ import main.Ventana_principal;
 public class Registro {
     
     private ArrayList <Paciente> usuarios;
+    private ArrayList <JCheckBox> leidocheck;
     Nutriologo nutriologo;
     
     public Registro(){
         
         usuarios = new ArrayList <Paciente> ();
         nutriologo = new Nutriologo();
+        leidocheck= new ArrayList <JCheckBox>();
+        for(int i=0;i<75;i++)
+        	 leidocheck.add(new JCheckBox());
     }
     
     public Nutriologo getNutriologo() {
@@ -160,7 +164,11 @@ public class Registro {
         return usuarios;
     }
     
-    private void guardaConsejos(ArrayList<JCheckBox> check) {
+    public ArrayList<JCheckBox> getLeidocheck() {
+		return leidocheck;
+	}
+
+	public void guardaConsejos(ArrayList<JCheckBox> check) {
     	try{
 			OutputStream fos=new FileOutputStream("Consejos.dat");
 			ObjectOutputStream bos= new ObjectOutputStream(fos);
@@ -172,18 +180,16 @@ public class Registro {
         }catch (Exception ex){ }
     }
     
-    private ArrayList<JCheckBox> leeConsejos() {
-    	ArrayList<JCheckBox> check=new ArrayList<JCheckBox>();
+    public void leeConsejos() {
     	JCheckBox p= new JCheckBox();
-    	check.add(p);
     	try{
 			FileInputStream fis= new FileInputStream("Consejos.dat");
 			ObjectInputStream ois= new ObjectInputStream(fis);
 			    int i=0;
 		    	p=(JCheckBox)ois.readObject();
-		    	check.clear();
+		    	leidocheck.clear();
 		    	while(true) {
-			    	check.add(i,p);
+			    	leidocheck.add(i++,p);
 			    	p=(JCheckBox)ois.readObject();
 
 			    }
@@ -191,7 +197,6 @@ public class Registro {
 		catch (FileNotFoundException ex){} 
 		catch (ClassNotFoundException e) {e.printStackTrace();} 
 		catch (IOException e) {e.printStackTrace();}
-    	return check;
     }
     
     

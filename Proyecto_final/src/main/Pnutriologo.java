@@ -56,31 +56,33 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        Frutas18 = new javax.swing.JCheckBox();
-        Verduras18 = new javax.swing.JCheckBox();
-        Granos18 = new javax.swing.JCheckBox();
-        Carne18 = new javax.swing.JCheckBox();
-        Hierbas18 = new javax.swing.JCheckBox();
-        Sodio18 = new javax.swing.JCheckBox();
-        Azucar18 = new javax.swing.JCheckBox();
-        Grasas18 = new javax.swing.JCheckBox();
-        Alcohol18 = new javax.swing.JCheckBox();
-        Agua18 = new javax.swing.JCheckBox();
-        Frituras18 = new javax.swing.JCheckBox();
-        Embutidos18 = new javax.swing.JCheckBox();
-        Trotar18 = new javax.swing.JCheckBox();
-        Sentadillas18 = new javax.swing.JCheckBox();
-        Abdominales18 = new javax.swing.JCheckBox();
-        Pesas18 = new javax.swing.JCheckBox();
-        Flexiones18 = new javax.swing.JCheckBox();
-        CrossFit18 = new javax.swing.JCheckBox();
-        Parado18 = new javax.swing.JCheckBox();
-        Sentado18 = new javax.swing.JCheckBox();
-        Dormido18 = new javax.swing.JCheckBox();
-        NoDormido = new javax.swing.JCheckBox();
-        Pan18 = new javax.swing.JCheckBox();
-        Yoga18 = new javax.swing.JCheckBox();
-        Nadar18 = new javax.swing.JCheckBox();
+        int i=0;
+        Frutas18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Verduras18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Granos18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Hierbas18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Carne18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Agua18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pan18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sodio18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Azucar18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Frituras18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Grasas18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Embutidos18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Alcohol18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Trotar18 =Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentadillas18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Abdominales18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Flexiones18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pesas18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        CrossFit18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Yoga18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Parado18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentado18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Dormido18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        NoDormido = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Nadar18 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        
         jLabel6 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -106,36 +108,38 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel41 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        Sodio20 = new javax.swing.JCheckBox();
-        Hierba20 = new javax.swing.JCheckBox();
-        Carne20 = new javax.swing.JCheckBox();
-        Granos20 = new javax.swing.JCheckBox();
-        Verduras20 = new javax.swing.JCheckBox();
-        Frutas20 = new javax.swing.JCheckBox();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
-        Embutidos20 = new javax.swing.JCheckBox();
-        Fritura20 = new javax.swing.JCheckBox();
-        Agua20 = new javax.swing.JCheckBox();
-        Alcohol20 = new javax.swing.JCheckBox();
-        Grasas20 = new javax.swing.JCheckBox();
-        Azucar20 = new javax.swing.JCheckBox();
-        Abdominales20 = new javax.swing.JCheckBox();
-        Sentadillas20 = new javax.swing.JCheckBox();
-        Trotar20 = new javax.swing.JCheckBox();
-        Parado20 = new javax.swing.JCheckBox();
-        CrossFit20 = new javax.swing.JCheckBox();
-        Flexiones20 = new javax.swing.JCheckBox();
-        Pesas20 = new javax.swing.JCheckBox();
-        NoDormido20 = new javax.swing.JCheckBox();
-        Dormido20 = new javax.swing.JCheckBox();
-        Sentado20 = new javax.swing.JCheckBox();
         jLabel52 = new javax.swing.JLabel();
-        Nadar20 = new javax.swing.JCheckBox();
-        Yoga20 = new javax.swing.JCheckBox();
-        Pan20 = new javax.swing.JCheckBox();
+        
+        Frutas20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Verduras20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Granos20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Hierba20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Carne20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Agua20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pan20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sodio20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Azucar20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Fritura20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Grasas20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Embutidos20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Alcohol20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Trotar20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentadillas20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Abdominales20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Flexiones20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pesas20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        CrossFit20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Yoga20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Parado20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentado20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Dormido20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        NoDormido20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Nadar20 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
@@ -159,38 +163,40 @@ public class Pnutriologo extends javax.swing.JPanel {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        Granos25 = new javax.swing.JCheckBox();
-        Carne25 = new javax.swing.JCheckBox();
-        Hierbas25 = new javax.swing.JCheckBox();
-        Sodio25 = new javax.swing.JCheckBox();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        Fruta25 = new javax.swing.JCheckBox();
-        Verduras25 = new javax.swing.JCheckBox();
-        Alcohol25 = new javax.swing.JCheckBox();
-        Agua25 = new javax.swing.JCheckBox();
-        Fritura25 = new javax.swing.JCheckBox();
-        Embutidos25 = new javax.swing.JCheckBox();
         jLabel79 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        Trotar25 = new javax.swing.JCheckBox();
-        Sentadillas25 = new javax.swing.JCheckBox();
-        Abdominales25 = new javax.swing.JCheckBox();
-        Azucar25 = new javax.swing.JCheckBox();
-        Grasas25 = new javax.swing.JCheckBox();
-        NoDormido25 = new javax.swing.JCheckBox();
-        Pesas25 = new javax.swing.JCheckBox();
-        Flexiones25 = new javax.swing.JCheckBox();
-        CrossFit25 = new javax.swing.JCheckBox();
-        Parado25 = new javax.swing.JCheckBox();
-        Pan25 = new javax.swing.JCheckBox();
-        Yoga25 = new javax.swing.JCheckBox();
-        Nadar25 = new javax.swing.JCheckBox();
         jLabel81 = new javax.swing.JLabel();
-        Sentado25 = new javax.swing.JCheckBox();
-        Dormido25 = new javax.swing.JCheckBox();
         jLabel82 = new javax.swing.JLabel();
+        
+        Fruta25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Verduras25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Granos25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Hierbas25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Carne25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Agua25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pan25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sodio25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Azucar25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Fritura25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Grasas25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Embutidos25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Alcohol25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Trotar25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentadillas25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Abdominales25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Flexiones25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Pesas25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        CrossFit25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Yoga25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Parado25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Sentado25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Dormido25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        NoDormido25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        Nadar25 = Ventana_principal.getRegistro().getLeidocheck().get(i++);
+        
         jLabel162 = new javax.swing.JLabel();
         jLabel163 = new javax.swing.JLabel();
         jLabel164 = new javax.swing.JLabel();
@@ -334,127 +340,127 @@ public class Pnutriologo extends javax.swing.JPanel {
         Frutas18.setBackground(new java.awt.Color(239, 255, 232));
         Frutas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frutas18.setText("Frutas");
-        check.add(Frutas18);
+
 
         Verduras18.setBackground(new java.awt.Color(239, 255, 232));
         Verduras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras18.setText("Verduras");
-        check.add(Verduras18);
+
         
         Granos18.setBackground(new java.awt.Color(239, 255, 232));
         Granos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos18.setText("Granos");
-        check.add(Granos18);
+
         
         Hierbas18.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas18.setText("Hierbas");
-        check.add(Hierbas18);
+
         
         Carne18.setBackground(new java.awt.Color(239, 255, 232));
         Carne18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne18.setText("Carne");
-        check.add(Carne18);
+
  
         Agua18.setBackground(new java.awt.Color(239, 255, 232));
         Agua18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua18.setText("Agua");
-        check.add(Agua18);
+
         
         Pan18.setBackground(new java.awt.Color(239, 255, 232));
         Pan18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan18.setText("Pan");
-        check.add(Pan18);
+
         
         Sodio18.setBackground(new java.awt.Color(239, 255, 232));
         Sodio18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio18.setText("Sodio");
-        check.add(Sodio18);
+
         
         Azucar18.setBackground(new java.awt.Color(239, 255, 232));
         Azucar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar18.setText("Azucar");
-        check.add(Azucar18);
+
         
         Frituras18.setBackground(new java.awt.Color(239, 255, 232));
         Frituras18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frituras18.setText("Fritura");
-        check.add(Frituras18);
+
         
         Grasas18.setBackground(new java.awt.Color(239, 255, 232));
         Grasas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas18.setText("Grasas");
-        check.add(Grasas18);
+
         
         Embutidos18.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos18.setText("Embutidos");
-        check.add(Embutidos18);
+
         
         Alcohol18.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol18.setText("Alcohol");
-        check.add(Alcohol18);
+
 
         Trotar18.setBackground(new java.awt.Color(239, 255, 232));
         Trotar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar18.setText("Trotar");
-        check.add(Trotar18);
+
         
         Sentadillas18.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas18.setText("Sentadillas");
-        check.add(Sentadillas18);
+
         
         Abdominales18.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales18.setText("Abdominales");
-        check.add(Abdominales18);
+   
         
         Flexiones18.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones18.setText("Flexiones");
-        check.add(Frutas18);
+
         
         Pesas18.setBackground(new java.awt.Color(239, 255, 232));
         Pesas18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas18.setText("Pesas");
-        check.add(Frutas18);
+
 
         CrossFit18.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit18.setText("Crossfit");
-        check.add(Frutas18);
+
         
         Yoga18.setBackground(new java.awt.Color(239, 255, 232));
         Yoga18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga18.setText("Yoga");
-        check.add(Yoga18);
+
         
         Parado18.setBackground(new java.awt.Color(239, 255, 232));
         Parado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado18.setText("Estar parado");
-        check.add(Parado18);
+
         
         Sentado18.setBackground(new java.awt.Color(239, 255, 232));
         Sentado18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado18.setText("Estar sentado");
-        check.add(Sentado18);
+
         
         Dormido18.setBackground(new java.awt.Color(239, 255, 232));
         Dormido18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido18.setText("Dormir mucho");
-        check.add(Dormido18);
+
         
         NoDormido.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido.setText("Dormir poco");
-        check.add(NoDormido);
+
  
         Nadar18.setBackground(new java.awt.Color(239, 255, 232));
         Nadar18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar18.setText("Nadar");
-        check.add(Nadar18);
+
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -558,27 +564,27 @@ public class Pnutriologo extends javax.swing.JPanel {
         Frutas20.setBackground(new java.awt.Color(239, 255, 232));
         Frutas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Frutas20.setText("Frutas");
-        check.add(Frutas20);
+ 
         
         Verduras20.setBackground(new java.awt.Color(239, 255, 232));
         Verduras20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras20.setText("Verduras");
-        check.add(Verduras20);
+   
         
         Granos20.setBackground(new java.awt.Color(239, 255, 232));
         Granos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos20.setText("Granos");
-        check.add(Granos20);
+
 
         Hierba20.setBackground(new java.awt.Color(239, 255, 232));
         Hierba20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierba20.setText("Hierbas");
-        check.add(Hierba20);
+      
 
         Carne20.setBackground(new java.awt.Color(239, 255, 232));
         Carne20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne20.setText("Carne");
-        check.add(Carne20);
+
         
         jLabel48.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/if-food-c240-2427880_85675.png"))); // NOI18N
@@ -596,102 +602,102 @@ public class Pnutriologo extends javax.swing.JPanel {
         Agua20.setBackground(new java.awt.Color(239, 255, 232));
         Agua20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua20.setText("Agua");
-        check.add(Agua20);
+
         
         Pan20.setBackground(new java.awt.Color(239, 255, 232));
         Pan20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan20.setText("Pan");
-        check.add(Pan20);
+  
         
         Sodio20.setBackground(new java.awt.Color(239, 255, 232));
         Sodio20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio20.setText("Sodio");
-        check.add(Sodio20);
+ 
         
         Azucar20.setBackground(new java.awt.Color(239, 255, 232));
         Azucar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar20.setText("Azucar");
-        check.add(Azucar20);
+
         
         Fritura20.setBackground(new java.awt.Color(239, 255, 232));
         Fritura20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fritura20.setText("Fritura");
-        check.add(Fritura20);
+      
         
         Embutidos20.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos20.setText("Embutidos");
-        check.add(Embutidos20);
+ 
         
         Grasas20.setBackground(new java.awt.Color(239, 255, 232));
         Grasas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas20.setText("Grasas");
-        check.add(Grasas20);
+    
 
         Alcohol20.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol20.setText("Alcohol");
-        check.add(Alcohol20);
+
 
         Trotar20.setBackground(new java.awt.Color(239, 255, 232));
         Trotar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar20.setText("Trotar");
-        check.add(Trotar20);
+    
         
         Sentadillas20.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas20.setText("Sentadillas");
-        check.add(Sentadillas20);
+  
         
         Abdominales20.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales20.setText("Abdominales");
-        check.add(Abdominales20);
+    
 
         Flexiones20.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones20.setText("Flexiones");
-        check.add(Flexiones20);
+      
         
         Pesas20.setBackground(new java.awt.Color(239, 255, 232));
         Pesas20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas20.setText("Pesas");
-        check.add(Pesas20);
+  
         
         CrossFit20.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit20.setText("Crossfit");
-        check.add(CrossFit20);
+       
         
         Yoga20.setBackground(new java.awt.Color(239, 255, 232));
         Yoga20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga20.setText("Yoga");
-        check.add(Yoga20);
+       
 
         Sentado20.setBackground(new java.awt.Color(239, 255, 232));
         Sentado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado20.setText("Estar sentado");
-        check.add(Sentado20);
+       
         
         Parado20.setBackground(new java.awt.Color(239, 255, 232));
         Parado20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado20.setText("Estar parado");
-        check.add(Parado20);
+   
 
         Dormido20.setBackground(new java.awt.Color(239, 255, 232));
         Dormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido20.setText("Dormir mucho");
-        check.add(Dormido20);
+   
         
         NoDormido20.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido20.setText("Dormir poco");
-        check.add(NoDormido20);
+    
 
         Nadar20.setBackground(new java.awt.Color(239, 255, 232));
         Nadar20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar20.setText("Nadar");
-        check.add(Nadar20);
+      
 
         jLabel52.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -792,57 +798,57 @@ public class Pnutriologo extends javax.swing.JPanel {
         Fruta25.setBackground(new java.awt.Color(239, 255, 232));
         Fruta25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fruta25.setText("Frutas");
-        check.add(Fruta25);
+   
 
         Verduras25.setBackground(new java.awt.Color(239, 255, 232));
         Verduras25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Verduras25.setText("Verduras");
-        check.add(Verduras25);
+   
         
         Granos25.setBackground(new java.awt.Color(239, 255, 232));
         Granos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Granos25.setText("Granos");
-        check.add(Granos25);
+      
 
         Hierbas25.setBackground(new java.awt.Color(239, 255, 232));
         Hierbas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Hierbas25.setText("Hierbas");
-        check.add(Hierbas25);
+    
         
         Carne25.setBackground(new java.awt.Color(239, 255, 232));
         Carne25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Carne25.setText("Carne");
-        check.add(Carne25);
+
         
         Agua25.setBackground(new java.awt.Color(239, 255, 232));
         Agua25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Agua25.setText("Agua");
-        check.add(Agua25);
+
         
         Pan25.setBackground(new java.awt.Color(239, 255, 232));
         Pan25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pan25.setText("Pan");
-        check.add(Pan25);
+
         
         Sodio25.setBackground(new java.awt.Color(239, 255, 232));
         Sodio25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sodio25.setText("Sodio");
-        check.add(Sodio25);
+       
         
         Azucar25.setBackground(new java.awt.Color(239, 255, 232));
         Azucar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Azucar25.setText("Azucar");
-        check.add(Azucar25);
+
         
         Fritura25.setBackground(new java.awt.Color(239, 255, 232));
         Fritura25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Fritura25.setText("Fritura");
-        check.add(Fritura25);
+ 
         
         Grasas25.setBackground(new java.awt.Color(239, 255, 232));
         Grasas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Grasas25.setText("Grasas");
-        check.add(Grasas25);
+
         
         jLabel76.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel76.setText("Debes evitar ingerir:");
@@ -857,12 +863,12 @@ public class Pnutriologo extends javax.swing.JPanel {
         Embutidos25.setBackground(new java.awt.Color(239, 255, 232));
         Embutidos25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Embutidos25.setText("Embutidos");
-        check.add(Embutidos25);
+   
         
         Alcohol25.setBackground(new java.awt.Color(239, 255, 232));
         Alcohol25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Alcohol25.setText("Alcohol");
-        check.add(Alcohol25);
+     
 
         jLabel79.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
         jLabel79.setText("Se recomienda que consumas:");
@@ -873,62 +879,61 @@ public class Pnutriologo extends javax.swing.JPanel {
         Trotar25.setBackground(new java.awt.Color(239, 255, 232));
         Trotar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Trotar25.setText("Trotar");
-        check.add(Trotar25);
+
 
         Sentadillas25.setBackground(new java.awt.Color(239, 255, 232));
         Sentadillas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentadillas25.setText("Sentadillas");
-        check.add(Sentadillas25);
+
 
         Abdominales25.setBackground(new java.awt.Color(239, 255, 232));
         Abdominales25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Abdominales25.setText("Abdominales");
-        check.add(Abdominales25);
+    
         
         Flexiones25.setBackground(new java.awt.Color(239, 255, 232));
         Flexiones25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Flexiones25.setText("Flexiones");
-        check.add(Flexiones25);
+   
         
         Pesas25.setBackground(new java.awt.Color(239, 255, 232));
         Pesas25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Pesas25.setText("Pesas");
-        check.add(Pesas25);
-        
+
         CrossFit25.setBackground(new java.awt.Color(239, 255, 232));
         CrossFit25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         CrossFit25.setText("Crossfit");
-        check.add(CrossFit25);
+    
         
         Yoga25.setBackground(new java.awt.Color(239, 255, 232));
         Yoga25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Yoga25.setText("Yoga");
-        check.add(Yoga25);
+        
         
         Sentado25.setBackground(new java.awt.Color(239, 255, 232));
         Sentado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Sentado25.setText("Estar sentado");
-        check.add(Sentado25);
+     
 
         Parado25.setBackground(new java.awt.Color(239, 255, 232));
         Parado25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Parado25.setText("Estar parado");
-        check.add(Parado25);
+    
         
         Dormido25.setBackground(new java.awt.Color(239, 255, 232));
         Dormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dormido25.setText("Dormir mucho");
-        check.add(Dormido25);
+      
 
         NoDormido25.setBackground(new java.awt.Color(239, 255, 232));
         NoDormido25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         NoDormido25.setText("Dormir poco");
-        check.add(NoDormido25);
+   
 
         Nadar25.setBackground(new java.awt.Color(239, 255, 232));
         Nadar25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Nadar25.setText("Nadar");
-        check.add(Nadar25);
+
         
         jLabel81.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/img/kitchen-salt-pot_108629.png"))); // NOI18N
@@ -1842,7 +1847,82 @@ public class Pnutriologo extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
-        
+    	check.add(Frutas18);
+    	check.add(Verduras18);
+    	check.add(Granos18);
+    	check.add(Hierbas18);
+    	check.add(Carne18);
+    	check.add(Agua18);
+    	check.add(Pan18);
+    	check.add(Sodio18);
+    	check.add(Azucar18);
+    	 check.add(Frituras18);
+    	check.add(Grasas18);
+    	 check.add(Embutidos18);
+    	check.add(Alcohol18);
+    	check.add(Trotar18);
+    	 check.add(Sentadillas18);
+    	check.add(Abdominales18);
+    	check.add(Flexiones18);
+    	check.add(Pesas18);
+    	check.add(CrossFit18);
+    	check.add(Yoga18);
+    	 check.add(Parado18);
+    	check.add(Sentado18);
+    	check.add(Dormido18);
+    	check.add(NoDormido);
+    	check.add(Nadar18);
+    	check.add(Frutas20);
+    	check.add(Verduras20);
+    	check.add(Granos20);
+    	check.add(Hierba20);
+    	check.add(Carne20);
+    	check.add(Agua20);
+    	check.add(Pan20);
+    	check.add(Sodio20);
+    	check.add(Azucar20);
+    	check.add(Fritura20);
+    	check.add(Embutidos20);
+    	 check.add(Grasas20);
+    	check.add(Alcohol20);
+    	check.add(Trotar20);
+    	check.add(Sentadillas20);
+    	check.add(Abdominales20);
+    	check.add(Flexiones20);
+    	check.add(Pesas20);
+    	check.add(CrossFit20);
+    	check.add(Yoga20);
+    	check.add(Sentado20);
+    	check.add(Parado20);
+    	check.add(Dormido20);
+    	check.add(NoDormido20);
+    	check.add(Nadar20);
+    	check.add(Fruta25);
+    	check.add(Verduras25);
+    	check.add(Granos25);
+    	check.add(Hierbas25);
+    	check.add(Carne25);
+    	check.add(Agua25);
+    	check.add(Pan25);
+    	check.add(Sodio25);
+    	check.add(Azucar25);
+    	check.add(Fritura25);
+    	check.add(Grasas25);
+    	check.add(Embutidos25);
+    	check.add(Alcohol25);
+    	check.add(Trotar25);
+    	check.add(Sentadillas25);
+    	check.add(Abdominales25);
+    	check.add(Flexiones25);
+    	check.add(Pesas25);
+    	check.add(CrossFit25);
+    	check.add(Yoga25);
+    	check.add(Sentado25);
+    	 check.add(Parado25);
+    	check.add(Dormido25);
+    	check.add(NoDormido25);
+    	check.add(Nadar25);
+  
         Ventana_principal.getPanelNutriologo().setVisible(false);
         Ventana_principal.getPanelLogin().setVisible(true);
         
@@ -1904,6 +1984,10 @@ public class Pnutriologo extends javax.swing.JPanel {
     public ArrayList<JCheckBox> getArrayCheck(){
     	return check;
     }
+    
+    public void setArrayCheck(ArrayList<JCheckBox> leeConsejos) {
+		check=leeConsejos;
+	}
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox Abdominales18;
@@ -2085,4 +2169,6 @@ public class Pnutriologo extends javax.swing.JPanel {
     private javax.swing.JLabel lblNumPacientes;
     private javax.swing.JPanel panelDieta;
     // End of variables declaration//GEN-END:variables
+
+	
 }
