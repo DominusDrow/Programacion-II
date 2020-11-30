@@ -109,7 +109,7 @@ public class Paciente extends Persona implements Comunica, Serializable{
     }
 
 	public String msgHumano() {
-		return Comunica.msg+IMC;
+		return Comunica.msg+pesoPerdido;
 	}
 
     

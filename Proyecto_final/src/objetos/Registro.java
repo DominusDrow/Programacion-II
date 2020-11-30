@@ -30,6 +30,10 @@ public class Registro {
         usuarios = new ArrayList <Paciente> ();
         nutriologo = new Nutriologo();
     }
+    
+    public Nutriologo getNutriologo() {
+    	return nutriologo;
+    }
    
     public void LLenar_lista(){ //lllena el arraylist con datos de un arhivo
     	Paciente p= new Paciente();
