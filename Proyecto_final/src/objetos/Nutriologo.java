@@ -39,6 +39,39 @@ public class Nutriologo extends Persona {
     	
     }
     
+    public float CalculCalo(double peso,double estatura,int edad) {
+    	float calorias=(float) (66+(13.7*peso)+(5*estatura)+6.75*edad);   	
+    	return calorias;
+    }
+    
+    public int ComerDia(float IMC) {
+    	int veces=0;
+    	if(IMC<18 ) {
+    		veces=5;
+    	}else if(IMC>=18&&IMC<=25) {
+        	veces=5;
+        }else if(IMC<30&&IMC>25){
+    		veces=4;
+     	}else if(IMC>=30) {
+    		veces=3;
+    	}
+    	return veces;
+    }
+    
+    public int EjercicioDia(float IMC) {
+    	int veces=0;
+    	if(IMC<18 ) {
+    		veces=3;
+    	}else if(IMC>=18&&IMC<=25) {
+        	veces=4;
+        }else if(IMC<30&&IMC>25){
+    		veces=4;
+     	}else if(IMC>=30) {
+    		veces=5;
+    	}
+    	return veces;
+    }
+    
     public String toString() {
     	return "Hola, soy tu nutriologo "+getNombre();
     }
