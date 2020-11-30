@@ -30,20 +30,21 @@ public class Usuario extends javax.swing.JPanel {
         //iniciar las etiquetas:
         lblFrutas.setVisible(false);
         lblVerduras.setVisible(false);
-         lblAgua.setVisible(false);
-        lblAlcohol.setVisible(false);
-         lblCarne.setVisible(false);
-         lblDulceE.setVisible(false);
-         lblEmbutidos.setVisible(false);
-      lblFritura.setVisible(false);
-        lblFrutas.setVisible(false);
-     lblGranos.setVisible(false);
-     lblGrasas.setVisible(false);
-     lblHierba.setVisible(false);
-     lblPan.setVisible(false);
-       lblSodio.setVisible(false);
-     lblVerduras.setVisible(false);
+        lblGranos.setVisible(false);
+        lblHierba.setVisible(false);
+        lblCarne.setVisible(false);
+        lblAgua.setVisible(false);
+        lblPan.setVisible(false);
         
+        lblSodio.setVisible(false);
+        lblDulceE.setVisible(false);
+        lblFritura.setVisible(false);
+        lblGrasas.setVisible(false);
+        lblEmbutidos.setVisible(false);
+        lblAlcohol.setVisible(false);
+        
+       
+       
     }
     
     @SuppressWarnings("unchecked")
@@ -538,7 +539,7 @@ public class Usuario extends javax.swing.JPanel {
 
     private void btnEliminarCuentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarCuentaActionPerformed
     	 int i=JOptionPane.showConfirmDialog(null, "¿Desea eliminar su cuenta?",
-                 "OK_CANCEL_OPTION", JOptionPane.OK_CANCEL_OPTION,
+                 "Eliminar Cuenta", JOptionPane.OK_CANCEL_OPTION,
                  JOptionPane.INFORMATION_MESSAGE);
     	 if(i==0){//si elije aceptar
     		 Ventana_principal.getRegistro().eliminaCuenta(Ventana_principal.getPaciente()); 

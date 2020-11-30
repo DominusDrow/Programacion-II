@@ -25,7 +25,7 @@ public class Registro {
     
     private ArrayList <Paciente> usuarios;
     private ArrayList <JCheckBox> consejos;
-    Nutriologo nutriologo;
+    private Nutriologo nutriologo;
     
     public Registro(){
         

@@ -28,6 +28,9 @@ public class Pnutriologo extends javax.swing.JPanel {
         panelUsuarios.setBounds(255, 85, 745, 483);
         panelUsuarios.setVisible(false);
         add(panelUsuarios);
+        
+        check=Ventana_principal.getRegistro().getLeidocheck();
+        
     }
 
   
@@ -1922,9 +1925,12 @@ public class Pnutriologo extends javax.swing.JPanel {
     	check.add(Dormido25);
     	check.add(NoDormido25);
     	check.add(Nadar25);
-  
+    	
+    	Ventana_principal.getRegistro().getLeidocheck().clear();
+    	
         Ventana_principal.getPanelNutriologo().setVisible(false);
         Ventana_principal.getPanelLogin().setVisible(true);
+        Ventana_principal.getBtnHome().setEnabled(true);
         
     }//GEN-LAST:event_btnIngresarActionPerformed
 

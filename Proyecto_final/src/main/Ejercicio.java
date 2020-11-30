@@ -12,23 +12,30 @@ public class Ejercicio extends javax.swing.JPanel {
         
         lblMensajeMotivacional.setVisible(false);
         
+        lblTrotar.setVisible(false);
+        lblSentadillas.setVisible(false);
         lblAbdominales.setVisible(false);
+        lblFlexiones.setVisible(false);
+        lblPesas.setVisible(false);
+        lblCrossFit.setVisible(false);
+        lblYoga.setVisible(false);
+        
         lblCardio.setVisible(false);
         lblCorrer.setVisible(false);
-        lblCrossFit.setVisible(false);
+       
         lblDormido.setVisible(false);
-        lblFlexiones.setVisible(false);
+        
         lblMEsfuerzo.setVisible(false);
         lblNada.setVisible(false);
         lblNadar.setVisible(false);
         lblNoDormido.setVisible(false);
         lblParado.setVisible(false);
-        lblPesas.setVisible(false);
+       
         lblSalir.setVisible(false);
-        lblSentadillas.setVisible(false);
+        
         lblSentado.setVisible(false);
-        lblTrotar.setVisible(false);
-        lblYoga.setVisible(false);
+        
+        
         
         
     }

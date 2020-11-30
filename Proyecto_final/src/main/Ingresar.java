@@ -2,6 +2,8 @@
 package main;
 
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import objetos.Paciente;
 import objetos.Persona;
@@ -247,6 +249,37 @@ public class Ingresar extends javax.swing.JPanel {
     }
    
     
+    
+    public void Visible() {
+    	
+    	JCheckBox aux = new JCheckBox();
+    	
+    	int a = 0,b=0;
+    	
+    	if(Ventana_principal.getPaciente().getIMC()<=18 && Ventana_principal.getPaciente().getIMC()>0) {
+    		a=0;
+    		b=24;
+    	}else if(Ventana_principal.getPaciente().getIMC()<=24.5 && Ventana_principal.getPaciente().getIMC()>18) {
+    		a=25;
+    		b=49;
+    	}else if(Ventana_principal.getPaciente().getIMC()>2){
+    		a=50;
+    		b=74;
+    	}
+    	
+    	for(int i=a;i<b;i++) {
+    		
+    		aux=Ventana_principal.getPanelNutriologo().getArrayCheck().get(i);
+    		
+    		if(aux.isSelected())
+    			
+    	}
+    	
+    	
+    	
+    	
+    	
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIngresar;
