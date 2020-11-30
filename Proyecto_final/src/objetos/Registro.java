@@ -24,16 +24,16 @@ import main.Ventana_principal;
 public class Registro {
     
     private ArrayList <Paciente> usuarios;
-    private ArrayList <JCheckBox> leidocheck;
+    private ArrayList <JCheckBox> consejos;
     Nutriologo nutriologo;
     
     public Registro(){
         
         usuarios = new ArrayList <Paciente> ();
         nutriologo = new Nutriologo();
-        leidocheck= new ArrayList <JCheckBox>();
+        consejos= new ArrayList <JCheckBox>();
         for(int i=0;i<75;i++)
-        	 leidocheck.add(new JCheckBox());
+        	 consejos.add(new JCheckBox());
     }
     
     public Nutriologo getNutriologo() {
@@ -165,7 +165,7 @@ public class Registro {
     }
     
     public ArrayList<JCheckBox> getLeidocheck() {
-		return leidocheck;
+		return consejos;
 	}
 
 	public void guardaConsejos(ArrayList<JCheckBox> check) {
@@ -187,9 +187,9 @@ public class Registro {
 			ObjectInputStream ois= new ObjectInputStream(fis);
 			    int i=0;
 		    	p=(JCheckBox)ois.readObject();
-		    	leidocheck.clear();
+		    	consejos.clear();
 		    	while(true) {
-			    	leidocheck.add(i++,p);
+			    	consejos.add(i++,p);
 			    	p=(JCheckBox)ois.readObject();
 
 			    }
