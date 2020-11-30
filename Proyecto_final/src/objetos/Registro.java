@@ -30,10 +30,6 @@ public class Registro {
         usuarios = new ArrayList <Paciente> ();
         nutriologo = new Nutriologo();
     }
-    
-    public Nutriologo getNutriologo() {
-    	return nutriologo;
-    }
    
     public void LLenar_lista(){ //lllena el arraylist con datos de un arhivo
     	Paciente p= new Paciente();
@@ -105,18 +101,18 @@ public class Registro {
     	return pesoAnt-pesoAct;
     }
     
-    public JTable ActualizaTabla(JTable tabla, ArrayList<Paciente> pacientes) {
-    	String [][] matriz = new String[pacientes.size()][6];
+    public JTable ActualizaTabla(JTable tabla) {
+    	String [][] matriz = new String[usuarios.size()][6];
     	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     	int j;
-        for(int i=0;i<pacientes.size();i++){
+        for(int i=0;i<usuarios.size();i++){
         	j=0;
-        	matriz[i][j++]= pacientes.get(i).getNombre();
-        	matriz[i][j++]= String.valueOf(pacientes.get(i).getEdad());
-        	matriz[i][j++]=String.valueOf(pacientes.get(i).getPeso());
-        	matriz[i][j++]=String.valueOf(pacientes.get(i).getEstatura());
-        	matriz[i][j++]=pacientes.get(i).getInicio();
-        	matriz[i][j++]=String.valueOf(pacientes.get(i).getDias());
+        	matriz[i][j++]= usuarios.get(i).getNombre();
+        	matriz[i][j++]= String.valueOf(usuarios.get(i).getEdad());
+        	matriz[i][j++]=String.valueOf(usuarios.get(i).getPeso());
+        	matriz[i][j++]=String.valueOf(usuarios.get(i).getEstatura());
+        	matriz[i][j++]=usuarios.get(i).getInicio();
+        	matriz[i][j++]=String.valueOf(usuarios.get(i).getDias());
         }
         
     	tabla.setModel(new javax.swing.table.DefaultTableModel(
@@ -133,7 +129,7 @@ public class Registro {
     public void validar_Recomendacion(double a, double b, JLabel lbl){
         
         
-        if(Ventana_principal.getPaciente().getIMC()<=b && 17>Ventana_principal.getPaciente().getIMC())       //esto se sustituye por el IMC pero ahorita no funcioan correctamente 
+        if(Ventana_principal.getPaciente().getIMC()<=b && Ventana_principal.getPaciente().getIMC()>a)       //esto se sustituye por el IMC pero ahorita no funcioan correctamente 
             lbl.setVisible(true);
         else
             lbl.setVisible(false);

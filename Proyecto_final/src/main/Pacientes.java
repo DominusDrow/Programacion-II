@@ -1,11 +1,16 @@
 
 package main;
 
+import javax.swing.JTable;
+
 public class Pacientes extends javax.swing.JPanel {
 
  
     public Pacientes() {
         initComponents();
+       
+        jTable1.setEnabled(false);
+        
     }
 
   
@@ -31,7 +36,16 @@ public class Pacientes extends javax.swing.JPanel {
             new String [] {
                 "NOMBRE", "EDAD", "PESO", "ALTURA", "FECHA INICIO", "DIAS"
             }
-        ));
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable1.setCellSelectionEnabled(true);
         jTable1.setRowHeight(30);
         jScrollPane1.setViewportView(jTable1);
 
@@ -55,6 +69,13 @@ public class Pacientes extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    public JTable getjTable1() {
+        return jTable1;
+    }
+
+    public void setjTable1(JTable jTable1) {
+        this.jTable1 = jTable1;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
