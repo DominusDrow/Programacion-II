@@ -13,12 +13,21 @@ public class Paciente extends Persona implements Comunica, Serializable{
     private Cuenta cuenta;
     private int Dias;
     private double pesoPerdido;
+    private String EstadoSalud;
+    
     
     public Paciente(){
     	this.Dias=0;
     	this.Inicio=new Date();
     	this.IMC=0;
     	this.cuenta=null;
+    }
+    
+    public Paciente(String nom,int edad, double peso,double estatura){
+    	super(nom,edad,peso,estatura);
+    	this.Dias=0;
+    	this.Inicio=new Date();
+    	this.IMC=(float) ((float)peso/(estatura*estatura));
     }
     
     public Paciente(String nom,int edad, double peso,double estatura, String contra){
@@ -33,12 +42,25 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	this.cuenta=cuent;
     }
     
+    public void setEstadoSalud(String estado) {
+    	EstadoSalud=estado;
+    }
+    
     public void setCuenta(Cuenta cuent) {
     	cuenta=cuent;
     }
     
     public Cuenta getCuenta() {
     	return cuenta;
+    }
+    
+    public String toString() {
+    	return "Soy "+getNombre()+" tengo "+getEdad()+" anios.\n"
+    			+"Peso "+getPeso()+" kg y mido "+getEstatura()+" cm.";
+    }
+    
+    public String pedirRecomendacion() {
+    	return "Nutriologo, quiero llevar una vida saludable.";
     }
 
     public String getInicio() {
@@ -47,7 +69,7 @@ public class Paciente extends Persona implements Comunica, Serializable{
     	return fecha;
     }
 
-    public float getUMC() {
+    public float getIMC() {
         return IMC;
     }
 
@@ -59,7 +81,8 @@ public class Paciente extends Persona implements Comunica, Serializable{
     
     
     public int getDias() {
-    	return calculaDias(Inicio);
+    	Dias=calculaDias(Inicio);
+    	return Dias;
     }
     
     public double getPesoPerdido() {

@@ -9,7 +9,12 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
+
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+
+import javax.swing.JTable;
 
 
 public class Registro {
@@ -91,6 +96,31 @@ public class Registro {
     
     public double calPesoP(double pesoAnt,double pesoAct) {
     	return pesoAnt-pesoAct;
+    }
+    
+    public JTable ActualizaTabla(JTable tabla, ArrayList<Paciente> pacientes) {
+    	String [][] matriz = new String[pacientes.size()][6];
+    	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    	int j;
+        for(int i=0;i<pacientes.size();i++){
+        	j=0;
+        	matriz[i][j++]= pacientes.get(i).getNombre();
+        	matriz[i][j++]= String.valueOf(pacientes.get(i).getEdad());
+        	matriz[i][j++]=String.valueOf(pacientes.get(i).getPeso());
+        	matriz[i][j++]=String.valueOf(pacientes.get(i).getEstatura());
+        	matriz[i][j++]=pacientes.get(i).getInicio();
+        	matriz[i][j++]=String.valueOf(pacientes.get(i).getDias());
+        }
+        
+    	tabla.setModel(new javax.swing.table.DefaultTableModel(
+                matriz,
+                new String [] {
+                    "NOMBRE", "EDAD", "PESO", "ALTURA", "FECHA INICIO", "DIAS"
+                }
+            ));
+    	
+    	return tabla;
+    	
     }
     
     public void eliminaCuenta(Paciente paciente) {
